@@ -93,7 +93,7 @@ class Handler(SimpleHTTPRequestHandler):
         if path in {'/', '/index.html', '/styles.css', '/app.js', '/boot.js', '/gallery.js', '/route-map.js', '/admin.html', '/admin.css', '/admin.js'}:
             return True
         target = (ROOT / path.lstrip('/')).resolve()
-        return ((path.startswith('/assets/') and target.is_relative_to(ROOT / 'assets') and target.suffix.lower() in {'.webp', '.svg', '.woff2'}) or
+        return ((path.startswith('/assets/') and target.is_relative_to(ROOT / 'assets') and target.suffix.lower() in {'.webp', '.png', '.jpg', '.jpeg', '.svg', '.woff2'}) or
                 (path.startswith('/uploads/') and target.is_relative_to(ROOT / 'uploads') and target.suffix.lower() == '.webp')) and target.is_file()
 
     def read_body(self, maximum):
