@@ -1182,7 +1182,9 @@
     "Interactive map of the trip route": "خريطة تفاعلية لمسار الرحلة",
     "Loading map…": "جارٍ تحميل الخريطة…",
     "Indicative route. Exact roads, stops and pickup points are confirmed for your dates.": "المسار إرشادي. تُؤكد الطرق والمحطات ونقاط الالتقاء الدقيقة وفق تواريخكم.",
-    "The interactive map could not load. Your complete itinerary remains below.": "تعذر تحميل الخريطة التفاعلية. يبقى برنامج الرحلة الكامل متاحاً أدناه."
+    "The interactive map could not load. Your complete itinerary remains below.": "تعذر تحميل الخريطة التفاعلية. يبقى برنامج الرحلة الكامل متاحاً أدناه.",
+    "View full itinerary": "عرض برنامج الرحلة الكامل",
+    "Show less": "عرض أقل"
   },
   "reviewed": false,
   "origin": "local OPUS/Argos machine draft"

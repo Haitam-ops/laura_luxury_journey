@@ -48,7 +48,7 @@
    for(const el of elements){if(el.closest('[data-no-translate]'))continue;for(const key of ['placeholder','aria-label','title','alt']){const value=el.getAttribute(key);if(value&&cms.strings[value])el.setAttribute(key,cms.strings[value])}}
  };
  const s=cms.site;
- document.querySelectorAll('.brand>span').forEach(el=>{el.innerHTML=escape(s.brand)+'<span class="brand-dot">.</span>'});
+ document.querySelectorAll('.brand>[data-brand-text]').forEach(el=>{el.textContent=s.brand});
  document.querySelectorAll('.brand').forEach(el=>{el.setAttribute('aria-label',s.brand);el.setAttribute('data-no-translate','');el.href='/?lang='+cms.language.code});
  document.querySelector('.hero-content>.eyebrow').innerHTML='<span class="tiny-sun">✳</span> '+escape(s.hero_eyebrow);
  document.querySelector('#hero-title').innerHTML=escape(s.hero_title)+'<br><em>'+escape(s.hero_emphasis)+'</em>';

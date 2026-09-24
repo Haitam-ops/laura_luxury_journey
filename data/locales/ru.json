@@ -1182,7 +1182,9 @@
     "Interactive map of the trip route": "Интерактивная карта маршрута",
     "Loading map…": "Загрузка карты…",
     "Indicative route. Exact roads, stops and pickup points are confirmed for your dates.": "Маршрут ориентировочный. Точные дороги, остановки и точки встречи подтверждаются на ваши даты.",
-    "The interactive map could not load. Your complete itinerary remains below.": "Интерактивная карта не загрузилась. Полный маршрут по-прежнему доступен ниже."
+    "The interactive map could not load. Your complete itinerary remains below.": "Интерактивная карта не загрузилась. Полный маршрут по-прежнему доступен ниже.",
+    "View full itinerary": "Показать полный маршрут",
+    "Show less": "Показать меньше"
   },
   "reviewed": false,
   "origin": "local OPUS/Argos machine draft"

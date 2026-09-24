@@ -1182,7 +1182,9 @@
     "Interactive map of the trip route": "互动行程地图",
     "Loading map…": "正在加载地图…",
     "Indicative route. Exact roads, stops and pickup points are confirmed for your dates.": "路线仅供参考，具体道路、停靠点和接送地点将根据您的日期确认。",
-    "The interactive map could not load. Your complete itinerary remains below.": "互动地图无法加载，完整行程仍显示在下方。"
+    "The interactive map could not load. Your complete itinerary remains below.": "互动地图无法加载，完整行程仍显示在下方。",
+    "View full itinerary": "查看完整行程",
+    "Show less": "收起"
   },
   "reviewed": false,
   "origin": "local OPUS/Argos machine draft"
