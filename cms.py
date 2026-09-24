@@ -17,7 +17,7 @@ LANGUAGES = [
     ('de', 'German', 'Deutsch', 'ltr'), ('it', 'Italian', 'Italiano', 'ltr'),
     ('pt', 'Portuguese', 'Português', 'ltr'), ('nl', 'Dutch', 'Nederlands', 'ltr')
 ]
-SITE = {'brand': 'DesertGate', 'tagline': 'Morocco journeys, shaped around your time and interests.',
+SITE = {'brand': 'Laura Luxury Journeys', 'tagline': 'Morocco journeys, shaped around your time and interests.',
         'hero_eyebrow': 'MOROCCO TOURS, DAY TRIPS & EXPERIENCES', 'hero_title': 'Your Morocco.',
         'hero_emphasis': 'At your pace.',
         'hero_copy': 'Explore the Sahara, discover the cities or escape to the coast. Find a route that fits your time, then request an itinerary and quote for your dates.',

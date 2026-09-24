@@ -48,7 +48,7 @@
    for(const el of elements){if(el.closest('[data-no-translate]'))continue;for(const key of ['placeholder','aria-label','title','alt']){const value=el.getAttribute(key);if(value&&cms.strings[value])el.setAttribute(key,cms.strings[value])}}
  };
  const s=cms.site;
- document.querySelectorAll('.brand>span').forEach(el=>{el.innerHTML=escape(s.brand.toLowerCase())+'<span class="brand-dot">.</span>'});
+ document.querySelectorAll('.brand>span').forEach(el=>{el.innerHTML=escape(s.brand)+'<span class="brand-dot">.</span>'});
  document.querySelectorAll('.brand').forEach(el=>{el.setAttribute('aria-label',s.brand);el.setAttribute('data-no-translate','');el.href='/?lang='+cms.language.code});
  document.querySelector('.hero-content>.eyebrow').innerHTML='<span class="tiny-sun">✳</span> '+escape(s.hero_eyebrow);
  document.querySelector('#hero-title').innerHTML=escape(s.hero_title)+'<br><em>'+escape(s.hero_emphasis)+'</em>';
@@ -58,6 +58,8 @@
  document.querySelector('.approach-intro h2').textContent=s.about_title;
  document.querySelector('.approach-intro>p:not(.eyebrow)').textContent=s.about_copy;
  document.querySelector('.footer-main>div:first-child>p').textContent=s.tagline;
+ const footerCredit=document.querySelector('.footer-bottom>span');
+ if(footerCredit)footerCredit.innerHTML='© <span id="year">'+new Date().getFullYear()+'</span> '+escape(tr(s.brand+'. Made for the journey.'));
  const firstPhoto=cms.media[s.hero_images[0]];if(firstPhoto){const hero=document.querySelector('.hero-image');setCMSPhoto(hero,firstPhoto,'100vw');const preload=document.querySelector('link[rel=preload][as=image]');preload.href=firstPhoto.path;if(firstPhoto.variants){preload.imageSrcset=firstPhoto.variants.map(v=>v.path+' '+v.width+'w').join(', ');preload.imageSizes='100vw';}}
  document.title=s.brand+' — '+s.hero_title+' '+s.hero_emphasis;
  document.querySelector('meta[name=description]').content=s.collection_copy;

@@ -30,7 +30,9 @@ def main():
             )
             print(f"{code}: {target.name} ({len(payload['trips'])} trips)")
 
-    (output / "content.json").write_bytes((output / "content.en.json").read_bytes())
+    english = (output / "content.en.json").read_bytes()
+    (output / "content.json").write_bytes(english)
+    (ROOT / "data" / "content.json").write_bytes(english)
 
 
 if __name__ == "__main__":
