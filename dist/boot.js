@@ -2,11 +2,21 @@
 // Translations are stored on this server. Visitor text is never sent to a translation service.
 (async()=>{
  const url=new URL(location.href);let preference='en';try{preference=localStorage.getItem('desertgate.language')||'en'}catch{}
- const requested=url.searchParams.get('lang')||preference;
+ const requested=(url.searchParams.get('lang')||preference||'en').toLowerCase();
  let response;
  let cms;
- try { response=await fetch('/api/content?lang='+encodeURIComponent(requested)); if(!response.ok)throw Error('api'); cms=await response.json(); }
- catch { response=await fetch('/data/content.json'); if(!response.ok)throw Error('The trip collection could not be loaded.'); cms=await response.json(); window.STATIC_FRONTEND=true; }
+ try {
+   response=await fetch('/api/content?lang='+encodeURIComponent(requested));
+   if(!response.ok||!response.headers.get('content-type')?.includes('application/json'))throw Error('api');
+   cms=await response.json();
+ } catch {
+   const language=/^[a-z]{2,3}(?:-[a-z]{2,4})?$/i.test(requested)?requested:'en';
+   response=await fetch('/data/content.'+encodeURIComponent(language)+'.json');
+   if(!response.ok&&language!=='en')response=await fetch('/data/content.en.json');
+   if(!response.ok)response=await fetch('/data/content.json');
+   if(!response.ok)throw Error('The trip collection could not be loaded.');
+   cms=await response.json();window.STATIC_FRONTEND=true;
+ }
  window.CMS=cms;window.TRIPS=cms.trips;
  document.documentElement.lang=cms.language.code;document.documentElement.dir=cms.language.dir;
  if(url.searchParams.has('lang')&&url.searchParams.get('lang')!==cms.language.code){url.searchParams.set('lang',cms.language.code);history.replaceState({},'',url)}
