@@ -1,0 +1,10 @@
+{
+  "phrases": [
+    ["Help me decide", "Conseillez-moi", "ساعدني في الاختيار", "Ayúdame a decidir", "Bitte beratet mich", "Aiutami a scegliere", "Ajude-me a escolher", "Help me kiezen", "Помогите выбрать", "请帮我选择"],
+    ["Private, just our group", "Privé, uniquement notre groupe", "رحلة خاصة بمجموعتنا", "Privado, solo nuestro grupo", "Privat, nur unsere Gruppe", "Privato, solo il nostro gruppo", "Privado, só nosso grupo", "Privé, alleen onze groep", "Индивидуально, только наша группа", "私人旅行，仅限我们的小组"],
+    ["Shared with other travelers", "Avec d’autres voyageurs", "مع مسافرين آخرين", "Con otros viajeros", "Mit anderen Reisenden", "Con altri viaggiatori", "Com outros viajantes", "Met andere reizigers", "С другими путешественниками", "与其他旅客同行"],
+    ["Simple & comfortable", "Simple et confortable", "إقامة بسيطة ومريحة", "Sencillo y cómodo", "Einfach und komfortabel", "Semplice e confortevole", "Simples e confortável", "Eenvoudig en comfortabel", "Просто и комфортно", "简单舒适"],
+    ["Boutique riads & camps", "Riads et camps de charme", "رياضات ومخيمات بطابع مميز", "Riads y campamentos con encanto", "Ausgewählte Riads und Camps", "Riad e campi di charme", "Riads e acampamentos de charme", "Sfeervolle riads en kampen", "Уютные риады и лагеря", "精品庭院旅馆与营地"],
+    ["Premium stays", "Hébergements haut de gamme", "إقامة راقية", "Alojamientos de alta gama", "Gehobene Unterkünfte", "Soggiorni di alta gamma", "Hospedagens de alto padrão", "Luxe verblijven", "Проживание высокого класса", "高品质住宿"]
+  ]
+}
