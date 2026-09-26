@@ -901,29 +901,42 @@
     "fit": "An easy change of scene for a free evening in Marrakech, especially if you’d like desert landscapes without a multi-day journey.",
     "pace": "Relaxed evening",
     "highlights": [
-      "Rocky desert",
-      "Dinner option",
-      "Shorter transfer"
+      "Sunset views",
+      "3-course Moroccan dinner",
+      "Live music & show"
     ],
     "itinerary": [
       [
-        "Afternoon · Leave Marrakech",
-        "Leave Marrakech for your chosen venue in Agafay. Arrive with time to settle in and enjoy the open landscape."
+        "Pickup from Marrakech (Late Afternoon)",
+        "Your adventure begins with a comfortable shared transfer from your hotel or the nearest accessible parking in the Medina."
       ],
       [
-        "Golden hour · Make it yours",
-        "Find a viewpoint as the light changes across the hills, or enjoy a camel or quad session arranged separately."
+        "Arrival at Agafay Desert Camp",
+        "Be welcomed and set the perfect mood for the evening."
       ],
       [
-        "Evening · Dinner & return",
-        "Sit down to dinner at the selected venue, then return to Marrakech at the agreed time."
+        "Sunset Viewing & Free Time",
+        "Enjoy the breathtaking views as the sun sets over the Agafay Desert, creating a golden hue over the rocky terrain."
+      ],
+      [
+        "Luxury Dinner Experience",
+        "Indulge in a delicious 3-course Moroccan dinner, featuring a variety of local flavors and specialties."
+      ],
+      [
+        "Live Entertainment",
+        "Experience an enchanting Berber show with traditional music and performances, adding to the magic of the desert night."
+      ],
+      [
+        "Return to Marrakech",
+        "After an unforgettable evening, we drive you back to your accommodation, ensuring a seamless end to your desert adventure."
       ]
     ],
-    "practical": "Agafay is a rocky desert, distinct from the Sahara’s sand dunes. Your venue, menu, drinks, optional activities and return time are agreed before booking.",
+    "practical": "Agafay is a rocky desert, distinct from the Sahara’s sand dunes. Shared transport departs from your hotel or the nearest accessible parking in the Medina. Your meeting point, pickup time, menu and return arrangements will be confirmed before booking.",
     "cover": [
-      "Your own driver and comfortable, air-conditioned transport",
-      "Where and when to meet, and your return arrangements",
-      "Local assistance, meals and entrance tickets, clearly listed"
+      "Luxury Moroccan Dinner (3-course meal)",
+      "Traditional Live Music & Show",
+      "Shared Transportation from Marrakech",
+      "Scenic Sunset Experience"
     ],
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
@@ -935,7 +948,7 @@
       "agafay-user-show",
       "mhe-balloon-3"
     ],
-    "story": "Beyond Marrakech, the stone desert opens into low hills and a wide horizon. Arrive with time to take in the late-afternoon light before dinner at your chosen venue.\n\nYou can keep the evening simple—a view, a meal and time together—or add a camel ride or quad outing. We’ll help you choose the setting and agree the details before you go."
+    "story": "Leave Marrakech in the late afternoon for an evening at an Agafay desert camp. Take time to settle in and watch the sunset over the rocky hills.\n\nEnjoy a three-course Moroccan dinner followed by a Berber show with traditional music and performances. Shared transport from Marrakech and your return are included."
   },
   {
     "id": "imlil-atlas-day",
