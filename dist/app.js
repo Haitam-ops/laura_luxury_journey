@@ -56,43 +56,314 @@ if(!matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new I
 
 // Five photographed chapters; each image carries its own marketing story in every public language.
 const heroEditorial={
- en:{"common": {"eyebrow": "MOROCCO WITH LAURA LUXURY JOURNEYS", "cta": "Plan my journey", "footnote": "Your interests. Your company. Your pace."}, "slides": [{"title": "Marrakech,", "emphasis": "yours to explore.", "copy": "A courtyard café, a turn through the souks, a view over the rooftops. Take time for the Marrakech that catches your eye, with a journey planned around you.", "label": "MARRAKECH, MOROCCO", "line": "Above the rooftops, before the day begins."}, {"title": "Take a closer look.", "emphasis": "There’s more to see.", "copy": "Carved cedar, hand-laid zellige and the quiet of a riad courtyard. Some of Morocco’s most beautiful moments are the ones you stop to notice.", "label": "MOROCCAN CRAFT & ARCHITECTURE", "line": "The care is in the details."}, {"title": "A little longer", "emphasis": "by the sea.", "copy": "Follow Essaouira’s ramparts to the fishing port, find a table for lunch and let the afternoon unfold. There’s always time for another walk along the shore.", "label": "ESSAOUIRA, MOROCCO", "line": "Sea air, blue boats and an open afternoon."}, {"title": "Out of the city,", "emphasis": "beside the falls.", "copy": "Walk beneath olive trees, pause above the cascades and stay for lunch by the water. Ouzoud makes a beautiful day away from Marrakech.", "label": "OUZOUD WATERFALLS, MOROCCO", "line": "A path through the trees, the sound of water."}, {"title": "Another side", "emphasis": "of Marrakech.", "copy": "Blue walls, green palms and the light of a garden morning. Make room for Majorelle and the quieter corners of the city between your medina walks.", "label": "MAJORELLE GARDEN, MARRAKECH", "line": "Color and a moment of calm."}]},
- fr:{common:{eyebrow:'VOYAGES PRIVÉS SUR MESURE À TRAVERS LE MAROC',cta:'Imaginer mon voyage',footnote:'Itinéraires soignés · Adresses choisies · Expertise locale'},slides:[
-  {title:'Marrakech,',emphasis:'imaginée pour vous.',copy:'Éveillez-vous au-dessus des toits, parcourez la médina et prenez le temps de suivre ce qui vous attire. Découvrez Marrakech à votre propre rythme.',label:'MARRAKECH, MAROC',line:'Vue d’en haut, la ville se révèle autrement.'},
-  {title:'Le Maroc se révèle',emphasis:'dans les détails.',copy:'Au-delà des monuments, observez le plâtre sculpté, le zellige, le cèdre et le calme d’une cour de riad. Laissez le Maroc se dévoiler lentement.',label:'L’ART DU MAROC',line:'Une histoire façonnée à la main.'},
-  {title:'Laissez l’Atlantique',emphasis:'ralentir le temps.',copy:'Remplacez la chaleur de la ville par l’air marin, les remparts et de longs déjeuners près du port. À Essaouira, le voyage reprend son souffle.',label:'ESSAOUIRA, MAROC',line:'Laissez l’Atlantique donner le rythme.'},
-  {title:'Suivez les cascades.',emphasis:'Découvrez un autre Maroc.',copy:'Marchez entre cascades, oliveraies et belvédères du Moyen Atlas. Une journée rafraîchissante, adaptée à votre manière d’explorer.',label:'CASCADES D’OUZOUD, MAROC',line:'Suivez le murmure des cascades.'},
-  {title:'Marrakech,',emphasis:'au-delà de la médina.',copy:'Associez les couleurs de Majorelle au design, aux jardins et à un visage plus paisible de Marrakech. Le bon moment rend ce lieu célèbre plus personnel.',label:'JARDIN MAJORELLE, MARRAKECH',line:'Couleurs, calme et lumière des jardins.'}]},
- es:{common:{eyebrow:'VIAJES PRIVADOS A MEDIDA POR MARRUECOS',cta:'Diseñar mi viaje',footnote:'Rutas cuidadas · Alojamientos elegidos · Experiencia local'},slides:[
-  {title:'Marrakech,',emphasis:'diseñada para ti.',copy:'Despierta sobre los tejados, recorre la medina y deja espacio para los lugares que te atraigan. Descubre Marrakech a tu propio ritmo.',label:'MARRAKECH, MARRUECOS',line:'Desde arriba, la ciudad se abre de otra manera.'},
-  {title:'Marruecos vive',emphasis:'en los detalles.',copy:'Mira más allá de los monumentos: yeso tallado, zellige, cedro y la calma de un patio de riad. Deja que Marruecos se revele poco a poco.',label:'EL ARTE DE MARRUECOS',line:'Una historia creada a mano.'},
-  {title:'Deja que el Atlántico',emphasis:'marque un ritmo más lento.',copy:'Cambia el calor de la ciudad por aire marino, paseos por las murallas y largos almuerzos junto al puerto. En Essaouira, el viaje respira.',label:'ESSAOUIRA, MARRUECOS',line:'Deja que el Atlántico marque el ritmo.'},
-  {title:'Sigue las cascadas.',emphasis:'Descubre otro Marruecos.',copy:'Camina entre cascadas, olivares y miradores del Atlas Medio. Un día refrescante, adaptado a tu manera de explorar.',label:'CASCADAS DE OUZOUD, MARRUECOS',line:'Sigue el sonido de las cascadas.'},
-  {title:'Marrakech,',emphasis:'más allá de la medina.',copy:'Combina el color de Majorelle con diseño, jardines y el lado más sereno de Marrakech. Elegir bien el momento transforma una visita famosa en algo personal.',label:'JARDÍN MAJORELLE, MARRAKECH',line:'Color, calma y luz entre jardines.'}]},
- de:{common:{eyebrow:'MASSGESCHNEIDERTE PRIVATREISEN DURCH MAROKKO',cta:'Meine Reise gestalten',footnote:'Sorgfältige Routen · Ausgewählte Unterkünfte · Lokale Expertise'},slides:[
-  {title:'Marrakesch,',emphasis:'für Sie gestaltet.',copy:'Erwachen Sie über den Dächern, schlendern Sie durch die Medina und lassen Sie Raum für spontane Entdeckungen. Erleben Sie Marrakesch in Ihrem Rhythmus.',label:'MARRAKESCH, MAROKKO',line:'Von oben zeigt sich die Stadt ganz neu.'},
-  {title:'Marokko lebt',emphasis:'in den Details.',copy:'Blicken Sie hinter die Sehenswürdigkeiten auf Stuck, Zellige, Zedernholz und die Ruhe eines Riad-Hofs. Lassen Sie Marokko sich langsam entfalten.',label:'DIE KUNST MAROKKOS',line:'Eine Geschichte, von Hand gestaltet.'},
-  {title:'Lassen Sie den Atlantik',emphasis:'das Tempo bestimmen.',copy:'Tauschen Sie die Hitze der Stadt gegen Meeresluft, Spaziergänge auf den Mauern und lange Mittagessen am Hafen. In Essaouira kann die Reise aufatmen.',label:'ESSAOUIRA, MAROKKO',line:'Der Atlantik gibt den Rhythmus vor.'},
-  {title:'Folgen Sie den Wasserfällen.',emphasis:'Entdecken Sie ein anderes Marokko.',copy:'Wandern Sie zwischen Kaskaden, Olivenhainen und Aussichtspunkten im Mittleren Atlas. Ein erfrischender Tag in Ihrem eigenen Tempo.',label:'OUZOUD-WASSERFÄLLE, MAROKKO',line:'Folgen Sie dem Rauschen der Fälle.'},
-  {title:'Marrakesch,',emphasis:'jenseits der Medina.',copy:'Verbinden Sie Majorelles Farben mit Design, Gärten und einer ruhigeren Seite Marrakeschs. Gutes Timing macht einen berühmten Ort persönlich.',label:'MAJORELLE-GARTEN, MARRAKESCH',line:'Farbe, Ruhe und Gartenlicht.'}]},
- it:{common:{eyebrow:'VIAGGI PRIVATI SU MISURA IN MAROCCO',cta:'Disegna il mio viaggio',footnote:'Itinerari curati · Soggiorni selezionati · Esperienza locale'},slides:[
-  {title:'Marrakech,',emphasis:'pensata intorno a te.',copy:'Svegliati sopra i tetti, passeggia nella medina e lascia spazio ai luoghi che ti incuriosiscono. Vivi Marrakech seguendo il tuo ritmo.',label:'MARRAKECH, MAROCCO',line:'Dall’alto, la città si apre in modo diverso.'},
-  {title:'Il Marocco vive',emphasis:'nei dettagli.',copy:'Guarda oltre i monumenti: stucchi scolpiti, zellige, cedro e la quiete di un cortile di riad. Lascia che il Marocco si sveli lentamente.',label:'L’ARTE DEL MAROCCO',line:'Una storia plasmata a mano.'},
-  {title:'Lascia che l’Atlantico',emphasis:'rallenti le giornate.',copy:'Scambia il caldo della città con l’aria di mare, le passeggiate sui bastioni e lunghi pranzi al porto. A Essaouira il viaggio torna a respirare.',label:'ESSAOUIRA, MAROCCO',line:'Lascia che l’Atlantico dia il ritmo.'},
-  {title:'Segui le cascate.',emphasis:'Scopri un altro Marocco.',copy:'Cammina tra cascate, uliveti e punti panoramici nel Medio Atlante. Una giornata rinfrescante, modellata sul tuo modo di esplorare.',label:'CASCATE DI OUZOUD, MAROCCO',line:'Segui il suono delle cascate.'},
-  {title:'Marrakech,',emphasis:'oltre la medina.',copy:'Abbina i colori di Majorelle al design, ai giardini e al volto più quieto di Marrakech. Il momento giusto rende personale un luogo celebre.',label:'GIARDINO MAJORELLE, MARRAKECH',line:'Colore, quiete e luce tra i giardini.'}]},
- pt:{common:{eyebrow:'VIAGENS PRIVADAS À MEDIDA POR MARROCOS',cta:'Desenhar a minha viagem',footnote:'Rotas cuidadas · Estadias escolhidas · Experiência local'},slides:[
-  {title:'Marrakech,',emphasis:'desenhada à sua medida.',copy:'Acorde sobre os telhados, percorra a medina e deixe espaço para os lugares que despertam a sua curiosidade. Descubra Marrakech ao seu ritmo.',label:'MARRAKECH, MARROCOS',line:'Vista do alto, a cidade revela-se de outra forma.'},
-  {title:'Marrocos vive',emphasis:'nos detalhes.',copy:'Olhe para além dos monumentos: estuque esculpido, zellige, cedro e a calma de um pátio de riad. Deixe Marrocos revelar-se devagar.',label:'A ARTE DE MARROCOS',line:'Uma história moldada à mão.'},
-  {title:'Deixe o Atlântico',emphasis:'abrandar os dias.',copy:'Troque o calor da cidade pela brisa do mar, passeios nas muralhas e almoços demorados junto ao porto. Em Essaouira, a viagem respira.',label:'ESSAOUIRA, MARROCOS',line:'Deixe o Atlântico marcar o ritmo.'},
-  {title:'Siga as cascatas.',emphasis:'Descubra outro Marrocos.',copy:'Caminhe entre cascatas, olivais e miradouros no Médio Atlas. Um dia refrescante, adaptado à sua forma de explorar.',label:'CASCATAS DE OUZOUD, MARROCOS',line:'Siga o som das cascatas.'},
-  {title:'Marrakech,',emphasis:'para além da medina.',copy:'Combine as cores de Majorelle com design, jardins e um lado mais tranquilo de Marrakech. O momento certo torna pessoal um lugar famoso.',label:'JARDIM MAJORELLE, MARRAKECH',line:'Cor, calma e luz de jardim.'}]},
- nl:{common:{eyebrow:'PRIVÉREIZEN OP MAAT DOOR MAROKKO',cta:'Ontwerp mijn reis',footnote:'Doordachte routes · Geselecteerde verblijven · Lokale expertise'},slides:[
-  {title:'Marrakech,',emphasis:'rond u ontworpen.',copy:'Word wakker boven de daken, dwaal door de medina en laat ruimte voor wat uw aandacht trekt. Beleef Marrakech in uw eigen ritme.',label:'MARRAKECH, MAROKKO',line:'Van bovenaf opent de stad zich anders.'},
-  {title:'Marokko leeft',emphasis:'in de details.',copy:'Kijk voorbij de bezienswaardigheden naar houtsnijwerk, zellige, cederhout en de rust van een riadbinnenplaats. Laat Marokko zich langzaam tonen.',label:'DE KUNST VAN MAROKKO',line:'Een verhaal, met de hand gevormd.'},
-  {title:'Laat de Atlantische Oceaan',emphasis:'het tempo vertragen.',copy:'Ruil de stadshitte voor zeelucht, wandelingen over de vestingmuren en lange lunches aan de haven. In Essaouira krijgt de reis ademruimte.',label:'ESSAOUIRA, MAROKKO',line:'Laat de Atlantische Oceaan het ritme bepalen.'},
-  {title:'Volg de watervallen.',emphasis:'Ontdek een ander Marokko.',copy:'Wandel tussen watervallen, olijfgaarden en uitzichtpunten in de Midden-Atlas. Een verfrissende dag in uw eigen tempo.',label:'OUZOUD-WATERVALLEN, MAROKKO',line:'Volg het geluid van de watervallen.'},
-  {title:'Marrakech,',emphasis:'voorbij de medina.',copy:'Combineer Majorelles kleur met design, tuinen en een rustigere kant van Marrakech. Met de juiste timing wordt een beroemde plek persoonlijk.',label:'MAJORELLE-TUIN, MARRAKECH',line:'Kleur, rust en tuinlicht.'}]}
+  "en": {
+    "common": {
+      "eyebrow": "MOROCCO WITH LAURA LUXURY JOURNEYS",
+      "cta": "Plan my journey",
+      "footnote": "Your interests. Your company. Your pace."
+    },
+    "slides": [
+      {
+        "title": "Marrakech,",
+        "emphasis": "yours to explore.",
+        "copy": "Follow the garden paths towards Koutoubia, then wander into the medina. Leave room for a courtyard café and whatever catches your eye.",
+        "label": "MARRAKECH",
+        "line": "Palm-lined paths and the warmth of Marrakech."
+      },
+      {
+        "title": "Chase the light.",
+        "emphasis": "Enjoy the ride.",
+        "copy": "Head out on a quad as the landscape turns gold. Open tracks, a wide horizon and a little adventure bring a different rhythm to your time in Morocco.",
+        "label": "QUAD",
+        "line": "Desert tracks in the evening light."
+      },
+      {
+        "title": "A change of pace,",
+        "emphasis": "beside the dunes.",
+        "copy": "Trade the city for open sand and a slower afternoon. Watch the camels rest at the edge of the dunes as the Sahara stretches into the distance.",
+        "label": "SAHARA",
+        "line": "Camels, golden dunes and room to breathe."
+      },
+      {
+        "title": "Take your time.",
+        "emphasis": "The dunes can wait.",
+        "copy": "Walk a little further across the sand and find a view of your own. Out here, the changing light is reason enough to linger.",
+        "label": "SAHARA",
+        "line": "Footsteps across the Sahara."
+      },
+      {
+        "title": "Blue streets,",
+        "emphasis": "mountain air.",
+        "copy": "Spend time among Chefchaouen’s blue lanes, small squares and hillside views. A pause on a café terrace is as much a part of the day as the exploring.",
+        "label": "CHEFCHAOUEN",
+        "line": "Chefchaouen beneath the Rif Mountains."
+      }
+    ]
+  },
+  "fr": {
+    "common": {
+      "eyebrow": "VOYAGES PRIVÉS SUR MESURE À TRAVERS LE MAROC",
+      "cta": "Imaginer mon voyage",
+      "footnote": "Itinéraires soignés · Adresses choisies · Expertise locale"
+    },
+    "slides": [
+      {
+        "title": "Marrakech,",
+        "emphasis": "à votre rythme.",
+        "copy": "Suivez les allées des jardins jusqu’à la Koutoubia, puis entrez dans la médina. Gardez du temps pour un café dans un patio et les découvertes en chemin.",
+        "label": "MARRAKECH",
+        "line": "Palmiers et douceur de Marrakech."
+      },
+      {
+        "title": "Suivez la lumière.",
+        "emphasis": "Savourez la balade.",
+        "copy": "Partez en quad tandis que le paysage se pare d’or. Des pistes ouvertes, un vaste horizon et un peu d’aventure donnent un autre rythme au voyage.",
+        "label": "QUAD",
+        "line": "Les pistes du désert dans la lumière du soir."
+      },
+      {
+        "title": "Ralentissez,",
+        "emphasis": "au pied des dunes.",
+        "copy": "Quittez la ville pour le sable et un après-midi tranquille. Les chameaux se reposent au pied des dunes, face à l’immensité du Sahara.",
+        "label": "SAHARA",
+        "line": "Chameaux, dunes dorées et grands espaces."
+      },
+      {
+        "title": "Prenez le temps.",
+        "emphasis": "Les dunes vous attendent.",
+        "copy": "Marchez un peu plus loin sur le sable pour trouver votre point de vue. Ici, la lumière qui change invite à s’attarder.",
+        "label": "SAHARA",
+        "line": "Quelques pas dans le Sahara."
+      },
+      {
+        "title": "Ruelles bleues,",
+        "emphasis": "air des montagnes.",
+        "copy": "Découvrez les ruelles bleues, les petites places et les panoramas de Chefchaouen. Une pause en terrasse fait pleinement partie de la journée.",
+        "label": "CHEFCHAOUEN",
+        "line": "Chefchaouen au pied du Rif."
+      }
+    ]
+  },
+  "es": {
+    "common": {
+      "eyebrow": "VIAJES PRIVADOS A MEDIDA POR MARRUECOS",
+      "cta": "Diseñar mi viaje",
+      "footnote": "Rutas cuidadas · Alojamientos elegidos · Experiencia local"
+    },
+    "slides": [
+      {
+        "title": "Marrakech,",
+        "emphasis": "a tu ritmo.",
+        "copy": "Recorre los jardines hacia la Kutubía y adéntrate en la medina. Deja tiempo para un café en un patio y para lo que despierte tu curiosidad.",
+        "label": "MARRAKECH",
+        "line": "Palmeras y la calidez de Marrakech."
+      },
+      {
+        "title": "Sigue la luz.",
+        "emphasis": "Disfruta del camino.",
+        "copy": "Sal en quad mientras el paisaje se tiñe de oro. Caminos abiertos, un horizonte amplio y un poco de aventura dan otro ritmo a tu viaje.",
+        "label": "QUAD",
+        "line": "Rutas por el desierto al caer la tarde."
+      },
+      {
+        "title": "Baja el ritmo,",
+        "emphasis": "junto a las dunas.",
+        "copy": "Cambia la ciudad por la arena y una tarde tranquila. Los camellos descansan al pie de las dunas mientras el Sáhara se extiende a lo lejos.",
+        "label": "SAHARA",
+        "line": "Camellos, dunas doradas y espacio para respirar."
+      },
+      {
+        "title": "Tómate tu tiempo.",
+        "emphasis": "Las dunas te esperan.",
+        "copy": "Camina un poco más sobre la arena y encuentra tu propia vista. Aquí, la luz cambiante invita a quedarse.",
+        "label": "SAHARA",
+        "line": "Huellas sobre la arena del Sáhara."
+      },
+      {
+        "title": "Calles azules,",
+        "emphasis": "aire de montaña.",
+        "copy": "Explora las callejuelas azules, las plazas y las vistas de Chefchaouen. Una pausa en una terraza forma parte del placer de descubrirla.",
+        "label": "CHEFCHAOUEN",
+        "line": "Chefchaouen al pie de las montañas del Rif."
+      }
+    ]
+  },
+  "de": {
+    "common": {
+      "eyebrow": "MASSGESCHNEIDERTE PRIVATREISEN DURCH MAROKKO",
+      "cta": "Meine Reise gestalten",
+      "footnote": "Sorgfältige Routen · Ausgewählte Unterkünfte · Lokale Expertise"
+    },
+    "slides": [
+      {
+        "title": "Marrakesch,",
+        "emphasis": "in Ihrem Tempo.",
+        "copy": "Spazieren Sie durch die Gärten zur Koutoubia und weiter in die Medina. Lassen Sie Zeit für ein Café im Innenhof und kleine Entdeckungen unterwegs.",
+        "label": "MARRAKECH",
+        "line": "Palmenwege und die Wärme von Marrakesch."
+      },
+      {
+        "title": "Dem Licht entgegen.",
+        "emphasis": "Die Fahrt genießen.",
+        "copy": "Fahren Sie mit dem Quad hinaus, wenn die Landschaft golden wird. Offene Wege, ein weiter Horizont und etwas Abenteuer bringen Abwechslung in Ihre Reise.",
+        "label": "QUAD",
+        "line": "Wüstenwege im Abendlicht."
+      },
+      {
+        "title": "Ein ruhigerer Tag,",
+        "emphasis": "am Rand der Dünen.",
+        "copy": "Tauschen Sie die Stadt gegen Sand und einen entspannten Nachmittag. Kamele ruhen vor den Dünen, dahinter erstreckt sich die Sahara.",
+        "label": "SAHARA",
+        "line": "Kamele, goldene Dünen und Raum zum Durchatmen."
+      },
+      {
+        "title": "Lassen Sie sich Zeit.",
+        "emphasis": "Die Dünen warten.",
+        "copy": "Gehen Sie ein Stück weiter über den Sand und finden Sie Ihren eigenen Ausblick. Das wechselnde Licht lädt zum Verweilen ein.",
+        "label": "SAHARA",
+        "line": "Spuren im Sand der Sahara."
+      },
+      {
+        "title": "Blaue Gassen,",
+        "emphasis": "frische Bergluft.",
+        "copy": "Entdecken Sie die blauen Gassen, kleinen Plätze und Ausblicke von Chefchaouen. Eine Pause auf der Caféterrasse gehört zum Tag dazu.",
+        "label": "CHEFCHAOUEN",
+        "line": "Chefchaouen am Fuß des Rifgebirges."
+      }
+    ]
+  },
+  "it": {
+    "common": {
+      "eyebrow": "VIAGGI PRIVATI SU MISURA IN MAROCCO",
+      "cta": "Disegna il mio viaggio",
+      "footnote": "Itinerari curati · Soggiorni selezionati · Esperienza locale"
+    },
+    "slides": [
+      {
+        "title": "Marrakech,",
+        "emphasis": "con i tuoi tempi.",
+        "copy": "Attraversa i giardini verso la Koutoubia, poi entra nella medina. Lascia spazio a un caffè in un cortile e alle scoperte lungo il cammino.",
+        "label": "MARRAKECH",
+        "line": "Palme e il calore di Marrakech."
+      },
+      {
+        "title": "Segui la luce.",
+        "emphasis": "Goditi il percorso.",
+        "copy": "Parti in quad mentre il paesaggio si tinge d’oro. Piste aperte, un ampio orizzonte e un po’ di avventura danno un altro ritmo al viaggio.",
+        "label": "QUAD",
+        "line": "Piste nel deserto alla luce della sera."
+      },
+      {
+        "title": "Rallenta,",
+        "emphasis": "accanto alle dune.",
+        "copy": "Lascia la città per la sabbia e un pomeriggio tranquillo. I cammelli riposano ai piedi delle dune, mentre il Sahara si estende in lontananza.",
+        "label": "SAHARA",
+        "line": "Cammelli, dune dorate e spazio per respirare."
+      },
+      {
+        "title": "Prenditi il tuo tempo.",
+        "emphasis": "Le dune ti aspettano.",
+        "copy": "Cammina ancora un po’ sulla sabbia e trova il tuo panorama. Qui, la luce che cambia è un invito a fermarsi.",
+        "label": "SAHARA",
+        "line": "Passi sulla sabbia del Sahara."
+      },
+      {
+        "title": "Vicoli blu,",
+        "emphasis": "aria di montagna.",
+        "copy": "Scopri i vicoli blu, le piazzette e i panorami di Chefchaouen. Anche una pausa sulla terrazza di un caffè fa parte della giornata.",
+        "label": "CHEFCHAOUEN",
+        "line": "Chefchaouen ai piedi delle montagne del Rif."
+      }
+    ]
+  },
+  "pt": {
+    "common": {
+      "eyebrow": "VIAGENS PRIVADAS À MEDIDA POR MARROCOS",
+      "cta": "Desenhar a minha viagem",
+      "footnote": "Rotas cuidadas · Estadias escolhidas · Experiência local"
+    },
+    "slides": [
+      {
+        "title": "Marraquexe,",
+        "emphasis": "ao seu ritmo.",
+        "copy": "Percorra os jardins até à Koutoubia e entre na medina. Reserve tempo para um café num pátio e para as descobertas pelo caminho.",
+        "label": "MARRAKECH",
+        "line": "Palmeiras e o calor de Marraquexe."
+      },
+      {
+        "title": "Siga a luz.",
+        "emphasis": "Desfrute do percurso.",
+        "copy": "Parta de moto-quatro quando a paisagem se torna dourada. Trilhos abertos, um horizonte amplo e um pouco de aventura dão outro ritmo à viagem.",
+        "label": "QUAD",
+        "line": "Trilhos no deserto à luz do entardecer."
+      },
+      {
+        "title": "Abrande o passo,",
+        "emphasis": "junto às dunas.",
+        "copy": "Troque a cidade pela areia e por uma tarde tranquila. Os camelos descansam junto às dunas, enquanto o Saara se estende ao longe.",
+        "label": "SAHARA",
+        "line": "Camelos, dunas douradas e espaço para respirar."
+      },
+      {
+        "title": "Demore o tempo que quiser.",
+        "emphasis": "As dunas esperam.",
+        "copy": "Caminhe um pouco mais pela areia e encontre a sua própria vista. Aqui, a luz que muda convida a ficar.",
+        "label": "SAHARA",
+        "line": "Passos na areia do Saara."
+      },
+      {
+        "title": "Ruelas azuis,",
+        "emphasis": "ar de montanha.",
+        "copy": "Descubra as ruelas azuis, as pequenas praças e as vistas de Chefchaouen. Uma pausa numa esplanada também faz parte do dia.",
+        "label": "CHEFCHAOUEN",
+        "line": "Chefchaouen junto às montanhas do Rif."
+      }
+    ]
+  },
+  "nl": {
+    "common": {
+      "eyebrow": "PRIVÉREIZEN OP MAAT DOOR MAROKKO",
+      "cta": "Ontwerp mijn reis",
+      "footnote": "Doordachte routes · Geselecteerde verblijven · Lokale expertise"
+    },
+    "slides": [
+      {
+        "title": "Marrakech,",
+        "emphasis": "in uw eigen tempo.",
+        "copy": "Wandel door de tuinen naar de Koutoubia en verder de medina in. Houd tijd vrij voor koffie op een binnenplaats en ontdekkingen onderweg.",
+        "label": "MARRAKECH",
+        "line": "Palmen en de warmte van Marrakech."
+      },
+      {
+        "title": "Volg het licht.",
+        "emphasis": "Geniet van de rit.",
+        "copy": "Trek eropuit met een quad terwijl het landschap goud kleurt. Open paden, een wijde horizon en wat avontuur geven uw reis een ander ritme.",
+        "label": "QUAD",
+        "line": "Woestijnpaden in het avondlicht."
+      },
+      {
+        "title": "Een rustiger tempo,",
+        "emphasis": "naast de duinen.",
+        "copy": "Verruil de stad voor zand en een rustige middag. Kamelen rusten aan de voet van de duinen, met de Sahara in de verte.",
+        "label": "SAHARA",
+        "line": "Kamelen, gouden duinen en ruimte om te ademen."
+      },
+      {
+        "title": "Neem de tijd.",
+        "emphasis": "De duinen wachten.",
+        "copy": "Loop wat verder over het zand en vind uw eigen uitzicht. Het veranderende licht is hier reden genoeg om te blijven.",
+        "label": "SAHARA",
+        "line": "Voetstappen door de Sahara."
+      },
+      {
+        "title": "Blauwe straatjes,",
+        "emphasis": "frisse berglucht.",
+        "copy": "Ontdek de blauwe straatjes, kleine pleinen en uitzichten van Chefchaouen. Een pauze op een caféterras hoort net zo goed bij de dag.",
+        "label": "CHEFCHAOUEN",
+        "line": "Chefchaouen aan de voet van het Rifgebergte."
+      }
+    ]
+  }
 };
 const heroEdition=heroEditorial[CMS.language.code]||heroEditorial.en;
 const heroSlides=CMS.site.hero_images.map((id,i)=>{const m=CMS.media[id],chapter=heroEdition.slides[i]||heroEdition.slides[0];return {...chapter,image:id,path:m.path,alt:m.alt}});
@@ -105,4 +376,3 @@ $$('[data-hero-slide]').forEach(b=>b.addEventListener('click',()=>{heroSlide(Num
 document.addEventListener('submit',e=>{if(!window.STATIC_FRONTEND||e.target.id!=='plan-form')return;e.preventDefault();const f=e.target;if(!f.reportValidity())return;const ref='DG-'+crypto.randomUUID().slice(0,8).toUpperCase();f.hidden=true;$('#request-success').hidden=false;$('#request-reference').textContent=ref;},{capture:true});
 
 translateDOM();
-

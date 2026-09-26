@@ -11,9 +11,9 @@
    cms=await response.json();
  } catch {
    const language=/^[a-z]{2,3}(?:-[a-z]{2,4})?$/i.test(requested)?requested:'en';
-   response=await fetch('/data/content.'+encodeURIComponent(language)+'.json');
-   if(!response.ok&&language!=='en')response=await fetch('/data/content.en.json');
-   if(!response.ok)response=await fetch('/data/content.json');
+   response=await fetch('/data/content.'+encodeURIComponent(language)+'.json?v=hero-20260926');
+   if(!response.ok&&language!=='en')response=await fetch('/data/content.en.json?v=hero-20260926');
+   if(!response.ok)response=await fetch('/data/content.json?v=hero-20260926');
    if(!response.ok)throw Error('The trip collection could not be loaded.');
    cms=await response.json();window.STATIC_FRONTEND=true;
  }
@@ -97,6 +97,6 @@
  for(const lang of cms.languages){const link=document.createElement('link');link.rel='alternate';link.hreflang=lang.code;const other=new URL(location.href);other.searchParams.set('lang',lang.code);link.href=other.href;document.head.append(link)}
  translateDOM();
  new MutationObserver(records=>{for(const record of records){if(record.type==='characterData')translateDOM(record.target);else for(const node of record.addedNodes)if(node.nodeType===1||node.nodeType===3)translateDOM(node)}}).observe(document.body,{subtree:true,childList:true,characterData:true});
- const script=document.createElement('script');script.src='/app.js?v=editorial-20260926';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=editorial-20260926';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=editorial-20260926';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
+ const script=document.createElement('script');script.src='/app.js?v=hero-20260926';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=editorial-20260926';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=editorial-20260926';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
  function showError(){const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3>'+escape(tr('The collection could not be loaded.'))+'</h3><p>'+escape(tr('Please refresh the page to try again.'))+'</p></div>'}
 })().catch(()=>{document.querySelector('#trip-grid').innerHTML='<div class="empty-state"><h3>The collection could not be loaded.</h3><p>Please refresh the page to try again.</p></div>';});

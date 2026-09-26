@@ -3561,5 +3561,200 @@
     "original_height": 750,
     "source": "User-provided photograph",
     "credit_required": false
+  },
+  {
+    "id": "hero-marrakech-20260926",
+    "name": "Koutoubia and its gardens in Marrakech",
+    "alt": "Koutoubia and its gardens in Marrakech",
+    "caption": "Koutoubia and its gardens in Marrakech",
+    "path": "/assets/hero-marrakech-20260926-1672.webp",
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "path": "/assets/hero-marrakech-20260926-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/hero-marrakech-20260926-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/hero-marrakech-20260926-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/hero-marrakech-20260926-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/hero-marrakech-20260926-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "original_width": 1672,
+    "original_height": 941,
+    "source": "User-provided image: Koutobia_Marrakech.png"
+  },
+  {
+    "id": "hero-quad-20260926",
+    "name": "Quad bikes crossing the desert at sunset",
+    "alt": "Quad bikes crossing the desert at sunset",
+    "caption": "Quad bikes crossing the desert at sunset",
+    "path": "/assets/hero-quad-20260926-1672.webp",
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "path": "/assets/hero-quad-20260926-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/hero-quad-20260926-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/hero-quad-20260926-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/hero-quad-20260926-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/hero-quad-20260926-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "original_width": 1672,
+    "original_height": 941,
+    "source": "User-provided image: Quad.png"
+  },
+  {
+    "id": "hero-sahara-20260926",
+    "name": "Camels resting beside the Sahara dunes",
+    "alt": "Camels resting beside the Sahara dunes",
+    "caption": "Camels resting beside the Sahara dunes",
+    "path": "/assets/hero-sahara-20260926-1672.webp",
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "path": "/assets/hero-sahara-20260926-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/hero-sahara-20260926-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/hero-sahara-20260926-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/hero-sahara-20260926-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/hero-sahara-20260926-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "original_width": 1672,
+    "original_height": 941,
+    "source": "User-provided image: SAhara.png"
+  },
+  {
+    "id": "hero-sahara2-20260926",
+    "name": "Walking across the golden Sahara dunes",
+    "alt": "Walking across the golden Sahara dunes",
+    "caption": "Walking across the golden Sahara dunes",
+    "path": "/assets/hero-sahara2-20260926-1672.webp",
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "path": "/assets/hero-sahara2-20260926-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/hero-sahara2-20260926-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/hero-sahara2-20260926-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/hero-sahara2-20260926-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/hero-sahara2-20260926-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "original_width": 1672,
+    "original_height": 941,
+    "source": "User-provided image: Sahara2.png"
+  },
+  {
+    "id": "hero-chefchaouen-20260926",
+    "name": "Chefchaouen beneath the Rif Mountains",
+    "alt": "Chefchaouen beneath the Rif Mountains",
+    "caption": "Chefchaouen beneath the Rif Mountains",
+    "path": "/assets/hero-chefchaouen-20260926-1672.webp",
+    "width": 1672,
+    "height": 941,
+    "variants": [
+      {
+        "path": "/assets/hero-chefchaouen-20260926-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/hero-chefchaouen-20260926-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/hero-chefchaouen-20260926-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/hero-chefchaouen-20260926-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/hero-chefchaouen-20260926-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "original_width": 1672,
+    "original_height": 941,
+    "source": "User-provided image: Chefchaouen.png"
   }
 ]

@@ -27,7 +27,7 @@ SITE = {'brand': 'Laura Luxury Journeys', 'tagline': 'Morocco, with time for wha
         'about_copy': 'Perhaps you have a route in mind. Perhaps it’s a desert evening, a beautiful riad or simply a change of scene. Tell us what draws you to Morocco, and we’ll take it from there.',
         'email': '', 'phone': '', 'whatsapp': '', 'address': '',
         'instagram': '', 'facebook': '', 'tiktok': '', 'youtube': '',
-        'hero_images': ['hq-medina', 'marrakech', 'essaouira', 'hero-ouzoud-user', 'hero-majorelle-user'], 'translations': {}}
+        'hero_images': ['hero-marrakech-20260926', 'hero-quad-20260926', 'hero-sahara-20260926', 'hero-sahara2-20260926', 'hero-chefchaouen-20260926'], 'translations': {}}
 CAPTIONS = {'sahara': 'The dunes of the Moroccan Sahara', 'camels': 'A camel caravan near Merzouga',
             'chefchaouen': 'Blue houses in Chefchaouen', 'marrakech': 'Traditional architecture in Marrakech',
             'oasis': 'An oasis village in southern Morocco', 'ouzoud': 'Ouzoud waterfalls',
