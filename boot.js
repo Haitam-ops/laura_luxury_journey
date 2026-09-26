@@ -31,7 +31,7 @@
  }
  const photoSizes=image=>image.closest('.hero')?'100vw':image.closest('.gallery-filmstrip,.lightbox-thumbs')?'100px':image.closest('.photo-viewer')?'(max-width:700px) 100vw, 85vw':image.closest('.gallery-collage')?'(max-width:700px) 100vw, 65vw':'(max-width:620px) 100vw, (max-width:1000px) 50vw, 33vw';
  window.setCMSPhoto=(image,m,sizes=photoSizes(image))=>{
-   if(image.closest('.hero'))image.style.objectPosition=m.id==='hq-medina'?'50% 28%':m.id==='hero-ouzoud-user'?'75% 50%':'50% 50%';
+   if(image.closest('.hero'))image.style.objectPosition=m.id==='hero-quad-20260926'?'75% 50%':m.id==='hq-medina'?'50% 28%':m.id==='hero-ouzoud-user'?'75% 50%':'50% 50%';
    const attributes={src:m.path,alt:m.alt,width:m.width,height:m.height,decoding:'async'};
    if(m.variants?.length){attributes.srcset=m.variants.map(v=>v.path+' '+v.width+'w').join(', ');attributes.sizes=sizes;}
    else{image.removeAttribute('srcset');image.removeAttribute('sizes');}
