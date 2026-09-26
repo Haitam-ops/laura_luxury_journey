@@ -1,0 +1,44 @@
+{
+  "common": {
+    "eyebrow": "MOROCCO WITH LAURA LUXURY JOURNEYS",
+    "cta": "Plan my journey",
+    "footnote": "Your interests. Your company. Your pace."
+  },
+  "slides": [
+    {
+      "title": "Marrakech,",
+      "emphasis": "yours to explore.",
+      "copy": "A courtyard café, a turn through the souks, a view over the rooftops. Take time for the Marrakech that catches your eye, with a journey planned around you.",
+      "label": "MARRAKECH, MOROCCO",
+      "line": "Above the rooftops, before the day begins."
+    },
+    {
+      "title": "Take a closer look.",
+      "emphasis": "There’s more to see.",
+      "copy": "Carved cedar, hand-laid zellige and the quiet of a riad courtyard. Some of Morocco’s most beautiful moments are the ones you stop to notice.",
+      "label": "MOROCCAN CRAFT & ARCHITECTURE",
+      "line": "The care is in the details."
+    },
+    {
+      "title": "A little longer",
+      "emphasis": "by the sea.",
+      "copy": "Follow Essaouira’s ramparts to the fishing port, find a table for lunch and let the afternoon unfold. There’s always time for another walk along the shore.",
+      "label": "ESSAOUIRA, MOROCCO",
+      "line": "Sea air, blue boats and an open afternoon."
+    },
+    {
+      "title": "Out of the city,",
+      "emphasis": "beside the falls.",
+      "copy": "Walk beneath olive trees, pause above the cascades and stay for lunch by the water. Ouzoud makes a beautiful day away from Marrakech.",
+      "label": "OUZOUD WATERFALLS, MOROCCO",
+      "line": "A path through the trees, the sound of water."
+    },
+    {
+      "title": "Another side",
+      "emphasis": "of Marrakech.",
+      "copy": "Blue walls, green palms and the light of a garden morning. Make room for Majorelle and the quieter corners of the city between your medina walks.",
+      "label": "MAJORELLE GARDEN, MARRAKECH",
+      "line": "Color and a moment of calm."
+    }
+  ]
+}

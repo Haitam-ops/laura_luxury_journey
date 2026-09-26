@@ -17,14 +17,14 @@ LANGUAGES = [
     ('de', 'German', 'Deutsch', 'ltr'), ('it', 'Italian', 'Italiano', 'ltr'),
     ('pt', 'Portuguese', 'Português', 'ltr'), ('nl', 'Dutch', 'Nederlands', 'ltr')
 ]
-SITE = {'brand': 'Laura Luxury Journeys', 'tagline': 'Morocco journeys, shaped around your time and interests.',
-        'hero_eyebrow': 'MOROCCO TOURS, DAY TRIPS & EXPERIENCES', 'hero_title': 'Your Morocco.',
-        'hero_emphasis': 'At your pace.',
-        'hero_copy': 'Explore the Sahara, discover the cities or escape to the coast. Find a route that fits your time, then request an itinerary and quote for your dates.',
-        'collection_title': 'Find the journey', 'collection_emphasis': 'that fits you.',
-        'collection_copy': 'A few hours, a day away or a longer adventure. Compare where each trip goes, the time it takes and who it suits before choosing your next step.',
-        'about_title': 'From a first idea to a clear travel plan.',
-        'about_copy': 'You do not need every detail worked out. Start with your dates, your interests and the pace you enjoy.',
+SITE = {'brand': 'Laura Luxury Journeys', 'tagline': 'Morocco, with time for what matters to you.',
+        'hero_eyebrow': 'MOROCCO WITH LAURA LUXURY JOURNEYS', 'hero_title': 'Come closer',
+        'hero_emphasis': 'to Morocco.',
+        'hero_copy': 'A morning in the medina, a road through the Atlas, an evening beside the dunes. Discover Morocco with a little more time for the things you love.',
+        'collection_title': 'Where will Morocco', 'collection_emphasis': 'take you?',
+        'collection_copy': 'Follow the coast, spend a night in the Sahara or step away from the city for the day. Find a journey that speaks to you, and we’ll help you make it your own.',
+        'about_title': 'A lovely trip begins with a conversation.',
+        'about_copy': 'Perhaps you have a route in mind. Perhaps it’s a desert evening, a beautiful riad or simply a change of scene. Tell us what draws you to Morocco, and we’ll take it from there.',
         'email': '', 'phone': '', 'whatsapp': '', 'address': '',
         'instagram': '', 'facebook': '', 'tiktok': '', 'youtube': '',
         'hero_images': ['hq-medina', 'marrakech', 'essaouira', 'hero-ouzoud-user', 'hero-majorelle-user'], 'translations': {}}

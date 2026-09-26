@@ -1,0 +1,22 @@
+{
+  "time": {
+    "title": "How long would you like to stay?",
+    "html": "<h3>A day to see a little more</h3><p>A day from Marrakech can take you into the Atlas foothills or out to Agafay for the evening. Essaouira and Ouzoud are lovely changes of scene too, with longer drives each way. From Fes, Meknes and Volubilis offer a day of history close to your base.</p><h3>Three to five days in one region</h3><p>If the Sahara is calling, three days allows a Marrakech–Merzouga return, though much of the first and last days is spent on the road. With four or five days, there is more time around the dunes. For a trip with less driving, combine Marrakech with the Atlas or Essaouira.</p><h3>A week or two to explore</h3><p>Choose the places you most want to see and leave time to enjoy them. Arriving in one city and leaving from another can save a return drive. A free afternoon or an extra night often adds more to a holiday than another stop.</p><p>We’ll talk through the driving times and plan your final transfer around your flight before you book.</p>"
+  },
+  "stays": {
+    "title": "Finding the right riad or desert camp",
+    "html": "<h3>A riad that feels right for you</h3><p>A courtyard may be what first catches your eye, but comfort is in the details. Room size, stairs, heating, air conditioning and the walk from the nearest road all matter. Tell us what makes a stay comfortable for you, especially if access or luggage is a concern.</p><h3>Your night in the desert</h3><p>Desert camps vary in setting and facilities. We’ll clarify the camp name, bathroom arrangements, hot water, electricity and seasonal heating or cooling. Reaching camp by camel and arriving by 4×4 are different experiences; choose the one that suits you.</p><h3>Know where you’ll be staying</h3><p>Your proposal should name the accommodation available for your dates and explain meals, beds, family rooms and accessibility. We’ll agree cancellation terms and what happens if a named property becomes unavailable before you confirm.</p>"
+  },
+  "seasons": {
+    "title": "Morocco through the seasons",
+    "html": "<h3>Spring & autumn</h3><p>Often a comfortable time to combine the cities, mountains and desert. Temperatures change with altitude, so bring layers and allow some flexibility for mountain conditions.</p><h3>Summer by the coast</h3><p>Inland Morocco and the desert can be very hot. More time on the Atlantic, earlier outings and quiet afternoons can make the days more comfortable. If you’re including a desert camp, pay particular attention to its cooling arrangements.</p><h3>Winter days & cooler evenings</h3><p>The cities and southern routes can work well in winter, with warm layers for the evenings. Snow may affect higher Atlas roads and trails, and heating at your accommodation matters.</p><p>Morocco has several climates within one country. Check the forecast for each part of your route as departure approaches.</p>"
+  },
+  "privacy": {
+    "title": "Your information & privacy",
+    "html": "<p>When you enquire, we collect your name, email, travel preferences and any notes you share so we can handle your itinerary request. Sending the form does not make a booking or take a payment.</p><p>Your saved journeys remain in your browser. If a request is waiting for a response, your browser may also keep a copy so you can retry without creating a duplicate. That pending copy is removed after a successful submission.</p><p>Enquiring does not subscribe you to marketing, and this website does not send automatic emails. Keep your request reference, and please leave passport details, payment information and other sensitive personal information out of the message field.</p>"
+  },
+  "booking": {
+    "title": "How your booking is confirmed",
+    "html": "<p>The journeys on this website are starting points for planning. An enquiry lets us know what you have in mind; it does not reserve transport, accommodation or an activity.</p><p>Before you book, we’ll agree the itinerary, named stays, guiding language, meeting points, meals and activities. Your proposal will also set out payment and cancellation terms, including how weather or availability changes are handled.</p><p>No payment is taken through this website. Please wait until your arrangements are confirmed before making non-refundable onward connections based on the itinerary.</p>"
+  }
+}

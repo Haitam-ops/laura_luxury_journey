@@ -16,8 +16,8 @@
   'coast-desert-8-days':['marrakech','dades','merzouga','ouarzazate','taroudant','essaouira','marrakech'],
   'north-sahara-10-days':['tangier','chefchaouen','fes','merzouga','dades','ait','marrakech'],
   'grand-morocco-14-days':['casablanca','rabat','chefchaouen','fes','merzouga','dades','ait','marrakech','essaouira','marrakech'],
-  'ouzoud-waterfalls':['marrakech','ouzoud'], 'ourika-valley':['marrakech','setti'], 'essaouira-day':['marrakech','essaouira'], 'ait-ben-haddou-day':['marrakech','ait'],
-  'agafay-evening':['marrakech','agafay'], 'imlil-atlas-day':['marrakech','imlil'], 'chefchaouen-from-fes':['fes','chefchaouen','fes'], 'volubilis-meknes':['fes','volubilis','moulay','meknes','fes'],
+  'ouzoud-waterfalls':['marrakech','ouzoud'], 'ourika-valley':['marrakech','setti'], 'essaouira-day':['marrakech','essaouira'], 'ait-ben-haddou-day':['marrakech','ait','ouarzazate','marrakech'],
+  'agafay-evening':['marrakech','agafay'], 'imlil-atlas-day':['marrakech','agafay','imlil','brahim','marrakech'], 'chefchaouen-from-fes':['fes','chefchaouen','fes'], 'volubilis-meknes':['fes','volubilis','moulay','meknes','fes'],
   'marrakech-balloon':['marrakech','balloon'], 'agafay-quad':['marrakech','agafay'], 'merzouga-camel':['merzouga','erg'], 'merzouga-sandboarding':['merzouga','erg'],
   'agafay-buggy':['marrakech','agafay'], 'atlas-paragliding':['marrakech','brahim'], 'marrakech-hammam':['marrakech'], 'marrakech-cooking':['marrakech'],
   'marrakech-dinner-show':['marrakech'], 'essaouira-horse-riding':['essaouira','diabat']
@@ -32,7 +32,7 @@
  }
  function markup(trip,points){
   const escape=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  return `<section class="route-map-card" aria-labelledby="route-map-title-${escape(trip.id)}"><div class="route-map-top"><div><p class="eyebrow rust">${escape(tr('SEE THE JOURNEY'))}</p><h4 id="route-map-title-${escape(trip.id)}">${escape(tr('Your route across Morocco'))}</h4></div><div><button type="button" data-map-fit>${escape(tr('Fit route'))}</button><a href="https://www.openstreetmap.org/?mlat=${points[0][1]}&mlon=${points[0][2]}#map=7/${points[0][1]}/${points[0][2]}" target="_blank" rel="noopener noreferrer">${escape(tr('Open map'))} ↗</a></div></div><div class="route-map-canvas" data-route-map-canvas role="region" aria-label="${escape(tr('Interactive map of the trip route'))}"><span class="route-map-loader">${escape(tr('Loading map…'))}</span></div><ol class="route-map-stops">${points.map((p,i)=>`<li><span>${i+1}</span>${escape(p[0])}</li>`).join('')}</ol><p class="route-map-note">${escape(tr('Indicative route. Exact roads, stops and pickup points are confirmed for your dates.'))}</p></section>`;
+  return `<section class="route-map-card" aria-labelledby="route-map-title-${escape(trip.id)}"><div class="route-map-top"><div><p class="eyebrow rust">${escape(tr('YOUR ROUTE'))}</p><h4 id="route-map-title-${escape(trip.id)}">${escape(tr('The places along the way'))}</h4></div><div><button type="button" data-map-fit>${escape(tr('Fit route'))}</button><a href="https://www.openstreetmap.org/?mlat=${points[0][1]}&mlon=${points[0][2]}#map=7/${points[0][1]}/${points[0][2]}" target="_blank" rel="noopener noreferrer">${escape(tr('Open map'))} ↗</a></div></div><div class="route-map-canvas" data-route-map-canvas role="region" aria-label="${escape(tr('Interactive map of the trip route'))}"><span class="route-map-loader">${escape(tr('Loading map…'))}</span></div><ol class="route-map-stops">${points.map((p,i)=>`<li><span>${i+1}</span>${escape(p[0])}</li>`).join('')}</ol><p class="route-map-note">${escape(tr('A guide to the route. We’ll confirm the roads, stops and meeting points for your dates.'))}</p></section>`;
  }
  window.mountRouteMap=async trip=>{
   const panel=document.querySelector('[data-detail-panel="itinerary"]');if(!panel||panel.querySelector('.route-map-card'))return;

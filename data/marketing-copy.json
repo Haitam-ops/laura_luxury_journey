@@ -1,172 +1,172 @@
 {
   "site": {
-    "tagline": "Morocco journeys, shaped around your time and interests.",
-    "hero_eyebrow": "MOROCCO TOURS, DAY TRIPS & EXPERIENCES",
-    "hero_title": "Your Morocco.",
-    "hero_emphasis": "At your pace.",
-    "hero_copy": "Explore the Sahara, discover the cities or escape to the coast. Find a route that fits your time, then request an itinerary and quote for your dates.",
-    "collection_title": "Find the journey",
-    "collection_emphasis": "that fits you.",
-    "collection_copy": "A few hours, a day away or a longer adventure. Compare where each trip goes, the time it takes and who it suits before choosing your next step.",
-    "about_title": "From a first idea to a clear travel plan.",
-    "about_copy": "You do not need every detail worked out. Start with your dates, your interests and the pace you enjoy."
+    "tagline": "Morocco, with time for what matters to you.",
+    "hero_eyebrow": "MOROCCO WITH LAURA LUXURY JOURNEYS",
+    "hero_title": "Come closer",
+    "hero_emphasis": "to Morocco.",
+    "hero_copy": "A morning in the medina, a road through the Atlas, an evening beside the dunes. Discover Morocco with a little more time for the things you love.",
+    "collection_title": "Where will Morocco",
+    "collection_emphasis": "take you?",
+    "collection_copy": "Follow the coast, spend a night in the Sahara or step away from the city for the day. Find a journey that speaks to you, and we’ll help you make it your own.",
+    "about_title": "A lovely trip begins with a conversation.",
+    "about_copy": "Perhaps you have a route in mind. Perhaps it’s a desert evening, a beautiful riad or simply a change of scene. Tell us what draws you to Morocco, and we’ll take it from there."
   },
   "trips": {
     "sahara-marrakech-3-days": {
-      "title": "3-Day Sahara Tour from Marrakech",
-      "summary": "Cross the Atlas, explore kasbah country and spend a night near the Erg Chebbi dunes. A compact Sahara route for travelers comfortable with long drives.",
-      "fit": "Choose this if you have three days and the Sahara is your priority. If you would rather spend a full day around the dunes, compare the five-day route before deciding.",
-      "story": "Watch the landscape change from Atlas mountain roads to earthen villages, narrow gorges and the dunes of Erg Chebbi. This route brings several of southern Morocco's most distinctive landscapes into a short break from Marrakech.\n\nThe desert overnight is the centerpiece, but the journey there takes time. Expect full road days, especially on the return. Discuss your camp style and camel or 4×4 transfer in your request so the proposal reflects how you want to travel."
+      "title": "Three Days to the Sahara",
+      "summary": "Mountain passes, earthen kasbahs and an evening beside the dunes of Erg Chebbi. Three days from Marrakech for those who have always wanted to see the Sahara.",
+      "fit": "A short stay in Marrakech with the Sahara high on your wish list. You’ll need to be comfortable with long drives, particularly on the final day.",
+      "story": "The road south is part of the pleasure: the folds of the High Atlas, the warm earth of Aït Ben Haddou and the tall walls of Todra Gorge. By the second evening, the landscape opens into dunes and the pace finally slows.\n\nSpend a night near Erg Chebbi before the long road back to Marrakech. This is a full three days, with plenty of time on the road. If you can spare two more, our slower Sahara route gives you a whole day to enjoy the desert."
     },
     "imperial-cities-sahara-9-days": {
-      "title": "9-Day Imperial Cities & Sahara Tour",
-      "summary": "Travel from Casablanca to Marrakech through Rabat, Meknes, Fes and the Sahara. Combine city discovery with southern valleys and a desert overnight.",
-      "fit": "A good starting point for a first Morocco visit focused on history, medinas and one Sahara stay. Full days in Fes and Marrakech balance the longer travel legs.",
-      "story": "Start with Morocco's imperial cities, where courtyards, craft workshops and medina lanes reward time on foot. Then head south through the Middle Atlas and Ziz Valley toward a very different setting: the desert around Merzouga.\n\nThis one-way route connects cultural visits with a Sahara overnight before crossing the High Atlas into Marrakech. Share the subjects that interest you most, from architecture to food, and discuss an extra desert night if you prefer a gentler pace."
+      "title": "Imperial Cities & Sahara Nights",
+      "summary": "From the courtyards of Fes to the dunes of Erg Chebbi, discover Morocco’s cities and southern landscapes on a nine-day journey from Casablanca to Marrakech.",
+      "fit": "A first visit with a love of history, architecture and changing scenery. Full days in Fes and Marrakech give you time to settle into each city.",
+      "story": "Begin among the streets and monuments of Morocco’s imperial cities, where a doorway or a small workshop can be as absorbing as a famous landmark. A full day in Fes leaves time to follow those details with a local guide.\n\nThen travel south through mountain country and the Ziz Valley for an evening in the Sahara. Kasbahs and the High Atlas lead you on to Marrakech, with another full day to explore before you leave."
     },
     "slow-sahara-5-days": {
-      "title": "5-Day Sahara Tour with Two Desert Nights",
-      "summary": "Give the Sahara more time, with two nights near Merzouga and a full day around Erg Chebbi. Return to Marrakech through the Draa Valley and Ouarzazate.",
-      "fit": "Best suited to couples, photographers and travelers who want time around the dunes rather than an immediate return drive. Long distances still form part of the trip.",
-      "story": "An extra desert day changes the rhythm of the journey. After the Atlas crossing, Aït Ben Haddou and Todra Gorge, spend two nights in the Merzouga region with space to explore locally or enjoy a quieter afternoon near the dunes.\n\nThe return takes a different path through the Draa Valley, with an overnight near Ouarzazate to break up the journey. Choose a camp, a lodge or a combination of both when discussing the proposal. This is the route to consider when time in the Sahara matters more than fitting in another city."
+      "title": "The Sahara, a Little Slower",
+      "summary": "Two nights near Merzouga and a whole day with the dunes. Take five days from Marrakech to enjoy the Sahara, the southern valleys and the places in between.",
+      "fit": "Couples, photographers and anyone who would rather linger in the desert. The extra day gives the journey more breathing room, though there are still long drives.",
+      "story": "The first evening in the desert is only the beginning. With two nights near Erg Chebbi, there’s time to visit Khamlia, explore the surrounding settlements or simply watch the light move across the sand.\n\nThe journey home follows the Draa Valley, with a night near Ouarzazate before the Atlas crossing. Choose a camp, a lodge or a night in each—the right combination depends on how you like to spend your evenings."
     },
     "marrakech-fes-sahara-4-days": {
-      "title": "4-Day Marrakech to Fes Sahara Tour",
-      "summary": "Turn the journey between Marrakech and Fes into four days of kasbahs, gorges and dunes, with two nights in the Merzouga region.",
-      "fit": "Choose this if Fes is your next stop and you want the Sahara along the way. A full day near Erg Chebbi adds time to explore before the long drive north.",
-      "story": "Make the route between two great medinas part of the holiday. Cross the Atlas into Dades, continue through Todra Gorge and reach Erg Chebbi for the first of two nights in the desert region.\n\nA day around Merzouga leaves room for local exploration before the journey north through the Ziz Valley and Middle Atlas. You finish in Fes without retracing the road to Marrakech. Keep the final evening flexible and discuss any onward connections before settling the itinerary."
+      "title": "Marrakech to Fes, via the Sahara",
+      "summary": "Let the journey between two great medinas take you through kasbahs, gorges and the Sahara. Four days, with two nights near Merzouga and a full day around the dunes.",
+      "fit": "A natural choice if you’re continuing from Marrakech to Fes and want to see the Sahara along the way. The route can also be requested in reverse.",
+      "story": "Leave Marrakech across the Atlas and spend the first night in Dades. Beyond Todra Gorge, the road leads toward Merzouga and the broad sands of Erg Chebbi.\n\nTwo nights in the desert region leave a day for Khamlia, nearby settlements and quiet time at the dunes. Then follow the Ziz Valley and Middle Atlas north to Fes, arriving somewhere entirely different from where you began."
     },
     "southern-morocco-7-days": {
-      "title": "7-Day Southern Morocco & Sahara Tour",
-      "summary": "Explore Aït Ben Haddou, Skoura and Dades before two nights near Merzouga. A week focused on southern landscapes, with overnight stops along the approach.",
-      "fit": "For travelers who prefer palm groves, kasbah country and desert landscapes to a circuit of many cities. Choose this for a more gradual approach to the Sahara.",
-      "story": "Spend a week following the changing landscapes south of the Atlas. An overnight near Aït Ben Haddou gives way to Skoura's palm groves, the Dades Valley and finally the dunes around Merzouga. The stops between Marrakech and the Sahara are part of the experience.\n\nTwo nights near the dunes make room for village visits, walks or time at your stay. The return is broken near Ouarzazate before the Atlas crossing. Use this route as a starting point for a proposal centered on the places you most want to explore."
+      "title": "A Week in Southern Morocco",
+      "summary": "Stay among kasbahs, palm groves and valley landscapes before reaching the Sahara. A week from Marrakech with two nights near the dunes and time for the road south.",
+      "fit": "For those drawn to landscapes, small settlements and the south’s earthen architecture. A gradual approach to the Sahara with fewer city changes.",
+      "story": "An evening near Aït Ben Haddou, palms around Skoura, the changing shapes of the Dades Valley: this journey gives the approach to the Sahara its own time and attention.\n\nNear Merzouga, two nights make space for village visits, dune walks and a quieter afternoon. The return is broken near Ouarzazate, so the final Atlas crossing has a day of its own."
     },
     "coast-desert-8-days": {
-      "title": "8-Day Sahara & Essaouira Tour",
-      "summary": "Combine a Sahara overnight with southern valleys, Taroudant and two nights in Essaouira. Finish with Atlantic air before returning to Marrakech.",
-      "fit": "For travelers who want both desert and coast in one trip and accept the long transfers between them. Choose a single region instead if minimizing driving matters most.",
-      "story": "Go from the Atlas and desert landscapes to the fishing port and medina of Essaouira. This route pairs a compact Sahara journey with an Atlantic finish, passing through Ouarzazate and Taroudant on the way west.\n\nTwo nights in Essaouira give you a full day to explore the ramparts, browse artisan streets or request a coastal activity. The contrast is the appeal, but connecting these regions means covering substantial distances. Share your priorities so the balance of road time and time to explore is clear."
+      "title": "From the Sahara to Essaouira",
+      "summary": "An evening by the dunes, a road through southern Morocco and two nights beside the Atlantic. Eight days of desert and coast, beginning and ending in Marrakech.",
+      "fit": "For travelers who want both desert and coast and enjoy a changing view from the road. Several days involve substantial driving.",
+      "story": "Travel through the Atlas and Todra Gorge to a Sahara overnight, then turn west through Ouarzazate and Taroudant. By Essaouira, mountain roads have given way to sea air and fishing boats.\n\nTwo nights on the coast leave a full day for the medina, ramparts and a long lunch near the port. There’s a good deal of ground to cover between these landscapes; the reward is seeing how different one part of Morocco feels from the next."
     },
     "north-sahara-10-days": {
-      "title": "10-Day Tangier to Marrakech via the Sahara",
-      "summary": "Connect Chefchaouen, Fes and the Erg Chebbi dunes on a one-way journey from Tangier to Marrakech, with time for both medinas and landscapes.",
-      "fit": "For travelers arriving in Tangier and continuing south to Marrakech. A useful starting route when Chefchaouen, Fes and the Sahara are all on your list.",
-      "story": "Begin beside the Strait in Tangier, then head into the Rif for an overnight among Chefchaouen's blue streets. Fes brings a different rhythm, with a full day to discover its medina before turning south toward Merzouga.\n\nA desert day is followed by Todra Gorge, Dades and the Atlas crossing to Marrakech. This route suits a north-to-south holiday without a return to your starting city. The Fes-to-Merzouga leg is long; an additional overnight near Midelt is worth discussing if you have more time."
+      "title": "Tangier to Marrakech: Cities & Sahara",
+      "summary": "From Tangier and Chefchaouen to Fes, the Sahara and Marrakech. Ten days following Morocco south, with time in the medinas and a full day near the dunes.",
+      "fit": "For a north-to-south holiday that brings together Chefchaouen, Fes and the Sahara. Particularly convenient when arriving in Tangier and leaving from Marrakech.",
+      "story": "Begin beside the Strait in Tangier before spending a night among Chefchaouen’s blue lanes. In Fes, a day with a local guide brings you closer to the workshops, courtyards and neighborhoods within the medina.\n\nThe route then turns south through the Ziz Valley to Merzouga. A desert day, Todra Gorge and the High Atlas lead you onward to Marrakech, without doubling back to your starting point."
     },
     "grand-morocco-14-days": {
-      "title": "14-Day Morocco Tour: Cities, Sahara & Coast",
-      "summary": "Link Chefchaouen, Fes, the Sahara, Marrakech and Essaouira over two weeks. A broad Morocco introduction with full days in several key stops.",
-      "fit": "For first-time visitors with two weeks who want a varied introduction to Morocco. Expect a substantial road trip, with longer stays where there is more to explore.",
-      "story": "See several sides of Morocco in one journey: the blue streets of Chefchaouen, the medina of Fes, the dunes of Erg Chebbi and the Atlantic atmosphere of Essaouira. Full days in key destinations make space for discovery beyond a quick stop.\n\nMarrakech also has an open day for a cooking class, hammam or your own plans. The route covers considerable ground, so decide where you want guided visits and where you prefer time alone. For an early departure flight, discuss adding a final night in Marrakech after the coast."
+      "title": "Two Weeks Through Morocco",
+      "summary": "Blue streets in the Rif, the medina of Fes, Sahara dunes and Atlantic mornings. Two weeks connecting Morocco’s cities and landscapes, with longer stays along the way.",
+      "fit": "A first Morocco visit with two weeks to explore and an appetite for variety. Expect a substantial road journey, balanced by longer stays in several destinations.",
+      "story": "There’s time here to see the country change: from Rabat and Chefchaouen to Fes, then through the mountains toward the Sahara. Full days in several stops let you do more than arrive, look around and leave.\n\nAfter the desert and southern valleys, Marrakech brings gardens and lively souks. The journey finishes with Essaouira’s sea air before the return to Marrakech. It’s a wide-ranging first visit, with room to add a night wherever you’d like to linger."
     },
     "ouzoud-waterfalls": {
-      "title": "Private Ouzoud Waterfalls Day Trip from Marrakech",
-      "summary": "Travel privately from Marrakech to the Ouzoud waterfalls, with time for gorge viewpoints, shaded paths and lunch beside the cascades. The schedule can be adjusted around your party.",
-      "fit": "For couples, families and private groups who want a full day in nature without following a shared minibus timetable. The walking route can be adapted to your group's comfort.",
-      "story": "Leave Marrakech in a private vehicle and watch the city give way to farmland, olive groves and the foothills of the Middle Atlas. At Ouzoud, your private driver-guide accompanies your party between the main viewpoints and down through fig and olive trees toward the base of the three-tier cascades.\n\nThe day leaves four to five hours for the waterfalls, a riverside lunch and any optional boat outing that is operating. Your driver-guide adapts the walking pace around your interests, while the steps, uneven paths and return climb still need realistic time. Agree on lunch and optional activities before departure so the day is clear from pickup to return."
+      "title": "A Day at Ouzoud Waterfalls",
+      "summary": "Follow shaded paths through olive groves, pause above the cascades and enjoy lunch with the sound of falling water. A full day in the countryside from Marrakech, with your own driver-guide.",
+      "fit": "A day outdoors for couples, families and friends who enjoy scenery and walking. The route can be adapted, though some paths are steep and uneven.",
+      "story": "The sound of the falls reaches you before the view opens. Paths weave between fig and olive trees, revealing different angles on the cascades as you make your way into the gorge.\n\nWith four to five hours in the area, there’s time for the walk, a riverside lunch and an optional boat ride near the spray. Your driver-guide stays with your group, with a walking pace that leaves room to stop and enjoy the surroundings."
     },
     "ourika-valley": {
-      "title": "Ourika Valley Day Trip from Marrakech",
-      "summary": "Head into the Atlas foothills for riverside scenery and Setti Fatma. Choose a gentler valley visit or discuss a guided waterfall walk.",
-      "fit": "For travelers seeking a change of scenery near Marrakech. The riverside option suits a different pace from the steeper waterfall trail; choose the experience you want.",
-      "story": "Follow the Ourika Valley toward Setti Fatma, with villages and riverside scenery along the way. The day can center on time beside the river or a more active walk with a local guide.\n\nBe clear about the walking you want to do: the waterfall path can be steep and slippery. Discuss lunch and any stops in advance so the day reflects your interests rather than a list of places to tick off."
+      "title": "A Day in the Ourika Valley",
+      "summary": "Walnut trees, hillside villages and lunch beside the river. Leave Marrakech for the Ourika Valley, with a waterfall walk at Setti Fatma or a quieter afternoon by the water.",
+      "fit": "For a change of scene close to Marrakech. Choose the waterfall trail for a more active outing, or spend your time in the village and beside the river.",
+      "story": "As the road follows the river into the Atlas foothills, Marrakech begins to feel a world away. Terraced fields and villages line the valley, and the cafés at Setti Fatma invite you to stay for lunch.\n\nWalk up to the first waterfall if you’d like a more active day, or keep to the village and riverbank. Either way, there’s time to enjoy the scenery without hurrying from one stop to the next."
     },
     "essaouira-day": {
-      "title": "Essaouira Day Trip from Marrakech",
-      "summary": "Swap Marrakech for sea air, ramparts and Essaouira's working fishing port. Explore the medina at your own pace or request a guided visit.",
-      "fit": "For visitors who want a taste of the Atlantic coast and are comfortable with roughly three hours of travel each way. Stay overnight if you want more time to wander.",
-      "story": "Discover a different rhythm on the Atlantic coast. Essaouira brings together blue fishing boats, medina streets and sea-facing ramparts, with time to choose lunch and explore the places that catch your interest.\n\nA day trip offers an introduction rather than a long coastal stay. Any argan-cooperative stop is optional and should be agreed beforehand. If a slow morning by the sea is part of your ideal visit, ask about staying overnight instead."
+      "title": "Essaouira, a Day by the Sea",
+      "summary": "Blue fishing boats, sea-facing ramparts and a medina made for wandering. Spend a day on the Atlantic coast, with time for a seafood lunch and a walk along the shore.",
+      "fit": "For a taste of the coast during a Marrakech stay. There are roughly three hours of travel each way, with around four hours to enjoy Essaouira.",
+      "story": "Essaouira feels different from the moment you arrive: cooler air, gulls over the harbor and the Atlantic just beyond the medina walls. Walk between small workshops and galleries, then follow the boats to the fishing port.\n\nThe afternoon is yours to enjoy. Find a table for lunch, browse the souks or pause for mint tea on Place Moulay Hassan. Your driver takes care of the return to Marrakech; if a single day feels too short, ask us about staying overnight."
     },
     "ait-ben-haddou-day": {
-      "title": "Aït Ben Haddou Day Trip across the Atlas",
-      "summary": "Cross the High Atlas from Marrakech to explore Aït Ben Haddou's earthen architecture. Mountain roads and village views make the journey part of the day.",
-      "fit": "For travelers particularly interested in architecture and southern scenery who have one full day available. Be comfortable with a long return drive on winding roads.",
-      "story": "Travel across Tizi n'Tichka toward the earthen buildings of Aït Ben Haddou. Short viewpoints along the crossing give way to time on foot in the ksar, where the architecture is the focus of the visit.\n\nThis is one of the longer day trips from Marrakech. Keep the plan centered on the Atlas crossing and Aït Ben Haddou rather than assuming there will be time for every nearby stop. An Ouarzazate extension can be discussed around the available time."
+      "title": "Across the Atlas to Aït Ben Haddou",
+      "summary": "Wind through the High Atlas to Aït Ben Haddou’s earthen towers and the kasbahs of Ouarzazate. A full day of mountain views, village lanes and Morocco’s film country.",
+      "fit": "For travelers drawn to architecture, film locations and mountain scenery, with a full day free and a liking for a scenic drive.",
+      "story": "The Atlas crossing offers a changing view at every turn: hillside villages, cultivated terraces and peaks rising above the road. Beyond the pass, Aït Ben Haddou stands in warm earth against the valley.\n\nExplore its lanes and climb toward the old granary before continuing to Ouarzazate and Taourirt Kasbah. Film lovers can add a visit to the Atlas studios. It’s a long day, but a striking introduction to the landscapes south of Marrakech."
     },
     "agafay-evening": {
-      "title": "Agafay Desert Evening from Marrakech",
-      "summary": "Spend late afternoon among Agafay's rocky hills and discuss an evening meal at your chosen venue. An open-sky escape without a multi-day Sahara journey.",
-      "fit": "For travelers with a free evening who want desert scenery close to Marrakech. Choose Agafay for rocky landscapes; choose Merzouga for Sahara sand dunes.",
-      "story": "Leave the city for the rocky hills of Agafay, with time to enjoy the late-afternoon landscape before an evening meal. This shorter outing fits into a Marrakech stay without the road days needed to reach Merzouga.\n\nThe venue shapes the experience. Discuss the setting, menu, drinks and return time before choosing. A camel outing or quad session can be requested separately, or you can keep the focus on the view and dinner."
+      "title": "An Evening in Agafay",
+      "summary": "Watch the light soften over Agafay’s rocky hills, then settle in for an evening meal. Open skies and desert scenery, within an evening’s reach of Marrakech.",
+      "fit": "An easy change of scene for a free evening in Marrakech, especially if you’d like desert landscapes without a multi-day journey.",
+      "story": "Beyond Marrakech, the stone desert opens into low hills and a wide horizon. Arrive with time to take in the late-afternoon light before dinner at your chosen venue.\n\nYou can keep the evening simple—a view, a meal and time together—or add a camel ride or quad outing. We’ll help you choose the setting and agree the details before you go."
     },
     "imlil-atlas-day": {
-      "title": "Imlil & Atlas Mountains Walking Day Trip",
-      "summary": "Explore the High Atlas on foot from Imlil, with village trails and valley viewpoints. Discuss the distance and ascent before choosing your walking route.",
-      "fit": "For travelers who want an active day in the mountains rather than a sightseeing drive. Match the trail to your group's experience, fitness and the day's conditions.",
-      "story": "Travel from Marrakech into the High Atlas and spend time around Imlil on foot. A village trail offers a closer view of the valley, with pauses to enjoy the scenery along the way.\n\nThe right route matters more than covering the greatest distance. Discuss walking time, ascent and weather with the guide, and plan lunch around the outing. This is a village walking day, not a Toubkal summit trip."
+      "title": "Imlil & the Atlas, by Way of Agafay",
+      "summary": "Rocky desert, lake views and a walk among mountain villages. Follow the road from Agafay through Lalla Takerkoust and the Kik Plateau to Imlil, with a camel ride and lunch along the way.",
+      "fit": "For travelers who enjoy a varied day outdoors, with a one- to two-hour mountain walk. We’ll plan the trail and camel ride around your group’s comfort.",
+      "story": "See the landscapes around Marrakech change in a single day: Agafay’s stony hills, the water at Lalla Takerkoust and the terraces below the Kik Plateau. A camel ride and tea with a Berber family bring time to pause between the views.\n\nIn Imlil, leave the road for a walk with a mountain guide. Paths lead past walnut trees, hamlets and streams before lunch in a Berber home. The return follows Moulay Brahim Gorge back toward Marrakech."
     },
     "chefchaouen-from-fes": {
-      "title": "Chefchaouen Day Trip from Fes",
-      "summary": "Travel from Fes to Chefchaouen for blue medina lanes, small squares and hillside views. A full road day with an option to request an overnight stay.",
-      "fit": "For travelers based in Fes who have a full day available. An overnight is the better fit if you want quiet wandering time rather than a same-day return.",
-      "story": "Make an early start from Fes for the Rif Mountains and Chefchaouen. Spend the middle of the day exploring blue streets, pausing in small squares and choosing a place for lunch.\n\nThe drive takes a significant part of the day, so focus on enjoying the medina rather than a packed sightseeing list. You can request a one-way finish and stay overnight for a gentler visit. This trip departs from Fes, not Marrakech."
+      "title": "Chefchaouen from Fes",
+      "summary": "Blue-painted lanes, small squares and the Rif Mountains beyond. Travel from Fes for a day in Chefchaouen, with time to walk, stop for lunch and enjoy the views.",
+      "fit": "For travelers based in Fes with a full day available. An overnight stay gives you more time in town and a gentler pace.",
+      "story": "The road from Fes leads north toward the Rif and the hillside town of Chefchaouen. Once there, narrow blue lanes and small squares invite a slower kind of exploring.\n\nSpend the middle of the day on foot, pausing for lunch and photographs before the return. If you’d like to enjoy the town after the day visitors leave, we can discuss an overnight stay instead."
     },
     "volubilis-meknes": {
-      "title": "Volubilis & Meknes Day Trip from Fes",
-      "summary": "Explore Roman Volubilis, pause in Moulay Idriss and discover the accessible landmarks of Meknes. Three perspectives on Morocco's history in one day.",
-      "fit": "For travelers staying in Fes who enjoy archaeology and historic architecture. Expect exposed walking at Volubilis and a visiting plan adapted to monument access.",
-      "story": "Step beyond Fes to explore the Roman remains at Volubilis, then continue to nearby Moulay Idriss and the imperial city of Meknes. The route connects different periods of Moroccan history without changing your overnight base.\n\nRequest a site guide if you would like more context at Volubilis. Some Meknes monuments may be affected by restoration work, so discuss the accessible stops before departure and leave room for a considered visit rather than a fixed checklist."
+      "title": "Volubilis, Moulay Idriss & Meknes",
+      "summary": "Roman remains, a hillside town and an imperial city. Discover three chapters of Morocco’s history on a day out from Fes.",
+      "fit": "For travelers staying in Fes who enjoy archaeology, history and architecture. Expect walking at exposed sites and a varied day of visits.",
+      "story": "Begin among the open-air remains of Volubilis, where walking through the site gives a sense of the city that once stood here. Nearby Moulay Idriss brings a different setting, with a short visit and time for lunch.\n\nContinue to Meknes for the afternoon before returning to Fes. The day’s monument visits follow current access arrangements, leaving room to enjoy the places that are open."
     },
     "marrakech-balloon": {
-      "title": "Hot-Air Balloon Experience near Marrakech",
-      "summary": "See the countryside near Marrakech from above on an early balloon outing. Discuss the flight, breakfast and transfers as parts of your chosen session.",
-      "fit": "For travelers happy to start before dawn and keep plans flexible around the weather. The total outing is longer than the time spent in the air.",
-      "story": "Start before sunrise for a different perspective on the countryside around Marrakech, with the Atlas on the distant horizon. Preparation, the briefing and the return journey are all part of the morning outing.\n\nFlying depends on suitable conditions. Before choosing a session, confirm the actual flight duration, eligibility, breakfast arrangements and what happens if weather changes the plan. Keep the morning flexible rather than scheduling another activity immediately afterward."
+      "title": "A Morning Above Marrakech",
+      "summary": "Leave before sunrise for a balloon flight over the countryside around Marrakech. A different view of Morocco, with the Atlas on the distant horizon.",
+      "fit": "For an early riser looking for a different view of the Marrakech countryside, with a morning free and flexibility if the weather changes.",
+      "story": "An early start brings you to the launch area while the day is still beginning. After the briefing and preparations, take to the sky when conditions allow and watch the countryside spread out below.\n\nThe flight is one part of the morning, with breakfast and transfers arranged according to your chosen session. Leave the rest of the morning open so there’s no need to rush after landing."
     },
     "agafay-quad": {
-      "title": "Agafay Quad Biking from Marrakech",
-      "summary": "Explore Agafay's rocky tracks on a guided quad outing, with a briefing and practice before the ride. Discuss driver and passenger options when requesting.",
-      "fit": "For travelers seeking an active outing near Marrakech. Confirm whether you want to drive or ride as a passenger, and share any previous experience.",
-      "story": "Trade city streets for Agafay's rocky terrain on a guided quad route. Begin with equipment, instructions and a practice session before following the trail with scenic pauses along the way.\n\nAsk for the riding duration separately from transfers and preparation time. Age and license rules, passenger arrangements and coverage need to be clear before you choose the session. The goal is an outing suited to your group and experience."
+      "title": "Quad Riding in Agafay",
+      "summary": "Leave the city for Agafay’s open tracks and rocky hills. Get familiar with the quad, then follow your guide through the landscape with time for scenic stops.",
+      "fit": "For an active break from Marrakech, whether you’re interested in driving or joining as a passenger. Eligibility and the riding setup are agreed in advance.",
+      "story": "Agafay’s terrain gives this outing its character: stony tracks, low hills and long views. A briefing and practice session at the base help you settle in before the ride begins.\n\nFollow your guide along the agreed route, pausing to take in the scenery. We’ll make the time on the trail, transfers and driver or passenger arrangements clear when planning your outing."
     },
     "merzouga-camel": {
-      "title": "Camel Ride in Merzouga's Erg Chebbi Dunes",
-      "summary": "Head into Erg Chebbi on a short camel outing from Merzouga. Discuss sunrise or sunset timing, with space to pause and take in the dunes.",
-      "fit": "For travelers already in Merzouga who want a short dune experience. A camp overnight and transport from other cities are separate arrangements.",
-      "story": "Experience the dunes at a slower pace on a short camel route from Merzouga. The outing focuses on the landscape, with time to stop and enjoy the view before returning locally.\n\nChoose the timing around your stay and comfort. If camel riding does not suit you, ask about a 4×4 alternative. This is a local activity rather than a tour from Marrakech; add any camp night or onward transport explicitly to your request."
+      "title": "A Camel Ride Among the Dunes",
+      "summary": "See Erg Chebbi from camelback as the dunes change color around you. A short outing from Merzouga, with sunrise or sunset options and time to pause along the way.",
+      "fit": "For travelers already in Merzouga who would like a short dune outing. Overnight camping and transport from other cities are separate arrangements.",
+      "story": "A camel’s measured pace gives you time to look around: the shape of the dunes, the changing light and the space beyond the next ridge. Follow a short route from Merzouga before returning to your starting point.\n\nChoose the time that suits your stay and comfort. A 4×4 alternative can be discussed if camel riding isn’t for you, and a camp night can be arranged separately."
     },
     "merzouga-sandboarding": {
-      "title": "Sandboarding in the Merzouga Dunes",
-      "summary": "Try sandboarding on a suitable dune near Merzouga, with time to learn, climb back up and go again. A short, active addition to a desert stay.",
-      "fit": "For travelers already in Merzouga who enjoy an active outdoor session. Be comfortable walking uphill in sand between runs.",
-      "story": "Add a playful stop to your time in Merzouga with a board, a dune slope and space to practice. The setting is part of the appeal, whether you spend more time trying the board or pausing between climbs.\n\nChoose the session around heat and wind conditions. Confirm equipment and the local meeting point; transport and a camp night should not be assumed. Keep enough energy for the climb back up after each attempt."
+      "title": "Sandboarding at Erg Chebbi",
+      "summary": "A board, a dune and another reason to spend time outside. Try sandboarding near Merzouga, with space to practice and enjoy the views between runs.",
+      "fit": "For travelers already in Merzouga who enjoy being active outdoors and are comfortable walking uphill through sand.",
+      "story": "Add a little play to a desert stay. Start on a suitable dune, learn the basics and find your own rhythm, with time to rest between the climbs back up.\n\nThe session is planned around the heat and wind. It works well as a local activity while staying in Merzouga; transfers and overnight camp stays are separate arrangements."
     },
     "agafay-buggy": {
-      "title": "Agafay Buggy Experience from Marrakech",
-      "summary": "Follow a guided buggy route through Agafay's rocky hills. Discuss driving roles, passenger places and the time on the trail before choosing your outing.",
-      "fit": "For travelers looking for an outdoor driving experience, including those interested in sharing a buggy. Confirm the vehicle capacity and eligibility for each person.",
-      "story": "Explore open, rocky landscapes on a guided buggy circuit outside Marrakech. Start at the activity base with a briefing and time to understand the controls before joining the route.\n\nThe full outing includes more than the drive itself. Ask about trail time, transfers, helmets and the driver or passenger arrangement for your group. Scenic pauses and the route are adapted to conditions rather than guaranteed as a fixed course."
+      "title": "Agafay by Buggy",
+      "summary": "Take to Agafay’s rocky tracks on a guided buggy drive. Open views, a little adventure and time to get comfortable at the wheel before you begin.",
+      "fit": "For an outdoor driving experience near Marrakech, including friends or couples who would like to share a buggy. Capacity and eligibility depend on the vehicle and operator.",
+      "story": "Meet at the base, learn the controls and settle into your seat before following the guide into Agafay’s open landscape. Scenic pauses give you time to look beyond the trail.\n\nThe route responds to conditions on the day. We’ll clarify who’s driving, who’s joining as a passenger and how much time you’ll spend on the trail, alongside the transfers and preparation."
     },
     "atlas-paragliding": {
-      "title": "Tandem Paragliding near Marrakech",
-      "summary": "Request a tandem flight in the Atlas foothills, with the site and timing chosen around conditions. A specialist outing that needs a flexible schedule.",
-      "fit": "For travelers interested in a flight experience who can accept weather changes. Confirm eligibility and the operator's arrangements before committing to the activity.",
-      "story": "See the foothills from a new angle on a tandem outing with a pilot. The experience begins with a discussion of conditions and a briefing, followed by a flight only when the site and weather allow.\n\nTreat flexibility as part of the plan. Confirm the operator's qualifications, coverage, eligibility rules and weather cancellation terms, as well as transfers and expected flight time. A particular launch site or duration cannot be promised in advance."
+      "title": "Above the Atlas Foothills",
+      "summary": "See the foothills from the air on a tandem flight with a pilot. A striking change of perspective near Marrakech, planned around the day’s flying conditions.",
+      "fit": "For travelers curious about tandem flying who can leave room for weather changes in their plans.",
+      "story": "From the launch site, the landscape takes on a different scale. Meet your pilot, prepare together and take off only when the weather and site conditions are suitable.\n\nKeep your schedule flexible for this outing. The launch location and flight time depend on conditions, and we’ll clarify the operator’s arrangements, eligibility and weather policy before booking."
     },
     "marrakech-hammam": {
-      "title": "Moroccan Hammam Experience in Marrakech",
-      "summary": "Make room for a bathing ritual between busy sightseeing days. Choose the setting and discuss treatments, privacy and duration before your visit.",
-      "fit": "For travelers wanting a quieter city experience. Tell us whether you prefer a traditional bathhouse or a private spa setting, and how much privacy you want.",
-      "story": "Pause between medina walks and day trips for a Moroccan hammam experience. The right setting depends on your comfort: a traditional bathhouse and a private spa can offer very different visits.\n\nDiscuss the treatment, privacy arrangements and what to bring before choosing. A massage is not automatically included. Leave time afterward to finish at an easy pace rather than rushing straight to the next activity."
+      "title": "Time for a Hammam",
+      "summary": "A welcome pause between days of exploring Marrakech. Choose a traditional bathhouse or a spa setting and make time for Morocco’s bathing ritual.",
+      "fit": "For a quiet break during a Marrakech stay. Tell us the setting and level of privacy you’d prefer, from a traditional bathhouse to a spa.",
+      "story": "After hours on your feet in the medina, a hammam offers a different way to spend part of the day. Warmth, water and a slower pace make the visit as much about taking time as the treatment itself.\n\nA neighborhood bathhouse and a spa are different experiences. We’ll discuss the setting, privacy and treatments with you, so you know what to expect and can choose what feels comfortable."
     },
     "marrakech-cooking": {
-      "title": "Moroccan Cooking Class in Marrakech",
-      "summary": "Prepare a Moroccan meal with guidance, then sit down to enjoy what you have made. Discuss a market visit and a menu suited to your dietary needs.",
-      "fit": "For curious cooks, couples and families who enjoy learning by doing. Share allergies, dietary preferences and your preferred teaching language before choosing a host.",
-      "story": "Make food part of the experience, from understanding ingredients to preparing dishes and sharing the meal. A guided cooking session gives you time to ask questions and take ideas back to your own kitchen.\n\nSome sessions can begin at a market; others start directly with the host. Discuss the menu, dietary needs, teaching language and meeting point in advance so the class fits the people taking part."
+      "title": "A Moroccan Kitchen in Marrakech",
+      "summary": "Learn a few of the flavors you’ve been enjoying, then sit down to the meal you’ve made. A hands-on cooking class, with a market visit available for selected sessions.",
+      "fit": "For curious cooks, couples and families who enjoy learning by doing. Share any allergies, dietary preferences and your preferred language when planning the class.",
+      "story": "There’s something satisfying about learning a dish in the place it comes from. Work through a Moroccan menu with your host, ask questions as you cook and pick up ideas to bring home.\n\nSome classes begin with a market visit; others take you straight to the kitchen. The session ends around the table, enjoying the food together. We’ll agree the menu and dietary needs before you arrive."
     },
     "marrakech-dinner-show": {
-      "title": "Dinner & Show Experience in Marrakech",
-      "summary": "Plan an evening of Moroccan food and performance at a venue chosen around your interests. Review the menu and program before deciding.",
-      "fit": "For groups wanting an organized evening out. Choose based on the actual performance style, dining arrangements and return time rather than the show label alone.",
-      "story": "Bring dinner and an evening performance into one plan, with a venue and program suited to your group. The experience varies considerably between settings, so the details matter as much as the idea.\n\nReview the advertised program, including any animal participation, alongside the menu and drinks arrangements. Confirm transfers and the finish time before choosing, particularly if you are traveling with children or prefer an earlier evening."
+      "title": "Dinner & an Evening Show",
+      "summary": "Bring Moroccan food and an evening performance into your Marrakech stay. Choose a venue and program that suit the kind of night you have in mind.",
+      "fit": "For friends, families or couples who would like an organized evening out. Your choice of venue determines the atmosphere and performance style.",
+      "story": "Make an evening of it, with dinner and a performance in one setting. The atmosphere, menu and style of show vary by venue, so choosing the right one is part of the planning.\n\nWe’ll help clarify the program, drinks and transport before you decide. If you’re traveling with children or prefer an earlier finish, let us know so the evening works for everyone."
     },
     "essaouira-horse-riding": {
-      "title": "Coastal Horse Riding in Essaouira",
-      "summary": "Explore a coastal trail with a riding guide and a horse matched to your experience. A local outdoor outing beyond Essaouira's medina.",
-      "fit": "For travelers already staying in Essaouira who want time on horseback. Share each rider's experience so the stable can discuss a suitable horse and pace.",
-      "story": "See another side of the Essaouira area on a guided coastal ride. Meet the stable team, discuss your experience and begin with instructions before following a trail suited to the group and conditions.\n\nConfirm helmet provision, rider restrictions, coverage and stable standards before choosing. Beach access depends on conditions, and a gallop is not part of every ride. This outing starts locally; any transfer should be arranged explicitly."
+      "title": "Essaouira on Horseback",
+      "summary": "Leave the medina for a guided ride along the coast. Meet the stable team and follow a trail chosen for your experience, with sea air and open scenery along the way.",
+      "fit": "For travelers staying in Essaouira who would like time in the saddle. Tell us about each rider’s experience so the stable can suggest a suitable horse and pace.",
+      "story": "A ride outside Essaouira offers a different view of the coast, away from the harbor and busy streets. Begin at the stable, where the team will discuss your experience and introduce you to your horse.\n\nThe route and pace suit the riders and conditions. Beach access is not always possible, and a gallop is not part of every ride—the pleasure is in exploring the landscape on horseback."
     }
   }
 }

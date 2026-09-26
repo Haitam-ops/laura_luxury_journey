@@ -59,7 +59,7 @@
  document.querySelector('.approach-intro>p:not(.eyebrow)').textContent=s.about_copy;
  document.querySelector('.footer-main>div:first-child>p').textContent=s.tagline;
  const footerCredit=document.querySelector('.footer-bottom>span');
- if(footerCredit)footerCredit.innerHTML='© <span id="year">'+new Date().getFullYear()+'</span> '+escape(tr(s.brand+'. Made for the journey.'));
+ if(footerCredit)footerCredit.innerHTML='© <span id="year">'+new Date().getFullYear()+'</span> '+escape(tr(s.brand+'. See Morocco your way.'));
  const firstPhoto=cms.media[s.hero_images[0]];if(firstPhoto){const hero=document.querySelector('.hero-image');setCMSPhoto(hero,firstPhoto,'100vw');const preload=document.querySelector('link[rel=preload][as=image]');preload.href=firstPhoto.path;if(firstPhoto.variants){preload.imageSrcset=firstPhoto.variants.map(v=>v.path+' '+v.width+'w').join(', ');preload.imageSizes='100vw';}}
  document.title=s.brand+' — '+s.hero_title+' '+s.hero_emphasis;
  document.querySelector('meta[name=description]').content=s.collection_copy;
@@ -97,6 +97,6 @@
  for(const lang of cms.languages){const link=document.createElement('link');link.rel='alternate';link.hreflang=lang.code;const other=new URL(location.href);other.searchParams.set('lang',lang.code);link.href=other.href;document.head.append(link)}
  translateDOM();
  new MutationObserver(records=>{for(const record of records){if(record.type==='characterData')translateDOM(record.target);else for(const node of record.addedNodes)if(node.nodeType===1||node.nodeType===3)translateDOM(node)}}).observe(document.body,{subtree:true,childList:true,characterData:true});
- const script=document.createElement('script');script.src='/app.js';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
+ const script=document.createElement('script');script.src='/app.js?v=editorial-20260926';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=editorial-20260926';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=editorial-20260926';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
  function showError(){const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3>'+escape(tr('The collection could not be loaded.'))+'</h3><p>'+escape(tr('Please refresh the page to try again.'))+'</p></div>'}
 })().catch(()=>{document.querySelector('#trip-grid').innerHTML='<div class="empty-state"><h3>The collection could not be loaded.</h3><p>Please refresh the page to try again.</p></div>';});
