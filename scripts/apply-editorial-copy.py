@@ -41,9 +41,9 @@ def update_trip(trip):
     replace_fields(trip, changes)
     if 'cover' not in changes:
         cover = {
-            'journeys': ['Comfortable, air-conditioned transport and where to meet your driver', 'Your accommodation for each night of the journey', 'The breakfasts and desert-camp dinners included in your stay', 'Local guides, entrance tickets and camp transfers, clearly listed'],
-            'daytrips': ['Your own driver and comfortable, air-conditioned transport', 'Where and when to meet, and your return arrangements', 'Guiding, meals and entrance tickets, clearly listed'],
-            'experiences': ['Your chosen activity and how long to allow', 'Your host or guide and preferred language', 'Equipment, transport and any extras, clearly listed']
+            'journeys': ['Comfortable, air-conditioned transport and where to meet your driver', 'Your accommodation for each night of the journey', 'The breakfasts and desert-camp dinners included in your stay', 'Local assistance, entrance tickets and camp transfers, clearly listed'],
+            'daytrips': ['Your own driver and comfortable, air-conditioned transport', 'Where and when to meet, and your return arrangements', 'Local assistance, meals and entrance tickets, clearly listed'],
+            'experiences': ['Your chosen activity and how long to allow', 'Your host or activity team and preferred language', 'Equipment, transport and any extras, clearly listed']
         }[trip['category']]
         replace_fields(trip, {'cover': cover})
     if 'extras' not in changes:

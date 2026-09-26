@@ -17,6 +17,6 @@
   },
   "booking": {
     "title": "How your booking is confirmed",
-    "html": "<p>The journeys on this website are starting points for planning. An enquiry lets us know what you have in mind; it does not reserve transport, accommodation or an activity.</p><p>Before you book, we’ll agree the itinerary, named stays, guiding language, meeting points, meals and activities. Your proposal will also set out payment and cancellation terms, including how weather or availability changes are handled.</p><p>No payment is taken through this website. Please wait until your arrangements are confirmed before making non-refundable onward connections based on the itinerary.</p>"
+    "html": "<p>The journeys on this website are starting points for planning. An enquiry lets us know what you have in mind; it does not reserve transport, accommodation or an activity.</p><p>Before you book, we’ll agree the itinerary, named stays, language preferences, meeting points, meals and activities. Your proposal will also set out payment and cancellation terms, including how weather or availability changes are handled.</p><p>No payment is taken through this website. Please wait until your arrangements are confirmed before making non-refundable onward connections based on the itinerary.</p>"
   }
 }

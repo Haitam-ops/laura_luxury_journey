@@ -14,13 +14,13 @@ corrections = {
    2: "Longez la rivière entre cultures en terrasses, noyers et villages à flanc de colline. Le lundi, le parcours comprend le marché hebdomadaire de Tnin Ourika.",
    3: "Rejoignez la première cascade par un sentier rocheux, avec environ 45 minutes de marche dans chaque sens. Vous pouvez aussi rester au village et dans les cafés au bord de l'eau. Indiquez-nous votre préférence pour organiser l'accompagnement.",
    4: "Installez-vous sous les arbres dans un restaurant au bord de la rivière pour un tajine ou des grillades. Le déjeuner et les boissons sont à régler sur place, sauf mention contraire dans votre devis.",
-   5: "Parcourez les étals d'artisanat ou détendez-vous au bord de l'eau. Par temps chaud, demandez conseil à votre guide avant d'entrer dans les bassins naturels de la rivière.",
+   5: "Parcourez les étals d'artisanat ou détendez-vous au bord de l'eau. Par temps chaud, renseignez-vous sur les conditions locales avant d'entrer dans les bassins naturels de la rivière.",
    6: "Retrouvez votre chauffeur privé pour redescendre la vallée et rejoindre votre hébergement ou le lieu de retour convenu."
   },
   'ouzoud-waterfalls': {
-   0: "Votre chauffeur-guide vous retrouve à votre hébergement ou au point accessible le plus proche. Prenez la direction du nord-est à bord de votre véhicule privé climatisé.",
+   0: "Votre chauffeur vous retrouve à votre hébergement ou au point accessible le plus proche. Prenez la direction du nord-est à bord de votre véhicule privé climatisé.",
    1: "Comptez environ trois heures de route à travers les terres agricoles et les oliveraies vers les contreforts du Moyen Atlas, avec une pause en chemin.",
-   2: "Arrivez au village de Tanaghmeilt et découvrez les premières vues sur les cascades. Choisissez le parcours de marche avec votre chauffeur-guide avant de descendre dans les gorges.",
+   2: "Arrivez au village de Tanaghmeilt et découvrez les premières vues sur les cascades. Choisissez le parcours de marche qui vous convient avant de descendre dans les gorges.",
    3: "Prévoyez quatre à cinq heures sur place, déjeuner compris. Suivez les sentiers entre points de vue et bosquets ombragés, en observant les macaques dans les arbres. Une promenade en bateau est proposée en option au pied des cascades.",
    6: "Reprenez la route de Marrakech avec une pause en chemin. Le retour à votre hébergement est prévu entre 19:00 et 20:00, selon la circulation."
   },
@@ -36,7 +36,7 @@ corrections = {
   },
   'imlil-atlas-day': {
    0: "Quittez votre hébergement à Marrakech en 4×4 privé et prenez la direction d'Agafay. Faites des pauses photo lorsque les terres agricoles cèdent la place aux paysages désertiques.",
-   4: "Retrouvez votre guide de montagne à Imlil. Marchez pendant une à deux heures entre noyers, hameaux et ruisseaux en direction des cascades, à un rythme adapté à votre groupe.",
+   4: "Commencez à Imlil une marche d'une à deux heures entre noyers, hameaux et ruisseaux en direction des cascades, à un rythme adapté à votre groupe.",
    5: "Déjeunez chez une famille berbère avec vue sur la vallée : salade, tajine ou couscous, puis fruits et thé à la menthe."
   }
  },
@@ -47,13 +47,13 @@ corrections = {
    2: "Folgen Sie dem Fluss vorbei an Terrassenfeldern, Walnussbäumen und Bergdörfern. Montags gehört der Wochenmarkt von Tnin Ourika zum Programm.",
    3: "Wandern Sie auf dem felsigen Pfad zum ersten Wasserfall; rechnen Sie mit etwa 45 Minuten pro Strecke. Alternativ bleiben Sie im Dorf und in den Cafés am Fluss. Teilen Sie uns Ihre Wahl mit, damit wir die Begleitung organisieren können.",
    4: "Genießen Sie Tajine oder Gegrilltes in einem Restaurant unter den Bäumen am Fluss. Mittagessen und Getränke zahlen Sie separat, sofern sie nicht im Angebot enthalten sind.",
-   5: "Schauen Sie sich die Kunsthandwerksstände an oder entspannen Sie am Wasser. Fragen Sie bei warmem Wetter Ihren Guide nach den Bedingungen, bevor Sie die natürlichen Flussbecken betreten.",
+   5: "Schauen Sie sich die Kunsthandwerksstände an oder entspannen Sie am Wasser. Informieren Sie sich bei warmem Wetter über die Bedingungen, bevor Sie die natürlichen Flussbecken betreten.",
    6: "Ihr privater Fahrer bringt Sie auf der Talstraße zurück nach Marrakesch, zu Ihrer Unterkunft oder zum vereinbarten Ausstiegspunkt."
   },
   'ouzoud-waterfalls': {
-   0: "Ihr Fahrer-Guide holt Ihre Reisegruppe an der Unterkunft oder am nächsten erreichbaren Treffpunkt ab. Im privaten klimatisierten Fahrzeug geht es nach Nordosten.",
+   0: "Ihr Fahrer holt Ihre Reisegruppe an der Unterkunft oder am nächsten erreichbaren Treffpunkt ab. Im privaten klimatisierten Fahrzeug geht es nach Nordosten.",
    1: "Die etwa dreistündige Fahrt führt durch Ackerland und Olivenhaine zu den Ausläufern des Mittleren Atlas. Unterwegs legen Sie eine Pause ein.",
-   2: "Sie erreichen das Dorf Tanaghmeilt und beginnen Ihren Besuch der Wasserfälle. Besprechen Sie den Fußweg mit Ihrem Fahrer-Guide, bevor Sie in die Schlucht hinabsteigen.",
+   2: "Sie erreichen das Dorf Tanaghmeilt und beginnen Ihren Besuch der Wasserfälle. Wählen Sie den passenden Fußweg, bevor Sie in die Schlucht hinabsteigen.",
    3: "Vor Ort bleiben etwa vier bis fünf Stunden einschließlich Mittagessen. Entdecken Sie Aussichtspunkte und schattige Haine und beobachten Sie die Makaken in den Bäumen. Eine optionale Bootsfahrt führt näher an die Wasserfälle.",
    5: "Planen Sie 20–30 Minuten für den Aufstieg ins Dorf ein. Vor dem Treffen mit Ihrem Fahrer bleibt Zeit für die Verkaufsstände.",
    6: "Fahren Sie mit einer Pause unterwegs zurück nach Marrakesch. Je nach Verkehr erreichen Sie Ihre Unterkunft zwischen 19:00 und 20:00."

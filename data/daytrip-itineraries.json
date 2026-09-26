@@ -16,7 +16,7 @@
       ],
       [
         "Setti Fatma · Waterfall or riverbank",
-        "Take the rocky path to the first waterfall, allowing around 45 minutes in each direction. Or stay in the village, explore its cafés and enjoy the river. We’ll arrange the guiding around your choice."
+        "Take the rocky path to the first waterfall, allowing around 45 minutes in each direction. Or stay in the village, explore its cafés and enjoy the river. We’ll arrange the day around your choice."
       ],
       [
         "Lunch · Under the trees",
@@ -24,7 +24,7 @@
       ],
       [
         "Afternoon · A little time to linger",
-        "Browse the craft stalls or settle by the water. If you’d like to cool off in the river pools, check the conditions with your guide first."
+        "Browse the craft stalls or settle by the water. If you’d like to cool off in the river pools, check the local conditions first."
       ],
       [
         "17:00–18:00 · Return to Marrakech",
@@ -37,7 +37,7 @@
     "itinerary": [
       [
         "08:30 · Set off from Marrakech",
-        "Your driver-guide meets you at your accommodation or the nearest accessible meeting point. Settle in for the drive northeast, leaving the bustle of Marrakech behind."
+        "Your driver meets you at your accommodation or the nearest accessible meeting point. Settle in for the drive northeast, leaving the bustle of Marrakech behind."
       ],
       [
         "Morning · Through the Tadla plains",
@@ -45,7 +45,7 @@
       ],
       [
         "Around 11:30 · First views of Ouzoud",
-        "Arrive in Tanaghmeilt village and take in the waterfalls. Your driver-guide will help you choose a walking route before you begin the descent into the gorge."
+        "Arrive in Tanaghmeilt village and take in the waterfalls. Choose the walking route that suits you before beginning the descent into the gorge."
       ],
       [
         "Late morning & afternoon · Beside the falls",
@@ -78,7 +78,7 @@
       ],
       [
         "Around 12:00 · Welcome to Essaouira",
-        "Arrive near the medina entrance, with around four hours to explore. Wander independently or enjoy a guided visit arranged in advance."
+        "Arrive near the medina entrance, with around four hours to explore. Wander independently or follow a medina visit arranged in advance."
       ],
       [
         "Midday · Inside the sea walls",
@@ -101,7 +101,7 @@
   "ait-ben-haddou-day": {
     "duration": "About 12 hours · 07:00–19:00",
     "summary": "Wind through the High Atlas to Aït Ben Haddou’s earthen towers and the kasbahs of Ouarzazate. A full day of mountain views, village lanes and Morocco’s film country.",
-    "practical": "Expect an early start, an evening return and winding mountain roads. Comfortable shoes are best for the uneven lanes and uphill walk. Guiding, monument tickets and meals will be detailed in your quote; the film studios are optional. Weather and road conditions may affect the schedule.",
+    "practical": "Expect an early start, an evening return and winding mountain roads. Comfortable shoes are best for the uneven lanes and uphill walk. Monument tickets, meals and any local assistance will be detailed in your quote; the film studios are optional. Weather and road conditions may affect the schedule.",
     "itinerary": [
       [
         "Around 07:00 · Into the High Atlas",
@@ -141,10 +141,10 @@
     "highlights": [
       "Agafay & lake viewpoints",
       "Kik Plateau & village visit",
-      "Guided walk around Imlil"
+      "Village walk around Imlil"
     ],
-    "practical": "This is a sightseeing circuit with a one- to two-hour walk, rather than a Toubkal summit trek. Bring walking shoes, sun protection and a warm layer. The Asni market stop is on Saturdays. Your quote will detail the camel ride, guiding and home-hosted lunch; weather, traffic and walking pace can affect the return time.",
-    "story": "See the landscapes around Marrakech change in a single day: Agafay’s stony hills, the water at Lalla Takerkoust and the terraces below the Kik Plateau. A camel ride and tea with a Berber family bring time to pause between the views.\n\nIn Imlil, leave the road for a walk with a mountain guide. Paths lead past walnut trees, hamlets and streams before lunch in a Berber home. The return follows Moulay Brahim Gorge back toward Marrakech.",
+    "practical": "This is a sightseeing circuit with a one- to two-hour walk, rather than a Toubkal summit trek. Bring walking shoes, sun protection and a warm layer. The Asni market stop is on Saturdays. Your quote will detail the camel ride, local assistance and home-hosted lunch; weather, traffic and walking pace can affect the return time.",
+    "story": "See the landscapes around Marrakech change in a single day: Agafay’s stony hills, the water at Lalla Takerkoust and the terraces below the Kik Plateau. A camel ride and tea with a Berber family bring time to pause between the views.\n\nIn Imlil, leave the road for a walk through the mountain villages. Paths lead past walnut trees, hamlets and streams before lunch in a Berber home. The return follows Moulay Brahim Gorge back toward Marrakech.",
     "itinerary": [
       [
         "09:00 · From Marrakech to Agafay",
@@ -152,7 +152,7 @@
       ],
       [
         "Morning · A camel ride in Agafay",
-        "Join your camel guide for an hour among stony hills and dry valleys, with the Atlas Mountains stretching across the horizon."
+        "Join the camel team for an hour among stony hills and dry valleys, with the Atlas Mountains stretching across the horizon."
       ],
       [
         "Lalla Takerkoust · Beside the lake",
@@ -164,7 +164,7 @@
       ],
       [
         "Afternoon · On foot around Imlil",
-        "Meet your mountain guide for a one- to two-hour walk through walnut terraces, hamlets and streams toward the waterfalls. The pace is set to suit your group."
+        "Begin a one- to two-hour walk through walnut terraces, hamlets and streams toward the waterfalls. The pace is set to suit your group."
       ],
       [
         "Lunch · At a Berber home",
