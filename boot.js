@@ -17,7 +17,7 @@
    if(!response.ok)throw Error('The trip collection could not be loaded.');
    cms=await response.json();window.STATIC_FRONTEND=true;
  }
- window.CMS=cms;window.TRIPS=cms.trips;
+ cms.site.whatsapp=cms.site.whatsapp||'212667687763';window.CMS=cms;window.TRIPS=cms.trips;
  document.documentElement.lang=cms.language.code;document.documentElement.dir=cms.language.dir;
  if(url.searchParams.has('lang')&&url.searchParams.get('lang')!==cms.language.code){url.searchParams.set('lang',cms.language.code);history.replaceState({},'',url)}
  try{localStorage.setItem('desertgate.language',cms.language.code)}catch{}
