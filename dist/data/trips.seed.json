@@ -831,7 +831,7 @@
     "duration": "About 12 hours · 07:00–19:00",
     "start": "Marrakech",
     "end": "Marrakech",
-    "image": "ait-ben-haddou-river-reflection",
+    "image": "ait-ben-haddou-featured",
     "region": "ATLAS & KASBAH COUNTRY",
     "summary": "Wind through the High Atlas to Aït Ben Haddou’s earthen towers and the kasbahs of Ouarzazate. A full day of mountain views, village lanes and Morocco’s film country.",
     "fit": "For travelers drawn to architecture, film locations and mountain scenery, with a full day free and a liking for a scenic drive.",
@@ -880,8 +880,11 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
+      "ait-ben-haddou-featured",
       "ait-ben-haddou-river-reflection",
-      "ait-ben-haddou-valley-view"
+      "ait-ben-haddou-valley-view",
+      "tizi-ntichka-panorama",
+      "atlas-studios-columns"
     ],
     "story": "The Atlas crossing offers a changing view at every turn: hillside villages, cultivated terraces and peaks rising above the road. Beyond the pass, Aït Ben Haddou stands in warm earth against the valley.\n\nExplore its lanes and climb toward the old granary before continuing to Ouarzazate and Taourirt Kasbah. Film lovers can add a visit to the Atlas studios. It’s a long day, but a striking introduction to the landscapes south of Marrakech."
   },
