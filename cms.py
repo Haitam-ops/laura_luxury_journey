@@ -230,7 +230,7 @@ def public_content(con, code):
         if code != 'en':
             out.update(raw.get('translations', {}).get(code, {}))
         return out
-    media = {item['id']: localize(item, {'alt', 'caption'}) for item in documents(con, 'media')}
+    media = {item['id']: localize(item, {'alt', 'caption', 'modifications'}) for item in documents(con, 'media')}
     trips = []
     for raw in sorted(documents(con, 'trip'), key=lambda t: t['order']):
         if raw['status'] != 'published':

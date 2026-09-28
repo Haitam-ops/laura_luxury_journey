@@ -75,8 +75,8 @@ def compile(code):
     for start in range(0,len(pieces),32):
         batch = pieces[start:start+32]
         # In travel copy, quote means a price proposal, not a quotation or citation.
-        tokens=[encoder.encode(re.sub(r'\bquote\b', 'price proposal', s, flags=re.I),out_type=str) + (['</s>'] if source_spm.name=='source.spm' else []) for s in batch]
-        results=translator.translate_batch(tokens,beam_size=2,max_decoding_length=350,max_input_length=400)
+        tokens=[encoder.encode(re.sub(r'\bquote\b', 'price proposal', s, flags=re.I).replace('’', chr(39)).replace('‘', chr(39)).replace('–', ' to ').replace('—', ', ').replace('½', '.5').replace('·', ';'),out_type=str) + (['</s>'] if source_spm.name=='source.spm' else []) for s in batch]
+        results=translator.translate_batch(tokens,beam_size=4,max_decoding_length=512,max_input_length=512)
         outputs.extend(decoder.decode(result.hypotheses[0]).replace('▁', ' ').strip() for result in results)
         if start%320==0:
             print(f'TRANSLATING {code}: {start}/{len(pieces)} sentences',flush=True)
