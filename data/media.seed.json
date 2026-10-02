@@ -799,7 +799,8 @@
     "source": "https://moroccanholidaysexperiences.com/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-16-a-19.55.18_ef2ad6b6.jpg",
     "source_page": "https://moroccanholidaysexperiences.com/",
     "width": 1400,
-    "height": 1200
+    "height": 1200,
+    "focal_point": "50% 20%"
   },
   {
     "id": "hq-medina",
@@ -3756,5 +3757,1478 @@
     "original_width": 1672,
     "original_height": 941,
     "source": "User-provided image: Chefchaouen.png"
+  },
+  {
+    "id": "essaouira-kitesurf",
+    "name": "Kites above the beach in Essaouira",
+    "alt": "Kites above the beach in Essaouira",
+    "caption": "Kites above the beach in Essaouira",
+    "path": "/assets/essaouira-kitesurf-1600.webp",
+    "width": 1600,
+    "height": 1067,
+    "variants": [
+      {
+        "path": "/assets/essaouira-kitesurf-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "path": "/assets/essaouira-kitesurf-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "path": "/assets/essaouira-kitesurf-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "path": "/assets/essaouira-kitesurf-1600.webp",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "path": "/assets/essaouira-kitesurf-2400.webp",
+        "width": 2400,
+        "height": 1600
+      }
+    ],
+    "author": "Andreea Munteanu",
+    "credit": "Andreea Munteanu / Unsplash",
+    "source": "https://unsplash.com/photos/JEkSxhq5juQ",
+    "source_url": "https://images.unsplash.com/photo-1636556767886-b4dc35bec5fe",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license"
+  },
+  {
+    "id": "taghazout-surf",
+    "name": "A surfer riding a wave at Anchor Point, Taghazout",
+    "alt": "A surfer riding a wave at Anchor Point, Taghazout",
+    "caption": "A surfer riding a wave at Anchor Point, Taghazout",
+    "path": "/assets/taghazout-surf-1600.webp",
+    "width": 1600,
+    "height": 1067,
+    "variants": [
+      {
+        "path": "/assets/taghazout-surf-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "path": "/assets/taghazout-surf-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "path": "/assets/taghazout-surf-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "path": "/assets/taghazout-surf-1600.webp",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "path": "/assets/taghazout-surf-2400.webp",
+        "width": 2400,
+        "height": 1600
+      }
+    ],
+    "author": "Jarno Colijn",
+    "credit": "Jarno Colijn / Unsplash",
+    "source": "https://unsplash.com/photos/P3rTRtR2Fc4",
+    "source_url": "https://images.unsplash.com/photo-1706007472172-0a9a8fb1f990",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license"
+  },
+  {
+    "id": "taghazout-coast",
+    "name": "The beach and Atlantic coastline at Taghazout",
+    "alt": "The beach and Atlantic coastline at Taghazout",
+    "caption": "The beach and Atlantic coastline at Taghazout",
+    "path": "/assets/taghazout-coast-1600.webp",
+    "width": 1600,
+    "height": 2400,
+    "variants": [
+      {
+        "path": "/assets/taghazout-coast-320.webp",
+        "width": 320,
+        "height": 480
+      },
+      {
+        "path": "/assets/taghazout-coast-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "path": "/assets/taghazout-coast-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "path": "/assets/taghazout-coast-1600.webp",
+        "width": 1600,
+        "height": 2400
+      },
+      {
+        "path": "/assets/taghazout-coast-2400.webp",
+        "width": 2400,
+        "height": 3600
+      }
+    ],
+    "author": "sander traa",
+    "credit": "sander traa / Unsplash",
+    "source": "https://unsplash.com/photos/a7J_32Ee7AM",
+    "source_url": "https://images.unsplash.com/photo-1674227055590-85b99a24b69b",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license"
+  },
+  {
+    "id": "experience-balloon-sunrise",
+    "name": "Hot-air balloons above the Marrakech countryside at sunrise",
+    "alt": "Hot-air balloons above the Marrakech countryside at sunrise",
+    "caption": "Hot-air balloons above the Marrakech countryside at sunrise",
+    "path": "/assets/experience-balloon-sunrise-1600.webp",
+    "width": 1600,
+    "height": 2133,
+    "variants": [
+      {
+        "path": "/assets/experience-balloon-sunrise-320.webp",
+        "width": 320,
+        "height": 427
+      },
+      {
+        "path": "/assets/experience-balloon-sunrise-640.webp",
+        "width": 640,
+        "height": 853
+      },
+      {
+        "path": "/assets/experience-balloon-sunrise-960.webp",
+        "width": 960,
+        "height": 1280
+      },
+      {
+        "path": "/assets/experience-balloon-sunrise-1600.webp",
+        "width": 1600,
+        "height": 2133
+      },
+      {
+        "path": "/assets/experience-balloon-sunrise-2400.webp",
+        "width": 2400,
+        "height": 3200
+      }
+    ],
+    "source": "https://unsplash.com/photos/ip80zryffpw",
+    "source_url": "https://images.unsplash.com/photo-1769717395613-f831e7576e9c",
+    "author": "Zoltan Fekeshazy",
+    "credit": "Zoltan Fekeshazy",
+    "license": "Unsplash License",
+    "original_width": 4000,
+    "original_height": 5333,
+    "focal_point": "50% 58%",
+    "license_url": "https://unsplash.com/license"
+  },
+  {
+    "id": "experience-quad-agafay",
+    "name": "Quad riders on the rocky trails of Agafay",
+    "alt": "Quad riders on the rocky trails of Agafay",
+    "caption": "Quad riders on the rocky trails of Agafay",
+    "path": "/assets/experience-quad-agafay-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/assets/experience-quad-agafay-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/experience-quad-agafay-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/experience-quad-agafay-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/experience-quad-agafay-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/experience-quad-agafay-2400.webp",
+        "width": 2400,
+        "height": 1350
+      }
+    ],
+    "source": "https://www.pexels.com/photo/28076410/",
+    "source_url": "https://images.pexels.com/photos/28076410/pexels-photo-28076410.jpeg",
+    "author": "Luigi Maggio",
+    "credit": "Luigi Maggio",
+    "license": "Pexels License",
+    "original_width": 6000,
+    "original_height": 3375,
+    "focal_point": "50% 50%",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "experience-camel-merzouga",
+    "name": "Camel caravan in the dunes of Merzouga",
+    "alt": "Camel caravan in the dunes of Merzouga",
+    "caption": "Camel caravan in the dunes of Merzouga",
+    "path": "/assets/experience-camel-merzouga-1600.webp",
+    "width": 1600,
+    "height": 1067,
+    "variants": [
+      {
+        "path": "/assets/experience-camel-merzouga-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "path": "/assets/experience-camel-merzouga-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "path": "/assets/experience-camel-merzouga-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "path": "/assets/experience-camel-merzouga-1600.webp",
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "path": "/assets/experience-camel-merzouga-2400.webp",
+        "width": 2400,
+        "height": 1600
+      }
+    ],
+    "source": "https://www.pexels.com/photo/5614643/",
+    "source_url": "https://images.pexels.com/photos/5614643/pexels-photo-5614643.jpeg",
+    "author": "Boris Ulzibat",
+    "credit": "Boris Ulzibat",
+    "license": "Pexels License",
+    "original_width": 5760,
+    "original_height": 3840,
+    "focal_point": "50% 50%",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1",
+    "name": "Sandboarding on Moroccan Sahara dunes",
+    "alt": "Sandboarding on Moroccan Sahara dunes",
+    "caption": "Sandboarding on Moroccan Sahara dunes",
+    "path": "/assets/experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1-1312.webp",
+    "width": 1312,
+    "height": 816,
+    "variants": [
+      {
+        "path": "/assets/experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1-320.webp",
+        "width": 320,
+        "height": 199
+      },
+      {
+        "path": "/assets/experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1-640.webp",
+        "width": 640,
+        "height": 398
+      },
+      {
+        "path": "/assets/experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1-960.webp",
+        "width": 960,
+        "height": 597
+      },
+      {
+        "path": "/assets/experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1-1312.webp",
+        "width": 1312,
+        "height": 816
+      }
+    ],
+    "source": "https://privatedeserttours.com/sandboarding-sandsurfing-desert-morocco/",
+    "source_url": "https://privatedeserttours.com/wp-content/uploads/2018/03/Sandboarding-Sandsurfing-in-desert-Morocco1.jpg",
+    "author": "Private Desert Tours",
+    "credit": "Private Desert Tours",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1312,
+    "original_height": 816,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-sand-morocco-sandboarding",
+    "name": "Sandboarding on Moroccan Sahara dunes",
+    "alt": "Sandboarding on Moroccan Sahara dunes",
+    "caption": "Sandboarding on Moroccan Sahara dunes",
+    "path": "/assets/experience-sand-morocco-sandboarding-1008.webp",
+    "width": 1008,
+    "height": 675,
+    "variants": [
+      {
+        "path": "/assets/experience-sand-morocco-sandboarding-320.webp",
+        "width": 320,
+        "height": 214
+      },
+      {
+        "path": "/assets/experience-sand-morocco-sandboarding-640.webp",
+        "width": 640,
+        "height": 429
+      },
+      {
+        "path": "/assets/experience-sand-morocco-sandboarding-960.webp",
+        "width": 960,
+        "height": 643
+      },
+      {
+        "path": "/assets/experience-sand-morocco-sandboarding-1008.webp",
+        "width": 1008,
+        "height": 675
+      }
+    ],
+    "source": "https://privatedeserttours.com/sandboarding-sandsurfing-desert-morocco/",
+    "source_url": "https://privatedeserttours.com/wp-content/uploads/2018/03/morocco-sandboarding.jpg",
+    "author": "Private Desert Tours",
+    "credit": "Private Desert Tours",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1008,
+    "original_height": 675,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-buggy-IMG_4839-scaled",
+    "name": "Buggy riding in Agafay",
+    "alt": "Buggy riding in Agafay",
+    "caption": "Buggy riding in Agafay",
+    "path": "/assets/experience-buggy-IMG_4839-scaled-1600.webp",
+    "width": 1600,
+    "height": 1068,
+    "variants": [
+      {
+        "path": "/assets/experience-buggy-IMG_4839-scaled-320.webp",
+        "width": 320,
+        "height": 214
+      },
+      {
+        "path": "/assets/experience-buggy-IMG_4839-scaled-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "path": "/assets/experience-buggy-IMG_4839-scaled-960.webp",
+        "width": 960,
+        "height": 641
+      },
+      {
+        "path": "/assets/experience-buggy-IMG_4839-scaled-1600.webp",
+        "width": 1600,
+        "height": 1068
+      }
+    ],
+    "source": "https://agafaypalm.com/experiences/buggy/",
+    "source_url": "https://agafaypalm.com/wp-content/uploads/2026/07/IMG_4839-scaled.jpeg",
+    "author": "Agafay Palm",
+    "credit": "Agafay Palm",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1600,
+    "original_height": 1068,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-buggy-IMG_4848-scaled",
+    "name": "Buggy riding in Agafay",
+    "alt": "Buggy riding in Agafay",
+    "caption": "Buggy riding in Agafay",
+    "path": "/assets/experience-buggy-IMG_4848-scaled-1600.webp",
+    "width": 1600,
+    "height": 2398,
+    "variants": [
+      {
+        "path": "/assets/experience-buggy-IMG_4848-scaled-320.webp",
+        "width": 320,
+        "height": 480
+      },
+      {
+        "path": "/assets/experience-buggy-IMG_4848-scaled-640.webp",
+        "width": 640,
+        "height": 959
+      },
+      {
+        "path": "/assets/experience-buggy-IMG_4848-scaled-960.webp",
+        "width": 960,
+        "height": 1439
+      },
+      {
+        "path": "/assets/experience-buggy-IMG_4848-scaled-1600.webp",
+        "width": 1600,
+        "height": 2398
+      }
+    ],
+    "source": "https://agafaypalm.com/experiences/buggy/",
+    "source_url": "https://agafaypalm.com/wp-content/uploads/2026/07/IMG_4848-scaled.jpeg",
+    "author": "Agafay Palm",
+    "credit": "Agafay Palm",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1600,
+    "original_height": 2398,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-buggy-IMG_4811-scaled",
+    "name": "Buggy riding in Agafay",
+    "alt": "Buggy riding in Agafay",
+    "caption": "Buggy riding in Agafay",
+    "path": "/assets/experience-buggy-IMG_4811-scaled-1600.webp",
+    "width": 1600,
+    "height": 2305,
+    "variants": [
+      {
+        "path": "/assets/experience-buggy-IMG_4811-scaled-320.webp",
+        "width": 320,
+        "height": 461
+      },
+      {
+        "path": "/assets/experience-buggy-IMG_4811-scaled-640.webp",
+        "width": 640,
+        "height": 922
+      },
+      {
+        "path": "/assets/experience-buggy-IMG_4811-scaled-960.webp",
+        "width": 960,
+        "height": 1383
+      },
+      {
+        "path": "/assets/experience-buggy-IMG_4811-scaled-1600.webp",
+        "width": 1600,
+        "height": 2305
+      }
+    ],
+    "source": "https://agafaypalm.com/experiences/buggy/",
+    "source_url": "https://agafaypalm.com/wp-content/uploads/2026/07/IMG_4811-scaled.jpeg",
+    "author": "Agafay Palm",
+    "credit": "Agafay Palm",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1600,
+    "original_height": 2305,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-para-6",
+    "name": "Paragliding in Morocco",
+    "alt": "Paragliding in Morocco",
+    "caption": "Paragliding in Morocco",
+    "path": "/assets/experience-para-6-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "path": "/assets/experience-para-6-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "path": "/assets/experience-para-6-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "path": "/assets/experience-para-6-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "/assets/experience-para-6-1600.webp",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "path": "/assets/experience-para-6-2400.webp",
+        "width": 2400,
+        "height": 1800
+      }
+    ],
+    "source": "https://www.paraglidingmorocco.com/photos",
+    "source_url": "https://images.squarespace-cdn.com/content/v1/5e021ee315c09a59a2cfd498/1577227224858-9LQ7MKPXLU7DGS32Z6K3/DSCN7581.JPG",
+    "author": "Blue Skies Paragliding Morocco",
+    "credit": "Blue Skies Paragliding Morocco",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 2500,
+    "original_height": 1875,
+    "focal_point": "55% 42%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-para-0",
+    "name": "Paragliding in Morocco",
+    "alt": "Paragliding in Morocco",
+    "caption": "Paragliding in Morocco",
+    "path": "/assets/experience-para-0-1600.webp",
+    "width": 1600,
+    "height": 1200,
+    "variants": [
+      {
+        "path": "/assets/experience-para-0-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "path": "/assets/experience-para-0-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "path": "/assets/experience-para-0-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "/assets/experience-para-0-1600.webp",
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "path": "/assets/experience-para-0-2400.webp",
+        "width": 2400,
+        "height": 1800
+      }
+    ],
+    "source": "https://www.paraglidingmorocco.com/photos",
+    "source_url": "https://images.squarespace-cdn.com/content/v1/5e021ee315c09a59a2cfd498/1577227220029-OTFMKB1D5JG25N20BCW8/Halima2.JPG",
+    "author": "Blue Skies Paragliding Morocco",
+    "credit": "Blue Skies Paragliding Morocco",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 2500,
+    "original_height": 1875,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-para-4",
+    "name": "Paragliding in Morocco",
+    "alt": "Paragliding in Morocco",
+    "caption": "Paragliding in Morocco",
+    "path": "/assets/experience-para-4-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/assets/experience-para-4-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/experience-para-4-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/experience-para-4-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/experience-para-4-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/experience-para-4-2400.webp",
+        "width": 2400,
+        "height": 1350
+      }
+    ],
+    "source": "https://www.paraglidingmorocco.com/photos",
+    "source_url": "https://images.squarespace-cdn.com/content/v1/5e021ee315c09a59a2cfd498/1577227163176-ATLIEER0LQD5I6KGX1FE/IMG_20171112_141932.jpg",
+    "author": "Blue Skies Paragliding Morocco",
+    "credit": "Blue Skies Paragliding Morocco",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 2500,
+    "original_height": 1406,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-hammam-26",
+    "name": "Traditional Moroccan hammam interior",
+    "alt": "Traditional Moroccan hammam interior",
+    "caption": "",
+    "path": "/assets/experience-hammam-26-1500.webp",
+    "width": 1500,
+    "height": 1001,
+    "variants": [
+      {
+        "path": "/assets/experience-hammam-26-320.webp",
+        "width": 320,
+        "height": 214
+      },
+      {
+        "path": "/assets/experience-hammam-26-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "path": "/assets/experience-hammam-26-960.webp",
+        "width": 960,
+        "height": 641
+      },
+      {
+        "path": "/assets/experience-hammam-26-1500.webp",
+        "width": 1500,
+        "height": 1001
+      }
+    ],
+    "source": "https://www.hammamdelarose.com/",
+    "source_url": "https://www.hammamdelarose.com/storage/2021/06/Copia-di-medres_elanhotelpix_hammamrose_0308.jpg",
+    "author": "Hammam de la Rose",
+    "credit": "Hammam de la Rose",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1500,
+    "original_height": 1001,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-hammam-29",
+    "name": "Hammam de la Rose, Marrakech",
+    "alt": "Hammam de la Rose, Marrakech",
+    "caption": "Hammam de la Rose, Marrakech",
+    "path": "/assets/experience-hammam-29-1499.webp",
+    "width": 1499,
+    "height": 1000,
+    "variants": [
+      {
+        "path": "/assets/experience-hammam-29-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "path": "/assets/experience-hammam-29-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "path": "/assets/experience-hammam-29-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "path": "/assets/experience-hammam-29-1499.webp",
+        "width": 1499,
+        "height": 1000
+      }
+    ],
+    "source": "https://www.hammamdelarose.com/",
+    "source_url": "https://www.hammamdelarose.com/storage/2025/11/61_MMR52188.jpg",
+    "author": "Hammam de la Rose",
+    "credit": "Hammam de la Rose",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1499,
+    "original_height": 1000,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-hammam-27",
+    "name": "Hammam de la Rose, Marrakech",
+    "alt": "Hammam de la Rose, Marrakech",
+    "caption": "Hammam de la Rose, Marrakech",
+    "path": "/assets/experience-hammam-27-1600.webp",
+    "width": 1600,
+    "height": 867,
+    "variants": [
+      {
+        "path": "/assets/experience-hammam-27-320.webp",
+        "width": 320,
+        "height": 173
+      },
+      {
+        "path": "/assets/experience-hammam-27-640.webp",
+        "width": 640,
+        "height": 347
+      },
+      {
+        "path": "/assets/experience-hammam-27-960.webp",
+        "width": 960,
+        "height": 520
+      },
+      {
+        "path": "/assets/experience-hammam-27-1600.webp",
+        "width": 1600,
+        "height": 867
+      },
+      {
+        "path": "/assets/experience-hammam-27-1920.webp",
+        "width": 1920,
+        "height": 1040
+      }
+    ],
+    "source": "https://www.hammamdelarose.com/",
+    "source_url": "https://www.hammamdelarose.com/storage/2025/10/Luxury-Hammam-Marrakech.jpg",
+    "author": "Hammam de la Rose",
+    "credit": "Hammam de la Rose",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1920,
+    "original_height": 1040,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-cook-tg-food4",
+    "name": "Cooking at Amal Targa, Marrakech",
+    "alt": "Cooking at Amal Targa, Marrakech",
+    "caption": "Cooking at Amal Targa, Marrakech",
+    "path": "/assets/experience-cook-tg-food4-1200.webp",
+    "width": 1200,
+    "height": 799,
+    "variants": [
+      {
+        "path": "/assets/experience-cook-tg-food4-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "path": "/assets/experience-cook-tg-food4-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "path": "/assets/experience-cook-tg-food4-960.webp",
+        "width": 960,
+        "height": 639
+      },
+      {
+        "path": "/assets/experience-cook-tg-food4-1200.webp",
+        "width": 1200,
+        "height": 799
+      }
+    ],
+    "source": "https://amalnonprofit.org/targa.html",
+    "source_url": "https://amalnonprofit.org/assets/img/tg-food4.jpg",
+    "author": "Amal",
+    "credit": "Amal",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1200,
+    "original_height": 799,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-cook-tg-t6",
+    "name": "Cooking at Amal Targa, Marrakech",
+    "alt": "Cooking at Amal Targa, Marrakech",
+    "caption": "Cooking at Amal Targa, Marrakech",
+    "path": "/assets/experience-cook-tg-t6-1000.webp",
+    "width": 1000,
+    "height": 667,
+    "variants": [
+      {
+        "path": "/assets/experience-cook-tg-t6-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "path": "/assets/experience-cook-tg-t6-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "path": "/assets/experience-cook-tg-t6-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "path": "/assets/experience-cook-tg-t6-1000.webp",
+        "width": 1000,
+        "height": 667
+      }
+    ],
+    "source": "https://amalnonprofit.org/targa.html",
+    "source_url": "https://amalnonprofit.org/assets/img/tg-t6.jpg",
+    "author": "Amal",
+    "credit": "Amal",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1000,
+    "original_height": 667,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-cook-tg-t2",
+    "name": "Cooking at Amal Targa, Marrakech",
+    "alt": "Cooking at Amal Targa, Marrakech",
+    "caption": "Cooking at Amal Targa, Marrakech",
+    "path": "/assets/experience-cook-tg-t2-1000.webp",
+    "width": 1000,
+    "height": 666,
+    "variants": [
+      {
+        "path": "/assets/experience-cook-tg-t2-320.webp",
+        "width": 320,
+        "height": 213
+      },
+      {
+        "path": "/assets/experience-cook-tg-t2-640.webp",
+        "width": 640,
+        "height": 426
+      },
+      {
+        "path": "/assets/experience-cook-tg-t2-960.webp",
+        "width": 960,
+        "height": 639
+      },
+      {
+        "path": "/assets/experience-cook-tg-t2-1000.webp",
+        "width": 1000,
+        "height": 666
+      }
+    ],
+    "source": "https://amalnonprofit.org/targa.html",
+    "source_url": "https://amalnonprofit.org/assets/img/tg-t2.jpg",
+    "author": "Amal",
+    "credit": "Amal",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1000,
+    "original_height": 666,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-show-30",
+    "name": "An evening at Comptoir Darna, Marrakech",
+    "alt": "An evening at Comptoir Darna, Marrakech",
+    "caption": "An evening at Comptoir Darna, Marrakech",
+    "path": "/assets/experience-show-30-1600.webp",
+    "width": 1600,
+    "height": 800,
+    "variants": [
+      {
+        "path": "/assets/experience-show-30-320.webp",
+        "width": 320,
+        "height": 160
+      },
+      {
+        "path": "/assets/experience-show-30-640.webp",
+        "width": 640,
+        "height": 320
+      },
+      {
+        "path": "/assets/experience-show-30-960.webp",
+        "width": 960,
+        "height": 480
+      },
+      {
+        "path": "/assets/experience-show-30-1600.webp",
+        "width": 1600,
+        "height": 800
+      },
+      {
+        "path": "/assets/experience-show-30-1920.webp",
+        "width": 1920,
+        "height": 960
+      }
+    ],
+    "source": "https://www.comptoirmarrakech.com/en/",
+    "source_url": "https://www.comptoirmarrakech.com/images/oud.jpg",
+    "author": "Comptoir Darna",
+    "credit": "Comptoir Darna",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1920,
+    "original_height": 960,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-show-32",
+    "name": "An evening at Comptoir Darna, Marrakech",
+    "alt": "An evening at Comptoir Darna, Marrakech",
+    "caption": "An evening at Comptoir Darna, Marrakech",
+    "path": "/assets/experience-show-32-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/assets/experience-show-32-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/experience-show-32-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/experience-show-32-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/experience-show-32-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/experience-show-32-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "source": "https://www.comptoirmarrakech.com/en/",
+    "source_url": "https://www.comptoirmarrakech.com/storage/sliders/December2023/mTsVwdno5RAAdzpIe8Ho.webp",
+    "author": "Comptoir Darna",
+    "credit": "Comptoir Darna",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1920,
+    "original_height": 1080,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-show-35",
+    "name": "An evening at Comptoir Darna, Marrakech",
+    "alt": "An evening at Comptoir Darna, Marrakech",
+    "caption": "An evening at Comptoir Darna, Marrakech",
+    "path": "/assets/experience-show-35-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/assets/experience-show-35-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/experience-show-35-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/experience-show-35-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/experience-show-35-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/experience-show-35-1920.webp",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "source": "https://www.comptoirmarrakech.com/en/",
+    "source_url": "https://www.comptoirmarrakech.com/storage/sliders/December2023/bsziBG7BBTFCdthWakwm.webp",
+    "author": "Comptoir Darna",
+    "credit": "Comptoir Darna",
+    "license": "Operator photograph; reuse permission unverified",
+    "original_width": 1920,
+    "original_height": 1080,
+    "focal_point": "50% 50%",
+    "reuse_permission_verified": false
+  },
+  {
+    "id": "experience-horse-rider",
+    "name": "Horseback rider on Essaouira beach",
+    "alt": "Horseback rider on Essaouira beach",
+    "caption": "Horseback rider on Essaouira beach",
+    "path": "/assets/experience-horse-rider-1600.webp",
+    "width": 1600,
+    "height": 2400,
+    "variants": [
+      {
+        "path": "/assets/experience-horse-rider-320.webp",
+        "width": 320,
+        "height": 480
+      },
+      {
+        "path": "/assets/experience-horse-rider-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "path": "/assets/experience-horse-rider-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "path": "/assets/experience-horse-rider-1600.webp",
+        "width": 1600,
+        "height": 2400
+      },
+      {
+        "path": "/assets/experience-horse-rider-2400.webp",
+        "width": 2400,
+        "height": 3600
+      }
+    ],
+    "source": "https://www.pexels.com/photo/16350422/",
+    "source_url": "https://images.pexels.com/photos/16350422/pexels-photo-16350422.jpeg",
+    "author": "Ceutth",
+    "credit": "Ceutth",
+    "license": "Pexels License",
+    "original_width": 4000,
+    "original_height": 6000,
+    "focal_point": "50% 25%",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "experience-horse-shore",
+    "name": "Horse and handler at the Essaouira shoreline",
+    "alt": "Horse and handler at the Essaouira shoreline",
+    "caption": "Horse and handler at the Essaouira shoreline",
+    "path": "/assets/experience-horse-shore-1600.webp",
+    "width": 1600,
+    "height": 2400,
+    "variants": [
+      {
+        "path": "/assets/experience-horse-shore-320.webp",
+        "width": 320,
+        "height": 480
+      },
+      {
+        "path": "/assets/experience-horse-shore-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "path": "/assets/experience-horse-shore-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "path": "/assets/experience-horse-shore-1600.webp",
+        "width": 1600,
+        "height": 2400
+      },
+      {
+        "path": "/assets/experience-horse-shore-1728.webp",
+        "width": 1728,
+        "height": 2592
+      }
+    ],
+    "source": "https://www.pexels.com/photo/11336340/",
+    "source_url": "https://images.pexels.com/photos/11336340/pexels-photo-11336340.jpeg",
+    "author": "Hassan OUAJBIR",
+    "credit": "Hassan OUAJBIR",
+    "license": "Pexels License",
+    "original_width": 1728,
+    "original_height": 2592,
+    "focal_point": "50% 50%",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "experience-horse-sea",
+    "name": "Horse on Essaouira beach at sunset",
+    "alt": "Horse on Essaouira beach at sunset",
+    "caption": "Horse on Essaouira beach at sunset",
+    "path": "/assets/experience-horse-sea-1600.webp",
+    "width": 1600,
+    "height": 2400,
+    "variants": [
+      {
+        "path": "/assets/experience-horse-sea-320.webp",
+        "width": 320,
+        "height": 480
+      },
+      {
+        "path": "/assets/experience-horse-sea-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "path": "/assets/experience-horse-sea-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "path": "/assets/experience-horse-sea-1600.webp",
+        "width": 1600,
+        "height": 2400
+      },
+      {
+        "path": "/assets/experience-horse-sea-1728.webp",
+        "width": 1728,
+        "height": 2592
+      }
+    ],
+    "source": "https://www.pexels.com/photo/11336244/",
+    "source_url": "https://images.pexels.com/photos/11336244/pexels-photo-11336244.jpeg",
+    "author": "Hassan OUAJBIR",
+    "credit": "Hassan OUAJBIR",
+    "license": "Pexels License",
+    "original_width": 1728,
+    "original_height": 2592,
+    "focal_point": "50% 50%",
+    "license_url": "https://www.pexels.com/license/"
+  },
+  {
+    "id": "experience-balloon-red-marrakech",
+    "name": "Hot-air balloons above Marrakech in the early morning light",
+    "alt": "Hot-air balloons above Marrakech in the early morning light",
+    "caption": "Hot-air balloons above Marrakech in the early morning light",
+    "path": "/assets/experience-balloon-red-marrakech-1600.webp",
+    "width": 1600,
+    "height": 2766,
+    "variants": [
+      {
+        "path": "/assets/experience-balloon-red-marrakech-320.webp",
+        "width": 320,
+        "height": 553
+      },
+      {
+        "path": "/assets/experience-balloon-red-marrakech-640.webp",
+        "width": 640,
+        "height": 1106
+      },
+      {
+        "path": "/assets/experience-balloon-red-marrakech-960.webp",
+        "width": 960,
+        "height": 1660
+      },
+      {
+        "path": "/assets/experience-balloon-red-marrakech-1600.webp",
+        "width": 1600,
+        "height": 2766
+      },
+      {
+        "path": "/assets/experience-balloon-red-marrakech-2400.webp",
+        "width": 2400,
+        "height": 4149
+      }
+    ],
+    "source": "https://unsplash.com/photos/6JZhmw5VhsA",
+    "source_url": "https://images.unsplash.com/photo-1740080766832-ce1d79176842",
+    "author": "Matthieu Gouiffes",
+    "credit": "Matthieu Gouiffes / Unsplash",
+    "license": "Unsplash License",
+    "license_url": "https://unsplash.com/license",
+    "original_width": 3985,
+    "original_height": 6889,
+    "focal_point": "50% 22%"
+  },
+  {
+    "id": "hammam-user-1",
+    "name": "hammam1.jpg",
+    "alt": "White arches and gold ceiling above a hammam pool",
+    "caption": "",
+    "path": "/assets/hammam-user-1-720.webp",
+    "width": 720,
+    "height": 1080,
+    "variants": [
+      {
+        "path": "/assets/hammam-user-1-320.webp",
+        "width": 320,
+        "height": 480
+      },
+      {
+        "path": "/assets/hammam-user-1-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "path": "/assets/hammam-user-1-720.webp",
+        "width": 720,
+        "height": 1080
+      }
+    ],
+    "source": "hammam1.jpg",
+    "source_url": "hammam1.jpg",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 720,
+    "original_height": 1080,
+    "focal_point": "50% 35%"
+  },
+  {
+    "id": "hammam-user-2",
+    "name": "hammam2.webp",
+    "alt": "Warmly lit hammam treatment room with bowls and bathing products",
+    "caption": "",
+    "path": "/assets/hammam-user-2-1600.webp",
+    "width": 1600,
+    "height": 1074,
+    "variants": [
+      {
+        "path": "/assets/hammam-user-2-320.webp",
+        "width": 320,
+        "height": 215
+      },
+      {
+        "path": "/assets/hammam-user-2-640.webp",
+        "width": 640,
+        "height": 430
+      },
+      {
+        "path": "/assets/hammam-user-2-960.webp",
+        "width": 960,
+        "height": 644
+      },
+      {
+        "path": "/assets/hammam-user-2-1600.webp",
+        "width": 1600,
+        "height": 1074
+      }
+    ],
+    "source": "hammam2.webp",
+    "source_url": "hammam2.webp",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 1600,
+    "original_height": 1074,
+    "focal_point": "50% 50%"
+  },
+  {
+    "id": "hammam-user-3",
+    "name": "hammam3.webp",
+    "alt": "Spa loungers beside an indoor pool beneath white arches",
+    "caption": "",
+    "path": "/assets/hammam-user-3-1600.webp",
+    "width": 1600,
+    "height": 1068,
+    "variants": [
+      {
+        "path": "/assets/hammam-user-3-320.webp",
+        "width": 320,
+        "height": 214
+      },
+      {
+        "path": "/assets/hammam-user-3-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "path": "/assets/hammam-user-3-960.webp",
+        "width": 960,
+        "height": 641
+      },
+      {
+        "path": "/assets/hammam-user-3-1600.webp",
+        "width": 1600,
+        "height": 1068
+      }
+    ],
+    "source": "hammam3.webp",
+    "source_url": "hammam3.webp",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 1600,
+    "original_height": 1068,
+    "focal_point": "50% 50%"
+  },
+  {
+    "id": "dinner-user-1",
+    "name": "Tropical Rooftop Dining Under Woven Lights.png",
+    "alt": "Rooftop dining beneath woven pendant lights and hanging greenery",
+    "caption": "",
+    "path": "/assets/dinner-user-1-1448.webp",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "path": "/assets/dinner-user-1-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "path": "/assets/dinner-user-1-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "path": "/assets/dinner-user-1-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "/assets/dinner-user-1-1448.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    ],
+    "source": "Tropical Rooftop Dining Under Woven Lights.png",
+    "source_url": "Tropical Rooftop Dining Under Woven Lights.png",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 1448,
+    "original_height": 1086,
+    "focal_point": "50% 50%"
+  },
+  {
+    "id": "dinner-user-2",
+    "name": "ChatGPT Image Oct 2, 2026, 10_16_21 PM.png",
+    "alt": "Evening dining beside a lit pool and live performance stage",
+    "caption": "",
+    "path": "/assets/dinner-user-2-1448.webp",
+    "width": 1448,
+    "height": 1086,
+    "variants": [
+      {
+        "path": "/assets/dinner-user-2-320.webp",
+        "width": 320,
+        "height": 240
+      },
+      {
+        "path": "/assets/dinner-user-2-640.webp",
+        "width": 640,
+        "height": 480
+      },
+      {
+        "path": "/assets/dinner-user-2-960.webp",
+        "width": 960,
+        "height": 720
+      },
+      {
+        "path": "/assets/dinner-user-2-1448.webp",
+        "width": 1448,
+        "height": 1086
+      }
+    ],
+    "source": "ChatGPT Image Oct 2, 2026, 10_16_21 PM.png",
+    "source_url": "ChatGPT Image Oct 2, 2026, 10_16_21 PM.png",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 1448,
+    "original_height": 1086,
+    "focal_point": "50% 50%"
+  },
+  {
+    "id": "horse-user-1",
+    "name": "Golden Gallop at Sunset.png",
+    "alt": "Horses galloping along the shore in golden sunset light",
+    "caption": "",
+    "path": "/assets/horse-user-1-1122.webp",
+    "width": 1122,
+    "height": 1402,
+    "variants": [
+      {
+        "path": "/assets/horse-user-1-320.webp",
+        "width": 320,
+        "height": 400
+      },
+      {
+        "path": "/assets/horse-user-1-640.webp",
+        "width": 640,
+        "height": 800
+      },
+      {
+        "path": "/assets/horse-user-1-960.webp",
+        "width": 960,
+        "height": 1200
+      },
+      {
+        "path": "/assets/horse-user-1-1122.webp",
+        "width": 1122,
+        "height": 1402
+      }
+    ],
+    "source": "Golden Gallop at Sunset.png",
+    "source_url": "Golden Gallop at Sunset.png",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 1122,
+    "original_height": 1402,
+    "focal_point": "50% 70%"
+  },
+  {
+    "id": "horse-user-2",
+    "name": "horses.jpg",
+    "alt": "A group of riders on horseback crossing a sandy beach",
+    "caption": "",
+    "path": "/assets/horse-user-2-1600.webp",
+    "width": 1600,
+    "height": 972,
+    "variants": [
+      {
+        "path": "/assets/horse-user-2-320.webp",
+        "width": 320,
+        "height": 194
+      },
+      {
+        "path": "/assets/horse-user-2-640.webp",
+        "width": 640,
+        "height": 389
+      },
+      {
+        "path": "/assets/horse-user-2-960.webp",
+        "width": 960,
+        "height": 583
+      },
+      {
+        "path": "/assets/horse-user-2-1600.webp",
+        "width": 1600,
+        "height": 972
+      },
+      {
+        "path": "/assets/horse-user-2-2000.webp",
+        "width": 2000,
+        "height": 1215
+      }
+    ],
+    "source": "horses.jpg",
+    "source_url": "horses.jpg",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 2000,
+    "original_height": 1215,
+    "focal_point": "50% 70%"
+  },
+  {
+    "id": "surf-user-sunset",
+    "name": "Golden Hour Surfer at Sea.png",
+    "alt": "Surfer carrying a board toward the sea in golden sunset light",
+    "caption": "",
+    "path": "/assets/surf-user-sunset-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/assets/surf-user-sunset-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/surf-user-sunset-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/surf-user-sunset-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/surf-user-sunset-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/surf-user-sunset-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "source": "Golden Hour Surfer at Sea.png",
+    "source_url": "Golden Hour Surfer at Sea.png",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 1672,
+    "original_height": 941,
+    "focal_point": "70% 65%"
   }
 ]

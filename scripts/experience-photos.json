@@ -1,0 +1,292 @@
+{
+  "photos": [
+    {
+      "id": "experience-quad-agafay",
+      "url": "https://images.pexels.com/photos/28076410/pexels-photo-28076410.jpeg",
+      "caption": "Quad riders on the rocky trails of Agafay",
+      "source": "https://www.pexels.com/photo/28076410/",
+      "author": "Luigi Maggio",
+      "license": "Pexels License",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-camel-merzouga",
+      "url": "https://images.pexels.com/photos/5614643/pexels-photo-5614643.jpeg",
+      "caption": "Camel caravan in the dunes of Merzouga",
+      "source": "https://www.pexels.com/photo/5614643/",
+      "author": "Boris Ulzibat",
+      "license": "Pexels License",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1",
+      "url": "https://privatedeserttours.com/wp-content/uploads/2018/03/Sandboarding-Sandsurfing-in-desert-Morocco1.jpg",
+      "caption": "Sandboarding on Moroccan Sahara dunes",
+      "source": "https://privatedeserttours.com/sandboarding-sandsurfing-desert-morocco/",
+      "author": "Private Desert Tours",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-sand-morocco-sandboarding",
+      "url": "https://privatedeserttours.com/wp-content/uploads/2018/03/morocco-sandboarding.jpg",
+      "caption": "Sandboarding on Moroccan Sahara dunes",
+      "source": "https://privatedeserttours.com/sandboarding-sandsurfing-desert-morocco/",
+      "author": "Private Desert Tours",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-buggy-IMG_4839-scaled",
+      "url": "https://agafaypalm.com/wp-content/uploads/2026/07/IMG_4839-scaled.jpeg",
+      "caption": "Buggy riding in Agafay",
+      "source": "https://agafaypalm.com/experiences/buggy/",
+      "author": "Agafay Palm",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-buggy-IMG_4848-scaled",
+      "url": "https://agafaypalm.com/wp-content/uploads/2026/07/IMG_4848-scaled.jpeg",
+      "caption": "Buggy riding in Agafay",
+      "source": "https://agafaypalm.com/experiences/buggy/",
+      "author": "Agafay Palm",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-buggy-IMG_4811-scaled",
+      "url": "https://agafaypalm.com/wp-content/uploads/2026/07/IMG_4811-scaled.jpeg",
+      "caption": "Buggy riding in Agafay",
+      "source": "https://agafaypalm.com/experiences/buggy/",
+      "author": "Agafay Palm",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-para-6",
+      "url": "https://images.squarespace-cdn.com/content/v1/5e021ee315c09a59a2cfd498/1577227224858-9LQ7MKPXLU7DGS32Z6K3/DSCN7581.JPG",
+      "caption": "Paragliding in Morocco",
+      "source": "https://www.paraglidingmorocco.com/photos",
+      "author": "Blue Skies Paragliding Morocco",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "55% 42%"
+    },
+    {
+      "id": "experience-para-0",
+      "url": "https://images.squarespace-cdn.com/content/v1/5e021ee315c09a59a2cfd498/1577227220029-OTFMKB1D5JG25N20BCW8/Halima2.JPG",
+      "caption": "Paragliding in Morocco",
+      "source": "https://www.paraglidingmorocco.com/photos",
+      "author": "Blue Skies Paragliding Morocco",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-para-4",
+      "url": "https://images.squarespace-cdn.com/content/v1/5e021ee315c09a59a2cfd498/1577227163176-ATLIEER0LQD5I6KGX1FE/IMG_20171112_141932.jpg",
+      "caption": "Paragliding in Morocco",
+      "source": "https://www.paraglidingmorocco.com/photos",
+      "author": "Blue Skies Paragliding Morocco",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-cook-tg-food4",
+      "url": "https://amalnonprofit.org/assets/img/tg-food4.jpg",
+      "caption": "Cooking at Amal Targa, Marrakech",
+      "source": "https://amalnonprofit.org/targa.html",
+      "author": "Amal",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-cook-tg-t6",
+      "url": "https://amalnonprofit.org/assets/img/tg-t6.jpg",
+      "caption": "Cooking at Amal Targa, Marrakech",
+      "source": "https://amalnonprofit.org/targa.html",
+      "author": "Amal",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-cook-tg-t2",
+      "url": "https://amalnonprofit.org/assets/img/tg-t2.jpg",
+      "caption": "Cooking at Amal Targa, Marrakech",
+      "source": "https://amalnonprofit.org/targa.html",
+      "author": "Amal",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-show-32",
+      "url": "https://www.comptoirmarrakech.com/storage/sliders/December2023/mTsVwdno5RAAdzpIe8Ho.webp",
+      "caption": "An evening at Comptoir Darna, Marrakech",
+      "source": "https://www.comptoirmarrakech.com/en/",
+      "author": "Comptoir Darna",
+      "license": "Operator photograph; reuse permission unverified",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-horse-shore",
+      "url": "https://images.pexels.com/photos/11336340/pexels-photo-11336340.jpeg",
+      "caption": "Horse and handler at the Essaouira shoreline",
+      "source": "https://www.pexels.com/photo/11336340/",
+      "author": "Hassan OUAJBIR",
+      "license": "Pexels License",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "experience-balloon-red-marrakech",
+      "url": "https://images.unsplash.com/photo-1740080766832-ce1d79176842",
+      "caption": "Hot-air balloons above Marrakech in the early morning light",
+      "source": "https://unsplash.com/photos/6JZhmw5VhsA",
+      "author": "Matthieu Gouiffes",
+      "license": "Unsplash License",
+      "focal_point": "50% 22%"
+    },
+    {
+      "id": "hammam-user-1",
+      "local_file": "assets/hammam-user-1-original.jpg",
+      "source": "hammam1.jpg",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "hammam1.jpg",
+      "alt": "White arches and gold ceiling above a hammam pool",
+      "focal_point": "50% 35%"
+    },
+    {
+      "id": "hammam-user-2",
+      "local_file": "assets/hammam-user-2-original.webp",
+      "source": "hammam2.webp",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "hammam2.webp",
+      "alt": "Warmly lit hammam treatment room with bowls and bathing products",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "hammam-user-3",
+      "local_file": "assets/hammam-user-3-original.webp",
+      "source": "hammam3.webp",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "hammam3.webp",
+      "alt": "Spa loungers beside an indoor pool beneath white arches",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "dinner-user-1",
+      "local_file": "assets/dinner-user-1-original.png",
+      "source": "Tropical Rooftop Dining Under Woven Lights.png",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "Tropical Rooftop Dining Under Woven Lights.png",
+      "alt": "Rooftop dining beneath woven pendant lights and hanging greenery",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "dinner-user-2",
+      "local_file": "assets/dinner-user-2-original.png",
+      "source": "ChatGPT Image Oct 2, 2026, 10_16_21 PM.png",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "ChatGPT Image Oct 2, 2026, 10_16_21 PM.png",
+      "alt": "Evening dining beside a lit pool and live performance stage",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "horse-user-1",
+      "local_file": "assets/horse-user-1-original.png",
+      "source": "Golden Gallop at Sunset.png",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "Golden Gallop at Sunset.png",
+      "alt": "Horses galloping along the shore in golden sunset light",
+      "focal_point": "50% 70%"
+    },
+    {
+      "id": "horse-user-2",
+      "local_file": "assets/horse-user-2-original.jpg",
+      "source": "horses.jpg",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "horses.jpg",
+      "alt": "A group of riders on horseback crossing a sandy beach",
+      "focal_point": "50% 70%"
+    },
+    {
+      "id": "surf-user-sunset",
+      "local_file": "assets/surf-user-sunset-original.png",
+      "source": "Golden Hour Surfer at Sea.png",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "Golden Hour Surfer at Sea.png",
+      "alt": "Surfer carrying a board toward the sea in golden sunset light",
+      "focal_point": "70% 65%"
+    }
+  ],
+  "galleries": {
+    "marrakech-balloon": [
+      "mhe-balloon-6",
+      "mhe-balloon-4",
+      "experience-balloon-red-marrakech"
+    ],
+    "agafay-quad": [
+      "hero-quad-20260926",
+      "experience-quad-agafay",
+      "mhe-quad"
+    ],
+    "merzouga-camel": [
+      "experience-camel-merzouga",
+      "camels",
+      "sahara"
+    ],
+    "merzouga-sandboarding": [
+      "experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1",
+      "experience-sand-morocco-sandboarding"
+    ],
+    "agafay-buggy": [
+      "experience-buggy-IMG_4839-scaled",
+      "experience-buggy-IMG_4848-scaled",
+      "experience-buggy-IMG_4811-scaled"
+    ],
+    "atlas-paragliding": [
+      "experience-para-6",
+      "experience-para-0",
+      "experience-para-4"
+    ],
+    "marrakech-hammam": [
+      "hammam-user-1",
+      "hammam-user-2",
+      "hammam-user-3"
+    ],
+    "marrakech-cooking": [
+      "experience-cook-tg-food4",
+      "experience-cook-tg-t6",
+      "experience-cook-tg-t2"
+    ],
+    "marrakech-dinner-show": [
+      "dinner-user-1",
+      "dinner-user-2",
+      "experience-show-32"
+    ],
+    "essaouira-horse-riding": [
+      "horse-user-1",
+      "horse-user-2",
+      "experience-horse-shore"
+    ],
+    "essaouira-surf-kitesurf": [
+      "surf-user-sunset",
+      "route--leOF2nzJQ8",
+      "essaouira-kitesurf"
+    ]
+  }
+}

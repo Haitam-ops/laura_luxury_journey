@@ -1116,7 +1116,7 @@
     "duration": "About 4–5 hours total",
     "start": "Marrakech",
     "end": "Marrakech",
-    "image": "mhe-balloon",
+    "image": "mhe-balloon-6",
     "region": "ABOVE THE MARRAKECH COUNTRYSIDE",
     "summary": "Leave before sunrise for a balloon flight over the countryside around Marrakech. A different view of Morocco, with the Atlas on the distant horizon.",
     "fit": "For an early riser looking for a different view of the Marrakech countryside, with a morning free and flexibility if the weather changes.",
@@ -1149,10 +1149,9 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
-      "mhe-balloon",
-      "mhe-balloon-4",
       "mhe-balloon-6",
-      "hq-medina"
+      "mhe-balloon-4",
+      "experience-balloon-red-marrakech"
     ],
     "story": "An early start brings you to the launch area while the day is still beginning. After the briefing and preparations, take to the sky when conditions allow and watch the countryside spread out below.\n\nThe flight is one part of the morning, with breakfast and transfers arranged according to your chosen session. Leave the rest of the morning open so there’s no need to rush after landing."
   },
@@ -1164,7 +1163,7 @@
     "duration": "About 3–4 hours total",
     "start": "Marrakech",
     "end": "Marrakech",
-    "image": "mhe-quad",
+    "image": "hero-quad-20260926",
     "region": "AGAFAY",
     "summary": "Leave the city for Agafay’s open tracks and rocky hills. Get familiar with the quad, then follow the lead vehicle through the landscape with time for scenic stops.",
     "fit": "For an active break from Marrakech, whether you’re interested in driving or joining as a passenger. Eligibility and the riding setup are agreed in advance.",
@@ -1197,10 +1196,9 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
-      "mhe-quad",
-      "mhe-balloon-2",
-      "agafay",
-      "hq-agafay-camp"
+      "hero-quad-20260926",
+      "experience-quad-agafay",
+      "mhe-quad"
     ],
     "story": "Agafay’s terrain gives this outing its character: stony tracks, low hills and long views. A briefing and practice session at the base help you settle in before the ride begins.\n\nFollow the lead vehicle along the agreed route, pausing to take in the scenery. We’ll make the time on the trail, transfers and driver or passenger arrangements clear when planning your outing."
   },
@@ -1212,7 +1210,7 @@
     "duration": "About 1–2 hours",
     "start": "Merzouga",
     "end": "Merzouga",
-    "image": "camels",
+    "image": "experience-camel-merzouga",
     "region": "ERG CHEBBI",
     "summary": "See Erg Chebbi from camelback as the dunes change color around you. A short outing from Merzouga, with sunrise or sunset options and time to pause along the way.",
     "fit": "For travelers already in Merzouga who would like a short dune outing. Overnight camping and transport from other cities are separate arrangements.",
@@ -1245,9 +1243,9 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
+      "experience-camel-merzouga",
       "camels",
-      "sahara",
-      "mhe-camp"
+      "sahara"
     ],
     "story": "A camel’s measured pace gives you time to look around: the shape of the dunes, the changing light and the space beyond the next ridge. Follow a short route from Merzouga before returning to your starting point.\n\nChoose the time that suits your stay and comfort. A 4×4 alternative can be discussed if camel riding isn’t for you, and a camp night can be arranged separately."
   },
@@ -1259,7 +1257,7 @@
     "duration": "About 1–2 hours",
     "start": "Merzouga",
     "end": "Merzouga",
-    "image": "sahara",
+    "image": "experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1",
     "region": "ERG CHEBBI",
     "summary": "A board, a dune and another reason to spend time outside. Try sandboarding near Merzouga, with space to practice and enjoy the views between runs.",
     "fit": "For travelers already in Merzouga who enjoy being active outdoors and are comfortable walking uphill through sand.",
@@ -1292,8 +1290,8 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
-      "sahara",
-      "mhe-camp"
+      "experience-sand-Sandboarding-Sandsurfing-in-desert-Morocco1",
+      "experience-sand-morocco-sandboarding"
     ],
     "story": "Add a little play to a desert stay. Start on a suitable dune, learn the basics and find your own rhythm, with time to rest between the climbs back up.\n\nThe session is planned around the heat and wind. It works well as a local activity while staying in Merzouga; transfers and overnight camp stays are separate arrangements."
   },
@@ -1305,7 +1303,7 @@
     "duration": "About 3–4 hours total",
     "start": "Marrakech",
     "end": "Marrakech",
-    "image": "agafay",
+    "image": "experience-buggy-IMG_4839-scaled",
     "region": "AGAFAY",
     "summary": "Take to Agafay’s rocky tracks on a buggy drive. Open views, a little adventure and time to get comfortable at the wheel before you begin.",
     "fit": "For an outdoor driving experience near Marrakech, including friends or couples who would like to share a buggy. Capacity and eligibility depend on the vehicle and operator.",
@@ -1338,9 +1336,9 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
-      "agafay",
-      "hq-agafay-camp",
-      "hq-medina"
+      "experience-buggy-IMG_4839-scaled",
+      "experience-buggy-IMG_4848-scaled",
+      "experience-buggy-IMG_4811-scaled"
     ],
     "story": "Meet at the base, learn the controls and settle into your seat before following the lead vehicle into Agafay’s open landscape. Scenic pauses give you time to look beyond the trail.\n\nThe route responds to conditions on the day. We’ll clarify who’s driving, who’s joining as a passenger and how much time you’ll spend on the trail, alongside the transfers and preparation."
   },
@@ -1352,7 +1350,7 @@
     "duration": "About 3–4 hours total",
     "start": "Marrakech",
     "end": "Marrakech",
-    "image": "atlas",
+    "image": "experience-para-6",
     "region": "ATLAS FOOTHILLS",
     "summary": "See the foothills from the air on a tandem flight with a pilot. A striking change of perspective near Marrakech, planned around the day’s flying conditions.",
     "fit": "For travelers curious about tandem flying who can leave room for weather changes in their plans.",
@@ -1385,9 +1383,9 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
-      "atlas",
-      "mhe-imlil-trail",
-      "hq-medina"
+      "experience-para-6",
+      "experience-para-0",
+      "experience-para-4"
     ],
     "story": "From the launch site, the landscape takes on a different scale. Meet your pilot, prepare together and take off only when the weather and site conditions are suitable.\n\nKeep your schedule flexible for this outing. The launch location and flight time depend on conditions, and we’ll clarify the operator’s arrangements, eligibility and weather policy before booking."
   },
@@ -1399,7 +1397,7 @@
     "duration": "About 1–2 hours",
     "start": "Marrakech",
     "end": "Marrakech",
-    "image": "marrakech",
+    "image": "hammam-user-1",
     "region": "MARRAKECH",
     "summary": "A welcome pause between days of exploring Marrakech. Choose a traditional bathhouse or a spa setting and make time for Morocco’s bathing ritual.",
     "fit": "For a quiet break during a Marrakech stay. Tell us the setting and level of privacy you’d prefer, from a traditional bathhouse to a spa.",
@@ -1432,9 +1430,9 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
-      "marrakech",
-      "hq-medina",
-      "mhe-spices"
+      "hammam-user-1",
+      "hammam-user-2",
+      "hammam-user-3"
     ],
     "story": "After hours on your feet in the medina, a hammam offers a different way to spend part of the day. Warmth, water and a slower pace make the visit as much about taking time as the treatment itself.\n\nA neighborhood bathhouse and a spa are different experiences. We’ll discuss the setting, privacy and treatments with you, so you know what to expect and can choose what feels comfortable."
   },
@@ -1446,7 +1444,7 @@
     "duration": "About 4 hours",
     "start": "Marrakech",
     "end": "Marrakech",
-    "image": "mhe-spices",
+    "image": "experience-cook-tg-food4",
     "region": "FOOD & EVERYDAY CULTURE",
     "summary": "Learn a few of the flavors you’ve been enjoying, then sit down to the meal you’ve made. A hands-on cooking class, with a market visit available for selected sessions.",
     "fit": "For curious cooks, couples and families who enjoy learning by doing. Share any allergies, dietary preferences and your preferred language when planning the class.",
@@ -1479,9 +1477,9 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
-      "mhe-spices",
-      "hq-medina",
-      "marrakech"
+      "experience-cook-tg-food4",
+      "experience-cook-tg-t6",
+      "experience-cook-tg-t2"
     ],
     "story": "There’s something satisfying about learning a dish in the place it comes from. Work through a Moroccan menu with your host, ask questions as you cook and pick up ideas to bring home.\n\nSome classes begin with a market visit; others take you straight to the kitchen. The session ends around the table, enjoying the food together. We’ll agree the menu and dietary needs before you arrive."
   },
@@ -1493,7 +1491,7 @@
     "duration": "About 4 hours",
     "start": "Marrakech",
     "end": "Marrakech",
-    "image": "hq-medina",
+    "image": "dinner-user-1",
     "region": "MARRAKECH AFTER DARK",
     "summary": "Bring Moroccan food and an evening performance into your Marrakech stay. Choose a venue and program that suit the kind of night you have in mind.",
     "fit": "For friends, families or couples who would like an organized evening out. Your choice of venue determines the atmosphere and performance style.",
@@ -1526,9 +1524,9 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
-      "hq-medina",
-      "marrakech",
-      "mhe-spices"
+      "dinner-user-1",
+      "dinner-user-2",
+      "experience-show-32"
     ],
     "story": "Make an evening of it, with dinner and a performance in one setting. The atmosphere, menu and style of show vary by venue, so choosing the right one is part of the planning.\n\nWe’ll help clarify the program, drinks and transport before you decide. If you’re traveling with children or prefer an earlier finish, let us know so the evening works for everyone."
   },
@@ -1540,7 +1538,7 @@
     "duration": "About 2 hours",
     "start": "Essaouira",
     "end": "Essaouira",
-    "image": "mhe-coast-walk",
+    "image": "horse-user-1",
     "region": "ATLANTIC COAST",
     "summary": "Leave the medina for a ride along the coast. Meet the stable team and follow a trail chosen for your experience, with sea air and open scenery along the way.",
     "fit": "For travelers staying in Essaouira who would like time in the saddle. Tell us about each rider’s experience so the stable can suggest a suitable horse and pace.",
@@ -1573,10 +1571,111 @@
     "extras": "Your proposal will show any additional meals, activities and other extras separately. Personal shopping and tips are not included. We’ll agree the final inclusions and cancellation terms with you before booking.",
     "overnights": [],
     "gallery": [
-      "mhe-coast-walk",
-      "essaouira",
-      "mhe-coast"
+      "horse-user-1",
+      "horse-user-2",
+      "experience-horse-shore"
     ],
     "story": "A ride outside Essaouira offers a different view of the coast, away from the harbor and busy streets. Begin at the stable, where the team will discuss your experience and introduce you to your horse.\n\nThe route and pace suit the riders and conditions. Beach access is not always possible, and a gallop is not part of every ride—the pleasure is in exploring the landscape on horseback."
+  },
+  {
+    "id": "essaouira-surf-kitesurf",
+    "title": "Essaouira Surf & Kitesurf",
+    "category": "experiences",
+    "days": 0.17,
+    "duration": "Half-day experience",
+    "start": "Essaouira",
+    "end": "Essaouira",
+    "image": "surf-user-sunset",
+    "region": "ESSAOUIRA · ATLANTIC COAST",
+    "summary": "Trade the medina lanes for ocean air. Catch your first waves or discover the pull of a kite, with a coastal session shaped around your level and the Atlantic conditions.",
+    "story": "Salt in the air, sand beneath your feet and the Atlantic stretching ahead: Essaouira invites you to experience Morocco from the water. Choose the rhythm of surfing or the energy of kitesurfing, then leave room for a relaxed stroll back through the medina.\n\nNew to the sport? Start with the basics on the beach and build confidence step by step. Already comfortable on the water? Tell us what you enjoy and we will help plan a session suited to your experience. Your chosen sport, lesson format and beach are agreed before booking, with wind and waves guiding the final plan.",
+    "fit": "For travelers staying in Essaouira who want an active coastal escape, from a first lesson to a session tailored to existing experience. Participants need to be comfortable swimming in the sea.",
+    "pace": "Active · tailored to your level",
+    "highlights": [
+      "Surf or kitesurf",
+      "Coaching for your level",
+      "Time on the Atlantic"
+    ],
+    "itinerary": [
+      [
+        "Choose your ocean adventure",
+        "Tell us whether you prefer surfing or kitesurfing, your swimming ability and any previous experience. Agree the lesson format, meeting point and equipment in advance. Allow a half day for preparation, your session and a little time to unwind."
+      ],
+      [
+        "Meet, prepare & practice",
+        "Meet the activity team at the confirmed beach. Review the sea conditions, fit your equipment and begin with a briefing. Surf lessons introduce paddling and standing up; a first kitesurf lesson starts with kite control and the steps appropriate to your level."
+      ],
+      [
+        "Find your rhythm",
+        "Follow your instructor through a session adapted to the conditions and your progress. Beginners build confidence gradually; experienced participants work on the goals agreed with their instructor. The amount of water time depends on the chosen sport and the weather."
+      ],
+      [
+        "Slow down by the sea",
+        "Return your equipment and take a moment beside the ocean. Continue with a beach walk or head back to Essaouira for lunch and the medina at your own pace. Meals and any onward transport are separate."
+      ]
+    ],
+    "practical": "This activity starts in Essaouira. Choose surf or kitesurf when enquiring; both sports are not automatically included in one session. The exact beach, lesson length, instructor language, equipment, participant requirements and weather cancellation terms are confirmed in your proposal. Bring swimwear, a towel, sun protection and water. A first kitesurf lesson may focus on land-based kite control rather than riding a board. Transfers from Marrakech and accommodation are arranged separately.",
+    "cover": [
+      "Your selected surf or kitesurf session and its agreed duration",
+      "Lesson format, instructor language and equipment specified in your proposal",
+      "Confirmed meeting point and any agreed local beach transfer"
+    ],
+    "extras": "Meals, drinks, personal purchases, tips, accommodation and intercity transfers are separate. Additional lessons, a second sport, private coaching or equipment rental beyond your session can be requested and priced separately. Your proposal confirms the final inclusions.",
+    "overnights": [],
+    "gallery": [
+      "surf-user-sunset",
+      "route--leOF2nzJQ8",
+      "essaouira-kitesurf"
+    ]
+  },
+  {
+    "id": "taghazout-surf-kitesurf",
+    "title": "Taghazout Surf & Kitesurf",
+    "category": "experiences",
+    "days": 0.17,
+    "duration": "Half-day experience",
+    "start": "Taghazout",
+    "end": "Taghazout",
+    "image": "taghazout-surf",
+    "region": "TAGHAZOUT · ATLANTIC COAST",
+    "summary": "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.",
+    "story": "Wake up to the ocean and make the coast part of your Morocco story. In Taghazout, a session in the waves pairs beautifully with an easy afternoon by the water. Whether you are learning to stand on a board or returning for another ride, the pleasure is in finding your own rhythm.\n\nSurfing is the heart of this experience, with the beach and coaching chosen for your level. If kitesurfing is what draws you to the coast, let us know: we will check suitable local conditions and an available activity team before confirming a session. Keep the rest of your day open for a seaside lunch, a village stroll or simply watching the waves.",
+    "fit": "For travelers staying in Taghazout or nearby who want a first surf lesson or coaching suited to their experience. Kitesurfing is available by request and subject to local conditions and operator availability. Participants need to be comfortable swimming in the sea.",
+    "pace": "Active · with a relaxed coastal finish",
+    "highlights": [
+      "Taghazout surf life",
+      "Coaching for your level",
+      "Kitesurf by request"
+    ],
+    "itinerary": [
+      [
+        "Plan your coastal session",
+        "Share your preferred sport, swimming ability and experience. Agree the lesson format and meeting point with the activity team. Surfing and kitesurfing have different requirements; kitesurf availability and the suitable beach are checked before confirmation."
+      ],
+      [
+        "Pick the beach & prepare",
+        "Meet your activity team and review the day’s conditions. The session may take place at a suitable beach near Taghazout rather than directly in the village. Fit the agreed equipment and begin with a briefing and beach practice."
+      ],
+      [
+        "Build confidence on the water",
+        "For surfing, practice the techniques appropriate to your level with your instructor’s guidance. For a confirmed kitesurf session, follow a progression based on your experience and the wind, beginning with kite control if you are new to the sport. A particular break or riding milestone is not guaranteed."
+      ],
+      [
+        "Enjoy the village rhythm",
+        "Finish at the agreed point, return your equipment and leave time to enjoy the coast. A seaside lunch, a walk through Taghazout or a quiet hour watching the waves makes an easy finish. Meals and any extra transport are separate."
+      ]
+    ],
+    "practical": "This is a local experience starting in Taghazout, not a day trip from Marrakech. Allow a half day; exact lesson length and any local transfers are confirmed before booking. Surf sessions depend on swell and tides; kitesurf sessions also require suitable wind, a suitable launch beach and an available operator. Your proposal specifies equipment, instructor language, participant requirements and weather cancellation terms. Bring swimwear, a towel, sun protection and water. A beginner kitesurf session does not promise independent board riding.",
+    "cover": [
+      "Your selected surf session, or a kitesurf session confirmed by arrangement",
+      "Lesson format, instructor language and equipment specified in your proposal",
+      "Confirmed meeting point and any agreed local beach transfer"
+    ],
+    "extras": "Meals, drinks, personal purchases, tips, accommodation and transfers from Agadir or Marrakech are separate unless included in your proposal. A second sport, extra lessons, private coaching and extended equipment rental are optional additions priced separately.",
+    "overnights": [],
+    "gallery": [
+      "taghazout-surf",
+      "taghazout-coast"
+    ]
   }
 ]

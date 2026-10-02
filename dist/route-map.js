@@ -4,7 +4,7 @@
   marrakech:['Marrakech',31.6295,-7.9811],dades:['Dades Valley',31.4500,-5.9700],todra:['Todra Gorge',31.5889,-5.5875],merzouga:['Merzouga',31.0802,-4.0133],erg:['Erg Chebbi',31.1450,-3.9670],
   casablanca:['Casablanca',33.5731,-7.5898],rabat:['Rabat',34.0209,-6.8416],meknes:['Meknes',33.8935,-5.5473],fes:['Fes',34.0181,-5.0078],erfoud:['Erfoud',31.4360,-4.2320],
   ouarzazate:['Ouarzazate',30.9335,-6.9370],ait:['Aït Ben Haddou',31.0470,-7.1290],skoura:['Skoura',31.0620,-6.5550],taroudant:['Taroudant',30.4700,-8.8770],essaouira:['Essaouira',31.5085,-9.7595],
-  tangier:['Tangier',35.7595,-5.8340],chefchaouen:['Chefchaouen',35.1688,-5.2636],ouzoud:['Ouzoud Falls',32.0150,-6.7190],setti:['Setti Fatma',31.2250,-7.6750],imlil:['Imlil',31.1360,-7.9190],
+  tangier:['Tangier',35.7595,-5.8340],chefchaouen:['Chefchaouen',35.1688,-5.2636],ouzoud:['Ouzoud Falls',32.0150,-6.7190],setti:['Setti Fatma',31.2250,-7.6750],imlil:['Imlil',31.1360,-7.9190],taghazout:['Taghazout',30.5450,-9.7080],
   volubilis:['Volubilis',34.0733,-5.5558],moulay:['Moulay Idriss',34.0540,-5.5270],agafay:['Agafay',31.4570,-8.1860],balloon:['Marrakech palm grove',31.7170,-7.9740],brahim:['Moulay Brahim',31.2870,-8.0120],diabat:['Diabat coast',31.4780,-9.7700]
  };
  const ROUTES={
@@ -20,7 +20,8 @@
   'agafay-evening':['marrakech','agafay'], 'imlil-atlas-day':['marrakech','agafay','imlil','brahim','marrakech'], 'chefchaouen-from-fes':['fes','chefchaouen','fes'], 'volubilis-meknes':['fes','volubilis','moulay','meknes','fes'],
   'marrakech-balloon':['marrakech','balloon'], 'agafay-quad':['marrakech','agafay'], 'merzouga-camel':['merzouga','erg'], 'merzouga-sandboarding':['merzouga','erg'],
   'agafay-buggy':['marrakech','agafay'], 'atlas-paragliding':['marrakech','brahim'], 'marrakech-hammam':['marrakech'], 'marrakech-cooking':['marrakech'],
-  'marrakech-dinner-show':['marrakech'], 'essaouira-horse-riding':['essaouira','diabat']
+  'marrakech-dinner-show':['marrakech'], 'essaouira-horse-riding':['essaouira','diabat'],
+  'essaouira-surf-kitesurf':['essaouira'], 'taghazout-surf-kitesurf':['taghazout']
  };
  let leafletPromise;
  function loadLeaflet(){
