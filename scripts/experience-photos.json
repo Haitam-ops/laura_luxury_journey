@@ -91,33 +91,6 @@
       "focal_point": "50% 50%"
     },
     {
-      "id": "experience-cook-tg-food4",
-      "url": "https://amalnonprofit.org/assets/img/tg-food4.jpg",
-      "caption": "Cooking at Amal Targa, Marrakech",
-      "source": "https://amalnonprofit.org/targa.html",
-      "author": "Amal",
-      "license": "Operator photograph; reuse permission unverified",
-      "focal_point": "50% 50%"
-    },
-    {
-      "id": "experience-cook-tg-t6",
-      "url": "https://amalnonprofit.org/assets/img/tg-t6.jpg",
-      "caption": "Cooking at Amal Targa, Marrakech",
-      "source": "https://amalnonprofit.org/targa.html",
-      "author": "Amal",
-      "license": "Operator photograph; reuse permission unverified",
-      "focal_point": "50% 50%"
-    },
-    {
-      "id": "experience-cook-tg-t2",
-      "url": "https://amalnonprofit.org/assets/img/tg-t2.jpg",
-      "caption": "Cooking at Amal Targa, Marrakech",
-      "source": "https://amalnonprofit.org/targa.html",
-      "author": "Amal",
-      "license": "Operator photograph; reuse permission unverified",
-      "focal_point": "50% 50%"
-    },
-    {
       "id": "experience-show-32",
       "url": "https://www.comptoirmarrakech.com/storage/sliders/December2023/mTsVwdno5RAAdzpIe8Ho.webp",
       "caption": "An evening at Comptoir Darna, Marrakech",
@@ -231,6 +204,39 @@
       "name": "Golden Hour Surfer at Sea.png",
       "alt": "Surfer carrying a board toward the sea in golden sunset light",
       "focal_point": "70% 65%"
+    },
+    {
+      "id": "cooking-user-1",
+      "local_file": "assets/cooking-user-1-original.png",
+      "source": "culinary1stone.png",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "culinary1stone.png",
+      "alt": "Cooking class preparing tagines around a blue mosaic table",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "cooking-user-2",
+      "local_file": "assets/cooking-user-2-original.png",
+      "source": "ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png",
+      "alt": "Colorful Moroccan salads served in red bowls",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "cooking-user-3",
+      "local_file": "assets/cooking-user-3-original.png",
+      "source": "ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png",
+      "alt": "Cooking class seasoning chicken tagines with spices and lemon",
+      "focal_point": "50% 50%"
     }
   ],
   "galleries": {
@@ -269,9 +275,9 @@
       "hammam-user-3"
     ],
     "marrakech-cooking": [
-      "experience-cook-tg-food4",
-      "experience-cook-tg-t6",
-      "experience-cook-tg-t2"
+      "cooking-user-1",
+      "cooking-user-2",
+      "cooking-user-3"
     ],
     "marrakech-dinner-show": [
       "dinner-user-1",

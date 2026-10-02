@@ -6180,7 +6180,7 @@
       "duration": "Ungefähr 4 Stunden",
       "start": "Marrakesch",
       "end": "Marrakesch",
-      "image": "experience-cook-tg-food4",
+      "image": "cooking-user-1",
       "region": "KÜCHE UND ALLTAGSKULTUR",
       "summary": "Lernen Sie ein paar der Aromen, die Sie genießen, dann setzen Sie sich auf die Mahlzeit, die Sie gemacht haben. Eine Hand-on-Kochklasse, mit einem Marktbesuch für ausgewählte Sitzungen.",
       "fit": "Für neugierige Köche, Paare und Familien, die das Lernen genießen. Teilen Sie alle Allergien, Ernährungsvorlieben und Ihre bevorzugte Sprache bei der Planung der Klasse.",
@@ -6213,132 +6213,129 @@
       "extras": "Ihr Vorschlag wird zusätzliche Mahlzeiten, Aktivitäten und andere Extras separat zeigen. Persönliche Einkaufsmöglichkeiten und Tipps sind nicht enthalten. Wir vereinbaren die endgültigen Einschlüsse und Stornierungsbedingungen vor der Buchung.",
       "overnights": [],
       "gallery": [
-        "experience-cook-tg-food4",
-        "experience-cook-tg-t6",
-        "experience-cook-tg-t2"
+        "cooking-user-1",
+        "cooking-user-2",
+        "cooking-user-3"
       ],
       "order": 23,
       "story": "Es gibt etwas, das zufrieden ist, an dem Ort, von dem es herkommt, ein Gericht zu lernen. Arbeiten Sie durch ein marokkanisches Menü mit Ihrem Gastgeber, stellen Sie Fragen, wie Sie kochen und holen Ideen, um nach Hause zu bringen.\n\nEinige Klassen beginnen mit einem Marktbesuch; andere nehmen Sie direkt in die Küche. Die Sitzung endet um den Tisch und genießt das Essen zusammen. Wir vereinbaren das Menü und die Ernährungsbedürfnisse, bevor Sie ankommen.",
       "photos": [
         {
-          "id": "experience-cook-tg-food4",
-          "name": "Cooking at Amal Targa, Marrakech",
-          "alt": "Cooking at Amal Targa, Marrakech",
-          "caption": "Cooking at Amal Targa, Marrakech",
-          "path": "/assets/experience-cook-tg-food4-1200.webp",
-          "width": 1200,
-          "height": 799,
+          "id": "cooking-user-1",
+          "name": "culinary1stone.png",
+          "alt": "Cooking class preparing tagines around a blue mosaic table",
+          "caption": "",
+          "path": "/assets/cooking-user-1-1448.webp",
+          "width": 1448,
+          "height": 1086,
           "variants": [
             {
-              "path": "/assets/experience-cook-tg-food4-320.webp",
+              "path": "/assets/cooking-user-1-320.webp",
               "width": 320,
-              "height": 213
+              "height": 240
             },
             {
-              "path": "/assets/experience-cook-tg-food4-640.webp",
+              "path": "/assets/cooking-user-1-640.webp",
               "width": 640,
-              "height": 426
+              "height": 480
             },
             {
-              "path": "/assets/experience-cook-tg-food4-960.webp",
+              "path": "/assets/cooking-user-1-960.webp",
               "width": 960,
-              "height": 639
+              "height": 720
             },
             {
-              "path": "/assets/experience-cook-tg-food4-1200.webp",
-              "width": 1200,
-              "height": 799
+              "path": "/assets/cooking-user-1-1448.webp",
+              "width": 1448,
+              "height": 1086
             }
           ],
-          "source": "https://amalnonprofit.org/targa.html",
-          "source_url": "https://amalnonprofit.org/assets/img/tg-food4.jpg",
-          "author": "Amal",
-          "credit": "Amal",
-          "license": "Operator photograph; reuse permission unverified",
-          "original_width": 1200,
-          "original_height": 799,
-          "focal_point": "50% 50%",
-          "reuse_permission_verified": false
+          "source": "culinary1stone.png",
+          "source_url": "culinary1stone.png",
+          "author": "",
+          "credit": "",
+          "license": "User supplied",
+          "original_width": 1448,
+          "original_height": 1086,
+          "focal_point": "50% 50%"
         },
         {
-          "id": "experience-cook-tg-t6",
-          "name": "Cooking at Amal Targa, Marrakech",
-          "alt": "Cooking at Amal Targa, Marrakech",
-          "caption": "Cooking at Amal Targa, Marrakech",
-          "path": "/assets/experience-cook-tg-t6-1000.webp",
-          "width": 1000,
-          "height": 667,
+          "id": "cooking-user-2",
+          "name": "ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png",
+          "alt": "Colorful Moroccan salads served in red bowls",
+          "caption": "",
+          "path": "/assets/cooking-user-2-1536.webp",
+          "width": 1536,
+          "height": 1024,
           "variants": [
             {
-              "path": "/assets/experience-cook-tg-t6-320.webp",
+              "path": "/assets/cooking-user-2-320.webp",
               "width": 320,
               "height": 213
             },
             {
-              "path": "/assets/experience-cook-tg-t6-640.webp",
+              "path": "/assets/cooking-user-2-640.webp",
               "width": 640,
               "height": 427
             },
             {
-              "path": "/assets/experience-cook-tg-t6-960.webp",
+              "path": "/assets/cooking-user-2-960.webp",
               "width": 960,
               "height": 640
             },
             {
-              "path": "/assets/experience-cook-tg-t6-1000.webp",
-              "width": 1000,
-              "height": 667
+              "path": "/assets/cooking-user-2-1536.webp",
+              "width": 1536,
+              "height": 1024
             }
           ],
-          "source": "https://amalnonprofit.org/targa.html",
-          "source_url": "https://amalnonprofit.org/assets/img/tg-t6.jpg",
-          "author": "Amal",
-          "credit": "Amal",
-          "license": "Operator photograph; reuse permission unverified",
-          "original_width": 1000,
-          "original_height": 667,
-          "focal_point": "50% 50%",
-          "reuse_permission_verified": false
+          "source": "ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png",
+          "source_url": "ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png",
+          "author": "",
+          "credit": "",
+          "license": "User supplied",
+          "original_width": 1536,
+          "original_height": 1024,
+          "focal_point": "50% 50%"
         },
         {
-          "id": "experience-cook-tg-t2",
-          "name": "Cooking at Amal Targa, Marrakech",
-          "alt": "Cooking at Amal Targa, Marrakech",
-          "caption": "Cooking at Amal Targa, Marrakech",
-          "path": "/assets/experience-cook-tg-t2-1000.webp",
-          "width": 1000,
-          "height": 666,
+          "id": "cooking-user-3",
+          "name": "ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png",
+          "alt": "Cooking class seasoning chicken tagines with spices and lemon",
+          "caption": "",
+          "path": "/assets/cooking-user-3-1536.webp",
+          "width": 1536,
+          "height": 1024,
           "variants": [
             {
-              "path": "/assets/experience-cook-tg-t2-320.webp",
+              "path": "/assets/cooking-user-3-320.webp",
               "width": 320,
               "height": 213
             },
             {
-              "path": "/assets/experience-cook-tg-t2-640.webp",
+              "path": "/assets/cooking-user-3-640.webp",
               "width": 640,
-              "height": 426
+              "height": 427
             },
             {
-              "path": "/assets/experience-cook-tg-t2-960.webp",
+              "path": "/assets/cooking-user-3-960.webp",
               "width": 960,
-              "height": 639
+              "height": 640
             },
             {
-              "path": "/assets/experience-cook-tg-t2-1000.webp",
-              "width": 1000,
-              "height": 666
+              "path": "/assets/cooking-user-3-1536.webp",
+              "width": 1536,
+              "height": 1024
             }
           ],
-          "source": "https://amalnonprofit.org/targa.html",
-          "source_url": "https://amalnonprofit.org/assets/img/tg-t2.jpg",
-          "author": "Amal",
-          "credit": "Amal",
-          "license": "Operator photograph; reuse permission unverified",
-          "original_width": 1000,
-          "original_height": 666,
-          "focal_point": "50% 50%",
-          "reuse_permission_verified": false
+          "source": "ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png",
+          "source_url": "ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png",
+          "author": "",
+          "credit": "",
+          "license": "User supplied",
+          "original_width": 1536,
+          "original_height": 1024,
+          "focal_point": "50% 50%"
         }
       ]
     },
@@ -12466,6 +12463,123 @@
       "original_width": 1672,
       "original_height": 941,
       "focal_point": "70% 65%"
+    },
+    "cooking-user-1": {
+      "id": "cooking-user-1",
+      "name": "culinary1stone.png",
+      "alt": "Cooking class preparing tagines around a blue mosaic table",
+      "caption": "",
+      "path": "/assets/cooking-user-1-1448.webp",
+      "width": 1448,
+      "height": 1086,
+      "variants": [
+        {
+          "path": "/assets/cooking-user-1-320.webp",
+          "width": 320,
+          "height": 240
+        },
+        {
+          "path": "/assets/cooking-user-1-640.webp",
+          "width": 640,
+          "height": 480
+        },
+        {
+          "path": "/assets/cooking-user-1-960.webp",
+          "width": 960,
+          "height": 720
+        },
+        {
+          "path": "/assets/cooking-user-1-1448.webp",
+          "width": 1448,
+          "height": 1086
+        }
+      ],
+      "source": "culinary1stone.png",
+      "source_url": "culinary1stone.png",
+      "author": "",
+      "credit": "",
+      "license": "User supplied",
+      "original_width": 1448,
+      "original_height": 1086,
+      "focal_point": "50% 50%"
+    },
+    "cooking-user-2": {
+      "id": "cooking-user-2",
+      "name": "ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png",
+      "alt": "Colorful Moroccan salads served in red bowls",
+      "caption": "",
+      "path": "/assets/cooking-user-2-1536.webp",
+      "width": 1536,
+      "height": 1024,
+      "variants": [
+        {
+          "path": "/assets/cooking-user-2-320.webp",
+          "width": 320,
+          "height": 213
+        },
+        {
+          "path": "/assets/cooking-user-2-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "path": "/assets/cooking-user-2-960.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "/assets/cooking-user-2-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "source": "ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png",
+      "source_url": "ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png",
+      "author": "",
+      "credit": "",
+      "license": "User supplied",
+      "original_width": 1536,
+      "original_height": 1024,
+      "focal_point": "50% 50%"
+    },
+    "cooking-user-3": {
+      "id": "cooking-user-3",
+      "name": "ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png",
+      "alt": "Cooking class seasoning chicken tagines with spices and lemon",
+      "caption": "",
+      "path": "/assets/cooking-user-3-1536.webp",
+      "width": 1536,
+      "height": 1024,
+      "variants": [
+        {
+          "path": "/assets/cooking-user-3-320.webp",
+          "width": 320,
+          "height": 213
+        },
+        {
+          "path": "/assets/cooking-user-3-640.webp",
+          "width": 640,
+          "height": 427
+        },
+        {
+          "path": "/assets/cooking-user-3-960.webp",
+          "width": 960,
+          "height": 640
+        },
+        {
+          "path": "/assets/cooking-user-3-1536.webp",
+          "width": 1536,
+          "height": 1024
+        }
+      ],
+      "source": "ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png",
+      "source_url": "ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png",
+      "author": "",
+      "credit": "",
+      "license": "User supplied",
+      "original_width": 1536,
+      "original_height": 1024,
+      "focal_point": "50% 50%"
     }
   },
   "languages": [

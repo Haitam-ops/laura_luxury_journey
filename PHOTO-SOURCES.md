@@ -160,3 +160,7 @@ Essaouira on Horseback now starts with Golden Gallop at Sunset.png (1122 × 1402
 ### User-selected surf cover
 
 Essaouira Surf & Kitesurf now uses Golden Hour Surfer at Sea.png (1672 × 941) as its cover and first photo. The previous second photo stays second, and the previous first photo (essaouira-kitesurf) moves to third, replacing the old third photo. The user-supplied original and responsive WebP variants are retained without upscaling; the new photo has a blank caption.
+
+### User-selected cooking photographs
+
+A Moroccan Kitchen in Marrakech now uses only culinary1stone.png, ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png, and ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png in attachment order. culinary1stone.png is the cover. User-supplied originals and responsive WebP variants are retained without upscaling; captions are blank.
