@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /api/
+
+Sitemap: https://laura-luxury-journey.hbenlamsaguem.workers.dev/sitemap.xml

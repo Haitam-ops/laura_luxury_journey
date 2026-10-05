@@ -1,0 +1,60 @@
+"""Generate discovery files from the published language catalogues; no database needed."""
+from pathlib import Path
+import json
+import html
+import re
+import xml.etree.ElementTree as ET
+from urllib.parse import urlencode
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def main():
+    config = json.loads((ROOT / 'data/seo.json').read_text('utf-8'))
+    origin = config['origin'].rstrip('/')
+    assert origin.startswith('https://')
+    english = json.loads((ROOT / 'dist/data/content.en.json').read_text('utf-8'))
+    codes = [x['code'] for x in english['languages'] if x.get('enabled')]
+    catalogues = {code: json.loads((ROOT / f'dist/data/content.{code}.json').read_text('utf-8')) for code in codes}
+    trips = {code: {t['id'] for t in c['trips']} for code, c in catalogues.items()}
+    ns = 'http://www.sitemaps.org/schemas/sitemap/0.9'
+    xhtml = 'http://www.w3.org/1999/xhtml'
+    ET.register_namespace('', ns)
+    ET.register_namespace('xhtml', xhtml)
+    root = ET.Element(f'{{{ns}}}urlset')
+
+    def url(code, trip):
+        params = {'lang': code}
+        if trip:
+            params['trip'] = trip
+        return origin + '/?' + urlencode(params)
+
+    for trip in [None] + sorted(set.union(*trips.values())):
+        available = [code for code in codes if trip is None or trip in trips[code]]
+        for code in available:
+            item = ET.SubElement(root, f'{{{ns}}}url')
+            ET.SubElement(item, f'{{{ns}}}loc').text = url(code, trip)
+            for other in available:
+                ET.SubElement(item, f'{{{xhtml}}}link', rel='alternate', hreflang=other, href=url(other, trip))
+            if 'en' in available:
+                ET.SubElement(item, f'{{{xhtml}}}link', rel='alternate', hreflang='x-default', href=url('en', trip))
+    ET.indent(root)
+    xml = ET.tostring(root, encoding='utf-8', xml_declaration=True)
+    robots = 'User-agent: *\nAllow: /\nDisallow: /admin\nDisallow: /api/\n\nSitemap: ' + origin + '/sitemap.xml\n'
+    config['availableTrips'] = {code: sorted(ids) for code, ids in trips.items()}
+    for folder in [ROOT, ROOT / 'dist']:
+        index = folder / 'index.html'
+        markup = index.read_text('utf-8')
+        markup = re.sub(r'\s*<meta name="google-site-verification"[^>]*>', '', markup)
+        if config.get('googleSiteVerification'):
+            token = html.escape(config['googleSiteVerification'], quote=True)
+            markup = markup.replace('</head>', f'  <meta name="google-site-verification" content="{token}">\n</head>')
+        index.write_text(markup, 'utf-8')
+        (folder / 'sitemap.xml').write_bytes(xml)
+        (folder / 'robots.txt').write_text(robots, 'utf-8')
+        (folder / 'seo-config.js').write_text('window.SITE_SEO=' + json.dumps(config, ensure_ascii=False) + ';\n', 'utf-8')
+    print(f'SEO: {len(root)} URLs, {len(codes)} languages; origin {origin}')
+
+
+if __name__ == '__main__':
+    main()

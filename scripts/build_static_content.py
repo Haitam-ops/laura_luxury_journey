@@ -33,6 +33,8 @@ def main():
     english = (output / "content.en.json").read_bytes()
     (output / "content.json").write_bytes(english)
     (ROOT / "data" / "content.json").write_bytes(english)
+    from build_seo import main as build_seo
+    build_seo()
 
 
 if __name__ == "__main__":
