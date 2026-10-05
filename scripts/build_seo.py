@@ -4,15 +4,23 @@ import json
 import html
 import re
 import xml.etree.ElementTree as ET
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 
 
+def resolve_origin(config):
+    origin = (config.get('customDomain') or config['fallbackOrigin']).strip().rstrip('/')
+    parts = urlsplit(origin)
+    if parts.scheme != 'https' or not parts.hostname or parts.path or parts.query or parts.fragment or parts.username or parts.password or parts.port:
+        raise ValueError('SEO domain must be an HTTPS origin without a path, port, credentials or query.')
+    return origin
+
+
 def main():
     config = json.loads((ROOT / 'data/seo.json').read_text('utf-8'))
-    origin = config['origin'].rstrip('/')
-    assert origin.startswith('https://')
+    origin = resolve_origin(config)
+    config['origin'] = origin
     english = json.loads((ROOT / 'dist/data/content.en.json').read_text('utf-8'))
     codes = [x['code'] for x in english['languages'] if x.get('enabled')]
     catalogues = {code: json.loads((ROOT / f'dist/data/content.{code}.json').read_text('utf-8')) for code in codes}
