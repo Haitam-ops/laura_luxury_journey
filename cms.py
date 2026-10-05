@@ -9,6 +9,7 @@ import json
 import re
 import secrets
 import time
+from place_names import protect as protect_itinerary_places
 
 ROOT = Path(__file__).resolve().parent
 LANGUAGES = [
@@ -240,6 +241,9 @@ def public_content(con, code):
         for index, (heading, _) in enumerate(raw.get('itinerary', [])):
             if '→' in heading and index < len(item.get('itinerary', [])):
                 item['itinerary'][index] = [heading, item['itinerary'][index][1]]
+        for index, (_, description) in enumerate(raw.get('itinerary', [])):
+            if index < len(item.get('itinerary', [])):
+                item['itinerary'][index][1] = protect_itinerary_places(description, item['itinerary'][index][1])[0]
         item['photos'] = [media[identity] for identity in item['gallery'] if identity in media]
         trips.append(item)
     site = localize(document(con, 'site', 'main')['document'], set(SITE) - {'hero_images', 'email', 'phone', 'whatsapp', 'address', 'brand'})

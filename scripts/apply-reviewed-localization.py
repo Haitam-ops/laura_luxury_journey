@@ -1,7 +1,9 @@
 """Apply reviewed copy and consistent destination/stay terminology to all public locales."""
 from pathlib import Path
-import json,re,shutil
+import json,re,shutil,sys
 ROOT=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT))
+from place_names import protect
 def read(p):return json.loads(p.read_text('utf-8'))
 manual=read(ROOT/'data/reviewed-localization.json')
 for i,code in enumerate(manual['codes']):
@@ -28,9 +30,10 @@ for i,code in enumerate(manual['codes']):
      place=stay[len(prefix):];strings[stay]=translations[i]+strings.get(place,place)
  # Route headings retain the original place names; paragraphs stay translated.
  for trip in c['trips']:
-  for title,_ in trip['itinerary']:
+  for title,paragraph in trip['itinerary']:
    if ' → ' in title:
     strings[title]=title
+   strings[paragraph]=protect(paragraph,strings.get(paragraph,paragraph))[0]
  d['reviewed']=False;d['origin']='Current-copy coverage with manually reviewed interface, titles, destinations and accommodation labels'
  p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n','utf-8')
  (ROOT/'dist/data/locales').mkdir(parents=True,exist_ok=True);shutil.copy2(p,ROOT/'dist/data/locales'/p.name)
