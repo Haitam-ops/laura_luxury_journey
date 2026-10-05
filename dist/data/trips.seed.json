@@ -216,7 +216,7 @@
     "duration": "4 days · 3 nights",
     "start": "Marrakech",
     "end": "Fes",
-    "image": "fes",
+    "image": "tour-ziz-valley",
     "region": "ONE-WAY SAHARA JOURNEY",
     "summary": "Let the journey between two great medinas take you through kasbahs, gorges and the Sahara. Four days, with two nights near Merzouga and a full day around the dunes.",
     "fit": "A natural choice if you’re continuing from Marrakech to Fes and want to see the Sahara along the way. The route can also be requested in reverse.",
@@ -258,8 +258,8 @@
       "Lodge or hotel near Merzouga"
     ],
     "gallery": [
-      "fes",
       "tour-ziz-valley",
+      "fes",
       "tour-todra-walk",
       "route-vjs92g9SAz0",
       "route-SIWYZWNbF5k",
