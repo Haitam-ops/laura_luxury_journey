@@ -11,9 +11,9 @@
    cms=await response.json();
  } catch {
    const language=/^[a-z]{2,3}(?:-[a-z]{2,4})?$/i.test(requested)?requested:'en';
-   response=await fetch('/data/content.'+encodeURIComponent(language)+'.json?v=quoted-places-20261005');
-   if(!response.ok&&language!=='en')response=await fetch('/data/content.en.json?v=quoted-places-20261005');
-   if(!response.ok)response=await fetch('/data/content.json?v=quoted-places-20261005');
+   response=await fetch('/data/content.'+encodeURIComponent(language)+'.json?v=footer-info-20261005');
+   if(!response.ok&&language!=='en')response=await fetch('/data/content.en.json?v=footer-info-20261005');
+   if(!response.ok)response=await fetch('/data/content.json?v=footer-info-20261005');
    if(!response.ok)throw Error('The trip collection could not be loaded.');
    cms=await response.json();window.STATIC_FRONTEND=true;
  }
@@ -97,6 +97,6 @@
  for(const lang of cms.languages){const link=document.createElement('link');link.rel='alternate';link.hreflang=lang.code;const other=new URL(location.href);other.searchParams.set('lang',lang.code);link.href=other.href;document.head.append(link)}
  translateDOM();
  new MutationObserver(records=>{for(const record of records){if(record.type==='characterData'||record.type==='attributes')translateDOM(record.target);else for(const node of record.addedNodes)if(node.nodeType===1||node.nodeType===3)translateDOM(node)}}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label','title','alt','placeholder']});
- const script=document.createElement('script');script.src='/app.js?v=i18n-20260928-final';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=quoted-places-20261005';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=i18n-20260928-final';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
+ const script=document.createElement('script');script.src='/app.js?v=footer-info-20261005';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=footer-info-20261005';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=footer-info-20261005';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
  function showError(){const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3>'+escape(tr('The collection could not be loaded.'))+'</h3><p>'+escape(tr('Please refresh the page to try again.'))+'</p></div>'}
 })().catch(()=>{const messages={"en": ["The collection could not be loaded.", "Please refresh the page to try again."], "fr": ["Impossible de charger les voyages.", "Actualisez la page pour réessayer."], "es": ["No se han podido cargar los viajes.", "Actualiza la página para intentarlo de nuevo."], "de": ["Die Reisen konnten nicht geladen werden.", "Laden Sie die Seite neu und versuchen Sie es erneut."], "it": ["Non è stato possibile caricare i viaggi.", "Aggiorna la pagina per riprovare."], "pt": ["Não foi possível carregar as viagens.", "Atualize a página para tentar novamente."], "nl": ["De reizen konden niet worden geladen.", "Vernieuw de pagina om het opnieuw te proberen."]};const code=new URL(location.href).searchParams.get('lang')||document.documentElement.lang;const copy=messages[code]||messages.en;const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3></h3><p></p></div>';grid.querySelector('h3').textContent=copy[0];grid.querySelector('p').textContent=copy[1];});
