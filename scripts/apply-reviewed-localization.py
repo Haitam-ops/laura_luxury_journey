@@ -26,13 +26,11 @@ for i,code in enumerate(manual['codes']):
    for prefix,translations in templates.items():
     if stay.startswith(prefix):
      place=stay[len(prefix):];strings[stay]=translations[i]+strings.get(place,place)
- # Keep route-stop order and translate place descriptions independently of prose.
+ # Route headings retain the original place names; paragraphs stay translated.
  for trip in c['trips']:
   for title,_ in trip['itinerary']:
    if ' → ' in title:
-    parts=title.split(' → ')
-    strings[title]=' → '.join(strings.get(part,part) for part in parts)
-    for place in destinations:strings[title]=strings[title].replace(place,strings[place])
+    strings[title]=title
  d['reviewed']=False;d['origin']='Current-copy coverage with manually reviewed interface, titles, destinations and accommodation labels'
  p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n','utf-8')
  (ROOT/'dist/data/locales').mkdir(parents=True,exist_ok=True);shutil.copy2(p,ROOT/'dist/data/locales'/p.name)

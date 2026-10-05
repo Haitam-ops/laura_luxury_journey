@@ -236,6 +236,10 @@ def public_content(con, code):
         if raw['status'] != 'published':
             continue
         item = localize(raw, LOCALE_FIELDS)
+        # Route headings retain the original place names in every language.
+        for index, (heading, _) in enumerate(raw.get('itinerary', [])):
+            if '→' in heading and index < len(item.get('itinerary', [])):
+                item['itinerary'][index] = [heading, item['itinerary'][index][1]]
         item['photos'] = [media[identity] for identity in item['gallery'] if identity in media]
         trips.append(item)
     site = localize(document(con, 'site', 'main')['document'], set(SITE) - {'hero_images', 'email', 'phone', 'whatsapp', 'address', 'brand'})
