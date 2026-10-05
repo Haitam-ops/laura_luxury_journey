@@ -9,6 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 import cms
 from place_names import protect
+from trip_editorial import route_heading
 
 
 def main():
@@ -23,21 +24,18 @@ def main():
         for trip in trips:
             for step, (heading, source) in enumerate(trip['itinerary'], 1):
                 if '→' in heading:
-                    strings[heading] = heading
+                    strings[heading] = route_heading(heading, code)
                 translated = source if code == 'en' else strings.get(source, source)
                 source_parts, translated_parts = source.split('\n\n'), translated.split('\n\n')
                 if len(source_parts) != len(translated_parts):
                     raise ValueError(f'Paragraph structure differs: {code}/{trip["id"]}/{step}')
                 fixed_parts = []
                 for paragraph, (original, target) in enumerate(zip(source_parts, translated_parts), 1):
-                    fixed, expected, found = protect(original, target)
+                    fixed, expected, found = protect(original, target, code)
                     if expected != found:
                         raise ValueError(f'Unresolved places: {code}/{trip["id"]}/{step}/{paragraph}: {expected - found}; extra: {found - expected}')
-                    if protect(original, fixed)[0] != fixed:
-                        raise ValueError('Place quoting is not idempotent')
-                    for name, count in expected.items():
-                        if fixed.count('"' + name + '"') != count:
-                            raise ValueError(f'Incorrect quoted occurrence count for {name}')
+                    if protect(original, fixed, code)[0] != fixed:
+                        raise ValueError('Place normalization is not idempotent')
                     results.append(dict(language=code, trip=trip['id'], status=trip['status'], step=step,
                                         paragraph=paragraph, places=dict(expected), passed=True))
                     fixed_parts.append(fixed)

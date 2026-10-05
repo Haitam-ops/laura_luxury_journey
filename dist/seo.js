@@ -12,8 +12,8 @@ window.updateSiteSEO = function(trip = null) {
   };
   const code = cms.language.code, site = cms.site;
   const canonical = pageURL(code, trip?.id);
-  const title = trip ? `${trip.title} — ${site.brand}` : `${site.brand} — ${site.hero_title} ${site.hero_emphasis}`;
-  const description = trip?.summary || site.collection_copy;
+  const title = trip ? `${trip.seoTitle || trip.title} | ${site.brand}` : `${site.brand} — ${site.hero_title} ${site.hero_emphasis}`;
+  const description = trip?.seoDescription || trip?.summary || site.collection_copy;
   const meta = (key, value, property = false) => {
     const attr = property ? 'property' : 'name';
     let el = document.head.querySelector(`meta[${attr}="${key}"]`);

@@ -10,6 +10,7 @@ import re
 import secrets
 import time
 from place_names import protect as protect_itinerary_places
+from trip_editorial import copy_overrides, enrich_trip, route_heading
 
 ROOT = Path(__file__).resolve().parent
 LANGUAGES = [
@@ -226,6 +227,7 @@ def public_content(con, code):
     lang = next((v for v in active if v['code'] == code), next(v for v in active if v['code'] == 'en'))
     code = lang['code']
     strings = translation(con, code)['document']['strings']
+    strings.update(copy_overrides(code))
     def localize(raw, fields):
         out = {key: translate_tree(val, strings) if key in fields else val for key, val in raw.items() if key not in {'translations', 'revision', 'updated_at', 'status'}}
         if code != 'en':
@@ -237,13 +239,14 @@ def public_content(con, code):
         if raw['status'] != 'published':
             continue
         item = localize(raw, LOCALE_FIELDS)
-        # Route headings retain the original place names in every language.
+        # Preserve destinations, using the customary names in the reader's language.
         for index, (heading, _) in enumerate(raw.get('itinerary', [])):
             if '→' in heading and index < len(item.get('itinerary', [])):
-                item['itinerary'][index] = [heading, item['itinerary'][index][1]]
+                item['itinerary'][index] = [route_heading(heading, code), item['itinerary'][index][1]]
         for index, (_, description) in enumerate(raw.get('itinerary', [])):
             if index < len(item.get('itinerary', [])):
-                item['itinerary'][index][1] = protect_itinerary_places(description, item['itinerary'][index][1])[0]
+                item['itinerary'][index][1] = protect_itinerary_places(description, item['itinerary'][index][1], code)[0]
+        enrich_trip(item, code)
         item['photos'] = [media[identity] for identity in item['gallery'] if identity in media]
         trips.append(item)
     site = localize(document(con, 'site', 'main')['document'], set(SITE) - {'hero_images', 'email', 'phone', 'whatsapp', 'address', 'brand'})

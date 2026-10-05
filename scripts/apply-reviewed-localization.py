@@ -4,6 +4,7 @@ import json,re,shutil,sys
 ROOT=Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT))
 from place_names import protect
+from trip_editorial import route_heading
 def read(p):return json.loads(p.read_text('utf-8'))
 manual=read(ROOT/'data/reviewed-localization.json')
 for i,code in enumerate(manual['codes']):
@@ -32,8 +33,8 @@ for i,code in enumerate(manual['codes']):
  for trip in c['trips']:
   for title,paragraph in trip['itinerary']:
    if ' → ' in title:
-    strings[title]=title
-   strings[paragraph]=protect(paragraph,strings.get(paragraph,paragraph))[0]
+    strings[title]=route_heading(title,code)
+   strings[paragraph]=protect(paragraph,strings.get(paragraph,paragraph),code)[0]
  d['reviewed']=False;d['origin']='Current-copy coverage with manually reviewed interface, titles, destinations and accommodation labels'
  p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n','utf-8')
  (ROOT/'dist/data/locales').mkdir(parents=True,exist_ok=True);shutil.copy2(p,ROOT/'dist/data/locales'/p.name)

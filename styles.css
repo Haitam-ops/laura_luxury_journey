@@ -199,3 +199,5 @@ dialog{background:var(--paper);color:var(--charcoal);box-shadow:0 30px 90px rgba
  .site-header .desktop-nav,.site-header .header-cta{display:none}
  .site-header .menu-toggle{display:inline-flex;min-width:44px;min-height:44px;color:white}
 }
+
+.trip-faq{margin-top:36px;border-top:1px solid var(--line);padding-top:28px}.trip-faq h3{font-family:var(--serif);font-weight:400;font-size:26px;margin-bottom:18px}.trip-faq details{border-bottom:1px solid var(--line);padding:16px 0}.trip-faq summary{cursor:pointer;font-size:14px;font-weight:500;line-height:1.6;padding-right:10px}.trip-faq summary:focus-visible{outline:2px solid var(--rust);outline-offset:5px}.trip-faq p,.trip-faq li{font-size:13px;line-height:1.85;color:var(--muted)}.trip-faq p{margin-top:12px}.trip-faq ul,.trip-faq ol{margin:12px 0 0;padding-left:22px}.trip-faq li+li{margin-top:6px}
