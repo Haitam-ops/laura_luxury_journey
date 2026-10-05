@@ -314,6 +314,17 @@
       "author": "",
       "license": "User supplied",
       "focal_point": "50% 50%"
+    },
+    {
+      "id": "north-user-menara-marrakech",
+      "local_file": "C:\\Users\\hbenl\\Downloads\\ChatGPT Image Oct 5, 2026, 08_54_22 PM-9.png",
+      "name": "Menara Marrakech",
+      "alt": "Menara Marrakech",
+      "caption": "Menara Marrakech",
+      "source": "",
+      "author": "",
+      "license": "User supplied",
+      "focal_point": "50% 50%"
     }
   ],
   "galleries": {
@@ -416,7 +427,8 @@
       "route-mPD9BJ_QGXw",
       "north-sahara-user-dunes",
       "tour-ziz-valley",
-      "route-BeMc6A68Mpg"
+      "route-BeMc6A68Mpg",
+      "north-user-menara-marrakech"
     ]
   }
 }
