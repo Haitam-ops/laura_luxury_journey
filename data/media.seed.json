@@ -5347,5 +5347,93 @@
     "original_width": 1536,
     "original_height": 1024,
     "focal_point": "50% 50%"
+  },
+  {
+    "id": "sahara-three-days-user-1",
+    "name": "Three Days to the Sahara selected photo 1",
+    "alt": "Earthen fortified village and palms beneath a dramatic sunset sky",
+    "caption": "",
+    "path": "/assets/sahara-three-days-user-1-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/assets/sahara-three-days-user-1-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/sahara-three-days-user-1-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/sahara-three-days-user-1-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/sahara-three-days-user-1-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/sahara-three-days-user-1-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "source": "codex-clipboard-112491e4-081a-4fd4-b0b0-43230f8294c6.png",
+    "source_url": "codex-clipboard-112491e4-081a-4fd4-b0b0-43230f8294c6.png",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 1672,
+    "original_height": 941,
+    "focal_point": "50% 50%"
+  },
+  {
+    "id": "sahara-three-days-user-2",
+    "name": "Three Days to the Sahara selected photo 2",
+    "alt": "Green valley and earthen villages surrounded by rocky mountains",
+    "caption": "",
+    "path": "/assets/sahara-three-days-user-2-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/assets/sahara-three-days-user-2-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/sahara-three-days-user-2-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/sahara-three-days-user-2-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/sahara-three-days-user-2-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/sahara-three-days-user-2-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "source": "codex-clipboard-facca37f-d812-48c1-9cfa-2e40f253491d.png",
+    "source_url": "codex-clipboard-facca37f-d812-48c1-9cfa-2e40f253491d.png",
+    "author": "",
+    "credit": "",
+    "license": "User supplied",
+    "original_width": 1672,
+    "original_height": 941,
+    "focal_point": "50% 50%"
   }
 ]

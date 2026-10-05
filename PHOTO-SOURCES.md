@@ -164,3 +164,7 @@ Essaouira Surf & Kitesurf now uses Golden Hour Surfer at Sea.png (1672 × 941) a
 ### User-selected cooking photographs
 
 A Moroccan Kitchen in Marrakech now uses only culinary1stone.png, ChatGPT Image Oct 2, 2026, 10_54_19 PM-2.png, and ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png in attachment order. culinary1stone.png is the cover. User-supplied originals and responsive WebP variants are retained without upscaling; captions are blank.
+
+### Three Days to the Sahara selected photographs
+
+The two user-supplied clipboard PNGs replace the previously second photo (tour-todra-panorama). The first supplied image is the cover, followed by the second supplied image and the remaining previous gallery in its original order. Originals and responsive WebP variants are retained without upscaling; captions are blank.

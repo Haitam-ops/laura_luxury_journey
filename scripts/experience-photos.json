@@ -237,6 +237,28 @@
       "name": "ChatGPT Image Oct 2, 2026, 10_54_17 PM-1.png",
       "alt": "Cooking class seasoning chicken tagines with spices and lemon",
       "focal_point": "50% 50%"
+    },
+    {
+      "id": "sahara-three-days-user-1",
+      "local_file": "assets/sahara-three-days-user-1-original.png",
+      "source": "codex-clipboard-112491e4-081a-4fd4-b0b0-43230f8294c6.png",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "Three Days to the Sahara selected photo 1",
+      "alt": "Earthen fortified village and palms beneath a dramatic sunset sky",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "sahara-three-days-user-2",
+      "local_file": "assets/sahara-three-days-user-2-original.png",
+      "source": "codex-clipboard-facca37f-d812-48c1-9cfa-2e40f253491d.png",
+      "author": "",
+      "license": "User supplied",
+      "caption": "",
+      "name": "Three Days to the Sahara selected photo 2",
+      "alt": "Green valley and earthen villages surrounded by rocky mountains",
+      "focal_point": "50% 50%"
     }
   ],
   "galleries": {
@@ -293,6 +315,17 @@
       "surf-user-sunset",
       "route--leOF2nzJQ8",
       "essaouira-kitesurf"
+    ],
+    "sahara-marrakech-3-days": [
+      "sahara-three-days-user-1",
+      "sahara-three-days-user-2",
+      "sahara",
+      "tour-atlas-pass",
+      "route-kiYzznir-uo",
+      "journey-photo-01",
+      "journey-photo-02",
+      "route-pcbSQTQr2-I",
+      "tour-ouarzazate-kasbah"
     ]
   }
 }
