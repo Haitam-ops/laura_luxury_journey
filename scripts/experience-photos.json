@@ -259,6 +259,17 @@
       "name": "Three Days to the Sahara selected photo 2",
       "alt": "Green valley and earthen villages surrounded by rocky mountains",
       "focal_point": "50% 50%"
+    },
+    {
+      "id": "sahara-fes-user-oasis",
+      "local_file": "C:\\Users\\hbenl\\AppData\\Local\\Temp\\codex-clipboard-c8079417-3f11-4398-be84-2e4a8c0f2575.png",
+      "name": "Palm oasis and earthen village",
+      "alt": "A lush palm oasis surrounded by earthen villages and rocky mountains",
+      "caption": "",
+      "source": "",
+      "author": "",
+      "license": "User supplied",
+      "focal_point": "50% 50%"
     }
   ],
   "galleries": {
@@ -325,6 +336,16 @@
       "journey-photo-02",
       "route-pcbSQTQr2-I",
       "tour-ouarzazate-kasbah"
+    ],
+    "marrakech-fes-sahara-4-days": [
+      "tour-ziz-valley",
+      "sahara-fes-user-oasis",
+      "tour-todra-walk",
+      "route-vjs92g9SAz0",
+      "fes",
+      "route-SIWYZWNbF5k",
+      "journey-photo-06",
+      "route-a_8gEuwgBi8"
     ]
   }
 }
