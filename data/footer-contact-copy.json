@@ -1,0 +1,9 @@
+{
+  "en": {"Contact": "Contact", "Address": "Address", "WhatsApp": "WhatsApp"},
+  "fr": {"Contact": "Contact", "Address": "Adresse", "WhatsApp": "WhatsApp"},
+  "es": {"Contact": "Contacto", "Address": "Dirección", "WhatsApp": "WhatsApp"},
+  "de": {"Contact": "Kontakt", "Address": "Adresse", "WhatsApp": "WhatsApp"},
+  "it": {"Contact": "Contatti", "Address": "Indirizzo", "WhatsApp": "WhatsApp"},
+  "pt": {"Contact": "Contacto", "Address": "Morada", "WhatsApp": "WhatsApp"},
+  "nl": {"Contact": "Contact", "Address": "Adres", "WhatsApp": "WhatsApp"}
+}

@@ -15,6 +15,7 @@ def copy_overrides(code):
             result.update(zip(source, translated))
         else:
             result[source] = translated
+    result.update(json.loads((ROOT / 'footer-contact-copy.json').read_text('utf-8')).get(code, {}))
     return result
 
 

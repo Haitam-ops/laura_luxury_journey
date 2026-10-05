@@ -11,9 +11,9 @@
    cms=await response.json();
  } catch {
    const language=/^[a-z]{2,3}(?:-[a-z]{2,4})?$/i.test(requested)?requested:'en';
-   response=await fetch('/data/content.'+encodeURIComponent(language)+'.json?v=travel-notes-20261005');
-   if(!response.ok&&language!=='en')response=await fetch('/data/content.en.json?v=travel-notes-20261005');
-   if(!response.ok)response=await fetch('/data/content.json?v=travel-notes-20261005');
+   response=await fetch('/data/content.'+encodeURIComponent(language)+'.json?v=footer-contact-20261005');
+   if(!response.ok&&language!=='en')response=await fetch('/data/content.en.json?v=footer-contact-20261005');
+   if(!response.ok)response=await fetch('/data/content.json?v=footer-contact-20261005');
    if(!response.ok)throw Error('The trip collection could not be loaded.');
    cms=await response.json();window.STATIC_FRONTEND=true;
  }
@@ -71,6 +71,8 @@
  const social=document.createElement('div');social.className='social-links';social.setAttribute('data-no-translate','');
  for(const [key,label,mark] of [['instagram','Instagram','◎'],['facebook','Facebook','f'],['tiktok','TikTok','♪'],['youtube','YouTube','▷']]){if(!s[key])continue;const link=document.createElement('a');link.href=s[key];link.target='_blank';link.rel='noopener noreferrer';link.setAttribute('aria-label',label);link.title=label;link.textContent=mark;social.append(link)}
  if(social.childElementCount)contact.after(social);
+ const footerWhatsApp=document.querySelector('#footer-whatsapp');
+ if(footerWhatsApp){const digits=s.whatsapp.replace(/\D/g,'');footerWhatsApp.href='https://wa.me/'+digits;footerWhatsApp.querySelector('strong').textContent=digits.length===12&&digits.startsWith('212')?'+212 '+digits.slice(3,6)+' '+digits.slice(6,9)+' '+digits.slice(9):'+'+digits;}
  const whatsapp=document.createElement(s.whatsapp?'a':'button');whatsapp.className='whatsapp-contact';
  whatsapp.innerHTML='<svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 3A12.8 12.8 0 0 0 5 22.37L3.2 29l6.8-1.78A12.8 12.8 0 1 0 16.04 3m0 23.45a10.6 10.6 0 0 1-5.4-1.48l-.39-.23-4.04 1.06 1.08-3.94-.26-.4a10.62 10.62 0 1 1 9.01 4.99m5.83-7.95c-.32-.16-1.89-.93-2.18-1.04-.29-.1-.5-.16-.72.16-.21.32-.82 1.04-1 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.58-1.6-.95-.85-1.6-1.9-1.78-2.22-.18-.32-.02-.49.14-.65l.48-.56c.16-.19.21-.32.32-.53.1-.22.05-.4-.03-.56-.08-.16-.71-1.73-.97-2.37-.25-.61-.51-.52-.71-.53h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.66s1.14 3.1 1.3 3.31c.16.22 2.26 3.46 5.47 4.85.77.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.1 1.89-.77 2.16-1.52.26-.74.26-1.38.18-1.52-.08-.13-.29-.21-.61-.37"/></svg><span>WhatsApp</span>';
  whatsapp.setAttribute('aria-label',tr('Talk about your trip')+' · WhatsApp');
@@ -97,6 +99,6 @@
  window.updateSiteSEO?.(cms.trips.find(t=>t.id===url.searchParams.get('trip'))||null);
  translateDOM();
  new MutationObserver(records=>{for(const record of records){if(record.type==='characterData'||record.type==='attributes')translateDOM(record.target);else for(const node of record.addedNodes)if(node.nodeType===1||node.nodeType===3)translateDOM(node)}}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label','title','alt','placeholder']});
- const script=document.createElement('script');script.src='/app.js?v=travel-notes-20261005';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=travel-notes-20261005';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=travel-notes-20261005';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
+ const script=document.createElement('script');script.src='/app.js?v=footer-contact-20261005';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=footer-contact-20261005';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=footer-contact-20261005';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
  function showError(){const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3>'+escape(tr('The collection could not be loaded.'))+'</h3><p>'+escape(tr('Please refresh the page to try again.'))+'</p></div>'}
 })().catch(()=>{const messages={"en": ["The collection could not be loaded.", "Please refresh the page to try again."], "fr": ["Impossible de charger les voyages.", "Actualisez la page pour réessayer."], "es": ["No se han podido cargar los viajes.", "Actualiza la página para intentarlo de nuevo."], "de": ["Die Reisen konnten nicht geladen werden.", "Laden Sie die Seite neu und versuchen Sie es erneut."], "it": ["Non è stato possibile caricare i viaggi.", "Aggiorna la pagina per riprovare."], "pt": ["Não foi possível carregar as viagens.", "Atualize a página para tentar novamente."], "nl": ["De reizen konden niet worden geladen.", "Vernieuw de pagina om het opnieuw te proberen."]};const code=new URL(location.href).searchParams.get('lang')||document.documentElement.lang;const copy=messages[code]||messages.en;const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3></h3><p></p></div>';grid.querySelector('h3').textContent=copy[0];grid.querySelector('p').textContent=copy[1];});
