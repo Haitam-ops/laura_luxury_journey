@@ -303,6 +303,17 @@
       "author": "",
       "license": "User supplied",
       "focal_point": "50% 50%"
+    },
+    {
+      "id": "north-sahara-user-dunes",
+      "local_file": "C:\\Users\\hbenl\\Downloads\\ChatGPT Image Oct 5, 2026, 08_54_13 PM-2.png",
+      "name": "Sahara dunes beneath a cloud-filled sky",
+      "alt": "Golden Sahara dunes beneath a blue sky with clouds",
+      "caption": "",
+      "source": "",
+      "author": "",
+      "license": "User supplied",
+      "focal_point": "50% 50%"
     }
   ],
   "galleries": {
@@ -398,6 +409,15 @@
       "route-GyIcdvrlY3U",
       "journey-photo-03",
       "route-SQxLsGEdx5s"
+    ],
+    "north-sahara-10-days": [
+      "chefchaouen",
+      "route-CBfUGtVP0QE",
+      "route-mPD9BJ_QGXw",
+      "north-sahara-user-dunes",
+      "route-7a_PHX91su8",
+      "tour-ziz-valley",
+      "route-BeMc6A68Mpg"
     ]
   }
 }
