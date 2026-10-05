@@ -1,4 +1,4 @@
-"""Correct place-name mistranslations without forcing English into local prose."""
+"""Keep place names exactly as supplied in the original trip copy."""
 from pathlib import Path
 from collections import Counter
 import json
@@ -47,9 +47,14 @@ def protect(source, translated, code='en'):
         if start and translated[start-1] == '"' and end < len(translated) and translated[end] == '"':
             start -= 1
             end += 1
-        replacement = LOCAL_NAMES.get(code, {}).get(name, name)
-        original = translated[start:end].strip('"')
-        if code == 'de' and original in {'Hoher Atlas', 'Hohe Atlas', 'Hohen Atlas', 'Hochatlas', 'Mittlerer Atlas', 'Mittleren Atlas', 'Mittlere Atlas'}:
-            replacement = original
-        translated = translated[:start] + replacement + translated[end:]
+        # Local forms are recognized only to restore the original name.
+        translated = translated[:start] + name + translated[end:]
     return translated, expected, Counter(n for _, _, n in found)
+
+
+def restore_tree(source, translated):
+    if isinstance(source, str) and isinstance(translated, str):
+        return protect(source, translated)[0]
+    if isinstance(source, list) and isinstance(translated, list):
+        return [restore_tree(a, b) for a, b in zip(source, translated)] if len(source) == len(translated) else translated
+    return translated

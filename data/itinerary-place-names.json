@@ -190,7 +190,8 @@
     "Palacio de Bahía",
     "Palazzo Bahia",
     "Palácio da Bahia",
-    "palais Bahia"
+    "palais Bahia",
+    "Bahia-Palasts"
   ],
   "Jemaa el-Fna": [],
   "Saadian Tombs": [
@@ -286,7 +287,10 @@
     "Höhlen von Hercules",
     "grottes d’Hercule"
   ],
-  "Tetouan": [],
+  "Tetouan": [
+    "Tetuán",
+    "Tetuão"
+  ],
   "Rif Mountains": [
     "Montagne del Rif",
     "Montagnes du Rif",
@@ -379,5 +383,52 @@
     "Moulay-Brahim-Schlucht",
     "gorge de Moulay Brahim"
   ],
-  "Moulay Idriss": []
+  "Moulay Idriss": [],
+  "Tangier": [
+    "Tanger",
+    "Tánger",
+    "Tangeri",
+    "Tânger"
+  ],
+  "Dades Valley": [
+    "vallée du Dadès",
+    "Vallée de Dades",
+    "valle del Dades",
+    "Dades-Tal",
+    "vale do Dades",
+    "Dades-vallei"
+  ],
+  "Ourika Valley": [
+    "vallée de l’Ourika",
+    "valle del Ourika",
+    "Ourika-Tal",
+    "valle dell’Ourika",
+    "vale do Ourika",
+    "Ourika-vallei"
+  ],
+  "Ouzoud Waterfalls": [
+    "cascades d’Ouzoud",
+    "Cascadas de Ouzoud",
+    "Ouzoud-Wasserfällen",
+    "Ouzoud-Wasserfälle",
+    "Cascate di Ouzoud",
+    "Cascatas de Ouzoud",
+    "Ouzoud-watervallen"
+  ],
+  "Sahara": [
+    "Saara"
+  ],
+  "Lalla Takerkoust": [],
+  "Kik Plateau": [
+    "plateau du Kik",
+    "Meseta del Kik",
+    "Kik-Plateau",
+    "altopiano del Kik",
+    "planalto do Kik",
+    "Kik-plateau"
+  ],
+  "Setti Fatma": [],
+  "Ouzoud": [],
+  "Ourika": [],
+  "Toubkal": []
 }

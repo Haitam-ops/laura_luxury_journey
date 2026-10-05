@@ -9,8 +9,10 @@ CMS translations remain the fallback for text without a reviewed entry.
   all seven languages. The public page title adds the business name.
 - Search descriptions use the localized trip introduction, never the homepage
   collection description when a trip is open.
-- `data/place-names-localized.json` and `data/route-labels.json` retain the
-  destinations while translating geographical terms and route descriptions.
+- `data/itinerary-place-names.json` defines the original place names. Localized
+  names are recognized only to restore the original spelling. Place names are
+  displayed in bold, without quotation marks, and excluded from DOM translation.
+  Route descriptions may be translated; their place names must remain original.
 - `trip_editorial.py` builds visible FAQs from the same duration, overnight,
   inclusion, exclusion and practical fields used elsewhere on the trip page.
   Update those fields to change an answer; do not duplicate service promises.

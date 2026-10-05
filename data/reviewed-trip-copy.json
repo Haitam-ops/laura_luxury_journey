@@ -7,7 +7,7 @@
     "Preferred stays": "Preferred stays",
     "Quad biking across the rocky Agafay landscape": "Quad riding through Agafay’s rocky hills",
     "Pickup from Marrakech (Late Afternoon)": "Departure from Marrakech (late afternoon)",
-    "Arrival at Agafay Desert Camp": "Arrival at the Agafay camp",
+    "Arrival at Agafay Desert Camp": "Arrival at the Agafay Desert camp",
     "Sunset Viewing & Free Time": "Sunset and time to unwind",
     "Luxury Dinner Experience": "A Moroccan dinner",
     "Live Entertainment": "Traditional music and performances",
@@ -143,7 +143,7 @@
     "Preferred stays": "Hébergements souhaités",
     "Quad biking across the rocky Agafay landscape": "Balade en quad dans les collines rocheuses d’Agafay",
     "Pickup from Marrakech (Late Afternoon)": "Départ de Marrakech en fin d’après-midi",
-    "Arrival at Agafay Desert Camp": "Arrivée au camp d’Agafay",
+    "Arrival at Agafay Desert Camp": "Arrivée au camp d’Agafay Desert",
     "Sunset Viewing & Free Time": "Coucher de soleil et temps libre",
     "Luxury Dinner Experience": "Dîner marocain",
     "Live Entertainment": "Musique et spectacle traditionnels",
@@ -191,13 +191,13 @@
     "Setti Fatma · Waterfall or riverbank": "Setti Fatma · Cascade ou bord de rivière",
     "Lunch · Under the trees": "Déjeuner · À l’ombre des arbres",
     "Afternoon · A little time to linger": "Après-midi · Temps libre dans la vallée",
-    "08:30 · Toward the Atlantic": "08:30 · Cap sur l’Atlantique",
+    "08:30 · Toward the Atlantic": "08:30 · Cap sur Atlantic",
     "Morning · Coffee & argan country": "Matin · Pause café et paysages d’arganiers",
     "Around 12:00 · Welcome to Essaouira": "Vers 12:00 · Arrivée à Essaouira",
     "Midday · Inside the sea walls": "Midi · Médina et remparts",
     "Lunch · Down by the harbor": "Déjeuner · Près du port",
     "Afternoon · Your time on the coast": "Après-midi · Temps libre au bord de la mer",
-    "Around 07:00 · Into the High Atlas": "Vers 07:00 · Départ vers le Haut Atlas",
+    "Around 07:00 · Into the High Atlas": "Vers 07:00 · Départ vers High Atlas",
     "Midday · The lanes of Aït Ben Haddou": "Midi · Les ruelles d’Aït Ben Haddou",
     "Afternoon · Ouarzazate & its film studios": "Après-midi · Ouarzazate et les studios de cinéma en option",
     "Lunch · A pause in Ouarzazate": "Déjeuner · Une pause à Ouarzazate",
@@ -358,7 +358,7 @@
     "Preferred stays": "Alojamientos preferidos",
     "Quad biking across the rocky Agafay landscape": "Ruta en quad por las colinas rocosas de Agafay",
     "Pickup from Marrakech (Late Afternoon)": "Salida de Marrakech a última hora de la tarde",
-    "Arrival at Agafay Desert Camp": "Llegada al campamento de Agafay",
+    "Arrival at Agafay Desert Camp": "Llegada al campamento de Agafay Desert",
     "Sunset Viewing & Free Time": "Atardecer y tiempo libre",
     "Luxury Dinner Experience": "Cena marroquí",
     "Live Entertainment": "Música y espectáculo tradicionales",
@@ -477,7 +477,11 @@
     "Bring Moroccan food and an evening performance into your Marrakech stay. Choose a venue and program that suit the kind of night you have in mind.": "Combine cocina marroquí y espectáculo durante una noche en Marrakech, en un lugar elegido según el ambiente que busca.",
     "Leave the medina for a ride along the coast. Meet the stable team and follow a trail chosen for your experience, with sea air and open scenery along the way.": "Salga de la medina para recorrer la costa de Essaouira a caballo, con el equipo de la cuadra y una ruta adaptada a su experiencia.",
     "Trade the medina lanes for ocean air. Catch your first waves or discover the pull of a kite, with a coastal session shaped around your level and the Atlantic conditions.": "Cambie las calles de la medina por el océano en una sesión de surf o kitesurf en Essaouira, adaptada a su nivel y a las condiciones del Atlántico.",
-    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Descubra el surf en Taghazout, entre olas y momentos junto al mar. El kitesurf se organiza bajo petición, según el viento y la disponibilidad."
+    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Descubra el surf en Taghazout, entre olas y momentos junto al mar. El kitesurf se organiza bajo petición, según el viento y la disponibilidad.",
+    "08:30 · Toward the Atlantic": "08:30 · Rumbo al Atlantic",
+    "Around 12:00 · Welcome to Essaouira": "Alrededor de las 12:00 · Llegada a Essaouira",
+    "Around 07:00 · Into the High Atlas": "Alrededor de las 07:00 · Hacia High Atlas",
+    "09:00 · From Marrakech to Agafay": "09:00 · De Marrakech a Agafay"
   },
   "de": {
     "Shall we make": "Planen wir",
@@ -487,7 +491,7 @@
     "Preferred stays": "Gewünschte Unterkünfte",
     "Quad biking across the rocky Agafay landscape": "Quad-Tour durch die felsigen Hügel von Agafay",
     "Pickup from Marrakech (Late Afternoon)": "Abfahrt in Marrakech am späten Nachmittag",
-    "Arrival at Agafay Desert Camp": "Ankunft im Camp in Agafay",
+    "Arrival at Agafay Desert Camp": "Ankunft im Camp in Agafay Desert",
     "Sunset Viewing & Free Time": "Sonnenuntergang und Zeit zum Entspannen",
     "Luxury Dinner Experience": "Marokkanisches Abendessen",
     "Live Entertainment": "Traditionelle Musik und Darbietungen",
@@ -540,7 +544,11 @@
     "Bring Moroccan food and an evening performance into your Marrakech stay. Choose a venue and program that suit the kind of night you have in mind.": "Verbinden Sie marokkanische Küche und eine Vorstellung bei einem Abend in Marrakech. Gemeinsam finden wir ein Haus mit passendem Programm.",
     "Leave the medina for a ride along the coast. Meet the stable team and follow a trail chosen for your experience, with sea air and open scenery along the way.": "Entdecken Sie die Küste von Essaouira zu Pferd, begleitet vom Stallteam und auf einer Route, die zu Ihrer Reiterfahrung passt.",
     "Trade the medina lanes for ocean air. Catch your first waves or discover the pull of a kite, with a coastal session shaped around your level and the Atlantic conditions.": "Tauschen Sie die Gassen der Medina gegen den Atlantik: beim Surfen oder Kitesurfen in Essaouira, passend zu Ihrem Können und den Bedingungen.",
-    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Entdecken Sie das Surfen in Taghazout, mit Zeit in den Wellen und am Meer. Kitesurfen ist auf Anfrage möglich, je nach Wind und Verfügbarkeit."
+    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Entdecken Sie das Surfen in Taghazout, mit Zeit in den Wellen und am Meer. Kitesurfen ist auf Anfrage möglich, je nach Wind und Verfügbarkeit.",
+    "08:30 · Toward the Atlantic": "08:30 · Richtung Atlantic",
+    "Around 12:00 · Welcome to Essaouira": "Gegen 12:00 · Ankunft in Essaouira",
+    "Around 07:00 · Into the High Atlas": "Gegen 07:00 · Aufbruch zum High Atlas",
+    "09:00 · From Marrakech to Agafay": "09:00 · Von Marrakech nach Agafay"
   },
   "it": {
     "Shall we make": "Organizziamo",
@@ -550,7 +558,7 @@
     "Preferred stays": "Alloggi preferiti",
     "Quad biking across the rocky Agafay landscape": "Escursione in quad tra le colline rocciose di Agafay",
     "Pickup from Marrakech (Late Afternoon)": "Partenza da Marrakech nel tardo pomeriggio",
-    "Arrival at Agafay Desert Camp": "Arrivo al campo di Agafay",
+    "Arrival at Agafay Desert Camp": "Arrivo al campo di Agafay Desert",
     "Sunset Viewing & Free Time": "Tramonto e tempo libero",
     "Luxury Dinner Experience": "Cena marocchina",
     "Live Entertainment": "Musica e spettacoli tradizionali",
@@ -597,7 +605,11 @@
     "Bring Moroccan food and an evening performance into your Marrakech stay. Choose a venue and program that suit the kind of night you have in mind.": "Abbini cucina marocchina e spettacolo durante una serata a Marrakech, in un locale scelto in base all’atmosfera che desidera.",
     "Leave the medina for a ride along the coast. Meet the stable team and follow a trail chosen for your experience, with sea air and open scenery along the way.": "Lasci la medina per una passeggiata a cavallo sulla costa di Essaouira, con il team della scuderia e un percorso adatto alla sua esperienza.",
     "Trade the medina lanes for ocean air. Catch your first waves or discover the pull of a kite, with a coastal session shaped around your level and the Atlantic conditions.": "Dai vicoli della medina all’oceano: scelga una sessione di surf o kitesurf a Essaouira, adatta al suo livello e alle condizioni dell’Atlantico.",
-    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Scopra il surf a Taghazout, tra onde e momenti sul mare. Il kitesurf si organizza su richiesta, secondo il vento e la disponibilità."
+    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Scopra il surf a Taghazout, tra onde e momenti sul mare. Il kitesurf si organizza su richiesta, secondo il vento e la disponibilità.",
+    "08:30 · Toward the Atlantic": "08:30 · Verso Atlantic",
+    "Around 12:00 · Welcome to Essaouira": "Verso le 12:00 · Arrivo a Essaouira",
+    "Around 07:00 · Into the High Atlas": "Verso le 07:00 · Partenza verso High Atlas",
+    "09:00 · From Marrakech to Agafay": "09:00 · Da Marrakech ad Agafay"
   },
   "pt": {
     "Shall we make": "Vamos planear",
@@ -607,7 +619,7 @@
     "Preferred stays": "Alojamentos preferidos",
     "Quad biking across the rocky Agafay landscape": "Passeio de moto-quatro pelas colinas rochosas de Agafay",
     "Pickup from Marrakech (Late Afternoon)": "Partida de Marrakech ao final da tarde",
-    "Arrival at Agafay Desert Camp": "Chegada ao acampamento de Agafay",
+    "Arrival at Agafay Desert Camp": "Chegada ao acampamento de Agafay Desert",
     "Sunset Viewing & Free Time": "Pôr do sol e tempo livre",
     "Luxury Dinner Experience": "Jantar marroquino",
     "Live Entertainment": "Música e espetáculo tradicionais",
@@ -651,7 +663,11 @@
     "Bring Moroccan food and an evening performance into your Marrakech stay. Choose a venue and program that suit the kind of night you have in mind.": "Combine cozinha marroquina e espetáculo numa noite em Marrakech, num espaço escolhido de acordo com o ambiente que procura.",
     "Leave the medina for a ride along the coast. Meet the stable team and follow a trail chosen for your experience, with sea air and open scenery along the way.": "Deixe a medina para um passeio a cavalo na costa de Essaouira, com a equipa do centro equestre e um percurso adequado à sua experiência.",
     "Trade the medina lanes for ocean air. Catch your first waves or discover the pull of a kite, with a coastal session shaped around your level and the Atlantic conditions.": "Troque as ruas da medina pelo oceano numa sessão de surf ou kitesurf em Essaouira, adaptada ao seu nível e às condições do Atlântico.",
-    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Descubra o surf em Taghazout, entre ondas e momentos à beira-mar. O kitesurf é organizado a pedido, conforme o vento e a disponibilidade."
+    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Descubra o surf em Taghazout, entre ondas e momentos à beira-mar. O kitesurf é organizado a pedido, conforme o vento e a disponibilidade.",
+    "08:30 · Toward the Atlantic": "08:30 · Rumo ao Atlantic",
+    "Around 12:00 · Welcome to Essaouira": "Por volta das 12:00 · Chegada a Essaouira",
+    "Around 07:00 · Into the High Atlas": "Por volta das 07:00 · Partida para High Atlas",
+    "09:00 · From Marrakech to Agafay": "09:00 · De Marrakech a Agafay"
   },
   "nl": {
     "Shall we make": "Samen plannen maken",
@@ -661,7 +677,7 @@
     "Preferred stays": "Gewenste accommodaties",
     "Quad biking across the rocky Agafay landscape": "Quadrijden door de rotsachtige heuvels van Agafay",
     "Pickup from Marrakech (Late Afternoon)": "Vertrek uit Marrakech in de late middag",
-    "Arrival at Agafay Desert Camp": "Aankomst bij het kamp in Agafay",
+    "Arrival at Agafay Desert Camp": "Aankomst bij het kamp in Agafay Desert",
     "Sunset Viewing & Free Time": "Zonsondergang en tijd om te ontspannen",
     "Luxury Dinner Experience": "Marokkaans diner",
     "Live Entertainment": "Traditionele muziek en optredens",
@@ -712,6 +728,10 @@
     "Bring Moroccan food and an evening performance into your Marrakech stay. Choose a venue and program that suit the kind of night you have in mind.": "Combineer Marokkaans eten met een voorstelling tijdens een avond in Marrakech, op een plek die past bij de sfeer die u zoekt.",
     "Leave the medina for a ride along the coast. Meet the stable team and follow a trail chosen for your experience, with sea air and open scenery along the way.": "Verlaat de medina voor een rit te paard langs de kust van Essaouira, met het stalteam en een route die past bij uw ervaring.",
     "Trade the medina lanes for ocean air. Catch your first waves or discover the pull of a kite, with a coastal session shaped around your level and the Atlantic conditions.": "Verruil de straatjes van de medina voor de oceaan tijdens een surf- of kitesurfsessie in Essaouira, afgestemd op uw niveau en de omstandigheden.",
-    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Ontdek het surfen in Taghazout, met tijd in de golven en aan zee. Kitesurfen kan op aanvraag, afhankelijk van wind en beschikbaarheid."
+    "Step into Taghazout’s surf life: ocean sessions, sandy feet and time to slow down by the sea. Choose surf coaching, or request a kitesurf session when local wind and availability allow.": "Ontdek het surfen in Taghazout, met tijd in de golven en aan zee. Kitesurfen kan op aanvraag, afhankelijk van wind en beschikbaarheid.",
+    "08:30 · Toward the Atlantic": "08:30 · Op weg naar Atlantic",
+    "Around 12:00 · Welcome to Essaouira": "Rond 12:00 · Aankomst in Essaouira",
+    "Around 07:00 · Into the High Atlas": "Rond 07:00 · Vertrek naar High Atlas",
+    "09:00 · From Marrakech to Agafay": "09:00 · Van Marrakech naar Agafay"
   }
 }

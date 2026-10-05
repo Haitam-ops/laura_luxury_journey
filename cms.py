@@ -9,7 +9,7 @@ import json
 import re
 import secrets
 import time
-from place_names import protect as protect_itinerary_places
+from place_names import protect as protect_itinerary_places, restore_tree, PLACES
 from trip_editorial import copy_overrides, enrich_trip, route_heading
 
 ROOT = Path(__file__).resolve().parent
@@ -239,7 +239,10 @@ def public_content(con, code):
         if raw['status'] != 'published':
             continue
         item = localize(raw, LOCALE_FIELDS)
-        # Preserve destinations, using the customary names in the reader's language.
+        for field in LOCALE_FIELDS:
+            if field in raw and field in item:
+                item[field] = restore_tree(raw[field], item[field])
+        # Translate route descriptions while retaining every original place name.
         for index, (heading, _) in enumerate(raw.get('itinerary', [])):
             if '→' in heading and index < len(item.get('itinerary', [])):
                 item['itinerary'][index] = [route_heading(heading, code), item['itinerary'][index][1]]
@@ -247,6 +250,8 @@ def public_content(con, code):
             if index < len(item.get('itinerary', [])):
                 item['itinerary'][index][1] = protect_itinerary_places(description, item['itinerary'][index][1], code)[0]
         enrich_trip(item, code)
+        item['seoTitle'] = protect_itinerary_places(raw['title'] + ' ' + raw['start'] + ' ' + raw['end'], item['seoTitle'])[0]
+        item['placeNames'] = sorted(PLACES, key=len, reverse=True)
         item['photos'] = [media[identity] for identity in item['gallery'] if identity in media]
         trips.append(item)
     site = localize(document(con, 'site', 'main')['document'], set(SITE) - {'hero_images', 'email', 'phone', 'whatsapp', 'address', 'brand'})

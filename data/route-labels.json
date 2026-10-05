@@ -1,29 +1,204 @@
 {
-  "codes": ["fr", "es", "de", "it", "pt", "nl"],
+  "codes": [
+    "fr",
+    "es",
+    "de",
+    "it",
+    "pt",
+    "nl"
+  ],
   "labels": {
-    "Agadir outskirts": ["environs d’Agadir", "alrededores de Agadir", "Umgebung von Agadir", "dintorni di Agadir", "arredores de Agadir", "omgeving van Agadir"],
-    "Atlantic waterfront": ["front de mer", "paseo marítimo del Atlántico", "Atlantikküste", "lungomare atlantico", "frente marítima do Atlântico", "Atlantische kust"],
-    "Bahia Palace area": ["quartier du palais de la Bahia", "zona del palacio de la Bahía", "Umgebung des Bahia-Palasts", "zona del palazzo della Bahia", "zona do palácio da Bahia", "omgeving van het Bahiapaleis"],
-    "Dades Valley": ["vallée du Dadès", "valle del Dades", "Dades-Tal", "valle del Dades", "vale do Dades", "Dades-vallei"],
-    "High Atlas villages": ["villages du Haut Atlas", "pueblos del Alto Atlas", "Dörfer im Hohen Atlas", "villaggi dell’Alto Atlante", "aldeias do Alto Atlas", "dorpen in de Hoge Atlas"],
-    "Koutoubia gardens": ["jardins de la Koutoubia", "jardines de la Koutoubia", "Koutoubia-Gärten", "giardini della Koutoubia", "jardins da Koutoubia", "Koutoubia-tuinen"],
-    "Marrakech accommodation": ["hébergement à Marrakech", "alojamiento en Marrakech", "Unterkunft in Marrakech", "alloggio a Marrakech", "alojamento em Marrakech", "verblijf in Marrakech"],
-    "Marrakech departure": ["départ de Marrakech", "salida de Marrakech", "Abreise aus Marrakech", "partenza da Marrakech", "partida de Marrakech", "vertrek uit Marrakech"],
-    "Rif foothills": ["contreforts du Rif", "estribaciones del Rif", "Ausläufer des Rifgebirges", "pendici del Rif", "contrafortes do Rif", "uitlopers van het Rifgebergte"],
-    "Souk El Arbaa corridor": ["région de Souk El Arbaa", "zona de Souk El Arbaa", "Region Souk El Arbaa", "zona di Souk El Arbaa", "zona de Souk El Arbaa", "omgeving van Souk El Arbaa"],
-    "Tangier": ["Tanger", "Tánger", "Tanger", "Tangeri", "Tânger", "Tanger"],
-    "Tangier arrival": ["arrivée à Tanger", "llegada a Tánger", "Ankunft in Tanger", "arrivo a Tangeri", "chegada a Tânger", "aankomst in Tanger"],
-    "Tetouan area": ["environs de Tétouan", "zona de Tetuán", "Region Tetouan", "zona di Tétouan", "zona de Tetuão", "omgeving van Tetouan"],
-    "a day at your own pace": ["journée à votre rythme", "un día a su ritmo", "ein Tag in Ihrem Tempo", "una giornata al suo ritmo", "um dia ao seu ritmo", "een dag in uw eigen tempo"],
-    "accommodation": ["hébergement", "alojamiento", "Unterkunft", "alloggio", "alojamento", "verblijf"],
-    "airport or onward departure": ["aéroport ou prochaine étape", "aeropuerto o siguiente destino", "Flughafen oder Weiterreise", "aeroporto o tappa successiva", "aeroporto ou próximo destino", "luchthaven of volgende bestemming"],
-    "artisan quarters": ["quartiers d’artisans", "barrios de artesanos", "Handwerkerviertel", "quartieri degli artigiani", "bairros de artesãos", "ambachtswijken"],
-    "blue medina lanes": ["ruelles bleues de la médina", "callejuelas azules de la medina", "blaue Gassen der Medina", "vicoli blu della medina", "ruelas azuis da medina", "blauwe straatjes van de medina"],
-    "fishing port": ["port de pêche", "puerto pesquero", "Fischereihafen", "porto peschereccio", "porto de pesca", "vissershaven"],
-    "medina": ["médina", "medina", "Medina", "medina", "medina", "medina"],
-    "medina and souks": ["médina et souks", "medina y zocos", "Medina und Souks", "medina e souk", "medina e souks", "medina en souks"],
-    "medina and waterfront": ["médina et front de mer", "medina y paseo marítimo", "Medina und Uferpromenade", "medina e lungomare", "medina e frente marítima", "medina en boulevard"],
-    "ramparts": ["remparts", "murallas", "Stadtmauern", "bastioni", "muralhas", "stadsmuren"],
-    "seafront": ["front de mer", "paseo marítimo", "Uferpromenade", "lungomare", "frente marítima", "boulevard"]
+    "Agadir outskirts": [
+      "environs d’Agadir",
+      "alrededores de Agadir",
+      "Umgebung von Agadir",
+      "dintorni di Agadir",
+      "arredores de Agadir",
+      "omgeving van Agadir"
+    ],
+    "Atlantic waterfront": [
+      "front de mer de l’Atlantic",
+      "costa del Atlantic",
+      "Küste am Atlantic",
+      "lungomare dell’Atlantic",
+      "costa do Atlantic",
+      "kust van de Atlantic"
+    ],
+    "Bahia Palace area": [
+      "quartier du palais de la Bahia",
+      "zona del palacio de la Bahía",
+      "Umgebung des Bahia-Palasts",
+      "zona del palazzo della Bahia",
+      "zona do palácio da Bahia",
+      "omgeving van het Bahiapaleis"
+    ],
+    "Dades Valley": [
+      "vallée du Dadès",
+      "valle del Dades",
+      "Dades-Tal",
+      "valle del Dades",
+      "vale do Dades",
+      "Dades-vallei"
+    ],
+    "High Atlas villages": [
+      "villages du Haut Atlas",
+      "pueblos del Alto Atlas",
+      "Dörfer im Hohen Atlas",
+      "villaggi dell’Alto Atlante",
+      "aldeias do Alto Atlas",
+      "dorpen in de Hoge Atlas"
+    ],
+    "Koutoubia gardens": [
+      "jardins de la Koutoubia",
+      "jardines de la Koutoubia",
+      "Koutoubia-Gärten",
+      "giardini della Koutoubia",
+      "jardins da Koutoubia",
+      "Koutoubia-tuinen"
+    ],
+    "Marrakech accommodation": [
+      "hébergement à Marrakech",
+      "alojamiento en Marrakech",
+      "Unterkunft in Marrakech",
+      "alloggio a Marrakech",
+      "alojamento em Marrakech",
+      "verblijf in Marrakech"
+    ],
+    "Marrakech departure": [
+      "départ de Marrakech",
+      "salida de Marrakech",
+      "Abreise aus Marrakech",
+      "partenza da Marrakech",
+      "partida de Marrakech",
+      "vertrek uit Marrakech"
+    ],
+    "Rif foothills": [
+      "contreforts du Rif",
+      "estribaciones del Rif",
+      "Ausläufer des Rif",
+      "pendici del Rif",
+      "contrafortes do Rif",
+      "uitlopers van de Rif"
+    ],
+    "Souk El Arbaa corridor": [
+      "région de Souk El Arbaa",
+      "zona de Souk El Arbaa",
+      "Region Souk El Arbaa",
+      "zona di Souk El Arbaa",
+      "zona de Souk El Arbaa",
+      "omgeving van Souk El Arbaa"
+    ],
+    "Tangier": [
+      "Tanger",
+      "Tánger",
+      "Tanger",
+      "Tangeri",
+      "Tânger",
+      "Tanger"
+    ],
+    "Tangier arrival": [
+      "arrivée à Tanger",
+      "llegada a Tánger",
+      "Ankunft in Tanger",
+      "arrivo a Tangeri",
+      "chegada a Tânger",
+      "aankomst in Tanger"
+    ],
+    "Tetouan area": [
+      "environs de Tétouan",
+      "zona de Tetuán",
+      "Region Tetouan",
+      "zona di Tétouan",
+      "zona de Tetuão",
+      "omgeving van Tetouan"
+    ],
+    "a day at your own pace": [
+      "journée à votre rythme",
+      "un día a su ritmo",
+      "ein Tag in Ihrem Tempo",
+      "una giornata al suo ritmo",
+      "um dia ao seu ritmo",
+      "een dag in uw eigen tempo"
+    ],
+    "accommodation": [
+      "hébergement",
+      "alojamiento",
+      "Unterkunft",
+      "alloggio",
+      "alojamento",
+      "verblijf"
+    ],
+    "airport or onward departure": [
+      "aéroport ou prochaine étape",
+      "aeropuerto o siguiente destino",
+      "Flughafen oder Weiterreise",
+      "aeroporto o tappa successiva",
+      "aeroporto ou próximo destino",
+      "luchthaven of volgende bestemming"
+    ],
+    "artisan quarters": [
+      "quartiers d’artisans",
+      "barrios de artesanos",
+      "Handwerkerviertel",
+      "quartieri degli artigiani",
+      "bairros de artesãos",
+      "ambachtswijken"
+    ],
+    "blue medina lanes": [
+      "ruelles bleues de la médina",
+      "callejuelas azules de la medina",
+      "blaue Gassen der Medina",
+      "vicoli blu della medina",
+      "ruelas azuis da medina",
+      "blauwe straatjes van de medina"
+    ],
+    "fishing port": [
+      "port de pêche",
+      "puerto pesquero",
+      "Fischereihafen",
+      "porto peschereccio",
+      "porto de pesca",
+      "vissershaven"
+    ],
+    "medina": [
+      "médina",
+      "medina",
+      "Medina",
+      "medina",
+      "medina",
+      "medina"
+    ],
+    "medina and souks": [
+      "médina et souks",
+      "medina y zocos",
+      "Medina und Souks",
+      "medina e souk",
+      "medina e souks",
+      "medina en souks"
+    ],
+    "medina and waterfront": [
+      "médina et front de mer",
+      "medina y paseo marítimo",
+      "Medina und Uferpromenade",
+      "medina e lungomare",
+      "medina e frente marítima",
+      "medina en boulevard"
+    ],
+    "ramparts": [
+      "remparts",
+      "murallas",
+      "Stadtmauern",
+      "bastioni",
+      "muralhas",
+      "stadsmuren"
+    ],
+    "seafront": [
+      "front de mer",
+      "paseo marítimo",
+      "Uferpromenade",
+      "lungomare",
+      "frente marítima",
+      "boulevard"
+    ]
   }
 }

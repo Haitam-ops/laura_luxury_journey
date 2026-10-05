@@ -15,8 +15,8 @@ def route_heading(heading, code):
         return heading
     routes = json.loads((ROOT / 'route-labels.json').read_text('utf-8'))
     index = routes['codes'].index(code)
-    return ' → '.join(routes['labels'][part.strip()][index] if part.strip() in routes['labels']
-                      else protect(part.strip(), part.strip(), code)[0] for part in heading.split('→'))
+    return ' → '.join(protect(part.strip(), routes['labels'][part.strip()][index] if part.strip() in routes['labels']
+                      else part.strip(), code)[0] for part in heading.split('→'))
 
 
 LABELS = {
