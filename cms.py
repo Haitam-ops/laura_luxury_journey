@@ -29,7 +29,7 @@ SITE = {'brand': 'Laura Luxury Journeys', 'tagline': 'Morocco, with time for wha
         'about_copy': 'Perhaps you have a route in mind. Perhaps it’s a desert evening, a beautiful riad or simply a change of scene. Tell us what draws you to Morocco, and we’ll take it from there.',
         'email': '', 'phone': '', 'whatsapp': '', 'address': '',
         'instagram': '', 'facebook': '', 'tiktok': '', 'youtube': '',
-        'hero_images': ['hero-marrakech-20260926', 'hero-quad-20260926', 'hero-sahara-20260926', 'hero-sahara2-20260926', 'hero-chefchaouen-20260926'], 'translations': {}}
+        'hero_images': ['hero-marrakech-20260926', 'hero-quad-20260926', 'hero-sahara-20260926', 'hero-chefchaouen-20260926'], 'translations': {}}
 CAPTIONS = {'sahara': 'The dunes of the Moroccan Sahara', 'camels': 'A camel caravan near Merzouga',
             'chefchaouen': 'Blue houses in Chefchaouen', 'marrakech': 'Traditional architecture in Marrakech',
             'oasis': 'An oasis village in southern Morocco', 'ouzoud': 'Ouzoud waterfalls',
@@ -195,7 +195,7 @@ def clean_site(con, raw):
             if parsed.scheme != 'https' or parsed.hostname not in domains or parsed.username or parsed.password:
                 raise ValueError('Use the full HTTPS profile link for ' + field + '.')
     out['hero_images'] = string_list(raw.get('hero_images', SITE['hero_images']), 5)
-    if len(out['hero_images']) != 5 or any(not document(con, 'media', identity) for identity in out['hero_images']):
+    if not 1 <= len(out['hero_images']) <= 5 or any(not document(con, 'media', identity) for identity in out['hero_images']):
         raise ValueError('Choose five homepage photographs.')
     out['translations'] = localized_fields(raw.get('translations', {}), set(out) - {'hero_images', 'email', 'phone', 'whatsapp', 'address'})
     return out

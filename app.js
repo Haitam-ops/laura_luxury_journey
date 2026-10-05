@@ -389,7 +389,7 @@ const heroEditorial={
   }
 };
 const heroEdition=heroEditorial[CMS.language.code]||heroEditorial.en;
-const heroSlides=CMS.site.hero_images.map((id,i)=>{const m=CMS.media[id],chapter=heroEdition.slides[i]||heroEdition.slides[0];return {...chapter,image:id,path:m.path,alt:m.alt}});
+const heroSlides=CMS.site.hero_images.map((id,i)=>{const m=CMS.media[id],chapter=heroEdition.slides[id==='hero-chefchaouen-20260926'?4:i]||heroEdition.slides[0];return {...chapter,image:id,path:m.path,alt:m.alt}});
 function renderHeroContent(slide){const c=heroEdition.common;$('.hero-content>.eyebrow').innerHTML='<span class="tiny-sun">✳</span> '+esc(c.eyebrow);$('#hero-title').innerHTML=esc(slide.title)+'<br><em>'+esc(slide.emphasis)+'</em>';$('.hero-copy').textContent=slide.copy;$('.hero-content>.button').innerHTML=esc(c.cta)+' '+icon('arrow');$('.hero-footnote').innerHTML='<span class="line"></span> '+esc(c.footnote);$('.hero-location>div').innerHTML=`${esc(slide.label)}<small>${esc(slide.line)}</small>`;}
 renderHeroContent(heroSlides[0]);
 const heroPrimary=$('.hero-image'),heroSecondary=heroPrimary.cloneNode();heroSecondary.classList.remove('is-active');heroSecondary.removeAttribute('fetchpriority');heroSecondary.setAttribute('aria-hidden','true');heroSecondary.alt='';heroPrimary.before(heroSecondary);const heroLayers=[heroPrimary,heroSecondary];let heroIndex=0,heroLayer=0,heroChanging=false,heroPaused=matchMedia('(prefers-reduced-motion: reduce)').matches;let heroTimer;
