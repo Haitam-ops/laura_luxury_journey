@@ -270,6 +270,17 @@
       "author": "",
       "license": "User supplied",
       "focal_point": "50% 50%"
+    },
+    {
+      "id": "southern-week-user-gorge",
+      "local_file": "C:\\Users\\hbenl\\AppData\\Local\\Temp\\codex-clipboard-b164ecc1-479d-408f-9a0d-cadc1851fca3.png",
+      "name": "Sunlit gorge in Southern Morocco",
+      "alt": "Sunlight over towering red rock cliffs and palms in a Moroccan gorge",
+      "caption": "",
+      "source": "",
+      "author": "",
+      "license": "User supplied",
+      "focal_point": "50% 50%"
     }
   ],
   "galleries": {
@@ -346,6 +357,15 @@
       "route-SIWYZWNbF5k",
       "journey-photo-06",
       "route-a_8gEuwgBi8"
+    ],
+    "southern-morocco-7-days": [
+      "southern-week-user-gorge",
+      "oasis",
+      "journey-photo-07",
+      "route-hFHt6MtHn84",
+      "route-0pUZ4vvE9tQ",
+      "tour-sahara-evening",
+      "journey-photo-02"
     ]
   }
 }
