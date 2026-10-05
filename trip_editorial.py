@@ -7,7 +7,15 @@ ROOT = Path(__file__).parent / 'data'
 
 
 def copy_overrides(code):
-    return json.loads((ROOT / 'reviewed-trip-copy.json').read_text('utf-8')).get(code, {})
+    result = json.loads((ROOT / 'reviewed-trip-copy.json').read_text('utf-8')).get(code, {})
+    notes = json.loads((ROOT / 'travel-notes-copy.json').read_text('utf-8'))
+    for key, source in notes['en'].items():
+        translated = notes[code][key]
+        if isinstance(source, list):
+            result.update(zip(source, translated))
+        else:
+            result[source] = translated
+    return result
 
 
 def route_heading(heading, code):

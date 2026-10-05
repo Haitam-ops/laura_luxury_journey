@@ -203,3 +203,8 @@ dialog{background:var(--paper);color:var(--charcoal);box-shadow:0 30px 90px rgba
 .trip-faq{margin-top:36px;border-top:1px solid var(--line);padding-top:28px}.trip-faq h3{font-family:var(--serif);font-weight:400;font-size:26px;margin-bottom:18px}.trip-faq details{border-bottom:1px solid var(--line);padding:16px 0}.trip-faq summary{cursor:pointer;font-size:14px;font-weight:500;line-height:1.6;padding-right:10px}.trip-faq summary:focus-visible{outline:2px solid var(--rust);outline-offset:5px}.trip-faq p,.trip-faq li{font-size:13px;line-height:1.85;color:var(--muted)}.trip-faq p{margin-top:12px}.trip-faq ul,.trip-faq ol{margin:12px 0 0;padding-left:22px}.trip-faq li+li{margin-top:6px}
 
 .place-name{font-weight:700}
+
+/* Travel notes: readable introductions and room for translated card copy. */
+.notes-intro{max-width:540px;margin:18px 0 0;font-size:14px;line-height:1.8;color:var(--muted)}.note-card .note-preview{margin:12px 0 18px;font-size:13px;line-height:1.75;color:var(--muted)}.note-card>div{display:flex;flex-direction:column;flex:1}.note-card .text-link{margin-top:auto}.note-card{display:flex;flex-direction:column}#note-content .button{margin-top:22px;max-width:100%;white-space:normal;text-align:left}
+
+@media(max-width:700px){.note-card{display:flex;flex-direction:column;gap:0;align-items:stretch}.note-card>img{width:100%;height:200px}.note-card>div{padding-top:18px}.note-card .note-preview{font-size:13px}.notes-intro{font-size:13px}}
