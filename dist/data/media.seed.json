@@ -5521,5 +5521,91 @@
     "license": "User supplied",
     "focal_point": "50% 50%",
     "modifications": "Resized for display"
+  },
+  {
+    "id": "coast-user-essaouira-medina",
+    "name": "Essaouira medina",
+    "alt": "Colorful rugs along a white and blue lane in Essaouira",
+    "caption": "",
+    "path": "/assets/coast-user-essaouira-medina-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/assets/coast-user-essaouira-medina-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/coast-user-essaouira-medina-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/coast-user-essaouira-medina-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/coast-user-essaouira-medina-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/coast-user-essaouira-medina-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "original_width": 1672,
+    "original_height": 941,
+    "source": "",
+    "author": "",
+    "license": "User supplied",
+    "focal_point": "50% 50%",
+    "modifications": "Resized for display"
+  },
+  {
+    "id": "coast-user-essaouira-harbour",
+    "name": "Essaouira harbour",
+    "alt": "Blue fishing boats and stone ramparts at Essaouira harbour",
+    "caption": "",
+    "path": "/assets/coast-user-essaouira-harbour-1600.webp",
+    "width": 1600,
+    "height": 900,
+    "variants": [
+      {
+        "path": "/assets/coast-user-essaouira-harbour-320.webp",
+        "width": 320,
+        "height": 180
+      },
+      {
+        "path": "/assets/coast-user-essaouira-harbour-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "path": "/assets/coast-user-essaouira-harbour-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "path": "/assets/coast-user-essaouira-harbour-1600.webp",
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "path": "/assets/coast-user-essaouira-harbour-1672.webp",
+        "width": 1672,
+        "height": 941
+      }
+    ],
+    "original_width": 1672,
+    "original_height": 941,
+    "source": "",
+    "author": "",
+    "license": "User supplied",
+    "focal_point": "50% 50%",
+    "modifications": "Resized for display"
   }
 ]

@@ -281,6 +281,28 @@
       "author": "",
       "license": "User supplied",
       "focal_point": "50% 50%"
+    },
+    {
+      "id": "coast-user-essaouira-medina",
+      "local_file": "C:\\Users\\hbenl\\AppData\\Local\\Temp\\codex-clipboard-9e5e0c91-6294-4c8b-8221-cc56e7c7d606.png",
+      "name": "Essaouira medina",
+      "alt": "Colorful rugs along a white and blue lane in Essaouira",
+      "caption": "",
+      "source": "",
+      "author": "",
+      "license": "User supplied",
+      "focal_point": "50% 50%"
+    },
+    {
+      "id": "coast-user-essaouira-harbour",
+      "local_file": "C:\\Users\\hbenl\\AppData\\Local\\Temp\\codex-clipboard-628cbf8a-90cd-495d-a532-2948a0182522.png",
+      "name": "Essaouira harbour",
+      "alt": "Blue fishing boats and stone ramparts at Essaouira harbour",
+      "caption": "",
+      "source": "",
+      "author": "",
+      "license": "User supplied",
+      "focal_point": "50% 50%"
     }
   ],
   "galleries": {
@@ -366,6 +388,16 @@
       "route-0pUZ4vvE9tQ",
       "tour-sahara-evening",
       "journey-photo-02"
+    ],
+    "coast-desert-8-days": [
+      "coast-user-essaouira-medina",
+      "coast-user-essaouira-harbour",
+      "tour-sahara-evening",
+      "hq-medina",
+      "route--leOF2nzJQ8",
+      "route-GyIcdvrlY3U",
+      "journey-photo-03",
+      "route-SQxLsGEdx5s"
     ]
   }
 }
