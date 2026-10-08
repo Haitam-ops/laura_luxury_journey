@@ -5,6 +5,7 @@ import html
 import re
 import xml.etree.ElementTree as ET
 from urllib.parse import urlencode, urlsplit
+from build_pages import render_pages, page_url
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -31,21 +32,20 @@ def main():
     ET.register_namespace('xhtml', xhtml)
     root = ET.Element(f'{{{ns}}}urlset')
 
-    def url(code, trip):
-        params = {'lang': code}
-        if trip:
-            params['trip'] = trip
-        return origin + '/?' + urlencode(params)
-
-    for trip in [None] + sorted(set.union(*trips.values())):
-        available = [code for code in codes if trip is None or trip in trips[code]]
-        for code in available:
-            item = ET.SubElement(root, f'{{{ns}}}url')
-            ET.SubElement(item, f'{{{ns}}}loc').text = url(code, trip)
-            for other in available:
-                ET.SubElement(item, f'{{{xhtml}}}link', rel='alternate', hreflang=other, href=url(other, trip))
-            if 'en' in available:
-                ET.SubElement(item, f'{{{xhtml}}}link', rel='alternate', hreflang='x-default', href=url('en', trip))
+    for folder in [ROOT, ROOT / 'dist']:
+        index = folder / 'index.html'
+        markup = index.read_text('utf-8')
+        markup = re.sub(r'<title>.*?</title>', '<title>Laura Luxury Journeys | Morocco Tours, Day Trips &amp; Experiences</title>', markup, flags=re.S)
+        index.write_text(markup, 'utf-8')
+    home_alternates = {code: page_url(origin, code) for code in codes}
+    home_alternates['x-default'] = page_url(origin, 'en')
+    pages = [(page_url(origin, code), home_alternates) for code in codes]
+    pages += render_pages(config, catalogues)
+    for url, alternates in pages:
+        item = ET.SubElement(root, f'{{{ns}}}url')
+        ET.SubElement(item, f'{{{ns}}}loc').text = url
+        for code, target in alternates.items():
+            ET.SubElement(item, f'{{{xhtml}}}link', rel='alternate', hreflang=code, href=target)
     ET.indent(root)
     xml = ET.tostring(root, encoding='utf-8', xml_declaration=True)
     robots = 'User-agent: *\nAllow: /\nDisallow: /admin\nDisallow: /api/\n\nSitemap: ' + origin + '/sitemap.xml\n'

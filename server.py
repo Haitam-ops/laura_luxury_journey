@@ -90,11 +90,23 @@ class Handler(SimpleHTTPRequestHandler):
 
     def public_path(self):
         path = unquote(urlsplit(self.path).path)
-        if path in {'/', '/index.html', '/styles.css', '/app.js', '/boot.js', '/gallery.js', '/route-map.js', '/admin.html', '/admin.css', '/admin.js'}:
+        if path in {'/', '/index.html', '/styles.css', '/app.js', '/boot.js', '/gallery.js', '/route-map.js', '/seo.js', '/seo-config.js', '/robots.txt', '/sitemap.xml', '/admin.html', '/admin.css', '/admin.js'}:
             return True
+        rendered = self.rendered_page_path(path)
+        if rendered:
+            return (rendered / 'index.html').is_file()
         target = (ROOT / path.lstrip('/')).resolve()
         return ((path.startswith('/assets/') and target.is_relative_to(ROOT / 'assets') and target.suffix.lower() in {'.webp', '.png', '.jpg', '.jpeg', '.svg', '.woff2'}) or
                 (path.startswith('/uploads/') and target.is_relative_to(ROOT / 'uploads') and target.suffix.lower() == '.webp')) and target.is_file()
+
+    def rendered_page_path(self, path):
+        if re.fullmatch(r'/(en|fr|es|de|it|pt|nl)/(journeys(?:/[a-z0-9-]+)?|travel-notes/(time|stays|seasons))/?', path):
+            return ROOT / 'dist' / path.strip('/')
+        return None
+
+    def translate_path(self, path):
+        rendered = self.rendered_page_path(unquote(urlsplit(path).path))
+        return str(rendered) if rendered else super().translate_path(path)
 
     def read_body(self, maximum):
         try:

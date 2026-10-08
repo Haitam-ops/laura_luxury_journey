@@ -1,18 +1,19 @@
 'use strict';
+window.siteTripID = url => url.pathname.match(/^\/(?:en|fr|es|de|it|pt|nl)\/journeys\/([a-z0-9-]+)\/?$/)?.[1] || url.searchParams.get('trip');
 // Metadata follows the active journey, including browser Back and dialog closure.
 window.updateSiteSEO = function(trip = null) {
   const config = window.SITE_SEO, cms = window.CMS;
   if (!config || !cms) return;
   const origin = config.origin.replace(/\/$/, '');
-  const pageURL = (code, id) => {
+  const pageURL = window.sitePageURL = (code, id) => {
+    if (id) return new URL(`/${code}/journeys/${encodeURIComponent(id)}/`, origin).href;
     const u = new URL('/', origin);
     u.searchParams.set('lang', code);
-    if (id) u.searchParams.set('trip', id);
     return u.href;
   };
   const code = cms.language.code, site = cms.site;
   const canonical = pageURL(code, trip?.id);
-  const title = trip ? `${trip.seoTitle || trip.title} | ${site.brand}` : `${site.brand} — ${site.hero_title} ${site.hero_emphasis}`;
+  const title = trip ? `${trip.seoTitle || trip.title} | ${site.brand}` : `${site.brand} | ${config.homeTitles?.[code] || window.tr('Morocco Tours, Day Trips & Experiences')}`;
   const description = trip?.seoDescription || trip?.summary || site.collection_copy;
   const meta = (key, value, property = false) => {
     const attr = property ? 'property' : 'name';
@@ -43,8 +44,8 @@ window.updateSiteSEO = function(trip = null) {
   if (config.googleSiteVerification) meta('google-site-verification', config.googleSiteVerification);
   const business = {'@type':'TravelAgency','@id':origin+'/#business',name:site.brand,url:pageURL('en'),logo:new URL(config.logo, origin).href};
   if (site.email) business.email = site.email;
-  if (site.phone) business.telephone = site.phone;
-  if (site.address) business.address = site.address;
+  if (site.phone || config.businessContact?.telephone) business.telephone = site.phone || config.businessContact.telephone;
+  if (site.address || config.businessContact?.address) business.address = site.address || config.businessContact.address;
   const socials = ['instagram','facebook','tiktok','youtube'].map(k => site[k]).filter(v => /^https:\/\//.test(v || ''));
   if (socials.length) business.sameAs = socials;
   const graph = [business, {'@type':'WebSite','@id':origin+'/#website',url:pageURL('en'),name:site.brand,publisher:{'@id':business['@id']}}, {'@type':'WebPage','@id':canonical+'#page',url:canonical,name:title,description,inLanguage:code,isPartOf:{'@id':origin+'/#website'},about:{'@id':business['@id']}}];

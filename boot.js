@@ -2,7 +2,8 @@
 // Translations are stored on this server. Visitor text is never sent to a translation service.
 (async()=>{
  const url=new URL(location.href);let preference='en';try{preference=localStorage.getItem('desertgate.language')||'en'}catch{}
- const requested=(url.searchParams.get('lang')||preference||'en').toLowerCase();
+ const route=url.pathname.match(/^\/(en|fr|es|de|it|pt|nl)\/journeys\/([a-z0-9-]+)\/?$/);
+ const requested=(route?.[1]||url.searchParams.get('lang')||preference||'en').toLowerCase();
  let response;
  let cms;
  try {
@@ -11,9 +12,9 @@
    cms=await response.json();
  } catch {
    const language=/^[a-z]{2,3}(?:-[a-z]{2,4})?$/i.test(requested)?requested:'en';
-   response=await fetch('/data/content.'+encodeURIComponent(language)+'.json?v=footer-contact-20261005');
-   if(!response.ok&&language!=='en')response=await fetch('/data/content.en.json?v=footer-contact-20261005');
-   if(!response.ok)response=await fetch('/data/content.json?v=footer-contact-20261005');
+   response=await fetch('/data/content.'+encodeURIComponent(language)+'.json?v=seo-domain-20261008');
+   if(!response.ok&&language!=='en')response=await fetch('/data/content.en.json?v=seo-domain-20261008');
+   if(!response.ok)response=await fetch('/data/content.json?v=seo-domain-20261008');
    if(!response.ok)throw Error('The trip collection could not be loaded.');
    cms=await response.json();window.STATIC_FRONTEND=true;
  }
@@ -83,11 +84,11 @@
  document.querySelectorAll('[data-category]').forEach(b=>{const count=b.querySelector('small');if(count)count.textContent=cms.trips.filter(t=>t.category===b.dataset.category).length});
  const control=document.createElement('div');control.className='language-switch';
  const globe='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><ellipse cx="12" cy="12" rx="4" ry="9"/><path d="M3 12h18M5 7h14M5 17h14"/></svg>';
- control.innerHTML=`<button class="language-trigger" id="site-language" type="button" aria-expanded="false" aria-controls="language-panel" aria-label="${escape(tr('Choose your language'))}: ${escape(cms.language.native)}">${globe}<span class="language-current" data-no-translate>${escape(cms.language.native)}</span><span class="language-code" data-no-translate>${escape(cms.language.code.toUpperCase())}</span><svg class="language-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></button><div class="language-panel" id="language-panel" hidden><p class="language-heading">${escape(tr('Choose your language'))}</p><nav aria-label="${escape(tr('Choose your language'))}">${cms.languages.map(l=>{const next=new URL(location.href);next.searchParams.set('lang',l.code);const active=l.code===cms.language.code;return `<a class="language-option${active?' selected':''}" href="${escape(next.href)}" hreflang="${escape(l.code)}" lang="${escape(l.code)}" data-language="${escape(l.code)}" data-no-translate ${active?'aria-current="true"':''}><span class="language-monogram">${escape(l.code.toUpperCase())}</span><span><strong>${escape(l.native)}</strong><small>${escape(tr(l.name))}</small></span><span class="language-check" aria-hidden="true">${active?'✓':''}</span></a>`}).join('')}</nav></div>`;
+ control.innerHTML=`<button class="language-trigger" id="site-language" type="button" aria-expanded="false" aria-controls="language-panel" aria-label="${escape(tr('Choose your language'))}: ${escape(cms.language.native)}">${globe}<span class="language-current" data-no-translate>${escape(cms.language.native)}</span><span class="language-code" data-no-translate>${escape(cms.language.code.toUpperCase())}</span><svg class="language-chevron" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m4 6 4 4 4-4"/></svg></button><div class="language-panel" id="language-panel" hidden><p class="language-heading">${escape(tr('Choose your language'))}</p><nav aria-label="${escape(tr('Choose your language'))}">${cms.languages.map(l=>{const tripID=window.siteTripID(url);const next=new URL(tripID?'/'+l.code+'/journeys/'+tripID+'/':location.href,location.origin);if(!tripID)next.searchParams.set('lang',l.code);const active=l.code===cms.language.code;return `<a class="language-option${active?' selected':''}" href="${escape(next.href)}" hreflang="${escape(l.code)}" lang="${escape(l.code)}" data-language="${escape(l.code)}" data-no-translate ${active?'aria-current="true"':''}><span class="language-monogram">${escape(l.code.toUpperCase())}</span><span><strong>${escape(l.native)}</strong><small>${escape(tr(l.name))}</small></span><span class="language-check" aria-hidden="true">${active?'✓':''}</span></a>`}).join('')}</nav></div>`;
  document.querySelector('.header-actions').prepend(control);
  const languageTrigger=control.querySelector('.language-trigger'),languagePanel=control.querySelector('.language-panel');
  const languageLinks=[...control.querySelectorAll('[data-language]')];
- const toggleLanguage=open=>{if(open)languageLinks.forEach(link=>{const next=new URL(location.href);next.searchParams.set('lang',link.dataset.language);link.href=next.href;});languagePanel.hidden=!open;languageTrigger.setAttribute('aria-expanded',String(open));};
+ const toggleLanguage=open=>{if(open)languageLinks.forEach(link=>{const tripID=window.siteTripID(new URL(location.href));const next=new URL(tripID?'/'+link.dataset.language+'/journeys/'+tripID+'/':location.href,location.origin);if(!tripID)next.searchParams.set('lang',link.dataset.language);link.href=next.href;});languagePanel.hidden=!open;languageTrigger.setAttribute('aria-expanded',String(open));};
  languageTrigger.addEventListener('click',()=>toggleLanguage(languagePanel.hidden));
  control.addEventListener('keydown',e=>{
    if(e.key==='Escape'&&!languagePanel.hidden){e.preventDefault();e.stopPropagation();toggleLanguage(false);languageTrigger.focus();}
@@ -96,9 +97,11 @@
  document.addEventListener('click',e=>{if(!control.contains(e.target))toggleLanguage(false);});
  control.addEventListener('focusout',()=>{setTimeout(()=>{if(!control.contains(document.activeElement))toggleLanguage(false);},0);});
  languageLinks.forEach(link=>link.addEventListener('click',()=>{try{localStorage.setItem('desertgate.language',link.dataset.language)}catch{}}));
- window.updateSiteSEO?.(cms.trips.find(t=>t.id===url.searchParams.get('trip'))||null);
+ window.updateSiteSEO?.(cms.trips.find(t=>t.id===window.siteTripID(url))||null);
+ document.querySelectorAll('[data-guide]').forEach(a=>a.href='/'+cms.language.code+'/travel-notes/'+a.dataset.guide+'/');
+ document.querySelectorAll('[data-catalogue]').forEach(a=>a.href='/'+cms.language.code+'/journeys/');
  translateDOM();
  new MutationObserver(records=>{for(const record of records){if(record.type==='characterData'||record.type==='attributes')translateDOM(record.target);else for(const node of record.addedNodes)if(node.nodeType===1||node.nodeType===3)translateDOM(node)}}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label','title','alt','placeholder']});
- const script=document.createElement('script');script.src='/app.js?v=footer-contact-20261005';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=footer-contact-20261005';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=footer-contact-20261005';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
+ const script=document.createElement('script');script.src='/app.js?v=seo-domain-20261008';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=seo-domain-20261008';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=seo-domain-20261008';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
  function showError(){const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3>'+escape(tr('The collection could not be loaded.'))+'</h3><p>'+escape(tr('Please refresh the page to try again.'))+'</p></div>'}
 })().catch(()=>{const messages={"en": ["The collection could not be loaded.", "Please refresh the page to try again."], "fr": ["Impossible de charger les voyages.", "Actualisez la page pour réessayer."], "es": ["No se han podido cargar los viajes.", "Actualiza la página para intentarlo de nuevo."], "de": ["Die Reisen konnten nicht geladen werden.", "Laden Sie die Seite neu und versuchen Sie es erneut."], "it": ["Non è stato possibile caricare i viaggi.", "Aggiorna la pagina per riprovare."], "pt": ["Não foi possível carregar as viagens.", "Atualize a página para tentar novamente."], "nl": ["De reizen konden niet worden geladen.", "Vernieuw de pagina om het opnieuw te proberen."]};const code=new URL(location.href).searchParams.get('lang')||document.documentElement.lang;const copy=messages[code]||messages.en;const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3></h3><p></p></div>';grid.querySelector('h3').textContent=copy[0];grid.querySelector('p').textContent=copy[1];});

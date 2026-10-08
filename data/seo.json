@@ -1,6 +1,19 @@
 {
-  "customDomain": "",
+  "customDomain": "https://lauraluxuryjourneys.com",
   "fallbackOrigin": "https://laura-luxury-journey.hbenlamsaguem.workers.dev",
   "logo": "/assets/branding/laura-primary-logo.png",
-  "googleSiteVerification": ""
+  "googleSiteVerification": "",
+  "businessContact": {
+    "telephone": "+212667687763",
+    "address": "Marrakech"
+  },
+  "homeTitles": {
+    "en": "Morocco Tours, Day Trips & Experiences",
+    "fr": "Voyages au Maroc, excursions et expériences",
+    "es": "Viajes a Marruecos, excursiones y experiencias",
+    "de": "Marokko-Reisen, Tagesausflüge und Erlebnisse",
+    "it": "Viaggi in Marocco, escursioni ed esperienze",
+    "pt": "Viagens em Marrocos, excursões e experiências",
+    "nl": "Marokko-reizen, dagtochten en ervaringen"
+  }
 }

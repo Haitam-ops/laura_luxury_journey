@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin
 Disallow: /api/
 
-Sitemap: https://laura-luxury-journey.hbenlamsaguem.workers.dev/sitemap.xml
+Sitemap: https://lauraluxuryjourneys.com/sitemap.xml

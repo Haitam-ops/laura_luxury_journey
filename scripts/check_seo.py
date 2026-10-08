@@ -26,19 +26,30 @@ codes = [l['code'] for l in payload['languages'] if l.get('enabled')]
 expected = 0
 for code in codes:
     c = json.loads((ROOT / f'dist/data/content.{code}.json').read_text('utf-8'))
-    expected += len(c['trips']) + 1
+    expected += len(c['trips']) + 5
 assert len(urls) == expected
 for row in tree:
     loc = row.find('s:loc', ns).text
-    assert loc.startswith(origin + '/?')
+    assert loc.startswith(origin + '/')
     query = parse_qs(urlsplit(loc).query)
     assert set(query) <= {'lang', 'trip'}
+    if urlsplit(loc).path != '/':
+        page = ROOT / 'dist' / urlsplit(loc).path.strip('/') / 'index.html'
+        markup = page.read_text('utf-8')
+        assert f'<link rel="canonical" href="{loc}">' in markup
+        assert 'property="og:url"' in markup
+        assert 'site-structured-data' in markup
+        assert 'workers.dev' not in markup
     links = row.findall('x:link', ns)
     assert len({l.attrib['hreflang'] for l in links}) == len(links)
     assert any(l.attrib['href'] == loc for l in links)
     for link in links:
         assert link.attrib['href'] in urls
         assert parse_qs(urlsplit(link.attrib['href']).query).get('trip') == query.get('trip')
+        if urlsplit(loc).path != '/':
+            assert urlsplit(link.attrib['href']).path.split('/')[2:] == urlsplit(loc).path.split('/')[2:]
+        target_language = link.attrib['hreflang'] if link.attrib['hreflang'] != 'x-default' else 'en'
+        assert (urlsplit(link.attrib['href']).path.split('/')[1] or parse_qs(urlsplit(link.attrib['href']).query)['lang'][0]) == target_language
 for file in ['seo.js', 'seo-config.js', 'sitemap.xml', 'robots.txt']:
     assert (ROOT / file).read_bytes() == (ROOT / 'dist' / file).read_bytes(), file
 assert f'Sitemap: {origin}/sitemap.xml' in (ROOT / 'dist/robots.txt').read_text('utf-8')
