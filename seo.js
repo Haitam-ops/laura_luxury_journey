@@ -49,6 +49,11 @@ window.updateSiteSEO = function(trip = null) {
   const socials = ['instagram','facebook','tiktok','youtube'].map(k => site[k]).filter(v => /^https:\/\//.test(v || ''));
   if (socials.length) business.sameAs = socials;
   const graph = [business, {'@type':'WebSite','@id':origin+'/#website',url:pageURL('en'),name:site.brand,publisher:{'@id':business['@id']}}, {'@type':'WebPage','@id':canonical+'#page',url:canonical,name:title,description,inLanguage:code,isPartOf:{'@id':origin+'/#website'},about:{'@id':business['@id']}}];
+  if (trip) graph.push({'@type':'BreadcrumbList',itemListElement:[
+    {'@type':'ListItem',position:1,name:site.brand,item:pageURL(code)},
+    {'@type':'ListItem',position:2,name:window.tr('Explore all'),item:`${origin}/${code}/journeys/`},
+    {'@type':'ListItem',position:3,name:trip.title,item:canonical}
+  ]});
   let schema = document.getElementById('site-structured-data');
   if (!schema) { schema = document.createElement('script'); schema.id = 'site-structured-data'; schema.type = 'application/ld+json'; document.head.append(schema); }
   schema.textContent = JSON.stringify({'@context':'https://schema.org','@graph':graph});
