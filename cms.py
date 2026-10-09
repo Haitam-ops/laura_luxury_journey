@@ -255,7 +255,8 @@ def public_content(con, code):
         item['photos'] = [media[identity] for identity in item['gallery'] if identity in media]
         trips.append(item)
     site = localize(document(con, 'site', 'main')['document'], set(SITE) - {'hero_images', 'email', 'phone', 'whatsapp', 'address', 'brand'})
-    return {'trips': trips, 'site': site, 'media': media, 'languages': active, 'language': lang, 'strings': strings}
+    from public_content import publish_payload
+    return publish_payload({'trips': trips, 'site': site, 'media': media, 'languages': active, 'language': lang, 'strings': strings})
 
 
 def password_hash(password, salt):

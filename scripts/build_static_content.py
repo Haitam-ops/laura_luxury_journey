@@ -33,6 +33,8 @@ def main():
     english = (output / "content.en.json").read_bytes()
     (output / "content.json").write_bytes(english)
     (ROOT / "data" / "content.json").write_bytes(english)
+    from prepare_public_assets import main as prepare_public_assets
+    prepare_public_assets()
     from build_seo import main as build_seo
     build_seo()
 
