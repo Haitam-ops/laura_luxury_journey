@@ -3,4 +3,5 @@ Allow: /
 Disallow: /admin
 Disallow: /api/
 
+Sitemap: https://lauraluxuryjourneys.com/sitemap-index.xml
 Sitemap: https://lauraluxuryjourneys.com/sitemap.xml

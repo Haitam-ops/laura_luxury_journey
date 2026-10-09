@@ -53,6 +53,20 @@ for row in tree:
 for file in ['seo.js', 'seo-config.js', 'sitemap.xml', 'robots.txt']:
     assert (ROOT / file).read_bytes() == (ROOT / 'dist' / file).read_bytes(), file
 assert f'Sitemap: {origin}/sitemap.xml' in (ROOT / 'dist/robots.txt').read_text('utf-8')
+assert f'Sitemap: {origin}/sitemap-index.xml' in (ROOT / 'dist/robots.txt').read_text('utf-8')
+index = ET.parse(ROOT / 'dist/sitemap-index.xml').getroot()
+assert index.tag == '{http://www.sitemaps.org/schemas/sitemap/0.9}sitemapindex'
+assert [row.find('s:loc', ns).text for row in index] == [f'{origin}/sitemap-{code}.xml' for code in codes]
+partitioned_urls = []
+for code in codes:
+    filename = f'sitemap-{code}.xml'
+    language_map = ET.parse(ROOT / 'dist' / filename).getroot()
+    assert language_map.tag == '{http://www.sitemaps.org/schemas/sitemap/0.9}urlset'
+    partitioned_urls += [row.find('s:loc', ns).text for row in language_map]
+    assert (ROOT / filename).read_bytes() == (ROOT / 'dist' / filename).read_bytes()
+assert len(partitioned_urls) == len(set(partitioned_urls)) == len(urls)
+assert set(partitioned_urls) == set(urls)
+assert (ROOT / 'sitemap-index.xml').read_bytes() == (ROOT / 'dist/sitemap-index.xml').read_bytes()
 if not config.get('googleSiteVerification'):
     assert 'name="google-site-verification"' not in (ROOT / 'dist/index.html').read_text('utf-8')
 print(f'PASS: {expected} published URLs; language targets, domain switch, blank verification and deployment files checked.')

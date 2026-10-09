@@ -32,12 +32,22 @@ root using `wrangler.jsonc` and its `dist` assets directory. A GitHub push is
 not proof that deployment succeeded; check the Cloudflare build and the live
 canonical URL. No new GitHub workflow or credential is required by this code.
 
+Search discovery:
+
+- The domain property is verified in Google Search Console through DNS.
+- The sitemap index at `https://lauraluxuryjourneys.com/sitemap-index.xml`
+  exposes seven small language sitemaps containing the same 217 URLs. The
+  original full hreflang sitemap remains available. This provides a fresh
+  submission URL after the original reported a fetch failure; Google must
+  still confirm successful processing.
+- Cloudflare allows shared search crawlers. Dedicated AI training crawlers
+  are blocked individually rather than blocking the entire training category,
+  which also classified Googlebot and BingBot.
+
 Still requires the business owner's accounts or verified details:
 
-- Add the domain property in Google Search Console, verify DNS ownership,
-  submit `https://lauraluxuryjourneys.com/sitemap.xml`, and inspect priority pages.
-- Confirm any Cloudflare crawler restrictions through Search Console's live
-  URL test. A 403 to an automated tool is not proof that Googlebot is blocked.
+- Confirm sitemap processing and indexing in Google Search Console. A live
+  URL test passing is not proof that a page is indexed or a sitemap processed.
 - Connect an actual analytics property before claiming measured conversions.
   Count a WhatsApp click as an open, not an enquiry received. Record received
   enquiries, quotes and confirmed bookings separately.
