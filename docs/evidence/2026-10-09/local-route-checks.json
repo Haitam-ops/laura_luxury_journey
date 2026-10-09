@@ -1,0 +1,870 @@
+[
+  {
+    "url": "http://127.0.0.1:8092/?lang=en",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/?lang=fr",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/?lang=es",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/?lang=de",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/?lang=it",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/?lang=pt",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/?lang=nl",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/sahara-marrakech-3-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/imperial-cities-sahara-9-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/slow-sahara-5-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/marrakech-fes-sahara-4-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/southern-morocco-7-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/coast-desert-8-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/north-sahara-10-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/grand-morocco-14-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/ouzoud-waterfalls/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/ourika-valley/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/essaouira-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/ait-ben-haddou-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/agafay-evening/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/imlil-atlas-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/marrakech-balloon/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/agafay-quad/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/merzouga-camel/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/merzouga-sandboarding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/agafay-buggy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/atlas-paragliding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/marrakech-hammam/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/marrakech-cooking/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/marrakech-dinner-show/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/essaouira-horse-riding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/essaouira-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/taghazout-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/journeys/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/travel-notes/time/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/travel-notes/stays/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/en/travel-notes/seasons/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/sahara-marrakech-3-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/imperial-cities-sahara-9-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/slow-sahara-5-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/marrakech-fes-sahara-4-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/southern-morocco-7-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/coast-desert-8-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/north-sahara-10-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/grand-morocco-14-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/ouzoud-waterfalls/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/ourika-valley/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/essaouira-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/ait-ben-haddou-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/agafay-evening/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/imlil-atlas-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/marrakech-balloon/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/agafay-quad/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/merzouga-camel/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/merzouga-sandboarding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/agafay-buggy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/atlas-paragliding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/marrakech-hammam/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/marrakech-cooking/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/marrakech-dinner-show/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/essaouira-horse-riding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/essaouira-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/taghazout-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/journeys/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/travel-notes/time/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/travel-notes/stays/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/fr/travel-notes/seasons/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/sahara-marrakech-3-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/imperial-cities-sahara-9-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/slow-sahara-5-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/marrakech-fes-sahara-4-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/southern-morocco-7-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/coast-desert-8-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/north-sahara-10-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/grand-morocco-14-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/ouzoud-waterfalls/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/ourika-valley/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/essaouira-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/ait-ben-haddou-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/agafay-evening/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/imlil-atlas-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/marrakech-balloon/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/agafay-quad/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/merzouga-camel/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/merzouga-sandboarding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/agafay-buggy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/atlas-paragliding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/marrakech-hammam/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/marrakech-cooking/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/marrakech-dinner-show/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/essaouira-horse-riding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/essaouira-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/taghazout-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/journeys/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/travel-notes/time/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/travel-notes/stays/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/es/travel-notes/seasons/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/sahara-marrakech-3-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/imperial-cities-sahara-9-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/slow-sahara-5-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/marrakech-fes-sahara-4-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/southern-morocco-7-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/coast-desert-8-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/north-sahara-10-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/grand-morocco-14-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/ouzoud-waterfalls/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/ourika-valley/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/essaouira-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/ait-ben-haddou-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/agafay-evening/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/imlil-atlas-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/marrakech-balloon/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/agafay-quad/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/merzouga-camel/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/merzouga-sandboarding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/agafay-buggy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/atlas-paragliding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/marrakech-hammam/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/marrakech-cooking/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/marrakech-dinner-show/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/essaouira-horse-riding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/essaouira-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/taghazout-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/journeys/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/travel-notes/time/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/travel-notes/stays/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/de/travel-notes/seasons/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/sahara-marrakech-3-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/imperial-cities-sahara-9-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/slow-sahara-5-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/marrakech-fes-sahara-4-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/southern-morocco-7-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/coast-desert-8-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/north-sahara-10-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/grand-morocco-14-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/ouzoud-waterfalls/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/ourika-valley/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/essaouira-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/ait-ben-haddou-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/agafay-evening/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/imlil-atlas-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/marrakech-balloon/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/agafay-quad/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/merzouga-camel/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/merzouga-sandboarding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/agafay-buggy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/atlas-paragliding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/marrakech-hammam/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/marrakech-cooking/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/marrakech-dinner-show/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/essaouira-horse-riding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/essaouira-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/taghazout-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/journeys/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/travel-notes/time/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/travel-notes/stays/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/it/travel-notes/seasons/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/sahara-marrakech-3-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/imperial-cities-sahara-9-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/slow-sahara-5-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/marrakech-fes-sahara-4-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/southern-morocco-7-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/coast-desert-8-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/north-sahara-10-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/grand-morocco-14-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/ouzoud-waterfalls/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/ourika-valley/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/essaouira-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/ait-ben-haddou-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/agafay-evening/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/imlil-atlas-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/marrakech-balloon/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/agafay-quad/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/merzouga-camel/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/merzouga-sandboarding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/agafay-buggy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/atlas-paragliding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/marrakech-hammam/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/marrakech-cooking/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/marrakech-dinner-show/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/essaouira-horse-riding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/essaouira-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/taghazout-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/journeys/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/travel-notes/time/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/travel-notes/stays/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/pt/travel-notes/seasons/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/sahara-marrakech-3-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/imperial-cities-sahara-9-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/slow-sahara-5-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/marrakech-fes-sahara-4-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/southern-morocco-7-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/coast-desert-8-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/north-sahara-10-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/grand-morocco-14-days/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/ouzoud-waterfalls/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/ourika-valley/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/essaouira-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/ait-ben-haddou-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/agafay-evening/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/imlil-atlas-day/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/marrakech-balloon/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/agafay-quad/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/merzouga-camel/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/merzouga-sandboarding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/agafay-buggy/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/atlas-paragliding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/marrakech-hammam/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/marrakech-cooking/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/marrakech-dinner-show/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/essaouira-horse-riding/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/essaouira-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/taghazout-surf-kitesurf/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/journeys/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/travel-notes/time/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/travel-notes/stays/",
+    "status": 200
+  },
+  {
+    "url": "http://127.0.0.1:8092/nl/travel-notes/seasons/",
+    "status": 200
+  }
+]

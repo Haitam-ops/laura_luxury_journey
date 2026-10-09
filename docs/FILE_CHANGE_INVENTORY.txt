@@ -1,0 +1,938 @@
+LAURA LUXURY JOURNEYS - FILE-BY-FILE CHANGE INVENTORY
+Snapshot: 9 October 2026. Local changes only; not staged, committed, pushed or deployed.
+Root: C:\Users\hbenl\Downloads\Nomad\app
+Totals: {'modified': 242, 'deleted': 32, 'added': 37}
+No existing photograph/image files are deleted. Deleted files below are public export documents/JSON, with editorial originals retained.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\README.md
+Purpose: Document the production Worker versus local CMS, WhatsApp behavior, export commands and deployment remote.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\app.js
+Purpose: Trip H1 and heading hierarchy; visible breadcrumbs; remove static fallback only after dialog opens; responsive cards; optional email in WhatsApp message.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\assets\branding\laura-emblem-192.webp
+Purpose: NEW: smaller transparent header emblem, 14,172 bytes; original retained.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\assets\branding\laura-icon-96.png
+Purpose: NEW: smaller favicon, 7,490 bytes; original retained.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\assets\branding\laura-logo-520.webp
+Purpose: NEW: smaller transparent footer logo, 36,100 bytes; original retained.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\boot.js
+Purpose: Load static JSON directly instead of requesting unavailable production API; fix URL language selection/switching; responsive image helper; safe optional preload and accessible names.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\cms.py
+Purpose: Apply the public payload sanitizer to CMS responses; preserve internal editorial records.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\data\content.json
+Purpose: Regenerated default English payload with photo references removed, neutral captions and corrected enquiry translations.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\PHOTO-SOURCES.md
+Purpose: REMOVED from public export: photo-source/credit document. Editorial original retained outside dist. Not an image.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\app.js
+Purpose: Generated deployment copy. Trip H1 and heading hierarchy; visible breadcrumbs; remove static fallback only after dialog opens; responsive cards; optional email in WhatsApp message.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\dist\assets\branding\laura-emblem-192.webp
+Purpose: Deployment copy. NEW: smaller transparent header emblem, 14,172 bytes; original retained.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\dist\assets\branding\laura-icon-96.png
+Purpose: Deployment copy. NEW: smaller favicon, 7,490 bytes; original retained.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\dist\assets\branding\laura-logo-520.webp
+Purpose: Deployment copy. NEW: smaller transparent footer logo, 36,100 bytes; original retained.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\assets\sources.txt
+Purpose: REMOVED from public export: photo-source/credit document. Editorial original retained outside dist. Not an image.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\boot.js
+Purpose: Generated deployment copy. Load static JSON directly instead of requesting unavailable production API; fix URL language selection/switching; responsive image helper; safe optional preload and accessible names.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\content.de.json
+Purpose: Regenerated public language payload: source/credit/license metadata removed; neutral captions and accurate enquiry wording; photos and trips retained.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\content.en.json
+Purpose: Regenerated public language payload: source/credit/license metadata removed; neutral captions and accurate enquiry wording; photos and trips retained.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\content.es.json
+Purpose: Regenerated public language payload: source/credit/license metadata removed; neutral captions and accurate enquiry wording; photos and trips retained.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\content.fr.json
+Purpose: Regenerated public language payload: source/credit/license metadata removed; neutral captions and accurate enquiry wording; photos and trips retained.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\content.it.json
+Purpose: Regenerated public language payload: source/credit/license metadata removed; neutral captions and accurate enquiry wording; photos and trips retained.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\content.json
+Purpose: Regenerated public language payload: source/credit/license metadata removed; neutral captions and accurate enquiry wording; photos and trips retained.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\content.nl.json
+Purpose: Regenerated public language payload: source/credit/license metadata removed; neutral captions and accurate enquiry wording; photos and trips retained.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\content.pt.json
+Purpose: Regenerated public language payload: source/credit/license metadata removed; neutral captions and accurate enquiry wording; photos and trips retained.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\detail-translations.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\footer-information.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\form-translations.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\hero-translations.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\high-resolution-sources.json
+Purpose: REMOVED from public export: redundant media provenance/research/seed JSON. Original retained outside dist; actual images and runtime photo data remain.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\imported-media.json
+Purpose: REMOVED from public export: redundant media provenance/research/seed JSON. Original retained outside dist; actual images and runtime photo data remain.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\itinerary-place-names.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\ar.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\de.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\en.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\es.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\fr.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\it.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\nl.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\pt.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\ru.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\locales\zh.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\manual-translations.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\marketing-copy.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\marketing-translations.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\media.seed.json
+Purpose: REMOVED from public export: redundant media provenance/research/seed JSON. Original retained outside dist; actual images and runtime photo data remain.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\reference-galleries.json
+Purpose: REMOVED from public export: redundant media provenance/research/seed JSON. Original retained outside dist; actual images and runtime photo data remain.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\reference-images.json
+Purpose: REMOVED from public export: redundant media provenance/research/seed JSON. Original retained outside dist; actual images and runtime photo data remain.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\reference-photo-originals.json
+Purpose: REMOVED from public export: redundant media provenance/research/seed JSON. Original retained outside dist; actual images and runtime photo data remain.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\source-strings.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\stories.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\tour-photography.json
+Purpose: REMOVED from public export: redundant media provenance/research/seed JSON. Original retained outside dist; actual images and runtime photo data remain.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\translation-models.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\translation-releases.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+DELETED | C:\Users\hbenl\Downloads\Nomad\app\dist\data\trips.seed.json
+Purpose: REMOVED from public export: unused standalone editorial/translation/seed JSON. Original retained outside dist; required public content remains bundled in content.<language>.json.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\index.html
+Purpose: Regenerated German page. Localized initial homepage, smaller/responsive images, updated FAQ and optional-email form; static JSON mode.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\agafay-buggy\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\agafay-evening\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\agafay-quad\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\ait-ben-haddou-day\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\atlas-paragliding\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\coast-desert-8-days\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\essaouira-day\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\essaouira-horse-riding\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\essaouira-surf-kitesurf\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\grand-morocco-14-days\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\imlil-atlas-day\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\imperial-cities-sahara-9-days\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\index.html
+Purpose: Regenerated German page. Catalogue grouped by trip type with descriptions, duration/routes, itinerary links and breadcrumbs schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\marrakech-balloon\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\marrakech-cooking\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\marrakech-dinner-show\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\marrakech-fes-sahara-4-days\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\marrakech-hammam\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\merzouga-camel\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\merzouga-sandboarding\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\north-sahara-10-days\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\ourika-valley\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\ouzoud-waterfalls\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\sahara-marrakech-3-days\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\slow-sahara-5-days\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\southern-morocco-7-days\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\journeys\taghazout-surf-kitesurf\index.html
+Purpose: Regenerated German page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\travel-notes\seasons\index.html
+Purpose: Regenerated German page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\travel-notes\stays\index.html
+Purpose: Regenerated German page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\de\travel-notes\time\index.html
+Purpose: Regenerated German page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\index.html
+Purpose: Regenerated English page. Localized initial homepage, smaller/responsive images, updated FAQ and optional-email form; static JSON mode.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\agafay-buggy\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\agafay-evening\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\agafay-quad\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\ait-ben-haddou-day\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\atlas-paragliding\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\coast-desert-8-days\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\essaouira-day\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\essaouira-horse-riding\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\essaouira-surf-kitesurf\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\grand-morocco-14-days\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\imlil-atlas-day\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\imperial-cities-sahara-9-days\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\index.html
+Purpose: Regenerated English page. Catalogue grouped by trip type with descriptions, duration/routes, itinerary links and breadcrumbs schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\marrakech-balloon\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\marrakech-cooking\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\marrakech-dinner-show\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\marrakech-fes-sahara-4-days\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\marrakech-hammam\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\merzouga-camel\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\merzouga-sandboarding\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\north-sahara-10-days\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\ourika-valley\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\ouzoud-waterfalls\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\sahara-marrakech-3-days\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\slow-sahara-5-days\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\southern-morocco-7-days\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\journeys\taghazout-surf-kitesurf\index.html
+Purpose: Regenerated English page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\travel-notes\seasons\index.html
+Purpose: Regenerated English page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\travel-notes\stays\index.html
+Purpose: Regenerated English page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\en\travel-notes\time\index.html
+Purpose: Regenerated English page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\index.html
+Purpose: Regenerated Spanish page. Localized initial homepage, smaller/responsive images, updated FAQ and optional-email form; static JSON mode.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\agafay-buggy\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\agafay-evening\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\agafay-quad\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\ait-ben-haddou-day\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\atlas-paragliding\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\coast-desert-8-days\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\essaouira-day\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\essaouira-horse-riding\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\essaouira-surf-kitesurf\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\grand-morocco-14-days\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\imlil-atlas-day\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\imperial-cities-sahara-9-days\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\index.html
+Purpose: Regenerated Spanish page. Catalogue grouped by trip type with descriptions, duration/routes, itinerary links and breadcrumbs schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\marrakech-balloon\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\marrakech-cooking\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\marrakech-dinner-show\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\marrakech-fes-sahara-4-days\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\marrakech-hammam\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\merzouga-camel\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\merzouga-sandboarding\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\north-sahara-10-days\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\ourika-valley\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\ouzoud-waterfalls\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\sahara-marrakech-3-days\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\slow-sahara-5-days\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\southern-morocco-7-days\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\journeys\taghazout-surf-kitesurf\index.html
+Purpose: Regenerated Spanish page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\travel-notes\seasons\index.html
+Purpose: Regenerated Spanish page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\travel-notes\stays\index.html
+Purpose: Regenerated Spanish page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\es\travel-notes\time\index.html
+Purpose: Regenerated Spanish page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\index.html
+Purpose: Regenerated French page. Localized initial homepage, smaller/responsive images, updated FAQ and optional-email form; static JSON mode.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\agafay-buggy\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\agafay-evening\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\agafay-quad\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\ait-ben-haddou-day\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\atlas-paragliding\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\coast-desert-8-days\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\essaouira-day\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\essaouira-horse-riding\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\essaouira-surf-kitesurf\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\grand-morocco-14-days\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\imlil-atlas-day\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\imperial-cities-sahara-9-days\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\index.html
+Purpose: Regenerated French page. Catalogue grouped by trip type with descriptions, duration/routes, itinerary links and breadcrumbs schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\marrakech-balloon\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\marrakech-cooking\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\marrakech-dinner-show\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\marrakech-fes-sahara-4-days\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\marrakech-hammam\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\merzouga-camel\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\merzouga-sandboarding\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\north-sahara-10-days\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\ourika-valley\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\ouzoud-waterfalls\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\sahara-marrakech-3-days\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\slow-sahara-5-days\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\southern-morocco-7-days\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\journeys\taghazout-surf-kitesurf\index.html
+Purpose: Regenerated French page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\travel-notes\seasons\index.html
+Purpose: Regenerated French page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\travel-notes\stays\index.html
+Purpose: Regenerated French page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\fr\travel-notes\time\index.html
+Purpose: Regenerated French page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\gallery.js
+Purpose: Generated deployment copy. Responsive collage and thumbnail image markup; gallery accessible names include the visible trip duration.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\index.html
+Purpose: Generated deployment copy. Small branding assets, lazy footer logo, optional email field, honest WhatsApp FAQ, updated asset version and accessibility markup.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\index.html
+Purpose: Regenerated Italian page. Localized initial homepage, smaller/responsive images, updated FAQ and optional-email form; static JSON mode.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\agafay-buggy\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\agafay-evening\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\agafay-quad\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\ait-ben-haddou-day\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\atlas-paragliding\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\coast-desert-8-days\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\essaouira-day\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\essaouira-horse-riding\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\essaouira-surf-kitesurf\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\grand-morocco-14-days\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\imlil-atlas-day\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\imperial-cities-sahara-9-days\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\index.html
+Purpose: Regenerated Italian page. Catalogue grouped by trip type with descriptions, duration/routes, itinerary links and breadcrumbs schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\marrakech-balloon\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\marrakech-cooking\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\marrakech-dinner-show\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\marrakech-fes-sahara-4-days\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\marrakech-hammam\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\merzouga-camel\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\merzouga-sandboarding\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\north-sahara-10-days\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\ourika-valley\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\ouzoud-waterfalls\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\sahara-marrakech-3-days\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\slow-sahara-5-days\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\southern-morocco-7-days\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\journeys\taghazout-surf-kitesurf\index.html
+Purpose: Regenerated Italian page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\travel-notes\seasons\index.html
+Purpose: Regenerated Italian page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\travel-notes\stays\index.html
+Purpose: Regenerated Italian page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\it\travel-notes\time\index.html
+Purpose: Regenerated Italian page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\index.html
+Purpose: Regenerated Dutch page. Localized initial homepage, smaller/responsive images, updated FAQ and optional-email form; static JSON mode.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\agafay-buggy\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\agafay-evening\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\agafay-quad\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\ait-ben-haddou-day\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\atlas-paragliding\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\coast-desert-8-days\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\essaouira-day\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\essaouira-horse-riding\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\essaouira-surf-kitesurf\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\grand-morocco-14-days\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\imlil-atlas-day\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\imperial-cities-sahara-9-days\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\index.html
+Purpose: Regenerated Dutch page. Catalogue grouped by trip type with descriptions, duration/routes, itinerary links and breadcrumbs schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\marrakech-balloon\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\marrakech-cooking\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\marrakech-dinner-show\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\marrakech-fes-sahara-4-days\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\marrakech-hammam\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\merzouga-camel\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\merzouga-sandboarding\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\north-sahara-10-days\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\ourika-valley\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\ouzoud-waterfalls\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\sahara-marrakech-3-days\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\slow-sahara-5-days\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\southern-morocco-7-days\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\journeys\taghazout-surf-kitesurf\index.html
+Purpose: Regenerated Dutch page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\travel-notes\seasons\index.html
+Purpose: Regenerated Dutch page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\travel-notes\stays\index.html
+Purpose: Regenerated Dutch page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\nl\travel-notes\time\index.html
+Purpose: Regenerated Dutch page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\index.html
+Purpose: Regenerated Portuguese page. Localized initial homepage, smaller/responsive images, updated FAQ and optional-email form; static JSON mode.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\agafay-buggy\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\agafay-evening\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\agafay-quad\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\ait-ben-haddou-day\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\atlas-paragliding\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\coast-desert-8-days\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\essaouira-day\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\essaouira-horse-riding\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\essaouira-surf-kitesurf\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\grand-morocco-14-days\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\imlil-atlas-day\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\imperial-cities-sahara-9-days\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\index.html
+Purpose: Regenerated Portuguese page. Catalogue grouped by trip type with descriptions, duration/routes, itinerary links and breadcrumbs schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\marrakech-balloon\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\marrakech-cooking\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\marrakech-dinner-show\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\marrakech-fes-sahara-4-days\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\marrakech-hammam\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\merzouga-camel\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\merzouga-sandboarding\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\north-sahara-10-days\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\ourika-valley\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\ouzoud-waterfalls\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\sahara-marrakech-3-days\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\slow-sahara-5-days\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\southern-morocco-7-days\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\journeys\taghazout-surf-kitesurf\index.html
+Purpose: Regenerated Portuguese page. Visible trip article/FAQ/itinerary before JavaScript, one H1, breadcrumbs/schema, responsive images, translated UI and updated enquiry form.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\travel-notes\seasons\index.html
+Purpose: Regenerated Portuguese page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\travel-notes\stays\index.html
+Purpose: Regenerated Portuguese page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\pt\travel-notes\time\index.html
+Purpose: Regenerated Portuguese page. Correct heading hierarchy, responsive guide image, smaller branding and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\seo.js
+Purpose: Generated deployment copy. Add matching BreadcrumbList structured data when navigating dynamically between trip pages.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\dist\styles.css
+Purpose: Generated deployment copy. Improve text contrast; style static trip fallback, grouped catalogue, breadcrumbs and corrected heading levels.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\FILE_CHANGE_INVENTORY.txt
+Purpose: NEW: this exhaustive file-by-file change inventory requested by the owner.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\GROWTH_ROADMAP.md
+Purpose: NEW: scored backlog and 24-hour, 7-day, 30-day and 90-day actions, dependencies and measurements.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\IMPLEMENTATION_LOG.md
+Purpose: NEW: changes, executed tests, measured results, limitations, approvals and rollback instructions.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\SEO_OPPORTUNITIES.md
+Purpose: NEW: page-level search/content opportunities for home, catalogue, guides and all 26 trips across seven languages.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\WEBSITE_AUDIT.md
+Purpose: NEW: verified technical, infrastructure, search, performance, conversion and competitor audit.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\baseline.csv
+Purpose: NEW evidence: initial route/title/description inventory and production HTTP status results.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\baseline.json
+Purpose: NEW evidence: initial route/title/description inventory and production HTTP status results.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\cloudflare-dashboard.json
+Purpose: NEW evidence: redacted Cloudflare dashboard observations.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\final-checks.json
+Purpose: NEW evidence: final executed test commands and successful results.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\google-trip-live.png
+Purpose: NEW evidence: screenshot of successful Google live trip inspection.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\gsc-dashboard.json
+Purpose: NEW evidence: redacted Search Console report and URL inspection observations.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\http-infrastructure.json
+Purpose: NEW evidence: production HTTP statuses, redirects and selected headers.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\lighthouse-home-desktop-before.json
+Purpose: NEW evidence: Lighthouse lab results for home desktop before. Not field data.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\lighthouse-home-fr-local-after.json
+Purpose: NEW evidence: Lighthouse lab results for home fr local after. Not field data.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\lighthouse-home-mobile-before.json
+Purpose: NEW evidence: Lighthouse lab results for home mobile before. Not field data.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\lighthouse-trip-local-after.json
+Purpose: NEW evidence: Lighthouse lab results for trip local after. Not field data.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\lighthouse-trip-local-before.json
+Purpose: NEW evidence: Lighthouse lab results for trip local before. Not field data.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\lighthouse-trip-local-final.json
+Purpose: NEW evidence: Lighthouse lab results for trip local final. Not field data.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\lighthouse-trip-mobile-before.json
+Purpose: NEW evidence: Lighthouse lab results for trip mobile before. Not field data.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\local-after.csv
+Purpose: NEW evidence: regenerated local route and metadata inventory, not deployed production.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\local-after.json
+Purpose: NEW evidence: regenerated local route and metadata inventory, not deployed production.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\local-route-checks.json
+Purpose: NEW evidence: 217 local Worker route HTTP checks.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\local-trip-preview.jpg
+Purpose: NEW evidence: mobile trip screenshot extracted from the final Lighthouse report.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\pagespeed-desktop-unavailable.txt
+Purpose: NEW evidence: PageSpeed API unavailable/429 result, retained as a measurement limitation.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\docs\evidence\2026-10-09\pagespeed-mobile-unavailable.txt
+Purpose: NEW evidence: PageSpeed API unavailable/429 result, retained as a measurement limitation.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\gallery.js
+Purpose: Responsive collage and thumbnail image markup; gallery accessible names include the visible trip duration.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\index.html
+Purpose: Small branding assets, lazy footer logo, optional email field, honest WhatsApp FAQ, updated asset version and accessibility markup.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\public_content.py
+Purpose: NEW: remove public photo source/credit/license metadata; neutral localized captions instead of external venue names; corrected enquiry wording in seven languages.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\scripts\audit_site.py
+Purpose: NEW: read-only page inventory and bounded optional production HTTP crawl; save metadata/status evidence.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\scripts\build_pages.py
+Purpose: Generate visible trip content before JavaScript, localized home HTML, grouped catalogue, corrected guide headings/responsive images and breadcrumb schema.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\scripts\build_static_content.py
+Purpose: Run public asset/content preparation after an intentional CMS export, before SEO generation.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\scripts\check_public_release.py
+Purpose: NEW: assert routes, H1/canonical/hreflang/schema, localized FAQ, optional email, image paths and removal of public photo references.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\scripts\check_whatsapp.cjs
+Purpose: NEW: test actual WhatsApp submit handler with optional email and popup fallback without sending messages.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\scripts\prepare_public_assets.py
+Purpose: NEW: build smaller branding assets; sanitize public payloads; synchronize runtime files; remove unused public source-data copies within dist.
+
+ADDED | C:\Users\hbenl\Downloads\Nomad\app\scripts\render_html.py
+Purpose: NEW: render translated text/attributes and responsive images at build time; preserve scripts/styles and localize internal links.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\seo.js
+Purpose: Add matching BreadcrumbList structured data when navigating dynamically between trip pages.
+
+MODIFIED | C:\Users\hbenl\Downloads\Nomad\app\styles.css
+Purpose: Improve text contrast; style static trip fallback, grouped catalogue, breadcrumbs and corrected heading levels.

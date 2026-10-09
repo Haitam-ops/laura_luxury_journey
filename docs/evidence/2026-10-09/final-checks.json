@@ -1,0 +1,62 @@
+[
+  {
+    "command": "python scripts/check_seo.py",
+    "exit_code": 0,
+    "output": "PASS: 217 published URLs; language targets, domain switch, blank verification and deployment files checked.",
+    "stderr": ""
+  },
+  {
+    "command": "python scripts/check_trip_editorial.py",
+    "exit_code": 0,
+    "output": "PASS: 182 trip/language pages; unique titles, introductions, FAQs, overnight counts and itinerary places.",
+    "stderr": ""
+  },
+  {
+    "command": "python scripts/check_public_release.py --http",
+    "exit_code": 0,
+    "output": "PASS: 217 pages; one H1, canonical, hreflang, schema JSON, localization, photo fields and asset existence.\nPASS: 217 local Worker routes return HTTP 200.",
+    "stderr": ""
+  },
+  {
+    "command": "node scripts/check_whatsapp.cjs",
+    "exit_code": 0,
+    "output": "PASS: actual WhatsApp submit handler handles optional email, trip context, number and popup fallback; no messages sent.",
+    "stderr": ""
+  },
+  {
+    "command": "node --check boot.js",
+    "exit_code": 0,
+    "output": "",
+    "stderr": ""
+  },
+  {
+    "command": "node --check app.js",
+    "exit_code": 0,
+    "output": "",
+    "stderr": ""
+  },
+  {
+    "command": "node --check gallery.js",
+    "exit_code": 0,
+    "output": "",
+    "stderr": ""
+  },
+  {
+    "command": "node --check seo.js",
+    "exit_code": 0,
+    "output": "",
+    "stderr": ""
+  },
+  {
+    "command": "node --check route-map.js",
+    "exit_code": 0,
+    "output": "",
+    "stderr": ""
+  },
+  {
+    "command": "git diff --check",
+    "exit_code": 0,
+    "output": "",
+    "stderr": ""
+  }
+]

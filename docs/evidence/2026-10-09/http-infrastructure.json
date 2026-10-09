@@ -1,0 +1,142 @@
+[
+  {
+    "url": "https://lauraluxuryjourneys.com/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "CF-Cache-Status": "HIT",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Encoding": "br",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/?lang=xx",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "CF-Cache-Status": "MISS",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Encoding": "br",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/fr/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "CF-Cache-Status": "HIT",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Encoding": "br",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/en/journeys/sahara-marrakech-3-days",
+    "status": 307,
+    "headers": {
+      "Location": "/en/journeys/sahara-marrakech-3-days/",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/en/journeys/missing-audit-trip/",
+    "status": 404,
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/missing-audit-page/",
+    "status": 404,
+    "headers": {
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/?lang=fr&trip=sahara-marrakech-3-days",
+    "status": 301,
+    "headers": {
+      "Location": "https://lauraluxuryjourneys.com/fr/journeys/sahara-marrakech-3-days/",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/api/content?lang=en",
+    "status": 404,
+    "headers": {
+      "Content-Type": "text/plain;charset=UTF-8",
+      "X-Robots-Tag": "noindex",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/admin",
+    "status": 404,
+    "headers": {
+      "Content-Type": "text/plain;charset=UTF-8",
+      "X-Robots-Tag": "noindex",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/assets/branding/laura-globe-plane.png",
+    "status": 200,
+    "headers": {
+      "Content-Type": "image/png",
+      "CF-Cache-Status": "HIT",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://lauraluxuryjourneys.com/data/content.en.json",
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "CF-Cache-Status": "HIT",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Encoding": "br",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "http://lauraluxuryjourneys.com/",
+    "status": 200,
+    "headers": {
+      "Content-Type": "text/html",
+      "CF-Cache-Status": "HIT",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Encoding": "br",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://www.lauraluxuryjourneys.com/",
+    "status": 301,
+    "headers": {
+      "Location": "https://lauraluxuryjourneys.com/",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://www.lauraluxuryjourneys.com/sitemap.xml",
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/xml",
+      "CF-Cache-Status": "HIT",
+      "Cache-Control": "public, max-age=0, must-revalidate",
+      "Content-Encoding": "br",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  },
+  {
+    "url": "https://laura-luxury-journey.hbenlamsaguem.workers.dev/en/journeys/sahara-marrakech-3-days/",
+    "status": 301,
+    "headers": {
+      "Location": "https://lauraluxuryjourneys.com/en/journeys/sahara-marrakech-3-days/",
+      "alt-svc": "h3=\":443\"; ma=86400"
+    }
+  }
+]

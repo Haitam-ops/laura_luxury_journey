@@ -1,4 +1,29 @@
-# DesertGate website & studio
+# Laura Luxury Journeys — public site and local studio
+
+## Production and release
+
+The public domain is `https://lauraluxuryjourneys.com`, served by the Cloudflare Worker `laura-luxury-journey` from **`dist`**. The GitHub remote named `github` is the custom-domain deployment source. The remote named `origin` belongs to a separate Sites deployment. A push may auto-deploy: obtain the requested release approval first. Never publish the repository root, `.local`, private CMS data or audit evidence as website assets.
+
+Production is a static site with seven languages and 26 trips, not the Python CMS backend. `/api/*` and `/admin` return 404/noindex there. The enquiry form prepares a message in WhatsApp; the visitor must press Send. It does not create a local inbox record, take payment, reserve inventory or confirm a booking. Email is optional in this WhatsApp flow.
+
+To regenerate the reviewed static export **without touching the local database**:
+
+```powershell
+python scripts/prepare_public_assets.py
+python scripts/build_seo.py
+python scripts/check_seo.py
+python scripts/check_trip_editorial.py
+python scripts/check_public_release.py
+node scripts/check_whatsapp.cjs
+```
+
+`prepare_public_assets.py` creates small branding assets, copies the runtime files, sanitizes the published photography payloads and removes redundant public editorial/source-data copies. The original editorial files outside `dist` are retained. Do not copy the full `data` directory back into `dist` afterward. `build_seo.py` preserves the 217 existing indexable URLs, generates localized HTML and visible trip fallback articles, plus the sitemap index, full map and seven language maps.
+
+After intentional CMS content editing, `python scripts/build_static_content.py` exports the local database and runs the preparation/SEO steps. This command initializes/uses `.local/requests.sqlite3`; do not run it merely for an SEO rebuild. The root HTML remains API-backed for the studio, while generated pages use `data-static-site` and fetch static payloads directly.
+
+For production-like local serving use `wrangler dev --ip 127.0.0.1 --port 8092 --local`, then `python scripts/check_public_release.py --http`. This route check assumes port 8092. Review the audit, opportunities, roadmap and implementation log in `docs/` before approving deployment. Production HTTPS normalization and Google indexing must be verified separately; generated files alone do not fix Cloudflare settings or Google's stored records.
+
+## Local studio
 
 Run from this directory:
 
@@ -21,7 +46,7 @@ On the first visit to `/admin`, create your own username and password (at least 
 - **Photo library:** upload several JPG, PNG or WebP photos at once; edit their descriptions, captions and credits. Uploads are converted to WebP and stripped of original metadata.
 - **Site content:** edit the brand, homepage headings and paragraphs, four hero photographs, business details, WhatsApp number and Instagram/Facebook/TikTok/YouTube links. The hero starts with the medina, followed by Moroccan craftsmanship, Essaouira and Chefchaouen. Configured social links appear in the footer. The floating WhatsApp icon opens your number once it is configured.
 - **Languages:** enable/hide languages, review the full wording, edit English interface copy or add another language. Individual trip translations can be edited directly in the trip editor.
-- **Trip requests:** read submitted requests, open a reply in your email app and mark each request new, contacted, planned or closed.
+- **Trip requests:** legacy local inbox management remains available; the current public WhatsApp form does not submit to it.
 
 Changes persist in the local database. Revision checks prevent an older editor from overwriting a newer save. Owner passwords are hashed; admin writes require a signed-in session and CSRF token.
 
@@ -43,12 +68,11 @@ No prices, ratings, invented reviews or departure/duration search block are disp
 - `uploads/`: photos added through the admin.
 - `data/trips.seed.json`, `data/stories.json`, `data/media.seed.json`: initial content, imported only when the CMS is first initialized.
 - `data/locales/`: generated translation dictionaries; admin overrides are stored separately in SQLite.
-- `data/imported-media.json`: source URLs and captions for the 32 reference photographs imported from Moroccan Holidays Experiences at the user's request. Reuse licensing was not independently verified. The photographs are visual references, not evidence of contracted venues.
-- `assets/sources.txt`: the original Unsplash photo sources.
+- Editorial photography records remain outside the public export. The owner confirmed ownership on 9 October 2026; public source URLs, credits and licensing/research metadata are omitted. Descriptive alt text and captions remain. A photograph does not, by itself, specify the venue included in a booking.
 
 Back up both the database and `uploads/`. For a simple file copy, stop the server first. Earlier source versions are preserved under `../.backups/`.
 
-Requests are committed to SQLite before a reference is returned. Retrying an identical idempotency key returns its existing reference. No automatic email, WhatsApp message, payment or supplier booking is sent. A configured WhatsApp link opens WhatsApp; the visitor sends the message.
+The legacy local API commits requests to SQLite before returning a reference and supports idempotent retries. That is a separate capability from the current public WhatsApp form. No automatic email, WhatsApp message, payment or supplier booking is sent by that form.
 
 ## Development checks
 
