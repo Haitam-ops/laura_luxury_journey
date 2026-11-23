@@ -139,7 +139,7 @@ def render_pages(config, catalogues):
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 </head><body class="guide-page"><header class="guide-header container"><a class="brand" href="{e(home)}"><img src="/assets/branding/manystarstravel-emblem-dark-192.webp" alt="" width="64" height="64"><span class="guide-brand-copy"><strong>{e(brand)}</strong><small class="brand-slogan">{e(tr("Private journeys across Morocco"))}</small></span></a><nav aria-label="{e(tr('Choose your language'))}">{langs}</nav></header>
 <main class="guide-main container"><a class="text-link" href="{e(home)}#fieldnotes">← {e(tr('Back to exploring'))}</a><h1>{e(title)}</h1>{body}</main>
-<footer class="guide-footer container"><a href="{e(home)}#journeys">{e(tr('Plan your journey'))}</a><a href="https://wa.me/212667687763" rel="noopener noreferrer" target="_blank">WhatsApp +212 667 687 763</a><a href="mailto:manystarstravel@gmail.com">manystarstravel@gmail.com</a><span>© 2026 {e(brand)}</span></footer></body></html>'''
+<footer class="guide-footer container"><a href="{e(home)}#journeys">{e(tr('Explore Morocco trips'))}</a><a href="https://wa.me/212667687763" rel="noopener noreferrer" target="_blank">WhatsApp +212 667 687 763</a><a href="mailto:manystarstravel@gmail.com">manystarstravel@gmail.com</a><span>© 2026 {e(brand)}</span></footer></body></html>'''
 
         trip_links = ''.join(f'<li><a href="{e(page_url(origin, code, t["id"]))}">{e(t["title"])}</a> — {e(t["duration"])}</li>' for t in payload['trips'])
         for trip in payload['trips']:
@@ -180,6 +180,6 @@ def render_pages(config, catalogues):
             links = ''.join(f'<li><a href="{e(page_url(origin, code, t["id"]))}">{e(t["title"])}</a></li>' for t in payload['trips'] if t['id'] in related)
             other_notes = ''.join(f'<li><a href="{e(page_url(origin, code, guide=k))}">{e(tr(n["title"]))}</a></li>' for k, n in note_copy.items() if k != key)
             body = f'<img class="guide-photo" {attributes(photo_attributes(photo, "(max-width:1000px) 100vw, 1000px"))}>' + body
-            body += f'<nav class="guide-related"><h2>{e(tr("Explore the journeys"))}</h2><ul>{links}</ul><ul>{other_notes}</ul></nav><a class="button button-rust" href="{e(home)}#journeys">{e(tr("Plan your journey"))}</a>'
+            body += f'<nav class="guide-related"><h2>{e(tr("Explore the journeys"))}</h2><ul>{links}</ul><ul>{other_notes}</ul></nav><a class="button button-rust" href="{e(home)}#journeys">{e(tr("Explore Morocco trips"))}</a>'
             write(f'{code}/travel-notes/{key}', standalone(tr(note['title']), html.unescape(description), body, url, alternates, photo, True), url, alternates)
     return urls
