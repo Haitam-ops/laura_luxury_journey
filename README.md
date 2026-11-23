@@ -4,7 +4,7 @@
 
 The release candidate uses `https://manystarstravel.com` as its canonical origin and targets the Cloudflare Worker `manystarstravel` with **`dist`** as its assets directory. The GitHub remote named `github` is the custom-domain deployment source. The remote named `origin` belongs to a separate Sites deployment. A push may auto-deploy: obtain the requested release approval first. Never publish the repository root, `.local`, private CMS data or audit evidence as website assets.
 
-Production is a static site with seven languages and 26 trips, not the Python CMS backend. `/api/*` and `/admin` return 404/noindex there. The enquiry form prepares a message in WhatsApp; the visitor must press Send. It does not create a local inbox record, take payment, reserve inventory or confirm a booking. Email is optional in this WhatsApp flow.
+Production is a static site with seven languages and 26 trips, not the Python CMS backend. `/api/*` and `/admin` return 404/noindex there. The enquiry form prepares a draft in WhatsApp or the visitor’s email app. The visitor sends the message from that app. It does not create a local inbox record, take payment, reserve inventory or confirm a booking. The email field is optional in both enquiry flows.
 
 To regenerate the reviewed static export **without touching the local database**:
 

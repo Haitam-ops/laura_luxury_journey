@@ -324,3 +324,12 @@ body.trip-pending>.site-header,body.trip-pending>.mobile-nav,body.trip-pending>m
   color:var(--ink);
 }
 .collection-error img {display:block;margin:0 auto 10px}
+
+.enquiry-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.enquiry-actions .button{text-align:center;white-space:normal}
+#enquiry-handoff a{text-decoration:underline}
+.quick-contact{position:fixed;inset-inline-end:clamp(12px,2vw,28px);bottom:clamp(12px,2vw,24px);z-index:40;display:flex;align-items:center;gap:8px}
+.quick-contact .whatsapp-contact{position:static}
+.quick-email{display:grid;place-items:center;min-height:44px;padding:0 13px;border:1px solid #fff8;border-radius:100px;background:#10353a;color:#fff;font:700 .78rem var(--sans)}
+#footer-email strong{overflow-wrap:anywhere}
+@media(max-width:480px){.enquiry-actions{grid-template-columns:1fr}}

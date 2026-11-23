@@ -83,7 +83,12 @@
  whatsapp.innerHTML='<svg viewBox="0 0 32 32" aria-hidden="true"><path fill="currentColor" d="M16.04 3A12.8 12.8 0 0 0 5 22.37L3.2 29l6.8-1.78A12.8 12.8 0 1 0 16.04 3m0 23.45a10.6 10.6 0 0 1-5.4-1.48l-.39-.23-4.04 1.06 1.08-3.94-.26-.4a10.62 10.62 0 1 1 9.01 4.99m5.83-7.95c-.32-.16-1.89-.93-2.18-1.04-.29-.1-.5-.16-.72.16-.21.32-.82 1.04-1 1.25-.19.21-.37.24-.69.08-.32-.16-1.35-.5-2.58-1.6-.95-.85-1.6-1.9-1.78-2.22-.18-.32-.02-.49.14-.65l.48-.56c.16-.19.21-.32.32-.53.1-.22.05-.4-.03-.56-.08-.16-.71-1.73-.97-2.37-.25-.61-.51-.52-.71-.53h-.61c-.21 0-.56.08-.85.4-.29.32-1.11 1.09-1.11 2.66s1.14 3.1 1.3 3.31c.16.22 2.26 3.46 5.47 4.85.77.33 1.36.53 1.83.68.77.24 1.47.21 2.02.13.62-.1 1.89-.77 2.16-1.52.26-.74.26-1.38.18-1.52-.08-.13-.29-.21-.61-.37"/></svg><span>WhatsApp</span>';
  whatsapp.setAttribute('aria-label',tr('Talk about your trip')+' · WhatsApp');
  if(s.whatsapp){whatsapp.href='https://wa.me/'+s.whatsapp.replace(/\D/g,'');whatsapp.target='_blank';whatsapp.rel='noopener noreferrer'}else{whatsapp.setAttribute('aria-disabled','true');whatsapp.title=tr('WhatsApp will be available soon.');whatsapp.addEventListener('click',()=>{if(window.CMS&&typeof toast==='function')toast(tr('WhatsApp will be available soon.'));});}
- if(s.whatsapp)document.body.append(whatsapp);
+ if(s.whatsapp){
+   const quickContact=document.createElement('div');quickContact.className='quick-contact';
+   const email=document.createElement('a');email.href=document.querySelector('#footer-email').href;
+   email.className='quick-email';email.textContent=tr('Email');
+   quickContact.append(email,whatsapp);document.body.append(quickContact);
+ }
  // Fixed values keep the request contract stable while option labels are translated.
  document.querySelectorAll('option:not([value])').forEach(option=>option.value=option.textContent.trim());
  document.querySelectorAll('[data-category]').forEach(b=>{const count=b.querySelector('small');if(count)count.textContent=cms.trips.filter(t=>t.category===b.dataset.category).length});
