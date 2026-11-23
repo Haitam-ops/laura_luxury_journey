@@ -137,7 +137,7 @@ def render_pages(config, catalogues):
   <link rel="apple-touch-icon" href="/assets/branding/manystarstravel-touch-180.png" sizes="180x180"><link rel="stylesheet" href="/styles.css?v=audit-20261009">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
-</head><body class="guide-page"><header class="guide-header container"><a class="brand" href="{e(home)}"><img src="/assets/branding/manystarstravel-emblem-dark-192.webp" alt="" width="64" height="64"><strong>{e(brand)}</strong></a><nav aria-label="{e(tr('Choose your language'))}">{langs}</nav></header>
+</head><body class="guide-page"><header class="guide-header container"><a class="brand" href="{e(home)}"><img src="/assets/branding/manystarstravel-emblem-dark-192.webp" alt="" width="64" height="64"><span class="guide-brand-copy"><strong>{e(brand)}</strong><small class="brand-slogan">{e(tr("Private journeys across Morocco"))}</small></span></a><nav aria-label="{e(tr('Choose your language'))}">{langs}</nav></header>
 <main class="guide-main container"><a class="text-link" href="{e(home)}#fieldnotes">← {e(tr('Back to exploring'))}</a><h1>{e(title)}</h1>{body}</main>
 <footer class="guide-footer container"><a href="{e(home)}#journeys">{e(tr('Plan your journey'))}</a><a href="https://wa.me/212667687763" rel="noopener noreferrer" target="_blank">WhatsApp +212 667 687 763</a><a href="mailto:manystarstravel@gmail.com">manystarstravel@gmail.com</a><span>© 2026 {e(brand)}</span></footer></body></html>'''
 

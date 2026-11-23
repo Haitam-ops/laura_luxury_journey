@@ -63,7 +63,6 @@
  document.querySelector('#journeys .section-heading>p').textContent=s.collection_copy;
  document.querySelector('.approach-intro h2').textContent=s.about_title;
  document.querySelector('.approach-intro>p:not(.eyebrow)').textContent=s.about_copy;
- document.querySelector('.footer-main>div:first-child>p').textContent=s.tagline;
  const footerCredit=document.querySelector('.footer-bottom>span');
  if(footerCredit)footerCredit.innerHTML='© <span id="year">'+new Date().getFullYear()+'</span> '+escape(tr(s.brand+'. See Morocco your way.'));
  const firstPhoto=cms.media[s.hero_images[0]];if(firstPhoto){const hero=document.querySelector('.hero-image');setCMSPhoto(hero,firstPhoto,'100vw');const preload=document.querySelector('link[rel=preload][as=image]');if(preload)preload.href=firstPhoto.path;if(preload&&firstPhoto.variants){preload.imageSrcset=firstPhoto.variants.map(v=>v.path+' '+v.width+'w').join(', ');preload.imageSizes='100vw';}}

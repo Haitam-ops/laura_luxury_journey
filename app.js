@@ -82,13 +82,42 @@ $('#plan-form').addEventListener('submit',e=>{
  e.preventDefault();const form=e.currentTarget;if(!form.reportValidity())return;
  const r=Object.fromEntries(new FormData(form));
  if(!r.name.trim()){form.elements.name.setCustomValidity(tr('Please enter your name.'));form.elements.name.reportValidity();return;}
- const journey=planTrip?`${planTrip.title} — ${planTrip.duration}`:tr('A personal Morocco journey');
- const flexibility=$('#duration-field').hidden?tr('Not applicable'):form.elements.duration_flexibility.selectedOptions[0].textContent;
- const message=[tr('Hello Many Stars Travel, I would like to plan a trip.'),`${tr('Interested journey')}: ${journey}`,`${tr('Trip ID')}: ${planTrip?.id||'custom'}`,`${tr('Name')}: ${r.name.trim()}`,...(r.email.trim()?[`${tr('Email')}: ${r.email.trim()}`]:[]),`${tr('Preferred start date')}: ${r.date||tr('Flexible')}`,`${tr('Travelers')}: ${r.travelers}`,`${tr('Travel arrangements')}: ${tr(r.style)}`,`${tr('Accommodation preference')}: ${r.comfort}`,`${tr('Trip duration flexibility')}: ${flexibility}`,`${tr('What would make the trip special')}: ${r.message.trim()||tr('Not specified')}`,tr('No payment now, and no commitment to book.')].join('\n');
+ const name=r.name.trim();
+ const email=r.email.trim();
+ const notes=r.message.trim();
+ const title=planTrip?.title||tr('A personal Morocco journey');
+ const journey=planTrip?`${title} — ${planTrip.duration}`:title;
+ const details=[
+   ['Interested journey',journey],
+   ['Preferred start date',r.date||tr('Flexible')],
+   ['Travelers',r.travelers],
+   ['Travel arrangements',tr(r.style)],
+   ['Accommodation preference',r.comfort],
+ ];
+ if(!$('#duration-field').hidden)details.push(['Trip duration flexibility',form.elements.duration_flexibility.selectedOptions[0].textContent]);
+ if(planTrip)details.push(['Trip ID',planTrip.id]);
  const viaEmail=e.submitter?.value==='email';
- const link=viaEmail
-   ? $('#footer-email').href+'?subject='+encodeURIComponent(tr('Trip enquiry')+' — '+journey)+'&body='+encodeURIComponent(message.replaceAll('\n','\r\n'))
-   : 'https://wa.me/'+CMS.site.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent(message);
+ let link;
+ if(viaEmail){
+   const subject=`${tr('Trip enquiry')} — ${title}`.replace(/[\r\n]+/g,' ');
+   const sections=[
+     tr('Hello Many Stars Travel,'),
+     tr('I’d like to enquire about the following trip.'),
+     [tr('Trip details'),...details.map(([label,value])=>`${tr(label)}: ${value}`)].join('\n'),
+   ];
+   if(notes)sections.push(`${tr('What would make the trip special')}:\n${notes}`);
+   const sender=[tr('Thank you,'),name];
+   if(email)sender.push(`${tr('Email')}: ${email}`);
+   sections.push(sender.join('\n'));
+   const body=sections.join('\n\n').replace(/\r\n|\r|\n/g,'\r\n');
+   link=$('#footer-email').href+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+ }else{
+   const lines=[`*${tr('Name')}:* ${name}`,...details.map(([label,value])=>`*${tr(label)}:* ${value}`)];
+   if(email)lines.push(`*${tr('Email')}:* ${email}`);
+   const sections=[tr('Hello Many Stars Travel, I would like to plan a trip.'),lines.join('\n')];
+   if(notes)sections.push(`*${tr('What would make the trip special')}:*\n${notes}`);
+   link='https://wa.me/'+CMS.site.whatsapp.replace(/\D/g,'')+'?text='+encodeURIComponent(sections.join('\n\n'));
+ }
  const status=$('#enquiry-handoff');status.hidden=false;
  status.replaceChildren(document.createTextNode(tr('Review your draft and press Send in your app.')+' '));
  const retry=document.createElement('a');retry.href=link;

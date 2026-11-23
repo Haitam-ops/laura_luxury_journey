@@ -48,6 +48,40 @@ CONTACT_TRANSLATIONS = {'fr': {'Choose WhatsApp or email, then send your enquiry
         'Open email draft': 'Concept openen',
         'Review your draft and press Send in your app.': 'Controleer je concept en verstuur het in je app.'}}
 
+EMAIL_DRAFT_TRANSLATIONS = {'fr': {'Hello Many Stars Travel,': 'Bonjour Many Stars Travel,',
+        'I’d like to enquire about the following trip.': 'Je souhaite me renseigner sur le voyage suivant.',
+        'Trip details': 'Détails du voyage',
+        'Trip enquiry': 'Demande de voyage',
+        'Thank you,': 'Merci,'},
+ 'es': {'Hello Many Stars Travel,': 'Hola, Many Stars Travel:',
+        'I’d like to enquire about the following trip.': 'Me gustaría consultarles por el siguiente viaje.',
+        'Trip details': 'Detalles del viaje',
+        'Trip enquiry': 'Consulta de viaje',
+        'Thank you,': 'Gracias,'},
+ 'de': {'Hello Many Stars Travel,': 'Hallo Many Stars Travel,',
+        'I’d like to enquire about the following trip.': 'ich möchte mich nach folgender Reise erkundigen.',
+        'Trip details': 'Reisedetails',
+        'Trip enquiry': 'Reiseanfrage',
+        'Thank you,': 'Vielen Dank,'},
+ 'it': {'Hello Many Stars Travel,': 'Buongiorno Many Stars Travel,',
+        'I’d like to enquire about the following trip.': 'vorrei chiedere informazioni sul seguente viaggio.',
+        'Trip details': 'Dettagli del viaggio',
+        'Trip enquiry': 'Richiesta di viaggio',
+        'Thank you,': 'Grazie,'},
+ 'pt': {'Hello Many Stars Travel,': 'Olá, Many Stars Travel,',
+        'I’d like to enquire about the following trip.': 'Gostaria de obter informações sobre a seguinte viagem.',
+        'Trip details': 'Detalhes da viagem',
+        'Trip enquiry': 'Pedido de viagem',
+        'Thank you,': 'Obrigado,'},
+ 'nl': {'Hello Many Stars Travel,': 'Hallo Many Stars Travel,',
+        'I’d like to enquire about the following trip.': 'Ik wil graag informeren naar de volgende reis.',
+        'Trip details': 'Reisgegevens',
+        'Trip enquiry': 'Reisaanvraag',
+        'Thank you,': 'Bedankt,'}}
+
+BRAND_SLOGAN = 'Private journeys across Morocco'
+BRAND_SLOGAN_TRANSLATIONS = {'fr': 'Voyages privés à travers le Maroc', 'es': 'Viajes privados por Marruecos', 'de': 'Private Reisen durch Marokko', 'it': 'Viaggi privati in Marocco', 'pt': 'Viagens privadas por Marrocos', 'nl': 'Privéreizen door Marokko'}
+
 CAPTIONS = {
     'en': ('A hammam in Marrakech', 'Moroccan cooking in Marrakech', 'An evening show in Marrakech'),
     'fr': ('Un hammam à Marrakech', 'Cuisine marocaine à Marrakech', 'Un spectacle en soirée à Marrakech'),
@@ -76,5 +110,7 @@ def publish_payload(payload):
                           if not PHOTO_REFERENCE.search(key + ' ' + val)
                           and not key.startswith('You’ll have a reference for your request')}
     payload['strings'].update(CONTACT_TRANSLATIONS.get(code, {}))
+    payload['strings'].update(EMAIL_DRAFT_TRANSLATIONS.get(code, {}))
+    payload['strings'][BRAND_SLOGAN] = BRAND_SLOGAN_TRANSLATIONS.get(code, BRAND_SLOGAN)
     payload['strings'][ENQUIRY] = ENQUIRY_TRANSLATIONS.get(code, ENQUIRY)
     return payload

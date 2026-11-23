@@ -333,3 +333,20 @@ body.trip-pending>.site-header,body.trip-pending>.mobile-nav,body.trip-pending>m
 .quick-email{display:grid;place-items:center;min-height:44px;padding:0 13px;border:1px solid #fff8;border-radius:100px;background:#10353a;color:#fff;font:700 .78rem var(--sans)}
 #footer-email strong{overflow-wrap:anywhere}
 @media(max-width:480px){.enquiry-actions{grid-template-columns:1fr}}
+
+.brand-slogan {
+  display:block;
+  margin-top:7px;
+  font:600 11px/1.35 var(--sans);
+  letter-spacing:.025em;
+  color:inherit;
+}
+.header-logo-copy .brand-slogan {color:#f1e9db;text-shadow:0 1px 4px #000}
+.site-footer .footer-logo-link,
+.guide-header .brand {white-space:normal}
+.site-footer .footer-logo-link img,
+.guide-header .brand img {flex:none}
+.footer-logo-copy,.guide-brand-copy {min-width:0}
+@media(max-width:760px) {
+  .site-header .brand-slogan {display:none}
+}
