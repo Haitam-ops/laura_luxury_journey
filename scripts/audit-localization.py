@@ -37,7 +37,7 @@ for k,v in c['site'].items():
 for m in c['media'].values():
  for k in ['alt','caption','modifications']:add(m.get(k))
 # Runtime labels, error states and downloaded request headings.
-add(['Zoom in','Zoom out','contributors','Source','Reference','Trip','Name','Email','Date','Travelers','Style','Stays','Notes','None','Flexible','LAURA LUXURY JOURNEYS · TRIP REQUEST','LAURA LUXURY JOURNEYS · FIELD NOTES','This is a saved planning request, not a confirmed booking. No payment was taken.'])
+add(['Zoom in','Zoom out','contributors','Source','Reference','Trip','Name','Email','Date','Travelers','Style','Stays','Notes','None','Flexible','Many Stars Travel · TRIP REQUEST','Many Stars Travel · FIELD NOTES','This is a saved planning request, not a confirmed booking. No payment was taken.'])
 # Remove code tokens accidentally caught around markup boundaries.
 phrases={v for v in phrases if not re.search(r'querySelector|setAttribute|join\(|\.json|\.js|\.css|\[|\]|^POST$|^GET$|^Content-|^AbortError$|^TypeError$|^SELECT|^INSERT|^UPDATE|^DELETE|^Idempotency|^DOMContent|^OpenStreetMap$',v)}
 (ROOT/'data/current-source-strings.json').write_text(json.dumps(sorted(phrases),ensure_ascii=False,indent=2)+'\n','utf-8')

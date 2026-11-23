@@ -1,4 +1,4 @@
-"""DesertGate local website and durable trip-request inbox. Python standard library only."""
+"""Many Stars Travel local website and durable trip-request inbox. Python standard library only."""
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlsplit, unquote, parse_qs
@@ -13,7 +13,7 @@ import uuid
 import cms
 
 ROOT = Path(__file__).resolve().parent
-DB = Path(os.environ.get('DESERTGATE_DB', str(ROOT / '.local' / 'requests.sqlite3')))
+DB = Path(os.environ.get('MANYSTARSTRAVEL_DB') or os.environ.get('DESERTGATE_DB') or ROOT / '.local' / 'requests.sqlite3')
 CATALOG = dict(re.findall(r"trip\('([^']+)','([^']+)'", (ROOT / 'trips.js').read_text(encoding='utf-8')))
 CATALOG['custom'] = 'A personal Morocco journey'
 
@@ -61,7 +61,7 @@ def validate(raw, current_catalog=None):
     return data
 
 class Handler(SimpleHTTPRequestHandler):
-    server_version = 'DesertGateLocal/1.0'
+    server_version = 'ManyStarsTravelLocal/1.0'
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
@@ -223,7 +223,7 @@ if __name__ == '__main__':
             con.close()
     else:
         with ThreadingHTTPServer(('127.0.0.1', args.port), Handler) as server:
-            print(f'DesertGate: http://127.0.0.1:{args.port}', flush=True)
+            print(f'Many Stars Travel: http://127.0.0.1:{args.port}', flush=True)
             try:
                 server.serve_forever()
             except KeyboardInterrupt:

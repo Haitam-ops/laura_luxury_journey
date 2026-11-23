@@ -12,9 +12,12 @@ from public_content import publish_payload
 
 def main():
     for original, target, bounds in [
-        ('laura-globe-plane.png', 'laura-emblem-192.webp', (192, 192)),
-        ('laura-primary-logo.png', 'laura-logo-520.webp', (520, 260)),
-        ('laura-monogram.png', 'laura-icon-96.png', (96, 96)),
+        ('manystarstravel-arch-star-light.png', 'manystarstravel-emblem-192.webp', (192, 192)),
+        ('manystarstravel-arch-star.png', 'manystarstravel-emblem-dark-192.webp', (192, 192)),
+        ('manystarstravel-favicon.png', 'manystarstravel-icon-96.png', (96, 96)),
+        ('manystarstravel-favicon.png', 'manystarstravel-icon-16.png', (16, 16)),
+        ('manystarstravel-favicon.png', 'manystarstravel-icon-32.png', (32, 32)),
+        ('manystarstravel-favicon.png', 'manystarstravel-touch-180.png', (180, 180)),
     ]:
         image = Image.open(ROOT / 'assets/branding' / original).convert('RGBA')
         image.thumbnail(bounds, Image.Resampling.LANCZOS)
@@ -22,6 +25,8 @@ def main():
         image.save(output, quality=88, method=6, optimize=True)
         shutil.copy2(output, ROOT / 'dist/assets/branding' / target)
         print(f'{target}: {output.stat().st_size} bytes')
+    for name in ['manystarstravel-primary-logo.png', 'manystarstravel-social.jpg']:
+        shutil.copy2(ROOT / 'assets/branding' / name, ROOT / 'dist/assets/branding' / name)
     for path in (ROOT / 'dist/data').glob('content.*.json'):
         payload = publish_payload(json.loads(path.read_text('utf-8')))
         path.write_text(json.dumps(payload, ensure_ascii=False, separators=(',', ':')), 'utf-8')

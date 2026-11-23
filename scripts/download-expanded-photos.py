@@ -26,7 +26,7 @@ def download(row):
    url=row['url'].split('?')[0]
    width=1920
    url=url.replace('/commons/','/commons/thumb/')+'/'+str(width)+'px-'+url.rsplit('/',1)[-1]
-   req=urllib.request.Request(url,headers={'User-Agent':'DesertGatePhotoResearch/1.0'})
+   req=urllib.request.Request(url,headers={'User-Agent':'Many Stars TravelPhotoResearch/1.0'})
    target.write_bytes(urllib.request.urlopen(req,timeout=20).read())
   image=ImageOps.exif_transpose(Image.open(target));image.load()
   row['download_width'],row['download_height']=image.size

@@ -1,7 +1,7 @@
 // Integration checks against an isolated local QA database on port 8081 only.
 const {chromium}=require('C:/Users/hbenl/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 const assert=require('assert/strict'),fs=require('fs');
-const BASE='http://127.0.0.1:8081',OUT='C:/Users/hbenl/AppData/Local/Temp/desertgate-review';
+const BASE='http://127.0.0.1:8081',OUT='C:/Users/hbenl/AppData/Local/Temp/manystarstravel-review';
 (async()=>{
  const browser=await chromium.launch({executablePath:'C:/Users/hbenl/AppData/Local/ms-playwright/chromium_headless_shell-1228/chrome-headless-shell-win64/chrome-headless-shell.exe'});
  const ctx=await browser.newContext({viewport:{width:1440,height:1000},reducedMotion:'reduce'}),page=await ctx.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
@@ -24,9 +24,9 @@ const BASE='http://127.0.0.1:8081',OUT='C:/Users/hbenl/AppData/Local/Temp/desert
  t.gallery=[newMedia.id,...t.gallery.slice(0,3)];saved=await post('/api/admin/trips',{document:t,revision:rev});assert.equal(saved.status(),200);rev=(await saved.json()).revision;
  await page.goto(BASE+'/?lang=en&trip=qa-private-route');await page.locator('#trip-dialog[open]').waitFor();assert.equal(await page.locator('#detail-title').textContent(),'QA private route');assert.equal(await page.locator('.detail-summary img').count(),0);assert.equal(await page.evaluate(()=>window.cmsXss),undefined);assert.equal(await page.locator('.gallery-frame-0 img').getAttribute('src'),newMedia.path);
  await page.locator('[data-gallery-select]').nth(2).click();await page.locator('.gallery-all').click();assert((await page.locator('#lightbox-count').textContent()).includes('3 of 4'));await page.keyboard.press('ArrowRight');assert((await page.locator('#lightbox-count').textContent()).includes('4 of 4'));await page.keyboard.press('ArrowRight');assert((await page.locator('#lightbox-count').textContent()).includes('1 of 4'));await page.keyboard.press('Escape');assert(await page.locator('#trip-dialog').evaluate(d=>d.open));await page.locator('#trip-dialog .dialog-close').click();
- const site={...original.site.document,brand:'DesertGate QA',whatsapp:'+212600000000',instagram:'https://www.instagram.com/desertgate-qa/',facebook:'https://www.facebook.com/desertgate-qa/',tiktok:'https://www.tiktok.com/@desertgate-qa',youtube:'https://www.youtube.com/@desertgate-qa'};
+ const site={...original.site.document,brand:'Many Stars Travel QA',whatsapp:'+212600000000',instagram:'https://www.instagram.com/manystarstravel-qa/',facebook:'https://www.facebook.com/manystarstravel-qa/',tiktok:'https://www.tiktok.com/@manystarstravel-qa',youtube:'https://www.youtube.com/@manystarstravel-qa'};
  let siteSave=await post('/api/admin/site',{document:site,revision:original.site.revision});assert.equal(siteSave.status(),200);let siteRev=(await siteSave.json()).revision;
- await page.reload();await page.locator('.trip-card').first().waitFor();assert((await page.locator('.brand').first().textContent()).includes('desertgate qa'));assert.equal(await page.locator('.whatsapp-contact').getAttribute('href'),'https://wa.me/212600000000');assert.equal(await page.locator('.social-links a').count(),4);
+ await page.reload();await page.locator('.trip-card').first().waitFor();assert((await page.locator('.brand').first().textContent()).includes('manystarstravel qa'));assert.equal(await page.locator('.whatsapp-contact').getAttribute('href'),'https://wa.me/212600000000');assert.equal(await page.locator('.social-links a').count(),4);
  assert.equal((await post('/api/admin/site',{document:{...site,instagram:'javascript:alert(1)'},revision:siteRev})).status(),400);
  await post('/api/admin/site',{document:original.site.document,revision:siteRev});
  const langs=['en','fr','es','de','it','pt','nl'];const locales=[];

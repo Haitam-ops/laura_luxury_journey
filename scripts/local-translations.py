@@ -33,7 +33,7 @@ def download(code):
         url = 'https://huggingface.co/' + repo + '/resolve/main/' + name
         for attempt in range(3):
             try:
-                with urlopen(Request(url, headers={'User-Agent':'DesertGate-local-copy-build'}), timeout=60) as response, target.with_suffix(target.suffix+'.part').open('wb') as output:
+                with urlopen(Request(url, headers={'User-Agent':'Many Stars Travel-local-copy-build'}), timeout=60) as response, target.with_suffix(target.suffix+'.part').open('wb') as output:
                     while block := response.read(1024*1024):
                         output.write(block)
                 target.with_suffix(target.suffix+'.part').replace(target)

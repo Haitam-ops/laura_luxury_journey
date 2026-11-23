@@ -64,7 +64,7 @@ def main():
     for folder in [ROOT, ROOT / 'dist']:
         index = folder / 'index.html'
         markup = index.read_text('utf-8')
-        markup = re.sub(r'<title>.*?</title>', '<title>Laura Luxury Journeys | Morocco Tours, Day Trips &amp; Experiences</title>', markup, flags=re.S)
+        markup = re.sub(r'<title>.*?</title>', '<title>Many Stars Travel | Morocco Tours, Day Trips &amp; Experiences</title>', markup, flags=re.S)
         index.write_text(markup, 'utf-8')
     home_alternates = {code: page_url(origin, code) for code in codes}
     home_alternates['x-default'] = page_url(origin, 'en')

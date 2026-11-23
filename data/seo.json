@@ -1,8 +1,9 @@
 {
-  "customDomain": "https://lauraluxuryjourneys.com",
-  "fallbackOrigin": "https://laura-luxury-journey.hbenlamsaguem.workers.dev",
-  "logo": "/assets/branding/laura-primary-logo.png",
-  "googleSiteVerification": "uJJSPlz6O7Cm6RZ0s_MlitXjYF0X2FUxSA1YOjkUMQM",
+  "customDomain": "https://manystarstravel.com",
+  "fallbackOrigin": "https://manystarstravel.com",
+  "homeShareImage": "/assets/branding/manystarstravel-social.jpg",
+  "logo": "/assets/branding/manystarstravel-primary-logo.png",
+  "googleSiteVerification": "",
   "businessContact": {
     "telephone": "+212667687763",
     "address": "Marrakech"

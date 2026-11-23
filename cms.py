@@ -19,8 +19,8 @@ LANGUAGES = [
     ('de', 'German', 'Deutsch', 'ltr'), ('it', 'Italian', 'Italiano', 'ltr'),
     ('pt', 'Portuguese', 'Português', 'ltr'), ('nl', 'Dutch', 'Nederlands', 'ltr')
 ]
-SITE = {'brand': 'Laura Luxury Journeys', 'tagline': 'Morocco, with time for what matters to you.',
-        'hero_eyebrow': 'MOROCCO WITH LAURA LUXURY JOURNEYS', 'hero_title': 'Come closer',
+SITE = {'brand': 'Many Stars Travel', 'tagline': 'Morocco, with time for what matters to you.',
+        'hero_eyebrow': 'MOROCCO WITH Many Stars Travel', 'hero_title': 'Come closer',
         'hero_emphasis': 'to Morocco.',
         'hero_copy': 'A morning in the medina, a road through the Atlas, an evening beside the dunes. Discover Morocco with a little more time for the things you love.',
         'collection_title': 'Where will Morocco', 'collection_emphasis': 'take you?',

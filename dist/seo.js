@@ -32,13 +32,14 @@ window.updateSiteSEO = function(trip = null) {
     const el = document.createElement('link'); el.rel = 'alternate'; el.hreflang = lang;
     el.href = pageURL(lang === 'x-default' ? 'en' : lang, trip?.id); document.head.append(el);
   }
-  const photo = trip?.photos?.[0]?.path || cms.media[site.hero_images[0]]?.path || config.logo;
+  const homeShareImage = !trip && config.homeShareImage;
+  const photo = homeShareImage || trip?.photos?.[0]?.path || cms.media[site.hero_images[0]]?.path || config.logo;
   for (const [key, value] of Object.entries({'og:type':'website','og:site_name':site.brand,'og:title':title,'og:description':description,'og:url':canonical,'og:image':new URL(photo, origin).href})) meta(key, value, true);
   meta('twitter:card', 'summary_large_image');
   meta('twitter:title', title);
   meta('twitter:description', description);
   meta('twitter:image', new URL(photo, origin).href);
-  const photoAlt = trip?.photos?.[0]?.alt || cms.media[site.hero_images[0]]?.alt || site.brand;
+  const photoAlt = homeShareImage ? site.brand : trip?.photos?.[0]?.alt || cms.media[site.hero_images[0]]?.alt || site.brand;
   meta('og:image:alt', photoAlt, true);
   meta('twitter:image:alt', photoAlt);
   if (config.googleSiteVerification) meta('google-site-verification', config.googleSiteVerification);

@@ -87,7 +87,7 @@ def inspect(url, remote):
     if remote:
         start = time.perf_counter()
         try:
-            req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0 (Laura website audit)'})
+            req = urllib.request.Request(url, headers={'User-Agent':'Mozilla/5.0 (Many Stars Travel website audit)'})
             with urllib.request.urlopen(req,timeout=25) as response:
                 body = response.read()
                 item.update(status=response.status, final_url=response.url, bytes=len(body),

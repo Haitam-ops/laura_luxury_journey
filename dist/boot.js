@@ -1,6 +1,8 @@
 'use strict';
 // Translations are stored on this server. Visitor text is never sent to a translation service.
 (async()=>{
+ const collectionStatus=document.querySelector(".collection-loading");
+ if(collectionStatus)collectionStatus.hidden=false;
  const url=new URL(location.href);
  const route=url.pathname.match(/^\/(en|fr|es|de|it|pt|nl)\/journeys\/([a-z0-9-]+)\/?$/);
  const pathLanguage=url.pathname.match(/^\/(en|fr|es|de|it|pt|nl)(?:\/|$)/)?.[1];
@@ -23,7 +25,7 @@
  cms.site.whatsapp=cms.site.whatsapp||'212667687763';window.CMS=cms;window.TRIPS=cms.trips;
  document.documentElement.lang=cms.language.code;document.documentElement.dir=cms.language.dir;
  if(url.searchParams.has('lang')&&url.searchParams.get('lang')!==cms.language.code){url.searchParams.set('lang',cms.language.code);history.replaceState({},'',url)}
- try{localStorage.setItem('desertgate.language',cms.language.code)}catch{}
+ try{localStorage.setItem('manystarstravel.language',cms.language.code);localStorage.removeItem('desertgate.language')}catch{}
  window.tr=(source,values={})=>{let result=cms.strings[source]||source;for(const [key,value]of Object.entries(values))result=result.split('{'+key+'}').join(String(value));return result};
  const escape=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
  // Share responsive photography across the hero, cards, galleries and static sections.
@@ -99,12 +101,12 @@
  });
  document.addEventListener('click',e=>{if(!control.contains(e.target))toggleLanguage(false);});
  control.addEventListener('focusout',()=>{setTimeout(()=>{if(!control.contains(document.activeElement))toggleLanguage(false);},0);});
- languageLinks.forEach(link=>link.addEventListener('click',()=>{try{localStorage.setItem('desertgate.language',link.dataset.language)}catch{}}));
+ languageLinks.forEach(link=>link.addEventListener('click',()=>{try{localStorage.setItem('manystarstravel.language',link.dataset.language)}catch{}}));
  window.updateSiteSEO?.(cms.trips.find(t=>t.id===window.siteTripID(url))||null);
  document.querySelectorAll('[data-guide]').forEach(a=>a.href='/'+cms.language.code+'/travel-notes/'+a.dataset.guide+'/');
  document.querySelectorAll('[data-catalogue]').forEach(a=>a.href='/'+cms.language.code+'/journeys/');
  translateDOM();
  new MutationObserver(records=>{for(const record of records){if(record.type==='characterData'||record.type==='attributes')translateDOM(record.target);else for(const node of record.addedNodes)if(node.nodeType===1||node.nodeType===3)translateDOM(node)}}).observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true,attributeFilter:['aria-label','title','alt','placeholder']});
  const script=document.createElement('script');script.src='/app.js?v=audit-20261009';script.onload=()=>{translateDOM();document.body.classList.add('content-ready')};script.onerror=()=>showError();const mapScript=document.createElement('script');mapScript.src='/route-map.js?v=audit-20261009';mapScript.onload=()=>document.head.append(script);mapScript.onerror=()=>showError();const gallery=document.createElement('script');gallery.src='/gallery.js?v=audit-20261009';gallery.onload=()=>document.head.append(mapScript);gallery.onerror=()=>showError();document.head.append(gallery);
- function showError(){const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3>'+escape(tr('The collection could not be loaded.'))+'</h3><p>'+escape(tr('Please refresh the page to try again.'))+'</p></div>'}
-})().catch(()=>{const messages={"en": ["The collection could not be loaded.", "Please refresh the page to try again."], "fr": ["Impossible de charger les voyages.", "Actualisez la page pour réessayer."], "es": ["No se han podido cargar los viajes.", "Actualiza la página para intentarlo de nuevo."], "de": ["Die Reisen konnten nicht geladen werden.", "Laden Sie die Seite neu und versuchen Sie es erneut."], "it": ["Non è stato possibile caricare i viaggi.", "Aggiorna la pagina per riprovare."], "pt": ["Não foi possível carregar as viagens.", "Atualize a página para tentar novamente."], "nl": ["De reizen konden niet worden geladen.", "Vernieuw de pagina om het opnieuw te proberen."]};const code=new URL(location.href).searchParams.get('lang')||document.documentElement.lang;const copy=messages[code]||messages.en;const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state"><h3></h3><p></p></div>';grid.querySelector('h3').textContent=copy[0];grid.querySelector('p').textContent=copy[1];});
+ function showError(){const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state collection-error" role="alert"><img src="/assets/branding/manystarstravel-emblem-dark-192.webp" width="30" height="30" alt=""><h3>'+escape(tr('The collection could not be loaded.'))+'</h3><p>'+escape(tr('Please refresh the page to try again.'))+'</p></div>'}
+})().catch(()=>{const messages={"en": ["The collection could not be loaded.", "Please refresh the page to try again."], "fr": ["Impossible de charger les voyages.", "Actualisez la page pour réessayer."], "es": ["No se han podido cargar los viajes.", "Actualiza la página para intentarlo de nuevo."], "de": ["Die Reisen konnten nicht geladen werden.", "Laden Sie die Seite neu und versuchen Sie es erneut."], "it": ["Non è stato possibile caricare i viaggi.", "Aggiorna la pagina per riprovare."], "pt": ["Não foi possível carregar as viagens.", "Atualize a página para tentar novamente."], "nl": ["De reizen konden niet worden geladen.", "Vernieuw de pagina om het opnieuw te proberen."]};const code=new URL(location.href).searchParams.get('lang')||document.documentElement.lang;const copy=messages[code]||messages.en;const grid=document.querySelector('#trip-grid');grid.innerHTML='<div class="empty-state collection-error" role="alert"><img src="/assets/branding/manystarstravel-emblem-dark-192.webp" width="30" height="30" alt=""><h3></h3><p></p></div>';grid.querySelector('h3').textContent=copy[0];grid.querySelector('p').textContent=copy[1];});

@@ -1,8 +1,8 @@
-# Laura Luxury Journeys — public site and local studio
+# Many Stars Travel — public site and local studio
 
 ## Production and release
 
-The public domain is `https://lauraluxuryjourneys.com`, served by the Cloudflare Worker `laura-luxury-journey` from **`dist`**. The GitHub remote named `github` is the custom-domain deployment source. The remote named `origin` belongs to a separate Sites deployment. A push may auto-deploy: obtain the requested release approval first. Never publish the repository root, `.local`, private CMS data or audit evidence as website assets.
+The release candidate uses `https://manystarstravel.com` as its canonical origin and targets the Cloudflare Worker `manystarstravel` with **`dist`** as its assets directory. The GitHub remote named `github` is the custom-domain deployment source. The remote named `origin` belongs to a separate Sites deployment. A push may auto-deploy: obtain the requested release approval first. Never publish the repository root, `.local`, private CMS data or audit evidence as website assets.
 
 Production is a static site with seven languages and 26 trips, not the Python CMS backend. `/api/*` and `/admin` return 404/noindex there. The enquiry form prepares a message in WhatsApp; the visitor must press Send. It does not create a local inbox record, take payment, reserve inventory or confirm a booking. Email is optional in this WhatsApp flow.
 
@@ -22,6 +22,22 @@ node scripts/check_whatsapp.cjs
 After intentional CMS content editing, `python scripts/build_static_content.py` exports the local database and runs the preparation/SEO steps. This command initializes/uses `.local/requests.sqlite3`; do not run it merely for an SEO rebuild. The root HTML remains API-backed for the studio, while generated pages use `data-static-site` and fetch static payloads directly.
 
 For production-like local serving use `wrangler dev --ip 127.0.0.1 --port 8092 --local`, then `python scripts/check_public_release.py --http`. This route check assumes port 8092. Review the audit, opportunities, roadmap and implementation log in `docs/` before approving deployment. Production HTTPS normalization and Google indexing must be verified separately; generated files alone do not fix Cloudflare settings or Google's stored records.
+
+### Many Stars Travel cutover
+
+The new Worker name targets a separate Cloudflare deployment. The checked-in Worker has a static assets binding and no database or other service bindings. Before release, compare the existing Worker settings and CI deployment target with this configuration. Confirm who controls both domains and approve the WhatsApp number currently configured in the catalogues for use under the new brand.
+
+After release approval, verify the new domain is in the intended Cloudflare zone. Deploy the reviewed build and attach the apex and www hostnames through Cloudflare Custom Domains. Verify HTTPS and a permanent www-to-apex redirect. If the former domain is still controlled, add an edge redirect for its apex and www hostnames with a 301 target of `https://manystarstravel.com` plus the original path and query. Keep the former DNS zone and certificate active for redirects. Confirm representative home, localized offer, sitemap, and legacy query URLs before switching traffic and submitting the new sitemap. Search Console verification requires a token for the new property.
+
+Saved trips and inquiry drafts can migrate on the same browser origin. Browser storage on the old domain is inaccessible to the new domain. The local studio database stays at the same path and supports the old database environment variable as a compatibility fallback. Historical documents and archived brand assets stay outside the published assets directory.
+
+## Website identity
+
+The main logo is the arch-star over the Many Stars Travel wordmark. The header uses the light emblem over photography. The footer and guides use the dark emblem on light surfaces. Use Playfair Display for display text and DM Sans for navigation and body text. Petrol ink (#10353A) anchors the palette, with limestone (#F1E9DB), oxidized copper (#B66B4A), and sand (#C9A978). The website uses deeper copper (#9A4D32) for buttons with light labels.
+
+The source artwork is in `assets/branding`. The build exports 192 px emblems, 16 and 32 px browser icons, a 180 px Apple touch icon, and a 1200 × 630 homepage share image. Journey and editorial pages retain their own share photographs. The homepage share image carries the positioning line “Private journeys across Morocco.”
+
+The collection uses an inline branded status while trips load. The initial page remains available, and individual journeys have a readable static itinerary while their interactive view initializes.
 
 ## Local studio
 
@@ -79,7 +95,7 @@ The legacy local API commits requests to SQLite before returning a reference and
 Use a separate database and port for tests; never point integration tests at the live local inbox:
 
 ```powershell
-$env:DESERTGATE_DB = "$env:TEMP\desertgate-test.sqlite3"
+$env:MANYSTARSTRAVEL_DB = "$env:TEMP\manystarstravel-test.sqlite3"
 python server.py --port 8081
 ```
 

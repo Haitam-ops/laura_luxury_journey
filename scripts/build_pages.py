@@ -55,6 +55,8 @@ def metadata(config, payload, title, description, url, alternates, photo, articl
         graph.append({'@type': 'BreadcrumbList', 'itemListElement': [
             {'@type': 'ListItem', 'position': i + 1, 'name': name, 'item': target}
             for i, (name, target) in enumerate(crumbs)]})
+    if url == page_url(origin, payload['language']['code']) and config.get('homeShareImage'):
+        photo = {'path': config['homeShareImage'], 'alt': site['brand']}
     image = origin + photo['path']
     lines = [f'<title>{e(title)}</title>',
              f'<meta name="description" content="{e(description)}">',
@@ -75,6 +77,9 @@ def metadata(config, payload, title, description, url, alternates, photo, articl
     if config.get('googleSiteVerification'):
         lines.append(f'<meta name="google-site-verification" content="{e(config["googleSiteVerification"])}">')
     return '\n'.join(lines)
+
+
+LOADING_LABELS = {'en': 'Loading journeys…', 'fr': 'Chargement des voyages…', 'es': 'Cargando viajes…', 'de': 'Reisen werden geladen…', 'it': 'Caricamento dei viaggi…', 'pt': 'A carregar viagens…', 'nl': 'Reizen laden…'}
 
 
 def render_pages(config, catalogues):
@@ -107,6 +112,7 @@ def render_pages(config, catalogues):
                              payload['media'][payload['site']['hero_images'][0]])
         home_markup = localized_template.replace('</head>', f'<!-- SEO HEAD START -->{home_head}<!-- SEO HEAD END -->\n</head>')
         home_markup = home_markup.replace('<html lang="en">', f'<html lang="{code}">')
+        home_markup = home_markup.replace("Loading journeys…", LOADING_LABELS[code])
         home_target = ROOT / 'dist' / code / 'index.html'
         home_target.parent.mkdir(parents=True, exist_ok=True)
         home_target.write_text(home_markup, 'utf-8')
@@ -114,6 +120,7 @@ def render_pages(config, catalogues):
             for folder in [ROOT, ROOT / 'dist']:
                 (folder / 'index.html').write_text(home_markup.replace(' data-static-site', '') if folder == ROOT else home_markup, 'utf-8')
         def write(path, content, url, alternates):
+            content = content.replace("Loading journeys…", LOADING_LABELS[code])
             target = ROOT / 'dist' / path / 'index.html'
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(re.sub(r'[ \t]+$', '', content, flags=re.M), 'utf-8')
@@ -125,10 +132,12 @@ def render_pages(config, catalogues):
                              for lang, target in alternates.items() if lang != 'x-default')
             head = metadata(config, payload, title + ' | ' + brand, description, url, alternates, photo, article)
             return f'''<!doctype html><html lang="{code}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">{head}
-<link rel="icon" href="/assets/branding/laura-icon-96.png"><link rel="stylesheet" href="/styles.css?v=audit-20261009">
+<link rel="icon" href="/assets/branding/manystarstravel-icon-16.png" sizes="16x16" type="image/png">
+  <link rel="icon" href="/assets/branding/manystarstravel-icon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/branding/manystarstravel-touch-180.png" sizes="180x180"><link rel="stylesheet" href="/styles.css?v=audit-20261009">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
-</head><body class="guide-page"><header class="guide-header container"><a class="brand" href="{e(home)}"><img src="/assets/branding/laura-emblem-192.webp" alt="" width="64" height="64"><strong>{e(brand)}</strong></a><nav aria-label="{e(tr('Choose your language'))}">{langs}</nav></header>
+</head><body class="guide-page"><header class="guide-header container"><a class="brand" href="{e(home)}"><img src="/assets/branding/manystarstravel-emblem-dark-192.webp" alt="" width="64" height="64"><strong>{e(brand)}</strong></a><nav aria-label="{e(tr('Choose your language'))}">{langs}</nav></header>
 <main class="guide-main container"><a class="text-link" href="{e(home)}#fieldnotes">← {e(tr('Back to exploring'))}</a><h1>{e(title)}</h1>{body}</main>
 <footer class="guide-footer container"><a href="{e(home)}#journeys">{e(tr('Plan your journey'))}</a><a href="https://wa.me/212667687763" rel="noopener noreferrer" target="_blank">WhatsApp +212 667 687 763</a><span>© 2026 {e(brand)}</span></footer></body></html>'''
 

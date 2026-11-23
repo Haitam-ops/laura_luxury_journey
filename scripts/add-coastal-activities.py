@@ -86,7 +86,7 @@ def main():
             source = 'https://images.unsplash.com/photo-' + photo
             original = originals / (identity + '.jpg')
             if not original.exists():
-                original.write_bytes(urlopen(Request(source + '?auto=format&fit=max&w=2400&q=90', headers={'User-Agent': 'LauraLuxuryJourneys-content'}), timeout=40).read())
+                original.write_bytes(urlopen(Request(source + '?auto=format&fit=max&w=2400&q=90', headers={'User-Agent': 'ManyStarsTravel-content'}), timeout=40).read())
             image = ImageOps.exif_transpose(Image.open(original)).convert('RGB')
             variants = []
             for width in [320, 640, 960, 1600, 2400]:

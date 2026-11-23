@@ -11,7 +11,7 @@ for query in queries:
     if query in out: continue
     params=dict(action='query',generator='search',gsrsearch=query+' filetype:bitmap',gsrnamespace=6,gsrlimit=12,prop='imageinfo',iiprop='url|size|extmetadata',format='json')
     try:
-        req=urllib.request.Request('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params),headers={'User-Agent':'DesertGatePhotoResearch/1.0'})
+        req=urllib.request.Request('https://commons.wikimedia.org/w/api.php?'+urllib.parse.urlencode(params),headers={'User-Agent':'Many Stars TravelPhotoResearch/1.0'})
         data=json.load(urllib.request.urlopen(req,timeout=45))
         rows=[]
         for p in data.get('query',{}).get('pages',{}).values():

@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from public_content import PHOTO_FIELDS, PHOTO_REFERENCE, ENQUIRY
 
+config = json.loads((ROOT / 'data/seo.json').read_text('utf-8'))
+origin = config['customDomain']
 urls = [x.text for x in ET.parse(ROOT / 'dist/sitemap.xml').findall('.//{http://www.sitemaps.org/schemas/sitemap/0.9}loc')]
 asset_paths = set()
 for url in urls:
@@ -30,8 +32,8 @@ for url in urls:
                 crumbs = item['itemListElement']
                 assert len(crumbs) >= 2
                 assert [c['position'] for c in crumbs] == list(range(1, len(crumbs) + 1))
-                assert all(c.get('name') and c.get('item', '').startswith('https://lauraluxuryjourneys.com/') for c in crumbs)
-    assert markup.count('name="google-site-verification"') == 1, url
+                assert all(c.get('name') and c.get('item', '').startswith(origin + '/') for c in crumbs)
+    assert markup.count('name="google-site-verification"') == int(bool(config.get('googleSiteVerification'))), url
     assert not PHOTO_REFERENCE.search(markup), url
     for src in re.findall(r'(?:src|href)="(/[^"?#]*)', markup):
         if src.startswith('/assets/') or src.endswith(('.js', '.css')):
@@ -69,5 +71,4 @@ if '--http' in sys.argv:
             return {'url': local, 'status': response.status}
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         results = list(pool.map(fetch, urls))
-    (ROOT / 'docs/evidence/2026-10-09/local-route-checks.json').write_text(json.dumps(results, indent=2), 'utf-8')
     print(f'PASS: {len(results)} local Worker routes return HTTP 200.')
