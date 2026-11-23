@@ -12,10 +12,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css?v=audit-20261009">
+  <link rel="stylesheet" href="/styles.css?v=finder-3">
   <script src="/seo-config.js?v=audit-20261009" defer></script>
   <script src="/seo.js?v=audit-20261009" defer></script>
-  <script src="/boot.js?v=audit-20261009" defer></script>
+  <script src="/trip-finder.js?v=finder-3" defer></script>
+  <script src="/boot.js?v=finder-1" defer></script>
 
 <!-- SEO HEAD START --><title>Surfen in Taghazout en kitesurfen op aanvraag | Many Stars Travel</title>
 <meta name="description" content="Ontdek het surfen in Taghazout, met tijd in de golven en aan zee. Kitesurfen kan op aanvraag, afhankelijk van wind en beschikbaarheid.">
@@ -85,6 +86,31 @@
   <div id="compare-tray" class="compare-tray" hidden><div><span data-icon="compare"></span><strong><span id="compare-count">0</span> te vergelijken trips</strong><span class="compare-hint">Kies maximaal 3</span></div><div><button id="clear-compare" class="text-link">Wissen</button><button id="open-compare" class="button button-rust">Vergelijk reizen <span data-icon="arrow"></span></button></div></div>
   <dialog id="trip-dialog" class="trip-dialog" aria-labelledby="detail-title"><button class="dialog-close icon-button" data-close aria-label="Details van de reis sluiten"><span data-icon="close"></span></button><div id="trip-detail"></div></dialog>
   <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-heading"><div><p class="eyebrow rust">Zoek je fit</p><h2 id="compare-title">Vergelijk uw shortlist trips.</h2></div><button class="icon-button" data-close aria-label="Vergelijking sluiten"><span data-icon="close"></span></button></div><div id="comparison-content"></div></dialog>
+  <dialog id="trip-finder" class="finder-dialog" aria-labelledby="finder-title">
+    <div class="finder-layout">
+      <aside class="finder-art" aria-hidden="true">
+        <img alt="" decoding="async">
+        <img alt="" decoding="async">
+        <div class="finder-art-copy">
+          <img src="/assets/branding/manystarstravel-emblem-192.webp" width="44" height="44" alt="">
+          <p>Marokko op jouw manier.</p>
+          <small>Privéreizen door Marokko</small>
+        </div>
+      </aside>
+      <div class="finder-panel">
+        <div class="finder-top">
+          <div><span class="finder-counter"></span><div class="finder-meter" aria-hidden="true"><span></span><span></span><span></span></div></div>
+          <button class="icon-button" type="button" data-close aria-label="Reiszoeker sluiten"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="finder-view"></div>
+        <div class="finder-contact">
+          <span>Liever rechtstreeks met ons praten?</span>
+          <a data-finder-whatsapp target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a data-finder-email>Mail ons</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
   <dialog id="plan-dialog" class="plan-dialog" aria-labelledby="plan-title"><div class="dialog-heading"><div><p class="eyebrow rust">Vertel ons over je reis naar Marokko</p><h2 id="plan-title">Vertel ons over je reisplannen.</h2></div><button class="icon-button" data-close aria-label="Verzoek om een reis sluiten"><span data-icon="close"></span></button></div><div id="plan-context" class="plan-context"></div><form id="plan-form"><div class="form-grid"><label>Uw naam<input name="name" autocomplete="name" required maxlength="100" placeholder="Volledige naam"></label><label>E-mailadres <small>Optioneel</small><input name="email" type="email" autocomplete="email" maxlength="200" placeholder="you@example.com"></label><label>Voorkeursstartdatum <small>Optioneel</small><input name="date" type="date"></label><label>Reizigers<input name="travelers" type="number" min="1" max="30" value="2" required></label><label>Reisstijl<select name="style"><option value="Private">Privé, alleen onze groep</option></select></label><label>Uw voorkeuren voor verblijf<select name="comfort"><option>Help me kiezen</option><option>Eenvoudig en comfortabel</option><option>Sfeervolle riads en kampen</option><option>Luxe verblijven</option></select></label><label id="duration-field">Flexibiliteit in reisduur<select name="duration_flexibility"><option id="duration-base" value="same">Voorgestelde duur behouden</option><option value="plus-one">Ik kan een dag toevoegen</option><option value="plus-two">Ik kan 2 of meer dagen toevoegen</option></select></label><label class="full-width">Je interesses, budget en wat we verder moeten weten <small>Optioneel</small><textarea name="message" rows="3" maxlength="3000" placeholder="Places you’d love to see, your budget, a special occasion or anything that would make you more comfortable…"></textarea></label></div><p class="form-privacy">Kies WhatsApp of e-mail en verstuur je aanvraag in de app. <button type="button" data-note="privacy">Privacy-informatie</button></p><p id="form-error" class="form-error" role="alert" hidden></p><div class="enquiry-actions"><button id="send-request" class="button button-rust" type="submit">Verder via WhatsApp</button><button class="button button-outline" type="submit" value="email">Doorgaan per e-mail</button></div><p id="enquiry-handoff" class="form-note" role="status" hidden></p><p class="form-note"><span data-icon="lock"></span> Een planningsaanvraag, zonder betaling of boekingsverplichting.</p></form><div id="request-success" class="request-success" role="status" hidden><span class="success-icon" data-icon="check-circle"></span><h3>Je reisaanvraag is opgeslagen.</h3><p>Houd de referentie hieronder bij uw reisgegevens. Dit is een aanvraag voor een route- en prijsvoorstel; uw boeking is nog niet bevestigd.</p><strong id="request-reference"></strong><button id="download-request" class="button button-outline">Een kopie opslaan <span data-icon="download"></span></button><button class="text-link" data-close>Terug naar het verkennen <span data-icon="arrow"></span></button></div></dialog>
   <dialog id="note-dialog" class="note-dialog" aria-labelledby="note-title"><div class="dialog-heading"><p class="eyebrow rust">Many Stars Travel · REISINFORMATIE</p><button class="icon-button" data-close aria-label="Informatie sluiten"><span data-icon="close"></span></button></div><div id="note-content"></div></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>

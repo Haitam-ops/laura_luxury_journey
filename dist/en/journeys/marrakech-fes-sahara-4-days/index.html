@@ -12,10 +12,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css?v=audit-20261009">
+  <link rel="stylesheet" href="/styles.css?v=finder-3">
   <script src="/seo-config.js?v=audit-20261009" defer></script>
   <script src="/seo.js?v=audit-20261009" defer></script>
-  <script src="/boot.js?v=audit-20261009" defer></script>
+  <script src="/trip-finder.js?v=finder-3" defer></script>
+  <script src="/boot.js?v=finder-1" defer></script>
 
 <!-- SEO HEAD START --><title>4-Day Marrakech to Fes Tour via the Sahara | Many Stars Travel</title>
 <meta name="description" content="Let the journey between two great medinas take you through kasbahs, gorges and the Sahara. Four days, with two nights near Merzouga and a full day around the dunes.">
@@ -85,6 +86,31 @@
   <div id="compare-tray" class="compare-tray" hidden><div><span data-icon="compare"></span><strong><span id="compare-count">0</span> trips to compare</strong><span class="compare-hint">Choose up to 3</span></div><div><button id="clear-compare" class="text-link">Clear</button><button id="open-compare" class="button button-rust">Compare trips <span data-icon="arrow"></span></button></div></div>
   <dialog id="trip-dialog" class="trip-dialog" aria-labelledby="detail-title"><button class="dialog-close icon-button" data-close aria-label="Close trip details"><span data-icon="close"></span></button><div id="trip-detail"></div></dialog>
   <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-heading"><div><p class="eyebrow rust">YOUR FAVORITES, SIDE BY SIDE</p><h2 id="compare-title">Which journey feels right?</h2></div><button class="icon-button" data-close aria-label="Close comparison"><span data-icon="close"></span></button></div><div id="comparison-content"></div></dialog>
+  <dialog id="trip-finder" class="finder-dialog" aria-labelledby="finder-title">
+    <div class="finder-layout">
+      <aside class="finder-art" aria-hidden="true">
+        <img alt="" decoding="async">
+        <img alt="" decoding="async">
+        <div class="finder-art-copy">
+          <img src="/assets/branding/manystarstravel-emblem-192.webp" width="44" height="44" alt="">
+          <p>Morocco, your way.</p>
+          <small>Private journeys across Morocco</small>
+        </div>
+      </aside>
+      <div class="finder-panel">
+        <div class="finder-top">
+          <div><span class="finder-counter"></span><div class="finder-meter" aria-hidden="true"><span></span><span></span><span></span></div></div>
+          <button class="icon-button" type="button" data-close aria-label="Close trip finder"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="finder-view"></div>
+        <div class="finder-contact">
+          <span>Prefer to talk to us directly?</span>
+          <a data-finder-whatsapp target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a data-finder-email>Email us</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
   <dialog id="plan-dialog" class="plan-dialog" aria-labelledby="plan-title"><div class="dialog-heading"><div><p class="eyebrow rust">LET’S TALK ABOUT YOUR MOROCCO</p><h2 id="plan-title">Tell us about your trip.</h2></div><button class="icon-button" data-close aria-label="Close trip request"><span data-icon="close"></span></button></div><div id="plan-context" class="plan-context"></div><form id="plan-form"><div class="form-grid"><label>Your name<input name="name" autocomplete="name" required maxlength="100" placeholder="Full name"></label><label>Email address <small>Optional</small><input name="email" type="email" autocomplete="email" maxlength="200" placeholder="you@example.com"></label><label>Preferred start date <small>Optional</small><input name="date" type="date"></label><label>Travelers<input name="travelers" type="number" min="1" max="30" value="2" required></label><label>Travel arrangements<select name="style"><option value="Private">Just you and your companions</option></select></label><label>Where you like to stay<select name="comfort"><option>Help me decide</option><option>Simple &amp; comfortable</option><option>Boutique riads &amp; camps</option><option>Premium stays</option></select></label><label id="duration-field">Trip duration flexibility<select name="duration_flexibility"><option id="duration-base" value="same">Keep the suggested duration</option><option value="plus-one">I can add a day</option><option value="plus-two">I can add 2+ days</option></select></label><label class="full-width">What would make this trip special for you? <small>Optional</small><textarea name="message" rows="3" maxlength="3000" placeholder="Places you’d love to see, your budget, a special occasion or anything that would make you more comfortable…"></textarea></label></div><p class="form-privacy">Choose WhatsApp or email, then send your enquiry from the app. <button type="button" data-note="privacy">Privacy information</button></p><p id="form-error" class="form-error" role="alert" hidden></p><div class="enquiry-actions"><button id="send-request" class="button button-rust" type="submit">Continue on WhatsApp</button><button class="button button-outline" type="submit" value="email">Continue by email</button></div><p id="enquiry-handoff" class="form-note" role="status" hidden></p><p class="form-note"><span data-icon="lock"></span> No payment now, and no commitment to book.</p></form><div id="request-success" class="request-success" role="status" hidden><span class="success-icon" data-icon="check-circle"></span><h3>Your itinerary request</h3><p>Keep the reference below with your trip details. This is an enquiry for an itinerary and quote; your booking is not yet confirmed.</p><strong id="request-reference"></strong><button id="download-request" class="button button-outline">Save a copy <span data-icon="download"></span></button><button class="text-link" data-close>Back to exploring <span data-icon="arrow"></span></button></div></dialog>
   <dialog id="note-dialog" class="note-dialog" aria-labelledby="note-title"><div class="dialog-heading"><p class="eyebrow rust">Many Stars Travel · TRAVEL INFORMATION</p><button class="icon-button" data-close aria-label="Close information"><span data-icon="close"></span></button></div><div id="note-content"></div></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>

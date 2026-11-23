@@ -33,7 +33,7 @@ def main():
     english = (ROOT / 'dist/data/content.en.json').read_bytes()
     (ROOT / 'dist/data/content.json').write_bytes(english)
     (ROOT / 'data/content.json').write_bytes(english)
-    for name in ['index.html', 'styles.css', 'boot.js', 'app.js', 'gallery.js', 'route-map.js', 'seo.js']:
+    for name in ['index.html', 'styles.css', 'boot.js', 'app.js', 'gallery.js', 'route-map.js', 'seo.js', 'trip-finder.js']:
         shutil.copy2(ROOT / name, ROOT / 'dist' / name)
     # These are redundant export copies, never the editorial source files.
     # Keep the public data directory limited to the eight runtime payloads.

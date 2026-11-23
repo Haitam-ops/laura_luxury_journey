@@ -134,7 +134,7 @@ def render_pages(config, catalogues):
             return f'''<!doctype html><html lang="{code}"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">{head}
 <link rel="icon" href="/assets/branding/manystarstravel-icon-16.png" sizes="16x16" type="image/png">
   <link rel="icon" href="/assets/branding/manystarstravel-icon-32.png" sizes="32x32" type="image/png">
-  <link rel="apple-touch-icon" href="/assets/branding/manystarstravel-touch-180.png" sizes="180x180"><link rel="stylesheet" href="/styles.css?v=audit-20261009">
+  <link rel="apple-touch-icon" href="/assets/branding/manystarstravel-touch-180.png" sizes="180x180"><link rel="stylesheet" href="/styles.css?v=finder-3">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
 </head><body class="guide-page"><header class="guide-header container"><a class="brand" href="{e(home)}"><img src="/assets/branding/manystarstravel-emblem-dark-192.webp" alt="" width="64" height="64"><span class="guide-brand-copy"><strong>{e(brand)}</strong><small class="brand-slogan">{e(tr("Private journeys across Morocco"))}</small></span></a><nav aria-label="{e(tr('Choose your language'))}">{langs}</nav></header>

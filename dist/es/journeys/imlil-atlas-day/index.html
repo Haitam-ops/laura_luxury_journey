@@ -12,10 +12,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/styles.css?v=audit-20261009">
+  <link rel="stylesheet" href="/styles.css?v=finder-3">
   <script src="/seo-config.js?v=audit-20261009" defer></script>
   <script src="/seo.js?v=audit-20261009" defer></script>
-  <script src="/boot.js?v=audit-20261009" defer></script>
+  <script src="/trip-finder.js?v=finder-3" defer></script>
+  <script src="/boot.js?v=finder-1" defer></script>
 
 <!-- SEO HEAD START --><title>Imlil, Atlas y Agafay: excursión de un día | Many Stars Travel</title>
 <meta name="description" content="De Agafay a Imlil por Lalla Takerkoust y la Kik Plateau: desierto rocoso, lago y pueblos del Atlas, con paseo en dromedario y almuerzo.">
@@ -85,6 +86,31 @@
   <div id="compare-tray" class="compare-tray" hidden><div><span data-icon="compare"></span><strong><span id="compare-count">0</span> viajes para comparar</strong><span class="compare-hint">Elige hasta 3</span></div><div><button id="clear-compare" class="text-link">Despejado</button><button id="open-compare" class="button button-rust">Comparar viajes <span data-icon="arrow"></span></button></div></div>
   <dialog id="trip-dialog" class="trip-dialog" aria-labelledby="detail-title"><button class="dialog-close icon-button" data-close aria-label="Cerrar detalles de viaje"><span data-icon="close"></span></button><div id="trip-detail"></div></dialog>
   <dialog id="compare-dialog" class="compare-dialog" aria-labelledby="compare-title"><div class="dialog-heading"><div><p class="eyebrow rust">Encuentra tu dinero</p><h2 id="compare-title">Compare sus viajes de lista corta.</h2></div><button class="icon-button" data-close aria-label="Comparación cercana"><span data-icon="close"></span></button></div><div id="comparison-content"></div></dialog>
+  <dialog id="trip-finder" class="finder-dialog" aria-labelledby="finder-title">
+    <div class="finder-layout">
+      <aside class="finder-art" aria-hidden="true">
+        <img alt="" decoding="async">
+        <img alt="" decoding="async">
+        <div class="finder-art-copy">
+          <img src="/assets/branding/manystarstravel-emblem-192.webp" width="44" height="44" alt="">
+          <p>Marruecos, a tu manera.</p>
+          <small>Viajes privados por Marruecos</small>
+        </div>
+      </aside>
+      <div class="finder-panel">
+        <div class="finder-top">
+          <div><span class="finder-counter"></span><div class="finder-meter" aria-hidden="true"><span></span><span></span><span></span></div></div>
+          <button class="icon-button" type="button" data-close aria-label="Cerrar el buscador de viajes"><span aria-hidden="true">×</span></button>
+        </div>
+        <div class="finder-view"></div>
+        <div class="finder-contact">
+          <span>¿Prefieres hablar directamente con nosotros?</span>
+          <a data-finder-whatsapp target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a data-finder-email>Escríbenos</a>
+        </div>
+      </div>
+    </div>
+  </dialog>
   <dialog id="plan-dialog" class="plan-dialog" aria-labelledby="plan-title"><div class="dialog-heading"><div><p class="eyebrow rust">Hablemos de tu viaje a Marruecos</p><h2 id="plan-title">Cuéntanos cómo imaginas tu viaje.</h2></div><button class="icon-button" data-close aria-label="Solicitud de viaje cercano"><span data-icon="close"></span></button></div><div id="plan-context" class="plan-context"></div><form id="plan-form"><div class="form-grid"><label>Tu nombre<input name="name" autocomplete="name" required maxlength="100" placeholder="Nombre completo"></label><label>Correo electrónico <small>Opcional</small><input name="email" type="email" autocomplete="email" maxlength="200" placeholder="you@example.com"></label><label>Fecha de inicio preferida <small>Opcional</small><input name="date" type="date"></label><label>Viajeros<input name="travelers" type="number" min="1" max="30" value="2" required></label><label>Estilo de viaje<select name="style"><option value="Private">Privado, solo nuestro grupo</option></select></label><label>Sus preferencias de alojamiento<select name="comfort"><option>Ayúdame a decidir</option><option>Sencillo y cómodo</option><option>Riads y campamentos con encanto</option><option>Alojamientos de alta gama</option></select></label><label id="duration-field">Flexibilidad en la duración del viaje<select name="duration_flexibility"><option id="duration-base" value="same">Mantener la duración propuesta</option><option value="plus-one">Puedo añadir un día</option><option value="plus-two">Puedo añadir 2 días o más</option></select></label><label class="full-width">Tus intereses, presupuesto y cualquier detalle importante <small>Opcional</small><textarea name="message" rows="3" maxlength="3000" placeholder="Places you’d love to see, your budget, a special occasion or anything that would make you more comfortable…"></textarea></label></div><p class="form-privacy">Elige WhatsApp o correo electrónico y envía la consulta desde la aplicación. <button type="button" data-note="privacy">Información de privacidad</button></p><p id="form-error" class="form-error" role="alert" hidden></p><div class="enquiry-actions"><button id="send-request" class="button button-rust" type="submit">Continuar en WhatsApp</button><button class="button button-outline" type="submit" value="email">Continuar por correo</button></div><p id="enquiry-handoff" class="form-note" role="status" hidden></p><p class="form-note"><span data-icon="lock"></span> Una solicitud de planificación, sin compromiso de pago o reserva.</p></form><div id="request-success" class="request-success" role="status" hidden><span class="success-icon" data-icon="check-circle"></span><h3>Tu solicitud de viaje se ha guardado.</h3><p>Mantenga la referencia a continuación con los detalles de su viaje. Esta es una consulta para una propuesta de itinerario y precio; su reserva todavía no está confirmada.</p><strong id="request-reference"></strong><button id="download-request" class="button button-outline">Guardar una copia <span data-icon="download"></span></button><button class="text-link" data-close>Volver a explorar <span data-icon="arrow"></span></button></div></dialog>
   <dialog id="note-dialog" class="note-dialog" aria-labelledby="note-title"><div class="dialog-heading"><p class="eyebrow rust">Many Stars Travel · INFORMACIÓN DE VIAJE</p><button class="icon-button" data-close aria-label="Cerrar información"><span data-icon="close"></span></button></div><div id="note-content"></div></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>

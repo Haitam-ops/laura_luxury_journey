@@ -11,6 +11,7 @@ for (const email of ['', 'test@example.invalid']) {
   const fields = {name:'Release test',email,date:'',travelers:'2',style:'Private',comfort:'Help me decide',message:notes};
   const form = {reportValidity:()=>true,elements:{duration_flexibility:{selectedOptions:[{textContent:'Keep the suggested duration'}]}}};
   const context = {location:{},e:{preventDefault(){},currentTarget:form},FormData:function(){return Object.entries(fields)},
+    finderAnswers:[['Interests','Sahara dunes']],
     planTrip:{id:'sahara-marrakech-3-days',title:'Three Days to the Sahara',duration:'3 days'},
     tr:x=>x,CMS:{site:{whatsapp:'212667687763'}},
     $:s=>s==='#duration-field'?{hidden:false}:s==='#footer-email'?{href:'mailto:manystarstravel@gmail.com'}:status,
@@ -20,6 +21,7 @@ for (const email of ['', 'test@example.invalid']) {
   assert.equal(url.origin,'https://wa.me');assert.equal(url.pathname,'/212667687763');
   const chat = url.searchParams.get('text');
   assert.match(chat,/\*Name:\* Release test/);
+  assert.match(chat,/\*Interests:\* Sahara dunes/);
   assert.match(chat,/\*Trip ID:\* sahara-marrakech-3-days/);
   assert.equal(chat.includes('*Email:*'),Boolean(email));
   assert.equal(chat.includes('What would make the trip special'),Boolean(notes));
@@ -36,6 +38,7 @@ for (const email of ['', 'test@example.invalid']) {
   assert.match(body,/Trip details\r\nInterested journey: Three Days to the Sahara — 3 days/);
   assert.match(body,/Thank you,\r\nRelease test/);
   assert.ok(body.includes('sahara-marrakech-3-days'));
+  assert.ok(body.includes('Interests: Sahara dunes'));
   assert.equal(body.includes('Email:'),Boolean(email));
   assert.equal(body.includes('What would make the trip special'),Boolean(notes));
   if(notes)assert.ok(body.includes(notes.replace('\n','\r\n')));

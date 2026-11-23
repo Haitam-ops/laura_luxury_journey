@@ -1,6 +1,10 @@
 """Public photography fields. Source records stay in the private editorial tools."""
 import copy
+import json
+from pathlib import Path
 import re
+
+FINDER_TRANSLATIONS = json.loads(Path(__file__).with_name('data').joinpath('trip-finder-locales.json').read_text('utf-8'))
 
 PHOTO_FIELDS = {'id', 'path', 'name', 'alt', 'caption', 'width', 'height', 'variants', 'focal_point'}
 PHOTO_REFERENCE = re.compile(r'unsplash|pexels|wikimedia|creativecommons|moroccan holidays experiences|hammam de la rose|amal targa|comptoir darna', re.I)
@@ -112,6 +116,7 @@ def publish_payload(payload):
                           if not PHOTO_REFERENCE.search(key + ' ' + val)
                           and not key.startswith('You’ll have a reference for your request')}
     payload['strings'].update(CONTACT_TRANSLATIONS.get(code, {}))
+    payload['strings'].update(FINDER_TRANSLATIONS.get(code, {}))
     payload['strings'].update(EMAIL_DRAFT_TRANSLATIONS.get(code, {}))
     payload['strings']['Explore Morocco trips'] = BROWSE_TRIPS_TRANSLATIONS.get(code, 'Explore Morocco trips')
     payload['strings'][BRAND_SLOGAN] = BRAND_SLOGAN_TRANSLATIONS.get(code, BRAND_SLOGAN)

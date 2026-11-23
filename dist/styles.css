@@ -334,6 +334,82 @@ body.trip-pending>.site-header,body.trip-pending>.mobile-nav,body.trip-pending>m
 #footer-email strong{overflow-wrap:anywhere}
 @media(max-width:480px){.enquiry-actions{grid-template-columns:1fr}}
 
+/* Trip finder */
+.finder-dialog {
+  width:min(940px,calc(100% - 32px));max-width:none;max-height:calc(100dvh - 32px);
+  padding:0;border:0;border-radius:16px;background:var(--paper);color:var(--ink);
+  overflow:auto;box-shadow:0 24px 80px #081e2290;
+}
+.finder-dialog::backdrop {background:#09252acd;backdrop-filter:blur(5px)}
+.finder-layout {display:grid;grid-template-columns:minmax(240px,.84fr) minmax(0,1.16fr);min-height:540px}
+.finder-art {position:relative;isolation:isolate;overflow:hidden;background:#10353a;min-height:100%}
+.finder-art > img {position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.04);transition:opacity .38s ease,transform .75s ease}
+.finder-art > img.is-current {opacity:1;transform:scale(1)}
+.finder-art::after {content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0e282828 34%,#0b272be8 100%);pointer-events:none}
+.finder-art-copy {position:absolute;z-index:1;inset:auto 26px 29px;color:#fff6e8}
+.finder-art-copy img {display:block;margin-bottom:13px}
+.finder-art-copy p {font:500 clamp(25px,3vw,43px)/1 var(--serif);letter-spacing:-.045em;margin:0 0 8px}
+.finder-art-copy small {font-size:12px;color:#f1e9db}
+.finder-panel {display:flex;flex-direction:column;min-width:0;padding:24px clamp(20px,3.7vw,38px) 20px}
+.finder-top,.finder-actions,.finder-contact {display:flex;align-items:center;gap:14px}
+.finder-top {justify-content:space-between}
+.finder-counter {font-size:12px;font-weight:700;color:#615b4e}
+.finder-meter {display:flex;gap:5px;margin-top:6px}
+.finder-meter span {width:23px;height:3px;border-radius:3px;background:#e2d4c1}
+.finder-meter span.is-filled {background:#a65537}
+.finder-top .icon-button {font-size:25px;line-height:1;width:44px;height:44px;flex:none}
+.finder-view h2 {margin:16px 0 8px;font:500 clamp(28px,3.7vw,45px)/1.06 var(--serif);letter-spacing:-.045em}
+.finder-intro {color:var(--muted);margin:0 0 19px}
+.finder-options {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.finder-choice {position:relative;display:flex;align-items:center;gap:10px;text-align:start;min-height:57px;padding:10px 13px;border:1px solid #d9c9b4;border-radius:9px;background:#fffdf8;color:var(--ink);font:650 13px/1.35 var(--sans);cursor:pointer;transition:background-color .18s,border-color .18s}
+.finder-choice:hover,.finder-choice[aria-pressed=true] {border-color:#10353a;background:#eaf0ec}
+.finder-choice[aria-pressed=true] {box-shadow:inset 0 0 0 1px #10353a}
+.finder-choice[aria-disabled=true] {opacity:.54;cursor:default}
+.finder-photo-options .finder-choice {padding:6px}
+.finder-choice img {width:49px;height:46px;object-fit:cover;border-radius:5px;flex:none}
+.finder-actions {justify-content:space-between;margin:18px 0}
+.finder-actions>.button:last-child {margin-inline-start:auto}
+.finder-actions .button:disabled {opacity:.54;cursor:default}
+.finder-contact {margin-top:auto;border-top:1px solid #d9c9b4;padding-top:10px;flex-wrap:wrap;font-size:12px}
+.finder-contact span {color:var(--muted);margin-inline-end:auto}
+.finder-contact a {display:inline-flex;align-items:center;min-height:44px;text-decoration:underline;text-underline-offset:3px;font-weight:700}
+.finder-results {display:grid;gap:10px}
+.finder-match {display:grid;grid-template-columns:minmax(72px,105px) minmax(0,1fr);border:1px solid #d9c9b4;border-radius:10px;overflow:hidden;background:#fffdf8}
+.finder-match img {width:100%;height:100%;min-height:115px;object-fit:cover}
+.finder-match-copy {padding:9px 12px}
+.finder-match h3 {font:500 18px/1.15 var(--serif);margin:0 0 4px}
+.finder-match p {margin:0;color:var(--muted);font-size:12px}
+.finder-match .finder-match-reason {color:#87492f;font-weight:700}
+.finder-match .text-link {min-height:36px}
+.finder-match-actions {display:flex;flex-wrap:wrap;align-items:center;gap:0 16px}
+.finder-match-actions button:first-child {color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.finder-match-details {grid-column:1/-1;padding:12px 14px;border-top:1px solid #d9c9b4}
+.finder-match-details p {font-size:13px}
+.finder-match-details .finder-match-route {color:var(--ink);font-weight:700;margin-bottom:4px}
+.finder-match-highlights {display:flex;flex-wrap:wrap;gap:5px 15px;margin:8px 0 0;padding-inline-start:17px;font-size:12px}
+.finder-full-trip {display:inline-flex;align-items:center;gap:6px;min-height:44px;color:var(--ink);font-size:13px;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.finder-enquiry-summary {margin:6px 0 0;font-size:13px}
+.finder-dialog :focus-visible {outline:2px solid #a65537;outline-offset:2px}
+@media(max-width:700px) {
+  .finder-dialog {width:calc(100% - 14px);max-height:calc(100dvh - 14px)}
+  .finder-layout {grid-template-columns:1fr;min-height:0}
+  .finder-art {height:116px;min-height:0}
+  .finder-art-copy {inset:auto 16px 12px}
+  .finder-art-copy img {display:none}
+  .finder-art-copy p {font-size:25px;margin-bottom:2px}
+  .finder-panel {padding:14px 16px 10px}
+  .finder-view h2 {margin-top:8px}
+}
+@media(max-width:360px) {
+  .finder-art {height:85px}
+  .finder-choice img {width:36px;height:38px}
+  .finder-choice {padding:7px 9px}
+}
+@media(prefers-reduced-motion:reduce) {
+  .finder-art > img {transition:none;transform:none}
+}
+
+
 .brand-slogan {
   display:block;
   margin-top:7px;
